@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="membase"
+           fetch="git://github.com/membase/"
+           review="review.membase.org" />
+
+  <remote  name="trondgithub"
+           fetch="git://github.com/trondn/"
+           review="review.membase.org" />
+
+
+  <default revision="master" remote="membase" />
+
+  <project path="ns_server" name="ns_server">
+    <copyfile src="Makefile.all" dest="Makefile" />
+  </project>
+  <project path="ep-engine" name="ep-engine" />
+  <project path="bucket_engine" name="bucket_engine" />
+  <project path="memcached" name="memcached"
+           revision="engine"
+           remote="trondgithub" />
+  <project path="libconflate" name="libconflate" />
+  <project path="libvbucket" name="libvbucket" />
+  <project path="membase-cli" name="membase-cli" />
+  <project path="memcachetest" name="memcachetest" />
+  <project path="moxi" name="moxi" />
+  <project path="vbucketmigrator" name="vbucketmigrator" />
+
+</manifest>
