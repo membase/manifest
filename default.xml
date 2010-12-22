@@ -12,9 +12,11 @@
 
   <default revision="master" remote="membase" />
 
-  <project path="ns_server" name="ns_server">
-    <copyfile src="Makefile.all" dest="Makefile" />
+  <project path="tlm" name="tlm">
+    <copyfile src="Makefile" dest="Makefile" />
   </project>
+
+  <project path="ns_server" name="ns_server" />
   <project path="ep-engine" name="ep-engine" />
   <project path="bucket_engine" name="bucket_engine" />
   <project path="memcached" name="memcached"
