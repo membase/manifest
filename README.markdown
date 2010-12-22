@@ -9,7 +9,7 @@
 
     $ mkdir membase
     $ cd membase
-    $ repo init -u git@github.com:membase/manifest.git
+    $ repo init -u git://github.com/membase/manifest.git
     $ repo sync
 
 ## Build
