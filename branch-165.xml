@@ -14,7 +14,8 @@
   <project path="ns_server" name="ns_server" />
   <project path="ep-engine" name="ep-engine"
            revision="refresh" />
-  <project path="bucket_engine" name="bucket_engine" />
+  <project path="bucket_engine" name="bucket_engine"
+           revision="refresh" />
   <project path="memcached" name="memcached"
            revision="engine" />
   <project path="libconflate" name="libconflate" />
