@@ -11,20 +11,18 @@
     <copyfile src="Makefile" dest="Makefile" />
   </project>
 
-  <project path="ns_server" name="ns_server"
-           revision="c13226f146ef6c9ccb818cd7a712835308c9d6a1" />
+  <project path="ns_server" name="ns_server" revision="1.6.5" />
   <project path="ep-engine" name="ep-engine"
            revision="refresh" />
   <project path="bucket_engine" name="bucket_engine"
            revision="refresh" />
   <project path="memcached" name="memcached"
            revision="refresh" />
-  <project path="libconflate" name="libconflate" />
-  <project path="libvbucket" name="libvbucket" />
-  <project path="membase-cli" name="membase-cli" />
-  <project path="memcachetest" name="memcachetest" />
-  <project path="moxi" name="moxi"
-           revision="57a53494ae2903c1e8135e323edf2f3246a8d0d7" />
-  <project path="vbucketmigrator" name="vbucketmigrator" />
+  <project path="libconflate" name="libconflate" revision="1.6.5" />
+  <project path="libvbucket" name="libvbucket" revision="1.6.5" />
+  <project path="membase-cli" name="membase-cli" revision="1.6.5" />
+  <project path="memcachetest" name="memcachetest" revision="1.6.5" />
+  <project path="moxi" name="moxi" revision="1.6.5" />
+  <project path="vbucketmigrator" name="vbucketmigrator" revision="1.6.5" />
 
 </manifest>
