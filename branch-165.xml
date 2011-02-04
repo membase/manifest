@@ -23,7 +23,7 @@
   <project name="libvbucket" revision="78b0d1d16872ddea8224a46a2559769054c1e37b"/>
   <project name="membase-cli" revision="eea666456dd46888f96b8cb894c0e36d0535a84b"/>
   <project name="memcachetest" revision="d810452530895ae670536d373edfa640e0f97d8e"/>
-  <project name="moxi" revision="a5cbcfdef9c40447dc97e126c39714da372ef775"/>
-  <project name="ns_server" revision="2953e444ab1dcf6c3d68089c6e706914eba284bf"/>
+  <project name="moxi" revision="57a53494ae2903c1e8135e323edf2f3246a8d0d7"/>
+  <project name="ns_server" revision="c13226f146ef6c9ccb818cd7a712835308c9d6a1"/>
   <project name="vbucketmigrator" revision="ad1609a6056117d30bbb0e99857a82b972e01adc"/>
 </manifest>
