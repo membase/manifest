@@ -17,6 +17,8 @@
            revision="refresh" />
   <project path="memcached" name="memcached"
            revision="refresh" />
+  <project name="ns_server"
+           revision="refresh"/>
 
   <!-- Frozen -->
   <project name="libconflate" revision="ce8653ee57418ea196f5af3551d6cc9d39b24f42"/>
@@ -24,6 +26,5 @@
   <project name="membase-cli" revision="eea666456dd46888f96b8cb894c0e36d0535a84b"/>
   <project name="memcachetest" revision="d810452530895ae670536d373edfa640e0f97d8e"/>
   <project name="moxi" revision="57a53494ae2903c1e8135e323edf2f3246a8d0d7"/>
-  <project name="ns_server" revision="c13226f146ef6c9ccb818cd7a712835308c9d6a1"/>
   <project name="vbucketmigrator" revision="ad1609a6056117d30bbb0e99857a82b972e01adc"/>
 </manifest>
