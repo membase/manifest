@@ -18,6 +18,8 @@
   <project path="memcached" name="memcached"
            revision="refresh" />
 
+  <project path="libmemcached" name="libmemcached" revision="stable" />
+
   <!-- Frozen -->
   <project name="libconflate" revision="ce8653ee57418ea196f5af3551d6cc9d39b24f42"/>
   <project name="libvbucket" revision="78b0d1d16872ddea8224a46a2559769054c1e37b"/>
