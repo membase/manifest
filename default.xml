@@ -28,5 +28,5 @@
 
   <project path="couchdb" name="couchdb" remote="apache" revision="refs/tags/1.0.1" />
   <project path="icu4c" name="icu4c" remote="couchbase" revision="2ef73b7482a4a297e1e6a464f114dd65b0ee9610" />
-  <project path="spidermonkey" name="spidermonkey" remote="couchbase" revision="a821f8a4287dcb36b8029c83fc47fa6f65035d60" />
+  <project path="spidermonkey" name="spidermonkey" remote="couchbase" revision="11cba51a9539d161e72f6e327b5d5da156968a95" />
 </manifest>
