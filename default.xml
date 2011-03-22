@@ -4,7 +4,8 @@
            fetch="git://github.com/membase/"
            review="review.membase.org" />
   <remote  name="couchbase"
-           fetch="git://github.com/couchbase/" />
+           fetch="git://github.com/couchbase/"
+           review="review.membase.org" />
   <remote  name="apache" fetch="git://github.com/apache/" />
 
   <default revision="master" remote="membase" />
