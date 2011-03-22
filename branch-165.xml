@@ -7,7 +7,8 @@
 
   <default revision="master" remote="membase" />
 
-  <project path="tlm" name="tlm">
+  <project path="tlm" name="tlm"
+           revision="39739996fcb14f8041e1f1e475d2f51f5774805c" >
     <copyfile src="Makefile" dest="Makefile" />
   </project>
 
