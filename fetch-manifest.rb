@@ -40,7 +40,8 @@ root.each_element("//project") do |project|
   Dir.chdir(path)
 
   sh %{git fetch --tags}
-  sh %{git checkout #{revision}}
+
+  sh %{git reset --hard #{revision} || git reset --hard origin/#{revision}}
 
   Dir.chdir(cwd)
 
