@@ -4,7 +4,9 @@ require 'rexml/document'
 require 'rubygems'
 require 'rake'
 
-path = ARGV[0] # Example: "some/repo/manifest/default.xml"
+path = ARGV[0] # Required. Example: some/repo/manifest/default.xml
+more = ARGV[1] # Optional. Example: some/override.xml
+
 root = REXML::Document.new(File.new(path)).root
 
 default = root.get_elements("//default")[0]
@@ -12,6 +14,15 @@ remotes = {}
 
 root.each_element("//remote") do |remote|
   remotes[remote.attributes['name']] = remote
+end
+
+# An override.xml file can be useful to specify different remote
+# servers, such as to a closer, local git mirror.
+#
+if more
+  REXML::Document.new(File.new(more)).root.each_element("//remote") do |remote|
+    remotes[remote.attributes['name']] = remote
+  end
 end
 
 root.each_element("//project") do |project|

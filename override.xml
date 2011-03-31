@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="membase"
+          fetch="git://10.1.1.210/"
+          review="review.membase.org" />
+  <remote name="couchbase"
+          fetch="git://10.1.1.210/"
+          review="review.membase.org" />
+  <remote name="apache"
+          fetch="git://github.com/apache/" />
+</manifest>
