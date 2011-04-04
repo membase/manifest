@@ -16,17 +16,26 @@ root.each_element("//remote") do |remote|
   remotes[remote.attributes['name']] = remote
 end
 
+projects = {}
+
+root.each_element("//project") do |project|
+  projects[project.attributes['name']] = project
+end
+
 # An override.xml file can be useful to specify different remote
 # servers, such as to a closer, local git mirror.
 #
 if more
-  REXML::Document.new(File.new(more)).root.each_element("//remote") do |remote|
+  more_root = REXML::Document.new(File.new(more)).root
+  more_root.each_element("//remote") do |remote|
     remotes[remote.attributes['name']] = remote
+  end
+  more_root.each_element("//project") do |project|
+    projects[project.attributes['name']] = project
   end
 end
 
-root.each_element("//project") do |project|
-  name     = project.attributes['name']
+projects.each do |name, project|
   path     = project.attributes['path']
   remote   = remotes[project.attributes['remote'] || default.attributes['remote']]
   fetch    = remote.attributes['fetch']

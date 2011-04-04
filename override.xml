@@ -8,4 +8,9 @@
           review="review.membase.org" />
   <remote name="apache"
           fetch="git://github.com/apache/" />
+  <remote name="erlang"
+          fetch="git://github.com/erlang/" />
+
+  <project path="otp" name="otp" remote="erlang" revision="refs/tags/OTP_R14B02" />
+
 </manifest>
