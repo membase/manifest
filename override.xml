@@ -11,6 +11,9 @@
   <remote name="erlang"
           fetch="git://github.com/erlang/" />
 
-  <project path="otp" name="otp" remote="erlang" revision="refs/tags/OTP_R14B02" />
+  <project path="otp" name="otp" remote="erlang"
+           revision="refs/tags/OTP_R14B02" />
+  <project path="icu4c" name="icu4c" remote="couchbase" />
+  <project path="spidermonkey" name="spidermonkey" remote="couchbase" />
 
 </manifest>
