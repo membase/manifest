@@ -61,7 +61,7 @@ projects.each do |name, project|
 
   sh %{git fetch --tags}
 
-  sh %{git reset --hard #{revision} || git reset --hard origin/#{revision}}
+  sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}}
 
   Dir.chdir(cwd)
 
