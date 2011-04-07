@@ -52,7 +52,7 @@ projects.each do |name, project|
     sh %{git clone #{fetch}#{name} #{path}}
   else
     Dir.chdir(path) do
-      sh %{git fetch --tags}
+      sh %{git remote update}
     end
   end
 
