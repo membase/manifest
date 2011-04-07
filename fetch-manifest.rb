@@ -4,6 +4,11 @@ require 'rexml/document'
 require 'rubygems'
 require 'rake'
 
+if ARGV.size < 1
+  puts "I need at least 1 arg: manifest xml (Ex.: some/repo/manifest/default.xml) and (optional) override file"
+  exit 1
+end
+
 path = ARGV[0] # Required. Example: some/repo/manifest/default.xml
 more = ARGV[1] # Optional. Example: some/override.xml
 
