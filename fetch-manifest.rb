@@ -56,14 +56,10 @@ projects.each do |name, project|
     end
   end
 
-  cwd = Dir.getwd()
-  Dir.chdir(path)
-
-  sh %{git fetch --tags}
-
-  sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}}
-
-  Dir.chdir(cwd)
+  Dir.chdir(path) do
+    sh %{git fetch --tags}
+    sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}}
+  end
 
   project.each_element("copyfile") do |copyfile|
     src = copyfile.attributes['src']
