@@ -48,7 +48,13 @@ projects.each do |name, project|
 
   print "#{name} #{revision}...\n"
 
-  sh %{git clone #{fetch}#{name} #{path}} unless File.directory?("#{path}/.git")
+  unless File.directory?("#{path}/.git")
+    sh %{git clone #{fetch}#{name} #{path}}
+  else
+    Dir.chdir(path) do
+      sh %{git fetch --all}
+    end
+  end
 
   cwd = Dir.getwd()
   Dir.chdir(path)
