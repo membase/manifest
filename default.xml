@@ -27,7 +27,10 @@
   <project path="moxi" name="moxi" />
   <project path="vbucketmigrator" name="vbucketmigrator" />
 
-  <project path="couchdb" name="couchdb" remote="apache" revision="refs/tags/1.0.2" />
+  <project path="couchdb" name="couchdb" remote="apache"
+           revision="refs/tags/1.0.2" />
+  <project path="geocouch" name="geocouch" remote="couchbase"
+           revision="refs/tags/couchbase_1.1_geo" />
 
   <project path="sigar" name="sigar" remote="couchbase" />
   <project path="portsigar" name="portsigar" remote="couchbase" />
