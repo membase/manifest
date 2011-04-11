@@ -19,7 +19,7 @@ Optionally, you can install repo from homebrew as well:
 
 Here's what I did on clean Debian stable (squeeze) installation (under root):
 
-    aptitude install -y --without-recommends build-essential automake libtool pkg-config check libssl-dev sqlite3 libevent-dev libglib2.0-dev libcurl4-dev erlang-nox curl erlang-dev erlang-src ruby libmozjs-dev libicu-dev
+    aptitude install -y --without-recommends build-essential automake libtool pkg-config check libssl-dev sqlite3 libevent-dev libglib2.0-dev libcurl4-openssl-dev erlang-nox curl erlang-dev erlang-src ruby libmozjs-dev libicu-dev
     aptitude install -y python-minimal
     aptitude install -y --without-recommends git-core
 
@@ -30,8 +30,13 @@ recommend grabbing R14B source package from Debian Unstable (at the
 time of writing it's still in Experimental) and dpkg-buildpackage'ing
 it as usual.
 
-This includes couchdb dependencies so you can pass
-DONT_BUILD_COUCH_DEPS=1 to make.
+In order to link with xulrunner on ubuntu (which lacks libmozjs-dev) you need the following:
+
+    aptitude install -y xulrunner-dev
+
+and then you need to pass extra options to make like this:
+
+    make couchdb_EXTRA_OPTIONS='--with-js-include=/usr/include/xulrunner-1.9.2.16 --with-js-lib=/usr/lib/xulrunner-devel-1.9.2.16/sdk/lib/'
 
 ## Get Repo
 
