@@ -15,7 +15,4 @@
            revision="refs/tags/OTP_R14B02" />
   <project path="icu4c" name="icu4c" remote="couchbase" />
   <project path="spidermonkey" name="spidermonkey" remote="couchbase" />
-  
-  <project path="ns_server" name="ns_server" remote="membase" revision="voltron-support" />
-
 </manifest>

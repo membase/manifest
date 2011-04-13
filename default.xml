@@ -19,19 +19,22 @@
   <project path="bucket_engine" name="bucket_engine" />
   <project path="memcached" name="memcached"
            revision="engine" />
-  <project path="libmemcached" name="libmemcached" revision="stable" />
+
+  <project path="libmemcached" name="libmemcached"
+           revision="stable" />
   <project path="libconflate" name="libconflate" />
   <project path="libvbucket" name="libvbucket" />
+
+  <project path="moxi" name="moxi" />
   <project path="membase-cli" name="membase-cli" />
   <project path="memcachetest" name="memcachetest" />
-  <project path="moxi" name="moxi" />
   <project path="vbucketmigrator" name="vbucketmigrator" />
+
+  <project path="sigar" name="sigar" remote="couchbase" />
+  <project path="portsigar" name="portsigar" remote="couchbase" />
 
   <project path="couchdb" name="couchdb" remote="couchbase"
            revision="refs/tags/couchbase_1.1.1" />
   <project path="geocouch" name="geocouch" remote="couchbase"
            revision="refs/tags/couchbase_1.1_geo" />
-
-  <project path="sigar" name="sigar" remote="couchbase" />
-  <project path="portsigar" name="portsigar" remote="couchbase" />
 </manifest>
