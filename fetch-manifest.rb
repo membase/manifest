@@ -5,12 +5,14 @@ require 'rubygems'
 require 'rake'
 
 if ARGV.size < 1
-  puts "I need at least 1 arg: manifest xml (Ex.: some/repo/manifest/default.xml) and (optional) override file"
+  puts "I need at least 1 arg: repo/manifest.xml"
+  puts "Ex: fetch-manifest.rb repo/manifest/default.xml [optional/override.xml] [optional/changes/out.txt]"
   exit 1
 end
 
 path = ARGV[0] # Required. Example: some/repo/manifest/default.xml
 more = ARGV[1] # Optional. Example: some/override.xml
+emit = ARGV[2] # Optional. Example: output/changes-since-last-fetch.txt
 
 root = REXML::Document.new(File.new(path)).root
 
@@ -40,6 +42,8 @@ if more
   end
 end
 
+changes = {}
+
 projects.each do |name, project|
   path     = project.attributes['path']
   remote   = remotes[project.attributes['remote'] || default.attributes['remote']]
@@ -57,8 +61,14 @@ projects.each do |name, project|
   end
 
   Dir.chdir(path) do
+    curr = `git rev-parse HEAD`.chomp
+
     sh %{git fetch --tags}
     sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}}
+
+    changes[name] =
+      "#{name} #{revision}...\n" +
+      `git log --pretty=format:'%h %an, %s' --abbrev-commit #{curr}..HEAD --`
   end
 
   project.each_element("copyfile") do |copyfile|
@@ -68,3 +78,14 @@ projects.each do |name, project|
   end
 end
 
+if emit
+  result = []
+  changes.keys.sort.each do |name|
+    result << "=================="
+    result << changes[name]
+    result << ""
+  end
+  result = result.join("\n") + "\n"
+  puts result
+  File.open(emit, 'w') {|o| o.write(result)} unless emit == '--'
+end
