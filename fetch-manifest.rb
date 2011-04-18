@@ -45,7 +45,7 @@ end
 changes = {}
 
 projects.each do |name, project|
-  path     = project.attributes['path']
+  path     = project.attributes['path'] || project.attributes['name']
   remote   = remotes[project.attributes['remote'] || default.attributes['remote']]
   fetch    = remote.attributes['fetch']
   revision = project.attributes['revision'] || default.attributes['revision']
