@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/apache/" name="apache"/>
+  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.membase.org"/>
+  <remote fetch="git://github.com/membase/" name="membase" review="review.membase.org"/>
+  
+  <default remote="membase" revision="master"/>
+  
+  <project name="bucket_engine" revision="e17eb149c6a12fa5aa13bac8d321e9291dff27c1"/>
+  <project name="couchdb" remote="couchbase" revision="86ee70e4a7ad2cbb7ea78934efbad4d3f6b9cee7"/>
+  <project name="ep-engine" revision="af853d8271cb229adac01517710888bbbe28fb1c"/>
+  <project name="geocouch" remote="couchbase" revision="d09068e12d2b0560fe625941f4b53b259f518505"/>
+  <project name="libconflate" revision="8a42194f0f5b075d344aa30ced7d5586ea606f45"/>
+  <project name="libmemcached" revision="2cd40dcddac1e1cfac369284e5f0ee5ca2fcb061"/>
+  <project name="libvbucket" revision="5cb588ec0529d0a44a60a258f22047acef4c2d9f"/>
+  <project name="membase-cli" revision="cc82e3d3b453294c91505412265b5c3736393bcd"/>
+  <project name="memcached" revision="6235145bd55b27bc54366878ce32315df149cfe1"/>
+  <project name="memcachetest" revision="d810452530895ae670536d373edfa640e0f97d8e"/>
+  <project name="moxi" revision="8128746b6b801f37c3b34415743bb36c447bc025"/>
+  <project name="ns_server" revision="7a9ca13638a54d666929569145de1ec49c6db33b"/>
+  <project name="portsigar" remote="couchbase" revision="d836fad1b58f1dada8116738f6dc73bba3ee391f"/>
+  <project name="sigar" remote="couchbase" revision="1f052dc5eec6b8dfce3dd2ebe1b8fa4241353437"/>
+  <project name="tlm" revision="840df5d9cfc263fa5d0dd57364bede4cff598cf8">
+    <copyfile dest="Makefile" src="Makefile"/>
+  </project>
+  <project name="vbucketmigrator" revision="8428c29ac975b200404906fd82f0ca0ed4d46581"/>
+</manifest>
