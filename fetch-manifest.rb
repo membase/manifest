@@ -13,6 +13,7 @@ end
 path = ARGV[0] # Required. Example: some/repo/manifest/default.xml
 more = ARGV[1] # Optional. Example: some/override.xml
 emit = ARGV[2] # Optional. Example: output/changes-since-last-fetch.txt
+oxml = ARGV[3] # Optional. Example: output/build-manifest.xml -- usable as input to repo tool.
 
 root = REXML::Document.new(File.new(path)).root
 
@@ -88,4 +89,30 @@ if emit
   result = result.join("\n") + "\n"
   puts result
   File.open(emit, 'w') {|o| o.write(result)} unless emit == '--'
+end
+
+if oxml
+  # Optionally emit a manifest.xml that can be used as input to
+  # the repo / fetch-manifest.rb tool.
+  #
+  File.open(oxml, 'w') do |o|
+    o.write "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+    o.write "<manifest>\n"
+    remotes.keys.sort.each do |name|
+      remote = remotes[name]
+      o.write "  <remote name=\"#{name}\" fetch=\"#{remote.attributes['fetch']}\"/>\n"
+    end
+    o.write "\n"
+    o.write "  <default remote=\"#{default.attributes['remote']}\" revision=\"#{default.attributes['revision']}\"/>\n"
+    o.write "\n"
+    projects.keys.sort.each do |name|
+      project = projects[name]
+      path    = project.attributes['path'] || project.attributes['name']
+      Dir.chdir(path) do
+        curr = `git rev-parse HEAD`.chomp
+        o.write "  <project name=\"#{name}\" path=\"#{path}\" revision=\"#{curr}\"/>\n"
+      end
+    end
+    o.write "</manifest>\n"
+  end
 end
