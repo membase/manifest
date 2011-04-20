@@ -11,7 +11,7 @@
   <default revision="master" remote="membase" />
 
   <project path="tlm" name="tlm">
-    <copyfile src="Makefile" dest="Makefile" />
+    <copyfile src="Makefile.top" dest="Makefile" />
   </project>
 
   <project path="ns_server" name="ns_server" />
