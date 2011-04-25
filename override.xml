@@ -11,6 +11,13 @@
   <remote name="erlang"
           fetch="git://github.com/erlang/" />
 
+  <!--
+  <project path="grommit" name="grommit" remote="membase"
+           revision="fe01e256abbaede6116997e98250e8936213c2d3" />
+  <project path="grommit_couchdb" name="grommit_couchdb" remote="couchbase"
+           revision="refs/tags/1.1" />
+  -->
+
   <project path="otp" name="otp" remote="erlang"
            revision="refs/tags/OTP_R14B02" />
   <project path="icu4c" name="icu4c" remote="couchbase"
