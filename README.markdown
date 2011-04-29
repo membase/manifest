@@ -23,20 +23,26 @@ Here's what I did on clean Debian stable (squeeze) installation (under root):
     aptitude install -y python-minimal
     aptitude install -y --without-recommends git-core
 
-Note that Debian squeeze ships Erlang R14A, yet Ubuntu 10.4, 10.10
-(and 11.4 likely will) ship R13B03. As of this writing membase works
-fine on R13, however this will change soon. To install R14 on Ubuntu I
-recommend grabbing R14B source package from Debian Unstable (at the
-time of writing it's still in Experimental) and dpkg-buildpackage'ing
-it as usual.
+Note that Debian squeeze ships Erlang R14A, yet Ubuntu 10.4, 10.10 and
+even 11.4 ship R13B03. As of this writing, membase requires R14B.
 
-In order to link with xulrunner on ubuntu (which lacks libmozjs-dev) you need the following:
+To install R14 on Ubuntu, you can grab R14B source package from Debian
+Unstable and dpkg-buildpackage'ing it as usual.
+
+Another (any likely preferred) option is to get R14B02 from PPA:
+https://launchpad.net/~scattino/+archive/ppa
+
+In order to link with xulrunner on ubuntu (which lacks libmozjs-dev)
+you need the following:
 
     aptitude install -y xulrunner-dev
 
 and then you need to pass extra options to make like this:
 
     make couchdb_EXTRA_OPTIONS='--with-js-include=/usr/include/xulrunner-1.9.2.16 --with-js-lib=/usr/lib/xulrunner-devel-1.9.2.16/sdk/lib/'
+
+Path seems to vary with version. 'dpkg -l xulrunner-dev' will help you
+find our right path.
 
 ## Get Repo
 
