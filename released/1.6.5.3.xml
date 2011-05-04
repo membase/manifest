@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/membase/" name="membase" review="review.membase.org"/>
+
+  <default remote="membase" revision="master"/>
+
+  <project name="bucket_engine" revision="aa5db255f75bb4bfb30774754c2d137a32dd00a2"/>
+  <project name="ep-engine" revision="af77a6e1a2de2c198ce9af228946484d4955abb5"/>
+  <project name="libconflate" revision="ce8653ee57418ea196f5af3551d6cc9d39b24f42"/>
+  <project name="libvbucket" revision="78b0d1d16872ddea8224a46a2559769054c1e37b"/>
+  <project name="membase-cli" revision="eea666456dd46888f96b8cb894c0e36d0535a84b"/>
+  <project name="memcached" revision="72df1cc7760d0e375dbfb2e62712eefcd5b16c76"/>
+  <project name="memcachetest" revision="d810452530895ae670536d373edfa640e0f97d8e"/>
+  <project name="moxi" revision="cf7e0f115a983865b0869a26621fb8b631e49df7"/>
+  <project name="ns_server" revision="0d8e9f9d6991aac6e9e302a94921cf692e5f4ff4"/>
+  <project name="tlm" revision="f00a747134729de43e71d90863d619c216b85126">
+    <copyfile dest="Makefile" src="Makefile"/>
+  </project>
+  <project name="vbucketmigrator" revision="ad1609a6056117d30bbb0e99857a82b972e01adc"/>
+</manifest>
