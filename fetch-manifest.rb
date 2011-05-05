@@ -107,10 +107,31 @@ if oxml
     o.write "\n"
     projects.keys.sort.each do |name|
       project = projects[name]
+      remote  = project.attributes['remote']
       path    = project.attributes['path'] || project.attributes['name']
       Dir.chdir(path) do
         curr = `git rev-parse HEAD`.chomp
-        o.write "  <project name=\"#{name}\" path=\"#{path}\" revision=\"#{curr}\"/>\n"
+        o.write "  <project name=\"#{name}\" path=\"#{path}\" revision=\"#{curr}\""
+        if remote
+          o.write "\n"
+          o.write "           remote=\"#{remote}\""
+        end
+
+        has_body = false
+
+        project.each_element do |child|
+          o.write(">\n") unless has_body
+          o.write("    ")
+          o.write(child)
+          o.write("\n")
+          has_body = true
+        end
+
+        if has_body
+          o.write "  </project>\n"
+        else
+          o.write "/>\n"
+        end
       end
     end
     o.write "</manifest>\n"
