@@ -54,18 +54,27 @@ projects.each do |name, project|
   print "#{name} #{revision}...\n"
 
   unless File.directory?("#{path}/.git")
-    sh %{git clone #{fetch}#{name} #{path}}
+    sh %{git clone #{fetch}#{name} #{path}} do |ok, res|
+      exit(false) unless ok
+    end
   else
     Dir.chdir(path) do
-      sh %{git remote update}
+      sh %{git remote update} do |ok, res|
+        exit(false) unless ok
+      end
     end
   end
 
   Dir.chdir(path) do
     curr = `git rev-parse HEAD`.chomp
 
-    sh %{git fetch --tags}
-    sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}}
+    sh %{git fetch --tags} do |ok, res|
+      exit(false) unless ok
+    end
+
+    sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}} do |ok, res|
+      exit(false) unless ok
+    end
 
     changes[name] =
       "#{name} #{revision}...\n" +
