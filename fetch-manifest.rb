@@ -72,8 +72,22 @@ projects.each do |name, project|
       exit(false) unless ok
     end
 
-    sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}} do |ok, res|
-      exit(false) unless ok
+    if revision.include?(' ')
+      # Handle when the revision attribute is a full command, like...
+      #
+      # <project name="ep-engine"
+      #          path="ep-engine"
+      #      revision="git fetch ssh://buildbot@review.membase.org:29418/ep-engine refs/changes/79/5979/1 && git format-patch -1 --stdout FETCH_HEAD"/>
+      #
+      # This is useful for gerrit-based test builds.
+      #
+      sh revision do |ok, res|
+        exit(false) unless ok
+      end
+    else
+      sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}} do |ok, res|
+        exit(false) unless ok
+      end
     end
 
     changes[name] =
