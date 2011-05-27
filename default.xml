@@ -37,4 +37,7 @@
            revision="refs/tags/couchbase_1.1.1" />
   <project path="geocouch" name="geocouch" remote="couchbase"
            revision="refs/tags/couchbase_1.1_geo" />
+
+  <project path="membasex" name="membasex" remote="couchbase" />
+
 </manifest>
