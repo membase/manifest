@@ -22,8 +22,6 @@
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
   <project name="moxi" path="moxi" revision="00a655803c845dc73cb8d78c448b39d8896774f4"/>
   <project name="ns_server" path="ns_server" revision="d3c8c01613a0f8aff9265b80621f04fc45731ba7"/>
-  <project name="otp" path="otp" revision="91b2e57ea0e3ab794d4b57a12ef10205383525a5"
-           remote="erlang"/>
   <project name="portsigar" path="portsigar" revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb"
            remote="couchbase"/>
   <project name="sigar" path="sigar" revision="e1dcf3235129510d91d1d5303d1d93f133e3fb90"
