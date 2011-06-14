@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="apache" fetch="git://github.com/apache/"/>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
   <remote name="erlang" fetch="git://github.com/erlang/"/>
-  <remote name="membase" fetch="git://github.com/membase/"/>
+  <remote name="membase" fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
 
   <default remote="membase" revision="master"/>
 
