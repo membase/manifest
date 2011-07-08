@@ -15,6 +15,7 @@
   <project name="tlm" path="tlm">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
+  <project name="membase-cli" path="membase-cli"/>
 
   <project path="couchdb" name="couchdb" remote="couchbase"
            revision="preview"/>
@@ -27,7 +28,6 @@
   <project name="libconflate" path="libconflate" revision="fee8f9463b61931f303a1ee2727016b73a5fa37e"/>
   <project name="libmemcached" path="libmemcached" revision="2cd40dcddac1e1cfac369284e5f0ee5ca2fcb061"/>
   <project name="libvbucket" path="libvbucket" revision="4bd0aba0c490851009422879c6913d8ca2c68407"/>
-  <project name="membase-cli" path="membase-cli" revision="cc82e3d3b453294c91505412265b5c3736393bcd"/>
   <project name="membasex" path="membasex" revision="f85471c23c763176c3ac1af5cbb8f457fb2364f8"
            remote="couchbase"/>
   <project name="memcached" path="memcached" revision="f99c147af84bd994db5541e3deda297513a98357"/>
