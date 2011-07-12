@@ -10,6 +10,7 @@ you can easily install the dependencies using the following commands:
     sudo easy_install -U pyrex
     brew install bzr --system
     brew install libevent
+    brew instal gpg
 
 Optionally, you can install repo from homebrew as well:
 
