@@ -37,9 +37,9 @@
   <project name="libvbucket" path="libvbucket" revision="4bd0aba0c490851009422879c6913d8ca2c68407"/>
   <project name="memcached" path="memcached" revision="branch-20"/>
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
-  <project name="portsigar" path="portsigar" revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb"
+  <project name="portsigar" path="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951"
            remote="couchbase"/>
-  <project name="sigar" path="sigar" revision="e1dcf3235129510d91d1d5303d1d93f133e3fb90"
+  <project name="sigar" path="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54"
            remote="couchbase"/>
   <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
 </manifest>
