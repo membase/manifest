@@ -11,7 +11,7 @@
 
   <project name="ep-engine" path="ep-engine" revision="branch-171"/>
   <project name="ns_server" path="ns_server" revision="branch-171"/>
-  <project name="moxi" path="moxi"/>
+  <project name="moxi" path="moxi" revision="6a26e91a0df1974e9f3f45f7646094fa378c755e"/>
   <project name="tlm" path="tlm" revision="535dadc9ce8400096f2e24f2abfb4a2417d052f5">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
