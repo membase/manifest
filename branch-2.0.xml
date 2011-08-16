@@ -41,5 +41,5 @@
            remote="couchbase"/>
   <project name="sigar" path="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54"
            remote="couchbase"/>
-  <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
+  <project name="vbucketmigrator" path="vbucketmigrator" revision="56178bf369bf65165df7aa3c2aaee677c391ee1a"/>
 </manifest>
