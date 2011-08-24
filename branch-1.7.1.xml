@@ -10,7 +10,7 @@
   <default remote="membase" revision="master"/>
 
   <project name="ep-engine" path="ep-engine" revision="46483918fdb80fc622702fd47c55ce5f7ed29f81"/>
-  <project name="ns_server" path="ns_server" revision="1df6abc4fa6f6cbab3d0fa4e13c5f59091935265"/>
+  <project name="ns_server" path="ns_server" revision="branch-1.7.1.1r"/>
   <project name="moxi" path="moxi" revision="6a26e91a0df1974e9f3f45f7646094fa378c755e"/>
   <project name="tlm" path="tlm" revision="535dadc9ce8400096f2e24f2abfb4a2417d052f5">
     <copyfile src='Makefile.top' dest='Makefile'/>
