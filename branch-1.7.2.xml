@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="apache" fetch="git://github.com/apache/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="membase" fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
+
+  <default remote="membase" revision="master"/>
+
+  <project name="ep-engine" path="ep-engine" revision="branch-172"/>
+  <project name="ns_server" path="ns_server" revision="branch-172"/>
+  <project name="moxi" path="moxi"/>
+  <project name="tlm" path="tlm" revision="535dadc9ce8400096f2e24f2abfb4a2417d052f5">
+    <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+  <project name="membase-cli" path="membase-cli" />
+
+  <project name="bucket_engine" path="bucket_engine" revision="721dff03589285564ea94f297ac9aa26950a0df1"/>
+  <project name="geocouch" path="geocouch" revision="d09068e12d2b0560fe625941f4b53b259f518505"
+           remote="couchbase"/>
+  <project name="libconflate" path="libconflate" revision="fee8f9463b61931f303a1ee2727016b73a5fa37e"/>
+  <project name="libmemcached" path="libmemcached" revision="2cd40dcddac1e1cfac369284e5f0ee5ca2fcb061"/>
+  <project name="libvbucket" path="libvbucket" revision="4bd0aba0c490851009422879c6913d8ca2c68407"/>
+  <project name="membasex" path="membasex" remote="couchbase"/>
+  <project name="memcached" path="memcached" revision="f99c147af84bd994db5541e3deda297513a98357"/>
+  <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
+  <project name="portsigar" path="portsigar" revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb"
+           remote="couchbase"/>
+  <project name="sigar" path="sigar" revision="e1dcf3235129510d91d1d5303d1d93f133e3fb90"
+           remote="couchbase"/>
+  <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
+</manifest>
