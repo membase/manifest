@@ -33,7 +33,7 @@
   <project name="libconflate" path="libconflate" revision="ad0238ab91b17d012f3aeb7e10abc0a1286bdda6"/>
   <project name="libcouchbase" path="libcouchbase" revision="master" remote="couchbase"/>
   <project name="libmemcached" path="libmemcached" revision="2cd40dcddac1e1cfac369284e5f0ee5ca2fcb061"/>
-  <project name="libvbucket" path="libvbucket" revision="4bd0aba0c490851009422879c6913d8ca2c68407"/>
+  <project name="libvbucket" path="libvbucket" revision="3f539ad5c70eb6b71c9d03a4f3adf62b02e03f88"/>
   <project name="memcached" path="memcached" revision="branch-20"/>
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
   <project name="portsigar" path="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951"
