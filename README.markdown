@@ -56,7 +56,8 @@ find our right path.
 
     $ mkdir membase
     $ cd membase
-    $ repo init -u git://github.com/membase/manifest.git
+    $ repo init -u git://github.com/membase/manifest.git -m <branch_name> \
+      --repo-url=https://code.google.com/p/git-repo/
     $ repo sync
 
 ## Build
