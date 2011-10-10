@@ -42,7 +42,6 @@
            remote="couchbase"/>
   <project name="sigar" path="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54"
            remote="couchbase"/>
-  <project name="vbucketmigrator" path="vbucketmigrator" revision="56178bf369bf65165df7aa3c2aaee677c391ee1a"/>
   <project path="couchbase-python-client" name="couchbase-python-client"
            remote="couchbase" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples"
