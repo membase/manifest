@@ -34,7 +34,7 @@
   <project name="bucket_engine" path="bucket_engine" revision="721dff03589285564ea94f297ac9aa26950a0df1"/>
   <project name="libconflate" path="libconflate" revision="ad0238ab91b17d012f3aeb7e10abc0a1286bdda6"/>
   <project name="libcouchbase" path="libcouchbase" revision="master" remote="couchbase"/>
-  <project name="libmemcached" path="libmemcached" revision="2f7672245f06d8dbdd68def76e6cba747fc8645c"/>
+  <project name="libmemcached" path="libmemcached" revision="master"/>
   <project name="libvbucket" path="libvbucket" revision="master"/>
   <project name="memcached" path="memcached" revision="branch-20"/>
   <project name="memcachetest" path="memcachetest" revision="master"/>
