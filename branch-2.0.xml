@@ -19,15 +19,11 @@
   </project>
   <project name="membase-cli" path="membase-cli"/>
 
-  <project path="couchdb" name="couchdb" remote="couchbase"
-           revision="preview"/>
-  <project path="geocouch" name="geocouch" remote="couchbase"
-           revision="master"/>
-  <project path="mccouch" name="mccouch" remote="couchbase"
-           revision="master"/>
+  <project path="couchdb" name="couchdb" remote="couchbase" />
+  <project path="geocouch" name="geocouch" remote="couchbase" />
+  <project path="mccouch" name="mccouch" remote="couchbase" />
 
-  <project path="testrunner" name="testrunner" remote="membase"
-           revision="master"/>
+  <project path="testrunner" name="testrunner" remote="membase" />
 
   <project path="couchdbx-app" remote="couchbase" name="couchdbx-app" />
 
