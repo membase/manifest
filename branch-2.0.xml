@@ -6,9 +6,6 @@
   <remote name="erlang" fetch="git://github.com/erlang/"/>
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
-  <remote name="couchbaselabs"
-          fetch="git://github.com/couchbaselabs/"
-          review="review.membase.org" />
   <default remote="membase" revision="master"/>
 
   <project name="ep-engine" path="ep-engine" revision="branch-20"/>
@@ -41,5 +38,5 @@
   <project path="couchbase-python-client" name="couchbase-python-client"
            remote="couchbase" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples"
-           remote="couchbaselabs" revision="master" />
+           remote="couchbase" revision="master" />
 </manifest>
