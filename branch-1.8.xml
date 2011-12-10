@@ -29,4 +29,6 @@
   <project name="sigar" path="sigar" revision="e1dcf3235129510d91d1d5303d1d93f133e3fb90"
            remote="couchbase"/>
   <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
+  <project path="couchbase-python-client" name="couchbase-python-client" remote="couchbase" revision="master"/>
+  <project path="workload-generator" name="workload-generator" remote="couchbase" revision="master"/>
 </manifest>
