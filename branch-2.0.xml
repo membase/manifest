@@ -14,7 +14,7 @@
   <project name="tlm" path="tlm" revision="branch-20">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
-  <project name="membase-cli" path="membase-cli"/>
+  <project name="membase-cli" path="membase-cli" revision="branch-20"/>
 
   <project path="couchdb" name="couchdb" remote="couchbase" />
   <project path="geocouch" name="geocouch" remote="couchbase" />
