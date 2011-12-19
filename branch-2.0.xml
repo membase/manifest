@@ -39,4 +39,6 @@
            remote="couchbase" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples"
            remote="couchbase" revision="master" />
+  <project path="workload-generator" name="workload-generator"
+           remote="couchbase" revision="master"/>
 </manifest>
