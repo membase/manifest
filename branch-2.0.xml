@@ -8,7 +8,7 @@
           review="review.couchbase.org" />
   <default remote="membase" revision="master"/>
 
-  <project name="ep-engine" path="ep-engine" revision="branch-20"/>
+  <project name="ep-engine" path="ep-engine" />
   <project name="ns_server" path="ns_server" revision="branch-20"/>
   <project name="moxi" path="moxi"/>
   <project name="tlm" path="tlm" revision="branch-20">
