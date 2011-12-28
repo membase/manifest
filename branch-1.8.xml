@@ -9,7 +9,7 @@
 
   <default remote="membase" revision="master"/>
 
-  <project name="ep-engine" path="ep-engine" revision="branch-18"/>
+  <project name="ep-engine" path="ep-engine" revision="3539559f4e482a45d521a1e5362abd248971cb08"/>
   <project name="ns_server" path="ns_server" revision="branch-18"/>
   <project name="moxi" path="moxi"/>
   <project name="tlm" path="tlm" revision="branch-18">
