@@ -10,7 +10,7 @@ you can easily install the dependencies using the following commands:
     sudo easy_install -U pyrex
     brew install bzr --system
     brew install libevent
-    brew instal gpg
+    brew install gpg
 
 Optionally, you can install repo from homebrew as well:
 
@@ -18,14 +18,14 @@ Optionally, you can install repo from homebrew as well:
 
 ### Debian/Ubuntu:
 
-Here's what I did on clean Debian stable (squeeze) installation (under root):
+The following works for a clean Debian stable (squeeze) installation (under root):
 
     aptitude install -y --without-recommends build-essential automake libtool pkg-config check libssl-dev sqlite3 libevent-dev libglib2.0-dev libcurl4-openssl-dev erlang-nox curl erlang-dev erlang-src ruby libmozjs-dev libicu-dev
     aptitude install -y python-minimal
     aptitude install -y --without-recommends git-core
 
 Note that Debian squeeze ships Erlang R14A, yet Ubuntu 10.4, 10.10 and
-even 11.4 ship R13B03. As of this writing, membase requires R14B.
+even 11.4 ship R13B03. As of this writing, couchbase requires R14B.
 
 To install R14 on Ubuntu, you can grab R14B source package from Debian
 Unstable and dpkg-buildpackage'ing it as usual.
@@ -42,20 +42,19 @@ and then you need to pass extra options to make like this:
 
     make couchdb_EXTRA_OPTIONS='--with-js-include=/usr/include/xulrunner-1.9.2.16 --with-js-lib=/usr/lib/xulrunner-devel-1.9.2.16/sdk/lib/'
 
-Path seems to vary with version. 'dpkg -l xulrunner-dev' will help you
-find our right path.
+The path seems to vary with version. 'dpkg -l xulrunner-dev' will help you
+find the right path.
 
 ## Get Repo
 
 (if you didn't install from homebrew, or aren't running on Mac OS X)
 
-Get the latest version from [the google project
-page](http://code.google.com/p/git-repo/downloads/list).
+Get the latest version from [the google project page](http://code.google.com/p/git-repo/downloads/list).
 
 ## Clone the Manifest
 
-    $ mkdir membase
-    $ cd membase
+    $ mkdir couchbase
+    $ cd couchbase
     $ repo init -u git://github.com/membase/manifest.git -m <branch_name>
     $ repo sync
 
