@@ -6,7 +6,7 @@
           fetch="git://github.com/erlang/" />
 
   <project path="otp" name="otp" remote="erlang"
-           revision="refs/tags/OTP_R15" />
+           revision="refs/tags/OTP_R15B" />
   <project path="icu4c" name="icu4c" remote="couchbase"
            revision="26359393672c378f41f2103a8699c4357c894be7" />
   <project path="spidermonkey" name="spidermonkey" remote="couchbase"
