@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="apache" fetch="git://github.com/apache/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="membase" fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
+  <default remote="membase" revision="master"/>
+
+  <project name="ep-engine" path="ep-engine" />
+  <project name="ns_server" path="ns_server" />
+  <project name="moxi" path="moxi"/>
+  <project name="tlm" path="tlm" revision="branch-20">
+    <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+  <project name="membase-cli" path="membase-cli" revision="branch-20"/>
+
+  <project path="couchdb" name="couchdb" remote="couchbase" />
+  <project path="geocouch" name="geocouch" remote="couchbase" />
+  <project path="mccouch" name="mccouch" remote="couchbase" />
+
+  <project path="testrunner" name="testrunner" remote="membase" />
+
+  <project path="couchdbx-app" remote="couchbase" name="couchdbx-app" />
+
+  <project name="bucket_engine" path="bucket_engine" revision="master"/>
+  <project name="libconflate" path="libconflate" revision="ad0238ab91b17d012f3aeb7e10abc0a1286bdda6"/>
+  <project name="libcouchbase" path="libcouchbase" revision="ba42dc5782df202a5d7bfcd2b394a787c5c5595c" remote="couchbase"/>
+  <project name="libmemcached" path="libmemcached" revision="master"/>
+  <project name="libvbucket" path="libvbucket" revision="master"/>
+  <project name="memcached" path="memcached" revision="091c322e3f317ff36a4cfe556a140f8dbcca9d96"/>
+  <project name="memcachetest" path="memcachetest" revision="master"/>
+  <project name="portsigar" path="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951"
+           remote="couchbase"/>
+  <project name="sigar" path="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54"
+           remote="couchbase"/>
+  <project path="couchbase-python-client" name="couchbase-python-client"
+           remote="couchbase" revision="master" />
+  <project path="couchbase-examples" name="couchbase-examples"
+           remote="couchbase" revision="master" />
+  <project path="workload-generator" name="workload-generator"
+           remote="couchbase" revision="master"/>
+</manifest>
