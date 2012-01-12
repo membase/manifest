@@ -29,7 +29,7 @@
   <project name="libcouchbase" path="libcouchbase" revision="master" remote="couchbase"/>
   <project name="libmemcached" path="libmemcached" revision="master"/>
   <project name="libvbucket" path="libvbucket" revision="master"/>
-  <project name="memcached" path="memcached" revision="branch-20"/>
+  <project name="memcached" path="memcached" revision="091c322e3f317ff36a4cfe556a140f8dbcca9d96"/>
   <project name="memcachetest" path="memcachetest" revision="master"/>
   <project name="portsigar" path="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951"
            remote="couchbase"/>
