@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/trondn/" name="couchdb" />
+  <remote fetch="git://github.com/apache/" name="apache"/>
+  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
+  <remote fetch="git://github.com/erlang/" name="erlang"/>
+  <remote fetch="git://github.com/membase/" name="membase" review="review.couchbase.org"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="bucket_engine" revision="4cc6a63d5c9ed9dec815d70fbe4870ac8463391b"/>
+  <project name="couchbase-examples" revision="1d1b6a400caec5e217d1beabb01e56c4a75507e4"/>
+  <project name="couchbase-python-client" revision="60ce6956573136b756c2c46ed6034e5b0552946b"/>
+  <project name="couchdb" revision="31f2d5af5edebb5204d45e53ada4e2698a0ab52a" remote="couchdb"/>
+  <project name="couchdbx-app" revision="5719419bf2a70802c3e52121322e53882f87305d"/>
+  <project name="ep-engine" revision="e29597dc72e29a12181c8fca462dba1516a2814d"/>
+  <project name="geocouch" revision="72fb18f3647e2b74a6e20e75e278896a34d04126"/>
+  <project name="libconflate" revision="ad0238ab91b17d012f3aeb7e10abc0a1286bdda6"/>
+  <project name="libcouchbase" revision="40776d57e0a9aec7a5af2d0f588c479b7b708004"/>
+  <project name="libmemcached" remote="membase" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"/>
+  <project name="libvbucket" revision="2e398e57b4eaafe0c8e76a07a0c6686964041248"/>
+  <project name="mccouch" revision="d1cda0a4d1839a23249f65d072a00b795323dd66"/>
+  <project name="membase-cli" remote="membase" revision="a6785b6ec546ba31f52420fcf55f4f45b00926ca"/>
+  <project name="memcached" remote="membase" revision="02debae9991fae3a2698233ca48d2813f5adbb97"/>
+  <project name="memcachetest" remote="membase" revision="35fd1b9c4bf1ed46b5716b88493e9f156e65a900"/>
+  <project name="moxi" revision="3119473ae18a6b3a25062ed33a73858743d68d73"/>
+  <project name="ns_server" revision="2bd7d5dac73a247f9047c0684dac60309984e80b"/>
+  <project name="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951"/>
+  <project name="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54"/>
+  <project name="testrunner" revision="af11166a9054a2f5389e472e16762510a0e2654d"/>
+  <project name="tlm" revision="34df5fdfd01eee9cc9b7c59add04d02a0dda9051">
+    <copyfile dest="Makefile" src="Makefile.top"/>
+  </project>
+  <project name="workload-generator" revision="e84cacc7952b0cdbcd3f28aec2c2384a9016775f"/>
+</manifest>
