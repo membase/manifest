@@ -22,7 +22,7 @@
   <project name="libmemcached" path="libmemcached" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"/>
   <project name="libvbucket" path="libvbucket" revision="master"/>
   <project name="membasex" path="membasex" remote="couchbase" revision="branch-18"/>
-  <project name="memcached" path="memcached" revision="engine"/>
+  <project name="memcached" path="memcached" revision="f99c147af84bd994db5541e3deda297513a98357"/>
   <project name="memcachetest" path="memcachetest" revision="master"/>
   <project name="portsigar" path="portsigar" revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb"
            remote="couchbase"/>
