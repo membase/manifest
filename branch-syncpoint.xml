@@ -17,5 +17,5 @@
   <project path="couchdb" name="couchdb" remote="couchbase"
            revision="syncpoint" />
   <project path="geocouch" name="geocouch" remote="couchbase"
-           revision="master" />
+           revision="couchdb1.2.x" />
 </manifest>
