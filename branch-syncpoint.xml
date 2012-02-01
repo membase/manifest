@@ -10,7 +10,7 @@
 
   <default revision="master" remote="membase" />
 
-  <project path="tlm" name="tlm">
+  <project path="tlm" name="tlm" revision="branch-syncpoint">
     <copyfile src="Makefile.top" dest="Makefile" />
   </project>
 
