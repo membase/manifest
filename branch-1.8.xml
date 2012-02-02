@@ -24,7 +24,7 @@
   <project name="membasex" path="membasex" remote="couchbase" revision="branch-18"/>
   <project name="memcached" path="memcached" revision="master"/>
   <project name="memcachetest" path="memcachetest" revision="master"/>
-  <project name="portsigar" path="portsigar" revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb"
+  <project name="portsigar" path="portsigar" revision="master"
            remote="couchbase"/>
   <project name="sigar" path="sigar" revision="master" remote="couchbase"/>
   <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
