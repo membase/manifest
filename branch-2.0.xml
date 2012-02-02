@@ -35,5 +35,5 @@
 
   <project name="libconflate" path="libconflate"/>
   <project name="portsigar" path="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951" />
-  <project name="sigar" path="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54" />
+  <project name="sigar" path="sigar" revision="master" />
 </manifest>
