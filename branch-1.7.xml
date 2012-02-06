@@ -24,7 +24,7 @@
   <project name="libmemcached" path="libmemcached" revision="2cd40dcddac1e1cfac369284e5f0ee5ca2fcb061"/>
   <project name="libvbucket" path="libvbucket" revision="4bd0aba0c490851009422879c6913d8ca2c68407"/>
   <project name="membasex" path="membasex" remote="couchbase"/>
-  <project name="memcached" path="memcached" revision="d606cd07d688582bd379c7f41ee2ebc38e0204f6"/>
+  <project name="memcached" path="memcached" revision="7fd058c3e344c4cf10dad8beb6f50150d16c1072"/>
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
   <project name="portsigar" path="portsigar" revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb"
            remote="couchbase"/>
