@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="apache" fetch="git://github.com/apache/"/>
@@ -30,7 +29,7 @@
    <project name="memcachetest" path="memcachetest" revision="35fd1b9c4bf1ed46b5716b88493e9f156e65a900"
    remote="membase"/>
    <project name="moxi" path="moxi" revision="3119473ae18a6b3a25062ed33a73858743d68d73"/>
-   <project name="ns_server" path="ns_server" revision="branch-20dp4"/>
+   <project name="ns_server" path="ns_server" revision="98258767fee3a27670a1df9c83fc49a98d9bfee8"/>
    <project name="otp" path="otp" revision="4a5a75811e2cd590b5c94f71864a5245fd511ccf"
    remote="erlang"/>
    <project name="portsigar" path="portsigar" revision="f12fbe8e3271db8e170556c73b9c63b52031b951"/>
