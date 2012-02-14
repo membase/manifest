@@ -38,6 +38,7 @@
   <project name="workload-generator" path="workload-generator" revision="e84cacc7952b0cdbcd3f28aec2c2384a9016775f"
            remote="couchbase"/>
 
-  <project name="voltron" path="voltron" revision="771e114c37c75d5bf3b98b00731533badcbaa43d"/>
+  <project name="voltron" path="voltron" revision="771e114c37c75d5bf3b98b00731533badcbaa43d"
+           remote="couchbase"/>
 </manifest>
 
