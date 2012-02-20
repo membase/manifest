@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="apache" fetch="git://github.com/apache/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="membase" fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
+  <remote name="mikewied" fetch="git://github.com/mikewied/"/>
+  <default remote="couchbase" revision="master"/>
+
+  <project name="ep-engine" path="ep-engine" remote="mikewied" revision="memory"/>
+  <project name="ns_server" path="ns_server" />
+  <project name="moxi" path="moxi"/>
+  <project name="tlm" path="tlm" remote="mikewied" revision="memory">
+    <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+  <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
+
+  <project path="couchdb" name="couchdb" />
+  <project path="geocouch" name="geocouch" />
+  <project path="mccouch" name="mccouch" />
+
+  <project path="testrunner" name="testrunner" />
+
+  <project path="couchdbx-app" name="couchdbx-app" />
+  <project path="couchbase-python-client" name="couchbase-python-client" />
+  <project path="couchbase-examples" name="couchbase-examples" />
+  <project path="workload-generator" name="workload-generator" />
+  <project name="bucket_engine" path="bucket_engine" />
+  <project name="libvbucket" path="libvbucket" />
+  <project name="memcached" path="memcached" remote="mikewied" revision="memory"/>
+  <project name="memcachetest" remote="membase" path="memcachetest" />
+  <project name="libcouchbase" path="libcouchbase" />
+  <project name="libmemcached" path="libmemcached" remote="membase" />
+
+  <project name="libconflate" path="libconflate"/>
+  <project name="portsigar" path="portsigar" />
+  <project name="sigar" path="sigar" revision="master" />
+</manifest>
