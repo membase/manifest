@@ -27,9 +27,9 @@
   </project>
   <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
 
-  <project path="couchdb" name="couchdb" />
+  <project path="couchdb" name="couchdb" remote="aaron" revision="toy-cs" />
   <project path="geocouch" name="geocouch" />
-  <project path="mccouch" name="mccouch" />
+  <project path="mccouch" name="mccouch" remote="aaron" revision="toy-cs" />
 
   <project path="testrunner" name="testrunner" />
 
