@@ -30,4 +30,5 @@
   <project name="vbucketmigrator" path="vbucketmigrator" revision="master"/>
   <project path="couchbase-python-client" name="couchbase-python-client" remote="couchbase" revision="master"/>
   <project path="workload-generator" name="workload-generator" remote="couchbase" revision="master"/>
+  <project path="testrunner" name="testrunner" revision="branch-18" />
 </manifest>
