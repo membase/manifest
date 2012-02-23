@@ -24,7 +24,7 @@
    <project name="mccouch" path="mccouch" revision="80164243c226afbc4771b61af9d53d55e292fcf1"/>
    <project name="membase-cli" path="membase-cli" revision="1f2878fb9926d878ac2f424e074e324ff7b62e8d"
    remote="membase"/>
-   <project name="memcached" path="memcached" revision="3797ae0760b0c3d4d8524dfdb9a45a8c29db5bdf"
+   <project name="memcached" path="memcached" revision="3cec9b12ba92cbf7985c98e89bb10d209cb31958"
    remote="membase"/>
    <project name="memcachetest" path="memcachetest" revision="35fd1b9c4bf1ed46b5716b88493e9f156e65a900"
    remote="membase"/>
