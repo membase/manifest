@@ -6,6 +6,8 @@
   <remote name="erlang" fetch="git://github.com/erlang/"/>
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"/>
+  <remote name="vmx" fetch="git://github.com/vmx/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -18,8 +20,11 @@
   <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
 
   <project path="couchdb" name="couchdb" />
-  <project path="geocouch" name="geocouch" />
   <project path="mccouch" name="mccouch" />
+
+  <project path="geocouch" name="geocouch" />
+  <project name="wkt" path="geocouch/deps/wkt" remote="vmx"/>
+  <project name="erlgeom" path="geocouch/deps/erlgeom" remote="couchbaselabs"/>
 
   <project path="testrunner" name="testrunner" />
   <project name="snappy" path="snappy"/>
