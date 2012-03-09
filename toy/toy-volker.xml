@@ -10,11 +10,6 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"/>
   <default remote="couchbase" revision="master"/>
 
-  <project name="wkt" path="geocouch/deps/wkt" remote="vmx"/>
-  <project name="erlgeom" path="geocouch/deps/erlgeom" remote="couchbaselabs"/>
-  <!-- get the 3.3.2 release -->
-  <project name="geos" path="geos" remote="vmx" revision="3ddd217e08736e549086d1e4f6cb2ad33a3f4196"/>
-
   <project name="ep-engine" path="ep-engine" />
   <project name="ns_server" path="ns_server" />
   <project name="moxi" path="moxi"/>
@@ -24,8 +19,12 @@
   <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
 
   <project path="couchdb" name="couchdb" remote="vmx" revision="geos"/>
-  <project path="geocouch" name="geocouch" remote="vmx" revision="geos"/>
   <project path="mccouch" name="mccouch" />
+  <project path="geocouch" name="geocouch" remote="vmx" revision="geos"/>
+  <project name="wkt" path="geocouch/deps/wkt" remote="vmx"/>
+  <project name="erlgeom" path="geocouch/deps/erlgeom" remote="couchbaselabs"/>
+  <!-- get the 3.3.2 release -->
+  <project name="geos" path="geos" remote="vmx" revision="3ddd217e08736e549086d1e4f6cb2ad33a3f4196"/>
 
   <project path="testrunner" name="testrunner" />
 
