@@ -6,9 +6,6 @@
   <remote name="erlang" fetch="git://github.com/erlang/"/>
 
   <remote name="aaron" fetch="git://github.com/apage43/"/>
-  <remote name="damien" fetch="git://github.com/Damienkatz/"/>
-
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"/>
 
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
@@ -18,7 +15,7 @@
 
   <project name="snappy" path="snappy" remote="aaron"/>
 
-  <project name="couchstore" path="couchstore" remote="couchbaselabs"/>
+  <project name="couchstore" path="couchstore"/>
 
   <project name="ns_server" path="ns_server" />
   <project name="moxi" path="moxi"/>
