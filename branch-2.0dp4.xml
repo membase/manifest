@@ -7,7 +7,7 @@
 
    <default remote="couchbase" revision="master"/>
 
-   <project name="bucket_engine" path="bucket_engine" revision="601dadd0f9c1e5ac7058da580b6ce4e93d3002cd"/>
+   <project name="bucket_engine" path="bucket_engine" revision="branch-20"/>
    <project name="couchbase-examples" path="couchbase-examples" revision="ed5b6b23e645e50c9ddcbdfd163ad5343b6fad92"/>
    <project name="couchbase-python-client" path="couchbase-python-client" revision="60ce6956573136b756c2c46ed6034e5b0552946b"/>
    <project name="couchdb" path="couchdb" revision="branch-20dp4"/>
