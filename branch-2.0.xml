@@ -6,6 +6,7 @@
   <remote name="erlang" fetch="git://github.com/erlang/"/>
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
+
   <default remote="couchbase" revision="master"/>
 
   <project name="ep-engine" path="ep-engine" />

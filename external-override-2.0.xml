@@ -11,4 +11,7 @@
            revision="26359393672c378f41f2103a8699c4357c894be7" />
   <project path="spidermonkey" name="spidermonkey" remote="couchbase"
            revision="a3c48c1736642ea41ee935391d57137d17d297ec" />
+  <project name="v8" path="v8" remote="couchbase"
+           revision="refs/tags/3.9.7" />
+
 </manifest>
