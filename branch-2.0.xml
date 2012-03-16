@@ -21,6 +21,7 @@
   <project path="mccouch" name="mccouch" />
 
   <project path="testrunner" name="testrunner" />
+  <project name="snappy" path="snappy"/>
 
   <project path="couchdbx-app" name="couchdbx-app" />
   <project path="couchbase-python-client" name="couchbase-python-client" />
