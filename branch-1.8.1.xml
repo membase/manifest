@@ -21,7 +21,7 @@
            remote="couchbase"/>
   <project name="memcached" path="memcached" revision="dd1f4703db307f4e27cb6cc968f1357c7d0240f7"/>
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
-  <project name="moxi" path="moxi" revision="3119473ae18a6b3a25062ed33a73858743d68d73"/>
+  <project name="moxi" path="moxi" revision="master"/>
   <project name="ns_server" path="ns_server" revision="branch-181"/>
   <project name="otp" path="otp" revision="4a5a75811e2cd590b5c94f71864a5245fd511ccf"
            remote="erlang"/>
