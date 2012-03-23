@@ -18,15 +18,18 @@ oxml = ARGV[3] # Optional. Example: output/build-manifest.xml -- usable as input
 root = REXML::Document.new(File.new(path)).root
 
 default = root.get_elements("//default")[0]
-remotes = {}
 
+remotes_arr = []
+remotes = {}
 root.each_element("//remote") do |remote|
+  remotes_arr << remote.attributes['name']
   remotes[remote.attributes['name']] = remote
 end
 
+projects_arr = []
 projects = {}
-
 root.each_element("//project") do |project|
+  projects_arr << project.attributes['name']
   projects[project.attributes['name']] = project
 end
 
@@ -36,16 +39,23 @@ end
 if more
   more_root = REXML::Document.new(File.new(more)).root
   more_root.each_element("//remote") do |remote|
+    unless remotes[remote.attributes['name']]
+      remotes_arr << remote.attributes['name']
+    end
     remotes[remote.attributes['name']] = remote
   end
   more_root.each_element("//project") do |project|
+    unless projects[project.attributes['name']]
+      projects_arr << project.attributes['name']
+    end
     projects[project.attributes['name']] = project
   end
 end
 
 changes = {}
 
-projects.each do |name, project|
+projects_arr.each do |name|
+  project  = projects[name]
   path     = project.attributes['path'] || project.attributes['name']
   remote   = remotes[project.attributes['remote'] || default.attributes['remote']]
   fetch    = remote.attributes['fetch']
@@ -121,14 +131,14 @@ if oxml
   File.open(oxml, 'w') do |o|
     o.write "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
     o.write "<manifest>\n"
-    remotes.keys.sort.each do |name|
+    remotes_arr.each do |name|
       remote = remotes[name]
       o.write "  <remote name=\"#{name}\" fetch=\"#{remote.attributes['fetch']}\"/>\n"
     end
     o.write "\n"
     o.write "  <default remote=\"#{default.attributes['remote']}\" revision=\"#{default.attributes['revision']}\"/>\n"
     o.write "\n"
-    projects.keys.sort.each do |name|
+    projects_arr.each do |name|
       project = projects[name]
       remote  = project.attributes['remote']
       path    = project.attributes['path'] || project.attributes['name']
