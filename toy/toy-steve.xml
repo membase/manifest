@@ -17,9 +17,7 @@
   </project>
   <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
 
-  <project path="couchdb" name="couchdb"
-    revision="git pull ssh://steveyen@review.couchbase.org:29418/couchdb refs/changes/53/14153/1"/>
-
+  <project path="couchdb" name="couchdb" />
   <project path="geocouch" name="geocouch" />
   <project path="mccouch" name="mccouch" />
 
