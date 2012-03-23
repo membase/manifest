@@ -19,7 +19,7 @@
   <project name="membase-cli" path="membase-cli" revision="90c69b69b60b3326feca1e5f6d4d4a43168a2dbb"/>
   <project name="membasex" path="membasex" revision="e9b5f07a018ef6bfbe9c681b851033748c8e67b5"
            remote="couchbase"/>
-  <project name="memcached" path="memcached" revision="dd1f4703db307f4e27cb6cc968f1357c7d0240f7"/>
+  <project name="memcached" path="memcached" revision="couchbase-181"/>
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
   <project name="moxi" path="moxi" revision="master"/>
   <project name="ns_server" path="ns_server" revision="branch-181"/>
