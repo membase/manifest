@@ -27,10 +27,12 @@
   <project name="geos" path="geos" remote="vmx" revision="3ddd217e08736e549086d1e4f6cb2ad33a3f4196"/>
 
   <project path="testrunner" name="testrunner" />
+  <project name="snappy" path="snappy"/>
 
   <project path="couchdbx-app" name="couchdbx-app" />
   <project path="couchbase-python-client" name="couchbase-python-client" />
   <project path="couchbase-examples" name="couchbase-examples" />
+  <project path="couchstore" name="couchstore" />
   <project path="workload-generator" name="workload-generator" />
   <project name="bucket_engine" path="bucket_engine" />
   <project name="libvbucket" path="libvbucket" />
