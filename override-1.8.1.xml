@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="apache" fetch="https://github.com/apache/"/>
+  <remote name="couchbase" fetch="git://10.1.1.210/"/>
+  <remote name="erlang" fetch="https://github.com/erlang/"/>
+  <remote name="membase" fetch="git://10.1.1.210/"/>
+
+  <project path="otp" name="otp" remote="erlang"
+           revision="refs/tags/OTP_R14B03" />
+  <project path="icu4c" name="icu4c" remote="couchbase"
+           revision="26359393672c378f41f2103a8699c4357c894be7" />
+  <project path="spidermonkey" name="spidermonkey" remote="couchbase"
+           revision="a3c48c1736642ea41ee935391d57137d17d297ec" />
+</manifest>
