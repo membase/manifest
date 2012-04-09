@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="apache" fetch="https://github.com/apache/"/>
+  <remote name="apache" fetch="git://github.com/apache/"/>
   <remote name="couchbase" fetch="git://10.1.1.210/"/>
-  <remote name="erlang" fetch="https://github.com/erlang/"/>
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
   <remote name="membase" fetch="git://10.1.1.210/"/>
 
   <project path="otp" name="otp" remote="erlang"
