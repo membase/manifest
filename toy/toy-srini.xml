@@ -12,7 +12,7 @@
   <project name="ep-engine" path="ep-engine" remote="srini" revision="toy-build"/>
   <project name="ns_server" path="ns_server" remote="srini" revision="toy-build"/>
   <project name="moxi" path="moxi"/>
-  <project name="tlm" path="tlm" revision="branch-20">
+  <project name="tlm" path="tlm" revision="master">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
   <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
