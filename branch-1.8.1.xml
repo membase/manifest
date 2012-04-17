@@ -17,7 +17,7 @@
   <project name="libmemcached" path="libmemcached" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"/>
   <project name="libvbucket" path="libvbucket" revision="752482a49fa8c4914b594e82908919da63d0df68"/>
   <project name="membase-cli" path="membase-cli" revision="90c69b69b60b3326feca1e5f6d4d4a43168a2dbb"/>
-  <project name="membasex" path="membasex" revision="e9b5f07a018ef6bfbe9c681b851033748c8e67b5"
+  <project name="membasex" path="membasex" revision="branch-18"
            remote="couchbase"/>
   <project name="memcached" path="memcached" revision="couchbase-181"/>
   <project name="memcachetest" path="memcachetest" revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f"/>
