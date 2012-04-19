@@ -3,6 +3,8 @@
   <remote name="apache" fetch="git://github.com/apache/"/>
   <remote name="couchbase" fetch="git://github.com/couchbase/"
           review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"
+          review="review.couchbase.org" />
   <remote name="erlang" fetch="git://github.com/erlang/"/>
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
@@ -35,7 +37,7 @@
   <project name="memcachetest" remote="membase" path="memcachetest" />
   <project name="libcouchbase" path="libcouchbase" />
   <project name="libmemcached" path="libmemcached" remote="membase" />
-
+  <project name="libcbio" path="libcbio" remote="couchbaselabs" />
   <project name="libconflate" path="libconflate"/>
   <project name="portsigar" path="portsigar" />
   <project name="sigar" path="sigar" revision="master" />
