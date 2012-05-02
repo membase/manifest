@@ -19,5 +19,4 @@
            revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95" />
   <project name="v8" path="v8" remote="couchbase"
            revision="refs/tags/3.9.7" />
-
 </manifest>
