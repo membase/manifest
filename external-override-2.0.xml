@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="apache" fetch="https://github.com/apache/"/>
-  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
-  <remote name="erlang" fetch="https://github.com/erlang/"/>
-  <remote name="membase" fetch="https://github.com/membase/"/>
+  <remote name="apache" fetch="git://github.com/apache/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="membase" fetch="git://github.com/membase/"/>
 
   <project path="otp" name="otp" remote="erlang"
            revision="refs/tags/OTP_R14B04" />
