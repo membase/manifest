@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master"/>
+
+  <project path="couchdb" name="couchdb" />
+  <project path="geocouch" name="geocouch" revision="newvtree"/>
+</manifest>
