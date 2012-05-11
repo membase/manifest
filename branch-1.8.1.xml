@@ -39,5 +39,6 @@
   <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
   <project name="workload-generator" path="workload-generator" revision="master"
            remote="couchbase"/>
+  <project path="testrunner" name="testrunner" remote="couchbase"/>
 </manifest>
 
