@@ -14,7 +14,7 @@
   <default remote="couchbase" revision="master"/>
 
   <project name="ep-engine" path="ep-engine" remote="jinlim" revision="master"/>
-  <project name="ns_server" path="ns_server" remote="jinlim" revision="master"/>
+  <project name="ns_server" path="ns_server" />
   <project name="moxi" path="moxi"/>
   <project name="tlm" path="tlm" revision="master">
     <copyfile src='Makefile.top' dest='Makefile'/>
