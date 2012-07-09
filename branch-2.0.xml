@@ -25,7 +25,7 @@
   <project name="portsigar" path="portsigar" />
   <project name="sigar" path="sigar" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples" />
-  <project path="couchbase-python-client" name="couchbase-python-client" />
+  <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
   <project path="couchdb" name="couchdb" />
   <project path="couchdbx-app" name="couchdbx-app" />
   <project path="couchstore" name="couchstore"/>
