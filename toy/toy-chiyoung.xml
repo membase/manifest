@@ -21,12 +21,12 @@
   <project name="memcached" path="memcached" remote="membase"/>
   <project name="memcachetest" remote="membase" path="memcachetest" />
   <project name="moxi" path="moxi"/>
-  <project name="ns_server" path="ns_server" />
+  <project name="ns_server" path="ns_server" remote="chiyoung" revision="compaction" />
   <project name="portsigar" path="portsigar" />
   <project name="sigar" path="sigar" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples" />
   <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
-  <project path="couchdb" name="couchdb" remote="chiyoung" revision="compaction" />
+  <project path="couchdb" name="couchdb" />
   <project path="couchdbx-app" name="couchdbx-app" />
   <project path="couchstore" name="couchstore"/>
   <project path="geocouch" name="geocouch" />
