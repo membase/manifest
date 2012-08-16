@@ -17,21 +17,21 @@
   <project name="libmemcached" path="libmemcached" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"
            remote="membase"/>
   <project name="libvbucket" path="libvbucket" revision="64a667e17c9570700d6e9255a3f23edcc3e31060"/>
-  <project name="membase-cli" path="membase-cli" revision="1d783407c64c2968a41a5ee7e1146ca7ca620edc"
+  <project name="membase-cli" path="membase-cli" revision="0f59758617782dc37b0e4b7f63bdb0179d284ba4"
            remote="membase"/>
   <project name="memcached" path="memcached" revision="8c6b1dea5f085aaf910709362302e9a7056df81d"
            remote="membase"/>
   <project name="memcachetest" path="memcachetest" revision="b9b0c33a1da1c73bd540749477e94232e487b7a5"
            remote="membase"/>
   <project name="moxi" path="moxi" revision="52a5fa887bfff0bf719c4ee5f29634dd8707500e"/>
-  <project name="ns_server" path="ns_server" revision="d2528649925f24da25385e856e3a02aa1c5e1501"/>
+  <project name="ns_server" path="ns_server" revision="35c3725248848b4fa33bfcddd79ff682c2098f8a"/>
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600"/>
   <project name="sigar" path="sigar" revision="63a3cd1b316d2d4aa6dd31ce8fc66101b983e0b0"/>
-  <project name="couchbase-examples" path="couchbase-examples" revision="11d89e5ebb72159662278bb7c5ac66cc9a331c1b"/>
+  <project name="couchbase-examples" path="couchbase-examples" revision="10913bb528df394ccce587f1d8e0d99c05886fb0"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="3bd552c47ba0273d79159a5c808d6de2cd955dcb"/>
-  <project name="couchdb" path="couchdb" revision="ac9186177d377a292bad0c0528c0286ce8bfd3e9"/>
-  <project name="couchdbx-app" path="couchdbx-app" revision="3e7276d0f0a6006e7923943c17c0e458b62d6082"/>
-  <project name="couchstore" path="couchstore" revision="3b1a8e7503153c761dc09999eccf6dff2fa8b1b2"/>
+  <project name="couchdb" path="couchdb" revision="96ddca4db78f35469898af4bad2372447f98c37c"/>
+  <project name="couchdbx-app" path="couchdbx-app" revision="201b64531c3337cd6ffacf21f2016fea436070bd"/>
+  <project name="couchstore" path="couchstore" revision="c912430e8e05ce4f60b105a9bf59d3688e30f6d6"/>
   <project name="geocouch" path="geocouch" revision="7782df1a53104e9c8bb9ef941a9b499bbc7cd61e"/>
   <project name="mccouch" path="mccouch" revision="88701cc326bc3dde4ed072bb8441be83adcfb2a5"/>
   <project name="testrunner" path="testrunner" revision="1d33c693860caab23315156da8668d82415cb8e1"/>
