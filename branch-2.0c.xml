@@ -11,20 +11,20 @@
   </project>
 
   <project name="bucket_engine" path="bucket_engine" revision="79feb94512c9cd95f416984cf4b8461c91b27453"/>
-  <project name="ep-engine" path="ep-engine" revision="edb9271596611307d2405a8dfd1edf925cdf566e"/>
+  <project name="ep-engine" path="ep-engine" revision="branch-20c"/>
   <project name="libconflate" path="libconflate" revision="8714537b391a3edfb6e277d31738d928b78c5fdd"/>
   <project name="libcouchbase" path="libcouchbase" revision="2f4f5d206b1904a244d7e0f4f5a9919db80e4938"/>
   <project name="libmemcached" path="libmemcached" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"
            remote="membase"/>
   <project name="libvbucket" path="libvbucket" revision="64a667e17c9570700d6e9255a3f23edcc3e31060"/>
-  <project name="membase-cli" path="membase-cli" revision="ae40afcc622c0b3bed96a359eb46d66759939c9a"
+  <project name="membase-cli" path="membase-cli" revision="branch-20c"
            remote="membase"/>
   <project name="memcached" path="memcached" revision="8c6b1dea5f085aaf910709362302e9a7056df81d"
            remote="membase"/>
   <project name="memcachetest" path="memcachetest" revision="b9b0c33a1da1c73bd540749477e94232e487b7a5"
            remote="membase"/>
   <project name="moxi" path="moxi" revision="52a5fa887bfff0bf719c4ee5f29634dd8707500e"/>
-  <project name="ns_server" path="ns_server" revision="d2528649925f24da25385e856e3a02aa1c5e1501"/>
+  <project name="ns_server" path="ns_server" revision="branch-20c"/>
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600"/>
   <project name="sigar" path="sigar" revision="63a3cd1b316d2d4aa6dd31ce8fc66101b983e0b0"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="10913bb528df394ccce587f1d8e0d99c05886fb0"/>
