@@ -17,14 +17,14 @@
   <project name="libmemcached" path="libmemcached" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"
            remote="membase"/>
   <project name="libvbucket" path="libvbucket" revision="64a667e17c9570700d6e9255a3f23edcc3e31060"/>
-  <project name="membase-cli" path="membase-cli" revision="0f59758617782dc37b0e4b7f63bdb0179d284ba4"
+  <project name="membase-cli" path="membase-cli" revision="ae40afcc622c0b3bed96a359eb46d66759939c9a"
            remote="membase"/>
   <project name="memcached" path="memcached" revision="8c6b1dea5f085aaf910709362302e9a7056df81d"
            remote="membase"/>
   <project name="memcachetest" path="memcachetest" revision="b9b0c33a1da1c73bd540749477e94232e487b7a5"
            remote="membase"/>
   <project name="moxi" path="moxi" revision="52a5fa887bfff0bf719c4ee5f29634dd8707500e"/>
-  <project name="ns_server" path="ns_server" revision="35c3725248848b4fa33bfcddd79ff682c2098f8a"/>
+  <project name="ns_server" path="ns_server" revision="d2528649925f24da25385e856e3a02aa1c5e1501"/>
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600"/>
   <project name="sigar" path="sigar" revision="63a3cd1b316d2d4aa6dd31ce8fc66101b983e0b0"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="10913bb528df394ccce587f1d8e0d99c05886fb0"/>
