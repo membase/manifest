@@ -15,5 +15,7 @@
            revision="refs/tags/3.9.7" />
   <project name="gperftools" path="gperftools" remote="couchbase"
            revision="master" />
+  <project name="pysqlite" path="pysqlite" remote="couchbase"
+           revision="master" />
 
 </manifest>
