@@ -17,7 +17,6 @@
   <project name="libvbucket" path="libvbucket" />
   <project name="membase-cli" path="membase-cli" remote="membase" />
   <project name="memcached" path="memcached" remote="membase"/>
-  <project name="memcachetest" remote="membase" path="memcachetest" />
   <project name="moxi" path="moxi"/>
   <project name="ns_server" path="ns_server" />
   <project name="portsigar" path="portsigar" />
