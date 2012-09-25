@@ -30,5 +30,4 @@
   <project path="geocouch" name="geocouch" />
   <project path="mccouch" name="mccouch" />
   <project path="testrunner" name="testrunner" />
-  <project path="workload-generator" name="workload-generator" />
 </manifest>
