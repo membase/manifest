@@ -13,7 +13,7 @@
 
   <project name="bucket_engine" path="bucket_engine" />
   <project name="ep-engine" path="ep-engine" remote="chiyoung" revision="consistence_view" />
-  <project name="libconflate" path="libconflate" revision="branch-20"/>
+  <project name="libconflate" path="libconflate" revision="3cf7107eaa5b52b34cc9f887cf0e2edb3465988e"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
   <project name="libvbucket" path="libvbucket" />
   <project name="membase-cli" path="membase-cli" remote="membase" />
