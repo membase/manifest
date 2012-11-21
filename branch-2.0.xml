@@ -22,7 +22,7 @@
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600"/>
   <project name="sigar" path="sigar" revision="63a3cd1b316d2d4aa6dd31ce8fc66101b983e0b0" />
   <project path="couchbase-examples" name="couchbase-examples" revision="c59551adf11860963c1bba028adf33529a4a4d4a" />
-  <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" revision="006c1aa8b76f6bce11109af8a309133b57079c4c" />
+  <project path="couchbase-python-client" name="couchbase-python-client" revision="006c1aa8b76f6bce11109af8a309133b57079c4c" />
   <project path="couchdb" name="couchdb" branch="2.0.0"/>
   <project path="couchdbx-app" name="couchdbx-app" />
   <project path="couchstore" name="couchstore" revision="2.0.0"/>
