@@ -14,14 +14,14 @@
   </project>
 
   <project name="bucket_engine" path="bucket_engine" revision="70b3624abc697b7d18bf3d57f331b7674544e1e7"/>
-  <project name="ep-engine" path="ep-engine" remote="jinlim" revision="master"/>
+  <project name="ep-engine" path="ep-engine" revision="2.0.0"/>
   <project name="libconflate" path="libconflate" revision="2cc8eff8e77d497d9f03a30fafaecb85280535d6"/>
   <project name="libmemcached" path="libmemcached" remote="membase" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"/>
   <project name="libvbucket" path="libvbucket" revision="00d3763593c116e8e5d97aa0b646c42885727398"/>
   <project name="membase-cli" path="membase-cli" remote="membase" revision="2.0.0"/>
   <project name="memcached" path="memcached" remote="membase" revision="7ea975a93a0231393502af4ca98976eee8a83386"/>
   <project name="moxi" path="moxi" revision="52a5fa887bfff0bf719c4ee5f29634dd8707500e"/>
-  <project name="ns_server" path="ns_server" revision="2.0.0"/>
+  <project name="ns_server" path="ns_server" remote="jinlim" revision="master"/>
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600"/>
   <project name="sigar" path="sigar" revision="63a3cd1b316d2d4aa6dd31ce8fc66101b983e0b0" />
   <project path="couchbase-examples" name="couchbase-examples" revision="c59551adf11860963c1bba028adf33529a4a4d4a" />
