@@ -6,7 +6,7 @@
           review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>
-  <project name="tlm" path="tlm" revision="master" revision="2.0.1">
+  <project name="tlm" path="tlm" revision="2.0.1">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
 
