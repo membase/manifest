@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"
-          review="review.couchbase.org" />
-  <remote name="membase" fetch="git://github.com/membase/"
-          review="review.couchbase.org" />
+  <remote name="couchbase" fetch="git://10.1.1.210/"/>
+  <remote name="membase" fetch="git://10.1.1.210/"/>
+  <remote name="apache" fetch="git://github.com/apache/"/>
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
 
   <default remote="couchbase" revision="master"/>
-  <project name="tlm" path="tlm" revision="master">
+
+  <project name="tlm" path="tlm" revision="79b0a43e2fc8ec30425ba5fdec616f3a153b69ac">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
-
   <project name="bucket_engine" path="bucket_engine" revision="79feb94512c9cd95f416984cf4b8461c91b27453"/>
-  <project name="ep-engine" path="ep-engine" revision="branch-20c"/>
+  <project name="ep-engine" path="ep-engine" revision="65390e2a6e4115a2f2979ba8dd1a0ea3add67145"/>
   <project name="libconflate" path="libconflate" revision="8714537b391a3edfb6e277d31738d928b78c5fdd"/>
   <project name="libcouchbase" path="libcouchbase" revision="2f4f5d206b1904a244d7e0f4f5a9919db80e4938"/>
   <project name="libmemcached" path="libmemcached" revision="ca739a890349ac36dc79447e37da7caa9ae819f5"
            remote="membase"/>
   <project name="libvbucket" path="libvbucket" revision="64a667e17c9570700d6e9255a3f23edcc3e31060"/>
-  <project name="membase-cli" path="membase-cli" revision="branch-20c"
+  <project name="membase-cli" path="membase-cli" revision="fe98bb8c13b3a46f5ea5a19d660a319c68ea9d3b"
            remote="membase"/>
   <project name="memcached" path="memcached" revision="8c6b1dea5f085aaf910709362302e9a7056df81d"
            remote="membase"/>
   <project name="memcachetest" path="memcachetest" revision="b9b0c33a1da1c73bd540749477e94232e487b7a5"
            remote="membase"/>
   <project name="moxi" path="moxi" revision="52a5fa887bfff0bf719c4ee5f29634dd8707500e"/>
-  <project name="ns_server" path="ns_server" revision="branch-20c"/>
+  <project name="ns_server" path="ns_server" revision="2dbb22478550ec4ce6a0ce9669f014159e0063ad"/>
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600"/>
   <project name="sigar" path="sigar" revision="63a3cd1b316d2d4aa6dd31ce8fc66101b983e0b0"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="10913bb528df394ccce587f1d8e0d99c05886fb0"/>
@@ -36,4 +36,14 @@
   <project name="mccouch" path="mccouch" revision="88701cc326bc3dde4ed072bb8441be83adcfb2a5"/>
   <project name="testrunner" path="testrunner" revision="1d33c693860caab23315156da8668d82415cb8e1"/>
   <project name="workload-generator" path="workload-generator" revision="0d57d80c3cef28142dd3a423303b1e8cef56421b"/>
+  <project name="otp" path="otp" revision="b6dc1a844eab061d0a7153d46e7e68296f15a504"
+           remote="erlang"/>
+  <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
+           remote="couchbase"/>
+  <project name="snappy" path="snappy" revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95"
+           remote="couchbase"/>
+  <project name="v8" path="v8" revision="447decb75060a106131ab4de934bcc374648e7f2"
+           remote="couchbase"/>
+  <project name="gperftools" path="gperftools" revision="8f60ba949fb8576c530ef4be148bff97106ddc59"
+           remote="couchbase"/>
 </manifest>
