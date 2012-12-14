@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="membase" fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master"/>
+  <project name="tlm" path="tlm" revision="master">
+    <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+
+  <project name="bucket_engine" path="bucket_engine" />
+  <project name="ep-engine" path="ep-engine" revision="9b8377b94356c867cab2f63b2b5798001ca671f7"/>
+  <project name="libconflate" path="libconflate" revision="branch-20"/>
+  <project name="libmemcached" path="libmemcached" remote="membase" />
+  <project name="libvbucket" path="libvbucket" />
+  <project name="membase-cli" path="membase-cli" remote="membase" revision="9daab001105fc00ed00550811a3b3725ef17f19e" />
+  <project name="memcached" path="memcached" remote="membase"/>
+  <project name="moxi" path="moxi"/>
+  <project name="ns_server" path="ns_server" revision="026fd85ea36d9c2e19cbadc2d4fa127fe8b6f90b"/>
+  <project name="portsigar" path="portsigar" />
+  <project name="sigar" path="sigar" revision="master" />
+  <project path="couchbase-examples" name="couchbase-examples" />
+  <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
+  <project path="couchdb" name="couchdb" revision="50fb3b31f13e263feafb1cdca88e20002f39a56e"/>
+  <project path="couchdbx-app" name="couchdbx-app" />
+  <project path="couchstore" name="couchstore" reivision="b5937c4479bf05dcc67264efe19abaf52870a127"/>
+  <project path="geocouch" name="geocouch" revision="bd21f3e87cf225558fe674291582314d05c42200" />
+  <project path="mccouch" name="mccouch" />
+  <project path="testrunner" name="testrunner" />
+</manifest>
