@@ -10,4 +10,5 @@
   <project name="ep-engine" path="ep-engine" />
   <project name="memcached" path="memcached" remote="membase" />
   <project path="testrunner" name="testrunner" />
+  <project path="couchstore" name="couchstore" />
 </manifest>
