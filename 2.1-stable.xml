@@ -26,7 +26,7 @@
   <project path="couchdb" name="couchdb" revision="331aff14059667d8c3c1b504ec61be276af2e422"/>
   <project path="couchdbx-app" name="couchdbx-app" />
   <project path="couchstore" name="couchstore" reivision="b5937c4479bf05dcc67264efe19abaf52870a127"/>
-  <project path="geocouch" name="geocouch" revision="bd21f3e87cf225558fe674291582314d05c42200" />
+  <project path="geocouch" name="geocouch" revision="16b91fbceab50c7c032a1dcfc2af9be0f428c017" />
   <project path="mccouch" name="mccouch" />
   <project path="testrunner" name="testrunner" />
 </manifest>
