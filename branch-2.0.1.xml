@@ -27,6 +27,5 @@
   <project path="couchdbx-app" name="couchdbx-app" revision="2.0.1" />
   <project path="couchstore" name="couchstore" revision="2.0.1"/>
   <project path="geocouch" name="geocouch" revision="2.0.1"/>
-  <project path="mccouch" name="mccouch" />
   <project path="testrunner" name="testrunner" />
 </manifest>
