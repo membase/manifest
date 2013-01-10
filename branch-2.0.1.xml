@@ -24,7 +24,7 @@
   <project path="couchbase-examples" name="couchbase-examples" />
   <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
   <project path="couchdb" name="couchdb" revision="2.0.1"/>
-  <project path="couchdbx-app" name="couchdbx-app" />
+  <project path="couchdbx-app" name="couchdbx-app" revision="2.0.1" />
   <project path="couchstore" name="couchstore" revision="2.0.1"/>
   <project path="geocouch" name="geocouch" revision="2.0.1"/>
   <project path="mccouch" name="mccouch" />
