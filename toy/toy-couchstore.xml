@@ -20,7 +20,7 @@
   <project name="membase-cli" path="membase-cli" remote="membase" revision="9daab001105fc00ed00550811a3b3725ef17f19e" />
   <project name="memcached" path="memcached" remote="membase"/>
   <project name="moxi" path="moxi"/>
-  <project name="ns_server" path="ns_server" remote="jinlim" revision="master"/>
+  <project name="ns_server" path="ns_server" remote="jinlim" revision="ab8952db4b39447309c64a39cb4ff4720c8c00b8"/>
   <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600" />
   <project name="sigar" path="sigar" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples" />
