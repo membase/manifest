@@ -21,7 +21,7 @@
     <project name="sigar"                     path="sigar"                   revision="master"  />
     <project name="couchbase-examples"        path="couchbase-examples"      revision="master"  />
     <project name="couchbase-python-client"   path="couchbase-python-client" revision="couchbase-181" />
-    <project name=couchdb"                    path="couchdb"                 revision="master"  />
+    <project name="couchdb"                   path="couchdb"                 revision="master"  />
     <project name="couchdbx-app"              path="couchdbx-app"            revision="master"  />
     <project name="couchstore"                path="couchstore"              revision="master"  />
     <project name="geocouch"                  path="geocouch"                revision="master"  />
