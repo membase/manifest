@@ -7,7 +7,7 @@
   <remote name="aaron" fetch="git://github.com/apage43/"/>
 
   <default remote="couchbase" revision="master"/>
-  <project name="tlm" path="tlm" revision="master">
+  <project name="tlm" path="tlm" revision="2.0.1">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
 
@@ -16,17 +16,18 @@
   <project name="libconflate" path="libconflate" revision="branch-20"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
   <project name="libvbucket" path="libvbucket" />
-  <project name="membase-cli" path="membase-cli" remote="membase" />
+  <project name="membase-cli" path="membase-cli" remote="membase" revision="2.0.1" />
   <project name="memcached" path="memcached" remote="membase"/>
   <project name="moxi" path="moxi"/>
-  <project name="ns_server" path="ns_server" />
-  <project name="portsigar" path="portsigar" />
+  <project name="ns_server" path="ns_server" revision="2.0.1" />
+  <project name="portsigar" path="portsigar" revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600" />
   <project name="sigar" path="sigar" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples" />
   <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
-  <project path="couchdb" name="couchdb"/>
-  <project path="couchdbx-app" name="couchdbx-app" />
+  <project path="couchdb" name="couchdb" revision="2.0.1"/>
+  <project path="couchdbx-app" name="couchdbx-app" revision="2.0.1" />
   <project path="couchstore" name="couchstore" remote="aaron" revision="cachey"/>
-  <project path="geocouch" name="geocouch" />
+  <project path="geocouch" name="geocouch" revision="2.0.1"/>
   <project path="testrunner" name="testrunner" />
+
 </manifest>
