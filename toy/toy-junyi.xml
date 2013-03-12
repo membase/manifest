@@ -12,7 +12,7 @@
   </project>
 
   <project name="bucket_engine" path="bucket_engine" />
-  <project name="ep-engine" path="ep-engine" remote="junyi" revision="toy"/>
+  <project name="ep-engine" path="ep-engine" remote="junyi" revision="jinlim"/>
   <project name="libconflate" path="libconflate" revision="branch-20"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
   <project name="libvbucket" path="libvbucket" />
