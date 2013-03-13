@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="apache" fetch="git://github.com/apache/"/>
-  <remote name="couchbase" fetch="git://10.1.1.210/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
   <remote name="erlang" fetch="git://github.com/erlang/"/>
-  <remote name="membase" fetch="git://10.1.1.210/"/>
+  <remote name="membase" fetch="git://github.com/membase/"/>
 
   <default remote="membase" revision="master"/>
 
