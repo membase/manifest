@@ -12,7 +12,7 @@
   <project name="bucket_engine" path="bucket_engine" revision="branch-181"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="couchbase-181"
            remote="couchbase"/>
-  <project name="ep-engine" path="ep-engine" revision="181-MB-5845"/>
+  <project name="ep-engine" path="ep-engine" revision="refs/tags/1.8.1-MB-5845"/>
   <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
            remote="couchbase"/>
   <project name="libconflate" path="libconflate" revision="fee8f9463b61931f303a1ee2727016b73a5fa37e"/>
