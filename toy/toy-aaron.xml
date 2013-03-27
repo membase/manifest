@@ -16,7 +16,7 @@
   <project name="libconflate" path="libconflate" revision="branch-20"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
   <project name="libvbucket" path="libvbucket" />
-  <project name="couchbase-cli" path="membase-cli" remote="membase" revision="2.0.2" />
+  <project name="couchbase-cli" path="couchbase-cli" remote="membase" revision="2.0.2" />
   <project name="memcached" path="memcached" remote="membase"/>
   <project name="moxi" path="moxi"/>
   <project name="ns_server" path="ns_server"/>
