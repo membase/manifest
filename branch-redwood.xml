@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The Redwood branch is the branch we're doing all of the
+build changes before they are merged back to the different
+branches
+-->
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="membase" fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master"/>
+  <project name="tlm" path="tlm" revision="2.0.2">
+    <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+
+  <project name="bucket_engine" path="bucket_engine" />
+  <project name="ep-engine" path="ep-engine" revision="2.0.2" />
+  <project name="libconflate" path="libconflate" revision="redwood"/>
+  <project name="libmemcached" path="libmemcached" remote="membase" />
+  <project name="libvbucket" path="libvbucket" />
+  <project name="couchbase-cli" path="couchbase-cli" remote="couchbase" revision="2.0.2" />
+  <project name="memcached" path="memcached" remote="membase" revision="branch-20" />
+  <project name="moxi" path="moxi"/>
+  <project name="ns_server" path="ns_server"/>
+  <project name="portsigar" path="portsigar" revision="159b6179ea8a3c2075ee9eb2afa6f91c98c0fda6" />
+  <project name="sigar" path="sigar" revision="master" />
+  <project path="couchbase-examples" name="couchbase-examples" />
+  <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
+  <project path="couchdb" name="couchdb" revision="2.0.2"/>
+  <project path="couchdbx-app" name="couchdbx-app" revision="2.0.2" />
+  <project path="couchstore" name="couchstore" revision="2.0.2"/>
+  <project path="geocouch" name="geocouch" revision="2.0.2"/>
+  <project path="testrunner" name="testrunner" />
+</manifest>
