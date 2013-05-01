@@ -15,7 +15,7 @@
   <project name="libmemcached"            path="libmemcached"            remote="membase" />
   <project name="libvbucket"              path="libvbucket" />
   <project name="membase-cli"             path="membase-cli"             remote="membase" revision="9daab001105fc00ed00550811a3b3725ef17f19e" />
-  <project name="memcached"               path="memcached"               remote="membase"/>
+  <project name="memcached"               path="memcached"               remote="membase" revision="dad9a0c5e5b62a9648ed3e28ea3b7892b7c36e07"/>
   <project name="moxi"                    path="moxi"/>
   <project name="ns_server"               path="ns_server"               revision="d96584b9350375bb8ce66c7bd4d23190d317a1d5" />
   <project name="portsigar"               path="portsigar"               revision="1bc865e1622fb93a3fe0d1a4cdf18eb97ed9d600" />
