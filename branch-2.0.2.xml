@@ -28,4 +28,5 @@
   <project path="couchstore" name="couchstore" revision="2.0.2"/>
   <project path="geocouch" name="geocouch" revision="2.0.2"/>
   <project path="testrunner" name="testrunner" />
+  <project path="healthchecker" name="healthchecker" />
 </manifest>
