@@ -25,7 +25,7 @@
   <project name="couchdb"                  path="couchdb"                 revision="2.0.2"                        />
   <project name="couchdbx-app"             path="couchdbx-app"            revision="2.0.2"                        />
   <project name="couchstore"               path="couchstore"              revision="2.0.2"                        />
-  <project name="ep-engine"                path="ep-engine"               revision="kvshard2"  remote="abhinavdangeti" />
+  <project name="ep-engine"                path="ep-engine"               revision="jinlim"  remote="2.0.2" />
   <project name="geocouch"                 path="geocouch"                revision="2.0.2"                        />
   <project name="healthchecker"            path="healthchecker"           />
   <project name="libconflate"              path="libconflate"             revision="branch-20" />
