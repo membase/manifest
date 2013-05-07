@@ -4,7 +4,7 @@
           review="review.couchbase.org" />
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
-  <remote name="abhinavdangeti" fetch"git://github.com/abhinavdangeti/"
+  <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"
           review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>
