@@ -4,12 +4,11 @@
           review="review.couchbase.org" />
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
-  <remote name="farshid" fetch="git://github.com/farshidce/"/>
-  <remote name="abhinavdangeti" fetch"git://githug.com/abhinavdangeti/"
+  <remote name="abhinavdangeti" fetch"git://github.com/abhinavdangeti/"
           review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>
-  <project name="tlm" path="tlm" revision="master">
+  <project name="tlm" path="tlm" revision="2.0.2">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
 
@@ -20,7 +19,6 @@
   <project name="libvbucket" path="libvbucket" />
   <project name="couchbase-cli" path="couchbase-cli" remote="couchbase" revision="2.0.2" />
   <project name="memcached" path="memcached" remote="membase" revision="branch-20" />
-  <project name="memcachetest" remote="membase" path="memcachetest" />
   <project name="moxi" path="moxi"/>
   <project name="ns_server" path="ns_server"/>
   <project name="portsigar" path="portsigar" revision="159b6179ea8a3c2075ee9eb2afa6f91c98c0fda6" />
