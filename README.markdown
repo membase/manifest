@@ -19,10 +19,11 @@ Optionally, you can install repo from homebrew as well:
 
     brew install repo
 
-If you have a recent version of Xcode (4.3+), it no longer lives in the `/Developer` directory. This
-will cause one of the subcomponents (Sigar) to fail to build. For the time being the workaround is to create
-a symbolic link from the old (expected) header files directory, to the new place Xcode likes to keep
-it's headers. Do it like this:
+If you have a recent version of Xcode (4.3+), it no longer lives in
+the `/Developer` directory. This will cause one of the subcomponents
+(Sigar) to fail to build. For the time being the workaround is to
+create a symbolic link from the old (expected) header files directory,
+to the new place Xcode likes to keep it's headers. Do it like this:
 
     sudo ln -s  /Applications/Xcode.app/Contents/Developer /Developer
 
@@ -52,23 +53,24 @@ and then you need to pass extra options to make like this:
 
     make couchdb_EXTRA_OPTIONS='--with-js-include=/usr/include/xulrunner-1.9.2.16 --with-js-lib=/usr/lib/xulrunner-devel-1.9.2.16/sdk/lib/'
 
-The path seems to vary with version. 'dpkg -l xulrunner-dev' will help you
-find the right path.
+The path seems to vary with version. 'dpkg -l xulrunner-dev' will help
+you find the right path.
 
 ## Get Repo
 
 (if you didn't install from homebrew, or aren't running on Mac OS X)
 
-Get the latest version from [the google project page](http://code.google.com/p/git-repo/downloads/list).
+Get the latest version from [the google project
+page](http://code.google.com/p/git-repo/downloads/list).
 
 ## Clone the Manifest
 
-For `<branch_name>` below, you probably want to use `branch-2.0.xml` unless you are working on a 
-maintenance or experimental branch.
+For `<branch_name>` below, you probably want to use `branch-2.0.xml`
+unless you are working on a maintenance or experimental branch.
 
     $ mkdir couchbase
     $ cd couchbase
-    $ repo init -u git://github.com/membase/manifest.git -m <branch_name>
+    $ repo init -u git://github.com/couchbase/manifest.git -m <branch_name>
     $ repo sync
 
 ## Build
