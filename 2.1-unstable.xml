@@ -14,7 +14,7 @@
   <project name="libconflate" path="libconflate" revision="branch-20"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
   <project name="libvbucket" path="libvbucket" />
-  <project name="membase-cli" path="membase-cli" remote="membase" />
+  <project name="couchbase-cli" path="couchbase-cli" remote="couchbase" />
   <project name="memcached" path="memcached" remote="membase"/>
   <project name="moxi" path="moxi"/>
   <project name="ns_server" path="ns_server" />
@@ -27,4 +27,5 @@
   <project path="couchstore" name="couchstore"/>
   <project path="geocouch" name="geocouch" />
   <project path="testrunner" name="testrunner" />
+  <project path="healthchecker" name="healthchecker" />
 </manifest>
