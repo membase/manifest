@@ -19,7 +19,7 @@
   <project name="memcached" path="memcached" remote="membase" revision="branch-20" />
   <project name="moxi" path="moxi"/>
   <project name="ns_server" path="ns_server" revision="2.0.2"/>
-  <project name="portsigar" path="portsigar" revision="282cc3959c28a307dccf6996ce2a9ed558f42acf" />
+  <project name="portsigar" path="portsigar" revision="53a532be23165d91259e8b1be5c13ad7fec075fa" />
   <project name="sigar" path="sigar" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples" />
   <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
