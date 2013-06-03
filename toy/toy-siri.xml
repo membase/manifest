@@ -20,8 +20,8 @@
   <project name="couchbase-cli" path="couchbase-cli" remote="couchbase" revision="2.0.2" />
   <project name="memcached" path="memcached" remote="membase" revision="branch-20" />
   <project name="moxi" path="moxi"/>
-  <project name="ns_server" path="ns_server"/>
-  <project name="portsigar" path="portsigar" revision="159b6179ea8a3c2075ee9eb2afa6f91c98c0fda6" />
+  <project name="ns_server" path="ns_server" revision="2.0.2"/>
+  <project name="portsigar" path="portsigar" remote="melkote" revision="master" />
   <project name="sigar" path="sigar" revision="master" />
   <project path="couchbase-examples" name="couchbase-examples" />
   <project path="couchbase-python-client" name="couchbase-python-client" revision="couchbase-181" />
@@ -30,4 +30,5 @@
   <project path="couchstore" name="couchstore" revision="2.0.2"/>
   <project path="geocouch" name="geocouch" revision="2.0.2"/>
   <project path="testrunner" name="testrunner" />
+  <project path="healthchecker" name="healthchecker" />
 </manifest>
