@@ -9,7 +9,7 @@
         <copyfile src='Makefile.top' dest='Makefile'/>
     </project>
     <project name="ep-engine"                 path="ep-engine"               revision="master"  />
-    <project name="libconflate"               path="libconflate"             revision="master"  />
+    <project name="libconflate"               path="libconflate"             revision="branch-20" />
     <project name="libmemcached"              path="libmemcached"            revision="master"  remote="membase" />
     <project name="libvbucket"                path="libvbucket"              revision="master"  />
     <project name="couchbase-cli"             path="couchbase-cli"           revision="master"  />
