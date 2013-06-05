@@ -21,7 +21,7 @@ you can easily install the dependencies using the following commands:
 Make sure that icu's `icu-config` binary is on your PATH when building
 couchbase:
 
-    export PATH=`brew --cellar icu4c`/bin:$PATH
+    export PATH=`brew --prefix icu4c`/bin:$PATH
 
 Optionally, you can install repo from homebrew as well:
 
