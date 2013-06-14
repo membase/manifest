@@ -26,6 +26,6 @@
   <project name="couchdbx-app"            path="couchdbx-app"            revision="2.1.0"  />
   <project name="couchstore"              path="couchstore"              revision="2.1.0"  />
   <project name="geocouch"                path="geocouch"                revision="2.1.0"  />
-  <project name="healthchecker"           path="healthchecker" />
+  <project name="healthchecker"           path="healthchecker"           revision="2.1.0"  />
   <project name="testrunner"              path="testrunner"    />
 </manifest>
