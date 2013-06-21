@@ -5,6 +5,7 @@
 
   <default remote="couchbase" revision="master"/>
 
+  <project path="couchstore" name="couchstore" />
   <project path="couchdb" name="couchdb" />
   <project path="geocouch" name="geocouch" revision="newvtree"/>
 </manifest>
