@@ -8,7 +8,7 @@
         <copyfile src="Makefile.top" dest="Makefile"/>
     </project>
     <project name="couchdb" path="couchdb" revision="master"/>
-    <project name="couchstore" path="couchstore" revision="master"/>
+    <project name="couchstore" path="couchstore" remote="trondn" revision="master"/>
     <project name="ep-engine" path="ep-engine" revision="master"/>
     <project name="libconflate" path="libconflate" remote="trondn" revision="master"/>
     <project name="libmemcached" path="libmemcached" revision="master" remote="membase"/>
