@@ -6,7 +6,7 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="tlm" path="tlm" revision="master">
+  <project name="tlm" path="tlm" revision="master" remote="trondn">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
 
