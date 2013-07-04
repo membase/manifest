@@ -15,7 +15,7 @@
   <project name="couchbase-python-client" path="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" path="couchdb" revision="master" />
   <project name="couchdbx-app" path="couchdbx-app" revision="master" />
-  <project name="couchstore" path="couchstore" revision="master" />
+  <project name="couchstore" path="couchstore" revision="master" remote="trondn"/>
   <project name="ep-engine" path="ep-engine" revision="master" />
   <project name="geocouch" path="geocouch" revision="master" />
   <project name="healthchecker" path="healthchecker" revision="master" />
