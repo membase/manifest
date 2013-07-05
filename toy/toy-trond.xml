@@ -15,14 +15,14 @@
   <project name="couchbase-python-client" path="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" path="couchdb" revision="master" />
   <project name="couchdbx-app" path="couchdbx-app" revision="master" />
-  <project name="couchstore" path="couchstore" revision="master" remote="trondn"/>
+  <project name="couchstore" path="couchstore" revision="master" />
   <project name="ep-engine" path="ep-engine" revision="master" />
   <project name="geocouch" path="geocouch" revision="master" />
   <project name="healthchecker" path="healthchecker" revision="master" />
   <project name="libconflate" path="libconflate" revision="master" />
   <project name="libmemcached" path="libmemcached" revision="master" remote="membase" />
   <project name="libvbucket" path="libvbucket" revision="master" remote="trondn" />
-  <project name="memcached" path="memcached" revision="master" remote="membase" />
+  <project name="memcached" path="memcached" revision="master" remote="trondn" />
   <project name="moxi" path="moxi" revision="master" />
   <project name="ns_server" path="ns_server" revision="master" />
   <project name="portsigar" path="portsigar" revision="master" />
