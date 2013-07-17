@@ -10,12 +10,12 @@
   </project>
   
   <project name="bucket_engine"           path="bucket_engine" />
-  <project name="ep-engine"               path="ep-engine"               revision="2.1.0" />
-  <project name="libconflate"             path="libconflate"             revision="branch-20"/>
-  <project name="libmemcached"            path="libmemcached"                                     remote="membase"   />
+  <project name="ep-engine"               path="ep-engine"               revision="2.1.0"     />
+  <project name="libconflate"             path="libconflate"             revision="branch-20" />
+  <project name="libmemcached"            path="libmemcached"                                                                remote="membase"   />
   <project name="libvbucket"              path="libvbucket"    />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="2.1.0"         remote="couchbase" />
-  <project name="memcached"               path="memcached"               revision="branch-20"     remote="membase"   />
+  <project name="couchbase-cli"           path="couchbase-cli"           revision="2.1.0"                                    remote="couchbase" />
+  <project name="memcached"               path="memcached"               revision="b5e981f8f9e6cb61310dade5d6b56431ee70905d" remote="membase"   />
   <project name="moxi"                    path="moxi"          />
   <project name="ns_server"               path="ns_server"               revision="2.1.0"  />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
