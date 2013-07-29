@@ -22,6 +22,7 @@
   <project name="memcached" remote="membase"/>
   <project name="moxi"/>
   <project name="ns_server"/>
+  <project name="platform"/>
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
