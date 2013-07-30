@@ -20,7 +20,7 @@
   <project name="couchbase-cli"           path="couchbase-cli"           revision="2.1.1"         remote="couchbase" />
   <project name="memcached"               path="memcached"               revision="branch-20"     remote="membase"   />
   <project name="moxi"                    path="moxi"          />
-  <project name="ns_server"               path="ns_server"               revision="toy-xmem"      remote="junyi" />
+  <project name="ns_server"               path="ns_server"               revision="xmem"      remote="junyi" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="master" />
   <project name="couchbase-examples"      path="couchbase-examples"      />
