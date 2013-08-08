@@ -18,7 +18,7 @@
   <project name="ep-engine" path="ep-engine" remote="abhinavdangeti" revision="curr_new" />
   <project name="libconflate" path="libconflate" revision="branch-20"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
-  <project name="libvbucket" path="libvbucket" />
+  <project name="libvbucket" path="libvbucket" revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
   <project name="couchbase-cli" path="couchbase-cli" remote="couchbase" revision="2.1.0" />
   <project name="memcached" path="memcached" remote="membase" revision="branch-20" />
   <project name="moxi" path="moxi"/>
