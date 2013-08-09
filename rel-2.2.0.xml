@@ -2,7 +2,8 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
-  
+  <remote name="couchbaselabs"  fetch="git://github.com/couchbaselabs/" />
+
   <default remote="couchbase" revision="master" />
   
   <project name="tlm"                     path="tlm"                     revision="2.1.1">
@@ -28,4 +29,5 @@
   <project name="geocouch"                path="geocouch"                revision="2.1.1"  />
   <project name="healthchecker"           path="healthchecker" />
   <project name="testrunner"              path="testrunner"    />
+  <project name="cbsasl"                  path="cbsasl"                  revision="master"        remote="couchbaselabs" />
 </manifest>
