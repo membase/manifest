@@ -29,5 +29,5 @@
   <project name="geocouch"                path="geocouch"                revision="2.1.1"  />
   <project name="healthchecker"           path="healthchecker" />
   <project name="testrunner"              path="testrunner"    />
-  <project name="cbsasl"                  path="cbsasl"                  revision="master"        remote="couchbaselabs" />
+  <project name="cbsasl"                  path="cbsasl"                  revision="b7758df65d890632435f0c72ca7f6d6a993b284f" remote="couchbaselabs" />
 </manifest>
