@@ -5,6 +5,7 @@
   <remote name="membase" fetch="git://github.com/membase/"
           review="review.couchbase.org" />
   <remote name="junyi" fetch="git://github.com/xiejunyi/"/>
+  <remote name="couchbaselabs"  fetch="git://github.com/couchbaselabs/" />
 
   <default remote="couchbase" revision="master"/>
 
@@ -31,5 +32,5 @@
   <project name="geocouch"                path="geocouch"                revision="2.1.1"  />
   <project name="healthchecker"           path="healthchecker" />
   <project name="testrunner"              path="testrunner"    />
-
+  <project name="cbsasl"                  path="cbsasl"                  revision="master"        remote="couchbaselabs" />
 </manifest>
