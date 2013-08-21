@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
-  <remote name="membase" fetch="git://github.com/membase/" review="review.couchbase.org"/>
-  <remote name="trondn" fetch="git://github.com/trondn/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org"/>
+  <remote name="membase"   fetch="git://github.com/membase/"
+          review="review.couchbase.org"/>
+
+  <remote name="trond" fetch="git://github.com/trondn/"
+          review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="tlm" path="tlm" revision="master" remote="trondn">
-    <copyfile src='Makefile.top' dest='Makefile'/>
+  <project name="couchbase-cli"/>
+  <project name="couchbase-examples"/>
+  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchdb"/>
+  <project name="couchdbx-app"/>
+  <project name="couchstore"/>
+  <project name="ep-engine"/>
+  <project name="geocouch"/>
+  <project name="healthchecker"/>
+  <project name="libconflate"/>
+  <project name="libmemcached" remote="membase"/>
+  <project name="libvbucket"/>
+  <project name="memcached" remote="membase"/>
+  <project name="moxi"/>
+  <project name="ns_server"/>
+  <project name="platform"/>
+  <project name="portsigar"/>
+  <project name="sigar"/>
+  <project name="testrunner"/>
+  <project name="tlm" remote="trond" >
+    <copyfile src="Makefile.top" dest="Makefile"/>
   </project>
-
-  <project name="couchbase-cli" path="couchbase-cli" revision="master" />
-  <project name="couchbase-examples" path="couchbase-examples" revision="master" />
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb" path="couchdb" revision="master" />
-  <project name="couchdbx-app" path="couchdbx-app" revision="master" />
-  <project name="couchstore" path="couchstore" revision="master" />
-  <project name="ep-engine" path="ep-engine" revision="master" />
-  <project name="geocouch" path="geocouch" revision="master" />
-  <project name="healthchecker" path="healthchecker" revision="master" />
-  <project name="libconflate" path="libconflate" revision="master" />
-  <project name="libmemcached" path="libmemcached" revision="master" remote="membase" />
-  <project name="libvbucket" path="libvbucket" revision="master" remote="trondn" />
-  <project name="memcached" path="memcached" revision="master" remote="trondn" />
-  <project name="moxi" path="moxi" revision="master" />
-  <project name="ns_server" path="ns_server" revision="master" />
-  <project name="portsigar" path="portsigar" revision="master" />
-  <project name="sigar" path="sigar" revision="master" />
-  <project name="testrunner" path="testrunner" revision="master" />
 </manifest>
