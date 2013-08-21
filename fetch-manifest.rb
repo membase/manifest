@@ -14,6 +14,7 @@ path = ARGV[0] # Required. Example: some/repo/manifest/default.xml
 more = ARGV[1] # Optional. Example: some/override.xml
 emit = ARGV[2] # Optional. Example: output/changes-since-last-fetch.txt
 oxml = ARGV[3] # Optional. Example: output/build-manifest.xml -- usable as input to repo tool.
+volt = ARGV[4] # Optional. voltron revision, to be in emitted manifest
 
 root = REXML::Document.new(File.new(path)).root
 
@@ -167,6 +168,8 @@ if oxml
         end
       end
     end
+    if volt
+       o.write "  <project name=\"voltron\" path=\"voltron\" revision=\"#{volt}\" />\n"
     o.write "</manifest>\n"
   end
 end
