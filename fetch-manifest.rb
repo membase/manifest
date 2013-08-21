@@ -170,6 +170,7 @@ if oxml
     end
     if volt
        o.write "  <project name=\"voltron\" path=\"voltron\" revision=\"#{volt}\" />\n"
+    end
     o.write "</manifest>\n"
   end
 end
