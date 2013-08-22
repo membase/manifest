@@ -7,6 +7,7 @@
 
   <default remote="couchbase" revision="master"/>
 
+  <project name="cbsasl"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
