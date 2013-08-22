@@ -2,7 +2,6 @@
 <manifest>
   <remote name="couchbase"      fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"        fetch="git://github.com/membase/"   review="review.couchbase.org" />
-  <remote name="couchbaselabs"  fetch="git://github.com/couchbaselabs/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -16,7 +15,8 @@
   </project>
 
   <project name="bucket_engine"           path="bucket_engine" />
-  <project name="cbsasl"                  path="cbsasl"                  revision="master"        remote="couchbaselabs" />
+  <project name="cbsasl"                  path="cbsasl"                  revision="e893d8daec6626d5b9b0d3ceb20556fd29cc0\
+602" />
   <project name="ep-engine"               path="ep-engine"               revision="curr_new"      remote="abhinavdangeti" />
   <project name="libconflate"             path="libconflate"             revision="branch-20"/>
   <project name="libmemcached"            path="libmemcached"                                     remote="membase"   />
