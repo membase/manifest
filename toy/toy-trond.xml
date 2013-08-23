@@ -4,12 +4,12 @@
           review="review.couchbase.org"/>
   <remote name="membase"   fetch="git://github.com/membase/"
           review="review.couchbase.org"/>
-
-  <remote name="trond" fetch="git://github.com/trondn/"
+  <remote name="trond"   fetch="git://github.com/trondn/"
           review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
+  <project name="cbsasl" remote="trond" revision="cmake"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
@@ -29,7 +29,7 @@
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
-  <project name="tlm" remote="trond" >
+  <project name="tlm" revision="cmake">
     <copyfile src="Makefile.top" dest="Makefile"/>
   </project>
 </manifest>
