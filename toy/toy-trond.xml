@@ -29,7 +29,7 @@
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
-  <project name="tlm" revision="cmake">
+  <project name="tlm" revision="cmake" remote="trondn">
     <copyfile src="Makefile.top" dest="Makefile"/>
   </project>
 </manifest>
