@@ -22,7 +22,7 @@
   <project name="libconflate"/>
   <project name="libmemcached" remote="membase"/>
   <project name="libvbucket"/>
-  <project name="memcached" remote="membase"/>
+  <project name="memcached" remote="trond" revision="cmake" />
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
