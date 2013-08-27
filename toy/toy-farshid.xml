@@ -16,7 +16,7 @@
 
   <project name="bucket_engine" path="bucket_engine" />
   <project name="cbsasl" path="cbsasl" revision="e893d8daec6626d5b9b0d3ceb20556fd29cc0602" />
-  <project name="ep-engine" path="ep-engine" remote="hisundar" revision="bugf" />
+  <project name="ep-engine" path="ep-engine" remote="hisundar" revision="epe" />
   <project name="libconflate" path="libconflate" revision="branch-20"/>
   <project name="libmemcached" path="libmemcached" remote="membase" />
   <project name="libvbucket" path="libvbucket" revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
