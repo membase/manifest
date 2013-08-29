@@ -24,7 +24,7 @@
   <project name="libvbucket"/>
   <project name="memcached" remote="trond" revision="cmake" />
   <project name="moxi"/>
-  <project name="ns_server"/>
+  <project name="ns_server" remote="trond" revision="cmake"/>
   <project name="platform"/>
   <project name="portsigar"/>
   <project name="sigar"/>
