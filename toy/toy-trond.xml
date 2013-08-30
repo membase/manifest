@@ -19,7 +19,7 @@
   <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="libconflate"/>
+  <project name="libconflate" revision="cmake" remote="trond"/>
   <project name="libmemcached" remote="membase"/>
   <project name="libvbucket"/>
   <project name="memcached" remote="trond" revision="cmake" />
