@@ -14,7 +14,7 @@
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
   <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="94b37190ece87b4386a93b64e62487370d268654" remote="couchbase" />
+  <project name="couchbase-cli"           path="couchbase-cli"           revision="5ff8c72cf1d7ec0d374f791c9d6e14eef93ba433" remote="couchbase" />
   <project name="memcached"               path="memcached"               revision="414d788f476a019cc5d2b05e0ce72504fe469c79" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="01bd2a5c0aff2ca35611ba3fb857198945cc84eb" />
   <project name="ns_server"               path="ns_server"               revision="8e533a59413ba98dd8a0bc31b409668ca886c560" />
@@ -26,7 +26,7 @@
   <project name="couchdbx-app"            path="couchdbx-app"            revision="06db9a2ee3367416e648ccad66670c7792b9a42a" />
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
-  <project name="healthchecker"           path="healthchecker"           revision="fd4658a69eec1dbe8a6122e71d2624c5ef56919c" />
+  <project name="healthchecker"           path="healthchecker"           revision="76a176fc42854d0c4b860b17f2293a7b7fe2a9aa" />
   <project name="testrunner"              path="testrunner"              revision="8371aa1cc3a21650b3a9f81ba422ec9ac3151cfc" />
   <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
 </manifest>
