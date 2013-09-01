@@ -9,7 +9,7 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="cbsasl" remote="trond" revision="cmake"/>
+  <project name="cbsasl" path="cmake/cbsasl" remote="trond" revision="cmake"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
@@ -19,17 +19,18 @@
   <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="libconflate" revision="cmake" remote="trond"/>
+  <project name="libconflate" path="cmake/libconflate" revision="cmake" remote="trond"/>
   <project name="libmemcached" remote="membase"/>
-  <project name="libvbucket"/>
-  <project name="memcached" remote="trond" revision="cmake" />
+  <project name="libvbucket" path="cmake/libvbucket" remote="trond" revision="cmake"/>
+  <project name="memcached" path="cmake/memcached" remote="trond" revision="cmake" />
   <project name="moxi"/>
   <project name="ns_server" remote="trond" revision="cmake"/>
-  <project name="platform" remote="trond" revision="cmake"/>
+  <project name="platform" path="cmake/platform" remote="trond" revision="cmake"/>
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
   <project name="tlm" revision="cmake" remote="trond">
     <copyfile src="Makefile.top" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
   </project>
 </manifest>
