@@ -37,7 +37,7 @@
 
   <!-- 3rdparty deps (which should not be here!) -->
   <remote name="libevent"   fetch="git://github.com/libevent/" />
-  <project name="libevent" path="cmake/libevent" remote="libevent" revision="release-2.0.21-stable"/>
+  <project name="libevent" path="cmake/libevent" remote="libevent" revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
 
 
 </manifest>
