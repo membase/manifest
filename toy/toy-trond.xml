@@ -33,4 +33,11 @@
     <copyfile src="Makefile.top" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
   </project>
+
+
+  <!-- 3rdparty deps (which should not be here!) -->
+  <remote name="libevent"   fetch="git://github.com/libevent/" />
+  <project name="libevent" path="cmake/libevent" remote="libevent" revision="release-2.0.21-stable"/>
+
+
 </manifest>
