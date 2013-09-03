@@ -10,7 +10,7 @@
   </project>
   
   <project name="bucket_engine"           path="bucket_engine"           revision="2a797a8d97f421587cce728f2e6aa2cd42c8fa26" />
-  <project name="ep-engine"               path="ep-engine"               revision="e60304ddd5fc2f30eee3fd77a63e8f41c8ea1a82" />
+  <project name="ep-engine"               path="ep-engine"               revision="3e43610959a9c959a8a8ad6b6b1e3fa8cc0bb157" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
   <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
