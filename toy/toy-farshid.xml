@@ -12,7 +12,6 @@
   <default remote="couchbase" revision="master"/>
   <project name="tlm" path="tlm" revision="2.1.1">
     <copyfile src='Makefile.top' dest='Makefile'/>
-    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
   </project>
 
   <project name="bucket_engine" path="bucket_engine" />
