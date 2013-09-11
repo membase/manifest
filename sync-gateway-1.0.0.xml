@@ -4,5 +4,5 @@
 
   <default remote="couchbase" revision="master" />
 
-  <project name="sync_gateway" path="sync_gateway", revision="stable"/>
+  <project name="sync_gateway" path="sync_gateway" revision="stable"/>
 </manifest>
