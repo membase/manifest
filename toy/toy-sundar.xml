@@ -2,6 +2,7 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
+  <remote name="hisundar"  fetch="git://github.com/hisundar/"  review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>
 
@@ -12,7 +13,7 @@
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine"/>
+  <project name="ep-engine" path="ep-engine" remote="hisundar"  revision="cbd1051" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate"/>
