@@ -3,31 +3,31 @@
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
   <remote name="hisundar"  fetch="git://github.com/hisundar/"  review="review.couchbase.org" />
-  
-  <default remote="couchbase" revision="master" />
-  
-  <project name="tlm"                     path="tlm"                     revision="2.1.1">
-    <copyfile src='Makefile.top' dest='Makefile'/>
-  </project>
-  
-  <project name="bucket_engine"           path="bucket_engine" />
-  <project name="cbsasl"                  path="cbsasl"                  revision="b7758df65d890632435f0c72ca7f6d6a993b284f" />
-  <project name="couchbase-examples"      path="couchbase-examples"      />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="2.1.1"         remote="couchbase" />
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"                 path="couchdb"                 revision="2.1.1"  />
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="2.1.1"  />
-  <project name="couchstore"              path="couchstore"              revision="2.1.1"  />
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="cbsasl" path="cmake/cbsasl" />
+  <project name="couchbase-cli"/>
+  <project name="couchbase-examples"/>
+  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchdb"/>
+  <project name="couchdbx-app"/>
+  <project name="couchstore"/>
   <project name="ep-engine" path="ep-engine" remote="hisundar"  revision="b3f28673864672913e174cc8cee52020ecb36b12" />
-  <project name="geocouch"                path="geocouch"                revision="2.1.1"  />
-  <project name="healthchecker"           path="healthchecker" />
-  <project name="libconflate"             path="libconflate"             revision="branch-20"/>
-  <project name="libmemcached"            path="libmemcached"                                     remote="membase"   />
-  <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="memcached"               path="memcached"               revision="branch-20"     remote="membase"   />
-  <project name="moxi"                    path="moxi"          />
-  <project name="ns_server"               path="ns_server"               revision="master"  />
-  <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
-  <project name="sigar"                   path="sigar"                   revision="master" />
-  <project name="testrunner"              path="testrunner"    />
+  <project name="geocouch"/>
+  <project name="healthchecker"/>
+  <project name="libconflate"/>
+  <project name="libmemcached" remote="membase"/>
+  <project name="libvbucket" path="cmake/libvbucket"/>
+  <project name="memcached" remote="membase"/>
+  <project name="moxi"/>
+  <project name="ns_server"/>
+  <project name="platform" path="cmake/platform"/>
+  <project name="portsigar"/>
+  <project name="sigar"/>
+  <project name="testrunner"/>
+  <project name="tlm">
+    <copyfile src="Makefile.top" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
+  </project>
 </manifest>
