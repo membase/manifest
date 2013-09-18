@@ -18,7 +18,7 @@
   <project name="couchdb"                 path="couchdb"                 revision="2.1.1"  />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="2.1.1"  />
   <project name="couchstore"              path="couchstore"              revision="2.1.1"  />
-  <project name="ep-engine" path="ep-engine" remote="hisundar"  revision="e5037212ad9c6ddbf1b6a6cfeb14b2c13b96d7eb" />
+  <project name="ep-engine" path="ep-engine" remote="hisundar"  revision="b3f28673864672913e174cc8cee52020ecb36b12" />
   <project name="geocouch"                path="geocouch"                revision="2.1.1"  />
   <project name="healthchecker"           path="healthchecker" />
   <project name="libconflate"             path="libconflate"             revision="branch-20"/>
@@ -26,7 +26,7 @@
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
   <project name="memcached"               path="memcached"               revision="branch-20"     remote="membase"   />
   <project name="moxi"                    path="moxi"          />
-  <project name="ns_server"               path="ns_server"               revision="2.2.0"  />
+  <project name="ns_server"               path="ns_server"               revision="master"  />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="master" />
   <project name="testrunner"              path="testrunner"    />
