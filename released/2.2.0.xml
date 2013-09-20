@@ -36,5 +36,7 @@
   <project name="v8"                      path="v8"                      revision="447decb75060a106131ab4de934bcc374648e7f2" remote="couchbase" />
   <project name="gperftools"              path="gperftools"              revision="44a584d1de8c89addfb4f1d0522bdbbbed83ba48" remote="couchbase" />
   <project name="pysqlite"                path="pysqlite"                revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea" remote="couchbase" />
+  <!--
   <project name="voltron"                 path="voltron"                 revision="170c711345db15b4cdec431126d47a3e3fe04414" />
+  -->
 </manifest>
