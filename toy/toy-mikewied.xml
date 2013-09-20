@@ -13,7 +13,7 @@
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" path="ep-engine" revision="upr-new" remote="mikewied"/>
+  <project name="ep-engine" path="ep-engine" revision="upr-testing" remote="mikewied"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate"/>
