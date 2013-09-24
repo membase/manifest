@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="apache"     fetch="git://github.com/apache/" />
+  <remote  name="erlang"     fetch="git://github.com/erlang/" />
+  <remote  name="couchbase"  fetch="git://10.1.1.210/"        />
+  <remote  name="membase"    fetch="git://10.1.1.210/"        />
+
+  <project name="otp"        path="otp"        revision="refs/tags/OTP_R14B04"                     remote="erlang"    />
+  <project name="icu4c"      path="icu4c"      revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
+  <project name="snappy"     path="snappy"     revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95" remote="couchbase" />
+  <project name="v8"         path="v8"         revision="refs/tags/3.9.7"                          remote="couchbase" />
+  <project name="gperftools" path="gperftools" revision="master"                                   remote="couchbase" />
+  <project name="pysqlite"   path="pysqlite"   revision="master"                                   remote="couchbase" />
+</manifest>
