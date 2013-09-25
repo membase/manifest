@@ -19,10 +19,10 @@
   <project name="ep-engine" remote="trond" revision="cmake"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="libconflate" path="cmake/libconflate" revision="cmake" remote="trond"/>
+  <project name="libconflate" path="cmake/libconflate"/>
   <project name="libmemcached" remote="membase"/>
-  <project name="libvbucket" path="cmake/libvbucket" remote="trond" revision="cmake"/>
-  <project name="memcached" path="cmake/memcached" remote="trond" revision="cmake" />
+  <project name="libvbucket" path="cmake/libvbucket"/>
+  <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="moxi"/>
   <project name="ns_server" />
   <project name="platform" path="cmake/platform" />
