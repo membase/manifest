@@ -15,7 +15,7 @@
   <project name="ep-engine"               />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <project name="libconflate"             />
+  <project name="libconflate"             revision="branch-20"     />
   <project name="libmemcached"            remote="membase"         />
   <project name="libvbucket"              path="cmake/libvbucket"  />
   <project name="memcached"               remote="membase"         />
@@ -25,7 +25,7 @@
   <project name="portsigar"               />
   <project name="sigar"                   />
   <project name="testrunner"              />
-  <project name="tlm"                     revision="2e1e09afae7f01dcaccea2e5bff2303657479af1">
+  <project name="tlm">
     <copyfile src="Makefile.top"   dest="Makefile"             />
     <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt" />
   </project>
