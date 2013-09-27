@@ -16,7 +16,7 @@
   <project name="ep-engine" path="ep-engine" revision="upr-final" remote="mikewied"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="libconflate"/>
+  <project name="libconflate" path="cmake/libconflate"/>
   <project name="libmemcached" remote="membase"/>
   <project name="libvbucket" path="cmake/libvbucket"/>
   <project name="memcached" remote="membase"/>
