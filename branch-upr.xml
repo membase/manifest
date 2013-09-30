@@ -15,10 +15,10 @@
   <project name="ep-engine" revision="upr"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="libconflate"/>
+  <project name="libconflate" path="cmake/libconflate"/>
   <project name="libmemcached" remote="membase"/>
   <project name="libvbucket" path="cmake/libvbucket"/>
-  <project name="memcached" remote="membase"/>
+  <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform" path="cmake/platform"/>
