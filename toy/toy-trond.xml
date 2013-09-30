@@ -16,7 +16,7 @@
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" remote="trond" revision="cmake"/>
+  <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate" path="cmake/libconflate"/>
@@ -25,7 +25,7 @@
   <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="moxi"/>
   <project name="ns_server" />
-  <project name="platform" path="cmake/platform" />
+  <project name="platform" path="cmake/platform" remote="trond"/>
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
