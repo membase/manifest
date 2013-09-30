@@ -9,7 +9,7 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="cbsasl" path="cmake/cbsasl" />
+  <project name="cbsasl" path="cmake/cbsasl" remote="trond"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
