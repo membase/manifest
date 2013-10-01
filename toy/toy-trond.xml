@@ -31,8 +31,11 @@
   <project name="testrunner"/>
 
   <!-- 3rdparty deps (which should not be here!) -->
-  <remote name="libevent"   fetch="git://github.com/libevent/" />
+  <remote name="libevent" fetch="git://github.com/libevent/" />
+  <remote name="curl" fetch="git://github.com/bagder/" />
+
   <project name="libevent" path="dependencies/libevent" remote="libevent" revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
+  <project name"curl" path="dependencies/curl" remote="curl" revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
 
   <project name="tlm" revision="cmake" remote="trond">
     <copyfile src="Makefile.top" dest="Makefile"/>
