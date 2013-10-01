@@ -32,13 +32,12 @@
 
   <!-- 3rdparty deps (which should not be here!) -->
   <remote name="libevent"   fetch="git://github.com/libevent/" />
-  <project name="libevent" path="cmake/libevent" remote="libevent" revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
+  <project name="libevent" path="dependencies/libevent" remote="libevent" revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
 
   <project name="tlm" revision="cmake" remote="trond">
     <copyfile src="Makefile.top" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.libevent.txt" dest="cmake/libevent/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.dependencies.txt" dest="dependencies/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.libevent.txt" dest="dependencies/libevent/CMakeLists.txt"/>
   </project>
-
-
 </manifest>
