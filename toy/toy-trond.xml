@@ -1,46 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"
-          review="review.couchbase.org"/>
-  <remote name="membase"   fetch="git://github.com/membase/"
-          review="review.couchbase.org"/>
-  <remote name="trond"   fetch="git://github.com/trondn/"
-          review="review.couchbase.org"/>
+  <remote name="couchbase"
+          fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="membase"
+          fetch="git://github.com/membase/"
+          review="review.couchbase.org" />
+  <remote name="trond"
+          fetch="git://github.com/trondn/"/>
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="cbsasl" path="cmake/cbsasl" remote="trond"/>
+  <project name="cbsasl" path="cmake/cbsasl" />
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
-  <project name="couchstore"/>
+  <project name="couchstore" remote="trond"/>
   <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate" path="cmake/libconflate"/>
   <project name="libmemcached" remote="membase"/>
   <project name="libvbucket" path="cmake/libvbucket"/>
-  <project name="memcached" path="cmake/memcached" remote="trond"/>
+  <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="moxi"/>
-  <project name="ns_server" />
-  <project name="platform" path="cmake/platform" remote="trond"/>
+  <project name="ns_server"/>
+  <project name="platform" path="cmake/platform"/>
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
-
-  <!-- 3rdparty deps (which should not be here!) -->
-  <remote name="libevent" fetch="git://github.com/libevent/" />
-  <remote name="curl" fetch="git://github.com/bagder/" />
-
-  <project name="libevent" path="dependencies/libevent" remote="libevent" revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
-  <project name="curl" path="dependencies/curl" remote="curl" revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
-
-  <project name="tlm" revision="cmake" remote="trond">
+  <project name="tlm">
     <copyfile src="Makefile.top" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.dependencies.txt" dest="dependencies/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.libevent.txt" dest="dependencies/libevent/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.dependencies.txt"
+              dest="dependencies/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.libevent.txt"
+              dest="dependencies/libevent/CMakeLists.txt"/>
   </project>
+  <!-- thirdparty dependencies. Ideally these shouldn't be here and
+       we should use a prebuilt binary, but currently voltron builds
+       these with GNU autotools on windows. The GNU toolchain results
+       in libraries the Microsoft linker fail to open, so we'll have
+       to build them with MSVC (which provides better binaries anyway)
+  -->
+  <remote name="libevent" fetch="git://github.com/libevent/"/>
+  <remote name="curl" fetch="git://github.com/bagder/"/>
+
+  <project name="libevent"
+           path="dependencies/libevent"
+           remote="libevent"
+           revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
+  <project name="curl"
+           path="dependencies/curl"
+           remote="curl"
+           revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
 </manifest>
