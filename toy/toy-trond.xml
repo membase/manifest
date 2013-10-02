@@ -31,14 +31,7 @@
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
-  <project name="tlm">
-    <copyfile src="Makefile.top" dest="Makefile"/>
-    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.dependencies.txt"
-              dest="dependencies/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.libevent.txt"
-              dest="dependencies/libevent/CMakeLists.txt"/>
-  </project>
+
   <!-- thirdparty dependencies. Ideally these shouldn't be here and
        we should use a prebuilt binary, but currently voltron builds
        these with GNU autotools on windows. The GNU toolchain results
@@ -56,4 +49,16 @@
            path="dependencies/curl"
            remote="curl"
            revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
+
+
+  <project name="tlm">
+    <copyfile src="Makefile.top" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.dependencies.txt"
+              dest="dependencies/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.libevent.txt"
+              dest="dependencies/libevent/CMakeLists.txt"/>
+  </project>
+
+
 </manifest>
