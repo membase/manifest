@@ -18,7 +18,7 @@
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore" remote="trond"/>
-  <project name="ep-engine"/>
+  <project name="ep-engine" remote="trond"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate" path="cmake/libconflate"/>
