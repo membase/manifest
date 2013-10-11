@@ -27,7 +27,7 @@
   <project name="memcached" path="cmake/memcached" remote="trond"/>
   <project name="moxi"/>
   <project name="ns_server"/>
-  <project name="platform" path="cmake/platform"/>
+  <project name="platform" path="cmake/platform" remote="trond"/>
   <project name="portsigar"/>
   <project name="sigar"/>
   <project name="testrunner"/>
