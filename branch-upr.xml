@@ -12,7 +12,7 @@
   <project name="couchdb" revision="upr"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" revision="upr"/>
+  <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate" path="cmake/libconflate"/>
