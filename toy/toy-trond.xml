@@ -40,6 +40,7 @@
   -->
   <remote name="libevent" fetch="git://github.com/libevent/"/>
   <remote name="curl" fetch="git://github.com/bagder/"/>
+  <remote name="v8" fetch="git://github.com/v8/"/>
 
   <project name="libevent"
            path="dependencies/libevent"
@@ -49,7 +50,10 @@
            path="dependencies/curl"
            remote="curl"
            revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
-
+  <project name="v8"
+           path="dependencies/v8"
+           remote="v8"
+           revision="3bf6fd9209f1ce4297ea071bf17c5cd8888940ba"/>
 
   <project name="tlm" remote="trond">
     <copyfile src="Makefile.top" dest="Makefile"/>
