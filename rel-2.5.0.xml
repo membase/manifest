@@ -17,7 +17,7 @@
   <project name="couchdb"                 path="couchdb"                 revision="386be73085c0b2a8e11cd771fc2ce367b62b7354" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="97fd781edaa109bf99f6f002ae5c562c8b829438" />
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
-  <project name="ep-engine"               path="ep-engine"               revision="7695ee899802736a86056ad1a715062d25678282" />
+  <project name="ep-engine"               path="ep-engine"               revision="2.5.0" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="76a176fc42854d0c4b860b17f2293a7b7fe2a9aa" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
