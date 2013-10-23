@@ -3,7 +3,6 @@
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
   <remote name="mikewied" fetch="git://github.com/mikewied/"/>
-  <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -14,7 +13,7 @@
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" path="ep-engine" revision="metaEviction" remote="abhinavdangeti"/>
+  <project name="ep-engine" path="ep-engine" revision="upr-final" remote="mikewied"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate" path="cmake/libconflate"/>
