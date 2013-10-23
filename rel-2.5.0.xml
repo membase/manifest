@@ -19,7 +19,7 @@
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
   <project name="ep-engine"               path="ep-engine"               revision="2.5.0" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
-  <project name="healthchecker"           path="healthchecker"           revision="76a176fc42854d0c4b860b17f2293a7b7fe2a9aa" />
+  <project name="healthchecker"           path="healthchecker"           revision="361034d9d184a9b5341df51b3cf92e80d5047fe0" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
   <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
