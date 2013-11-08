@@ -16,7 +16,7 @@
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="libconflate" path="cmake/libconflate"/>
-  <project name="libmemcached" remote="membase"/>
+  <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake"/>
   <project name="libvbucket" path="cmake/libvbucket"/>
   <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="moxi"/>
