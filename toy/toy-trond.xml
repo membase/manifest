@@ -17,10 +17,10 @@
   <project name="geocouch" />
   <project name="healthchecker" />
   <project name="libconflate" path="cmake/libconflate" />
-  <project name="libmemcached" path="cmake/libmemcached" remote="trondn" revision="cmake" />
+  <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake" />
   <project name="libvbucket" path="cmake/libvbucket" />
   <project name="memcached" path="cmake/memcached" remote="membase"/>
-  <project name="moxi" />
+  <project name="moxi" remote="trondn"/>
   <project name="ns_server" />
   <project name="platform" path="cmake/platform" />
   <project name="portsigar" />
@@ -45,7 +45,7 @@
 	   remote="curl"
 	   revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
 
-  <project name="tlm">
+  <project name="tlm" remote="trondn">
     <copyfile src="Makefile.top" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
     <copyfile src="CMakeLists.dependencies.txt"
