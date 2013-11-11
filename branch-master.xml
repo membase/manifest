@@ -11,7 +11,7 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
-  <project name="couchstore"/>
+  <project name="couchstore" path="cmake/couchstore"/>
   <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
