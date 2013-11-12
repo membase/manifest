@@ -20,7 +20,7 @@
   <project name="libmemcached" remote="membase"/>
   <project name="libvbucket" path="cmake/libvbucket"/>
   <project name="memcached" path="cmake/memcached" remote="membase"/>
-  <project name="moxi"/>
+  <project name="moxi" revision="01bd2a5c0aff2ca35611ba3fb857198945cc84eb"/>
   <project name="ns_server"/>
   <project name="platform" path="cmake/platform"/>
   <project name="portsigar"/>
