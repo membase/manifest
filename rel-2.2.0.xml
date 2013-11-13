@@ -22,7 +22,7 @@
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="386be73085c0b2a8e11cd771fc2ce367b62b7354" />
+  <project name="couchdb"                 path="couchdb"                 revision="5297f10d0fbe092e24460832025897d2b8a9fbac" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="b39bff70a6ed64edeefb95df2b25927ab62a8e3c" />
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
