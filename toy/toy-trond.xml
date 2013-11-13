@@ -8,7 +8,7 @@
 
   <!-- Modules moved over to be built by cmake -->
   <project name="cbsasl" path="cmake/cbsasl" />
-  <project name="couchstore" path="cmake/couchstore" remote="trondn"/>
+  <project name="couchstore" path="cmake/couchstore"/>
   <project name="libconflate" path="cmake/libconflate" />
   <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake" />
   <project name="libvbucket" path="cmake/libvbucket" />
