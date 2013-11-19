@@ -14,7 +14,7 @@
   <project name="libvbucket" path="cmake/libvbucket" />
   <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="platform" path="cmake/platform" />
-
+  <project name="ep-engine" path="cmake/ep-engine" />
 
   <!-- The rest of the modules not yet looked at -->
   <project name="couchbase-cli" />
@@ -22,7 +22,6 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" />
   <project name="couchdbx-app" />
-  <project name="ep-engine" />
   <project name="geocouch" />
   <project name="healthchecker" />
   <project name="moxi"/>
@@ -48,11 +47,6 @@
 	   path="dependencies/curl"
 	   remote="curl"
 	   revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
-
-  <project name="google-snappy"
-	   path="dependencies/snappy"
-	   remote="trondn"
-	   revision="master"/>
 
   <project name="tlm" remote="trondn">
     <copyfile src="Makefile.top" dest="Makefile"/>
