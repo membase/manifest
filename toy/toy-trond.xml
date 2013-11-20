@@ -15,10 +15,11 @@
   <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="platform" path="cmake/platform" />
   <project name="ep-engine" path="cmake/ep-engine" />
+  <project name="couchbase-cli" path="cmake/couchbase-cli" />
+  <project name="couchbase-examples" path="cmake/couchbase-examples" />
+
 
   <!-- The rest of the modules not yet looked at -->
-  <project name="couchbase-cli" />
-  <project name="couchbase-examples" />
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" />
   <project name="couchdbx-app" />
