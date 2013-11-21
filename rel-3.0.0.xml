@@ -5,26 +5,29 @@
 
   <default remote="couchbase" revision="master"/>
 
+  <!-- Modules moved over to be built by cmake -->
   <project name="cbsasl" path="cmake/cbsasl" />
-  <project name="couchbase-cli"/>
-  <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb"/>
-  <project name="couchdbx-app"/>
   <project name="couchstore" path="cmake/couchstore"/>
-  <project name="ep-engine" path="cmake/ep-engine"/>
-  <project name="geocouch"/>
-  <project name="healthchecker"/>
-  <project name="libconflate" path="cmake/libconflate"/>
-  <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake"/>
-  <project name="libvbucket" path="cmake/libvbucket"/>
+  <project name="libconflate" path="cmake/libconflate" />
+  <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake" />
+  <project name="libvbucket" path="cmake/libvbucket" />
   <project name="memcached" path="cmake/memcached" remote="membase"/>
+  <project name="platform" path="cmake/platform" />
+  <project name="ep-engine" path="cmake/ep-engine" />
+  <project name="couchbase-cli" path="cmake/couchbase-cli" />
+  <project name="couchbase-examples" path="cmake/couchbase-examples" />
+  <project name="couchbase-python-client" path="cmake/couchbase-python-client" revision="couchbase-181" />
+  <project name="healthchecker" path="cmake/healthchecker" />
+
+  <!-- The rest of the modules not yet looked at -->
+  <project name="couchdb" />
+  <project name="couchdbx-app" />
+  <project name="geocouch" />
   <project name="moxi"/>
-  <project name="ns_server"/>
-  <project name="platform" path="cmake/platform"/>
-  <project name="portsigar"/>
-  <project name="sigar"/>
-  <project name="testrunner"/>
+  <project name="ns_server" />
+  <project name="portsigar" />
+  <project name="sigar" />
+  <project name="testrunner" />
 
   <!-- thirdparty dependencies. Ideally these shouldn't be here and
        we should use a prebuilt binary, but currently voltron builds
