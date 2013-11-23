@@ -1,57 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase"      fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
-  <remote name="membase"        fetch="git://github.com/membase/"           review="review.couchbase.org" />
-  <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"    review="review.couchbase.org" />
+    <remote name="couchbase"      fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
+    <remote name="membase"        fetch="git://github.com/membase/"           review="review.couchbase.org" />
+    <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"    review="review.couchbase.org" />
 
-  <default remote="couchbase" revision="master"/>
+    <default remote="couchbase" revision="master" />
 
-  <project name="cbsasl" path="cmake/cbsasl" />
-  <project name="couchbase-cli"/>
-  <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb"/>
-  <project name="couchdbx-app"/>
-  <project name="couchstore"/>
-  <project name="ep-engine" path="ep-engine" revision="PALoading" remote="abhinavdangeti"/>
-  <project name="geocouch"/>
-  <project name="healthchecker"/>
-  <project name="libconflate" path="cmake/libconflate"/>
-  <project name="libmemcached" remote="membase"/>
-  <project name="libvbucket" path="cmake/libvbucket"/>
-  <project name="memcached" path="cmake/memcached" remote="membase"/>
-  <project name="moxi" revision="01bd2a5c0aff2ca35611ba3fb857198945cc84eb"/>
-  <project name="ns_server"/>
-  <project name="platform" path="cmake/platform"/>
-  <project name="portsigar"/>
-  <project name="sigar"/>
-  <project name="testrunner"/>
+    <project name="cbsasl" path="cmake/cbsasl" revision="a76cda0877c87d1ee6e7b9797855d483d97e99fd"/>
+    <project name="couchbase-cli" path="couchbase-cli" revision="0548fc82ada733856aa0fee173002152c0d8183c"/>
+    <project name="couchbase-examples" path="couchbase-examples" revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379"/>
+    <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4"/>
+    <project name="couchdb" path="couchdb" revision="e99e2bdcb912bcdecda10e881dc08c9292dffdf2"/>
+    <project name="couchdbx-app" path="couchdbx-app" revision="8a1600e5343504898ebab3324a227190e9be712a"/>
+    <project name="couchstore" path="couchstore" revision="50de263aee4dd62054066e6b69ca7bf96cafbf7e"/>
+    <project name="ep-engine" path="ep-engine" revision="metaEviction" remote="abhinavdangeti"/>
+    <project name="geocouch" path="geocouch" revision="a8ba56cd6382d3323278d04ef4a7fad609981a15"/>
+    <project name="healthchecker" path="healthchecker" revision="2b7899aab0aed7a09dc0573af3fd3ebea3bac5e3"/>
+    <project name="libconflate" path="cmake/libconflate" revision="5e142c099f2ad9c853885b6d740982f7a3523b41"/>
+    <project name="libmemcached" path="libmemcached" revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"/>
+    <project name="libvbucket" path="cmake/libvbucket" revision="3bcdcfa26d79f3bac5ea56a327fba0741db50ced"/>
+    <project name="memcached" path="cmake/memcached" revision="e322f49723a98c0a30a3415e2d84939ab52dac4c" remote="membase"/>
+    <project name="moxi" path="moxi" revision="01bd2a5c0aff2ca35611ba3fb857198945cc84eb"/>
+    <project name="ns_server" path="ns_server" revision="35282208bf51edc1c2fa98dace15d3836beb73cd"/>
+    <project name="platform" path="cmake/platform" revision="75406ad97aaa310a41a56f2c81127ec91f9019df"/>
+    <project name="portsigar" path="portsigar" revision="2204847c85a3ccaecb2bb300306baf64824b2597"/>
+    <project name="sigar" path="sigar" revision="a402af5b6a30ea8e5e7220818208e2601cb6caba"/>
+    <project name="testrunner" path="testrunner" revision="32c05e84b9a58b77ff70b77c4e1f356b47749da3"/>
 
-  <!-- thirdparty dependencies. Ideally these shouldn't be here and
-       we should use a prebuilt binary, but currently voltron builds
-       these with GNU autotools on windows. The GNU toolchain results
-       in libraries the Microsoft linker fail to open, so we'll have
-       to build them with MSVC (which provides better binaries anyway)
-  -->
-  <remote name="libevent" fetch="git://github.com/libevent/"/>
-  <remote name="curl" fetch="git://github.com/bagder/"/>
+    <!-- thirdparty dependencies. Ideally these shouldn't be here and
+         we should use a prebuilt binary, but currently voltron builds
+         these with GNU autotools on windows. The GNU toolchain results
+         in libraries the Microsoft linker fail to open, so we'll have
+         to build them with MSVC (which provides better binaries anyway)
+    -->
+    <remote name="libevent" fetch="git://github.com/libevent/"/>
+    <remote name="curl" fetch="git://github.com/bagder/"/>
 
-  <project name="libevent"
-           path="dependencies/libevent"
-           remote="libevent"
-           revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
-  <project name="curl"
-           path="dependencies/curl"
-           remote="curl"
-           revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
+    <project name="libevent"
+        path="dependencies/libevent"
+        remote="libevent"
+        revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
+    <project name="curl"
+        path="dependencies/curl"
+        remote="curl"
+        revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
 
-  <project name="tlm" revision="5a66790d3429d53e7292d4e55e848429d7664eb8">
-    <copyfile src="Makefile.top" dest="Makefile"/>
-    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.dependencies.txt"
-              dest="dependencies/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.libevent.txt"
-              dest="dependencies/libevent/CMakeLists.txt"/>
-  </project>
+    <project name="tlm">
+        <copyfile src="Makefile.top" dest="Makefile"/>
+        <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
+        <copyfile src="CMakeLists.dependencies.txt"
+            dest="dependencies/CMakeLists.txt"/>
+        <copyfile src="CMakeLists.libevent.txt"
+            dest="dependencies/libevent/CMakeLists.txt"/>
+    </project>
 
 </manifest>
+
