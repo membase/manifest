@@ -19,6 +19,8 @@
   <project name="couchbase-examples" path="cmake/couchbase-examples" />
   <project name="couchbase-python-client" path="cmake/couchbase-python-client" revision="couchbase-181" />
   <project name="healthchecker" path="cmake/healthchecker" />
+  <project name="sigar" path="cmake/sigar" />
+  <project name="portsigar" path="cmake/portsigar" />
 
   <!-- The rest of the modules not yet looked at -->
   <project name="couchdb" />
@@ -26,8 +28,6 @@
   <project name="geocouch" />
   <project name="moxi"/>
   <project name="ns_server" />
-  <project name="portsigar" />
-  <project name="sigar" />
   <project name="testrunner" />
 
 
