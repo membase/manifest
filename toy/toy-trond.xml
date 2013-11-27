@@ -21,12 +21,13 @@
   <project name="healthchecker" path="cmake/healthchecker" />
   <project name="sigar" path="cmake/sigar" />
   <project name="portsigar" path="cmake/portsigar" />
+  <project name="moxi" path="cmake/moxi" />
+
 
   <!-- The rest of the modules not yet looked at -->
   <project name="couchdb" />
   <project name="couchdbx-app" />
   <project name="geocouch" />
-  <project name="moxi"/>
   <project name="ns_server" />
   <project name="testrunner" />
 
