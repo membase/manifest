@@ -12,5 +12,5 @@
   <project path="spidermonkey" name="spidermonkey" remote="couchbase"
            revision="a3c48c1736642ea41ee935391d57137d17d297ec" />
   <project name="gperftools" path="gperftools" remote="couchbase"
-           revision="master" />
+           revision="old-master" />
 </manifest>
