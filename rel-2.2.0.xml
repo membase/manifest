@@ -17,7 +17,7 @@
   <project name="couchbase-cli"           path="couchbase-cli"           revision="5ff8c72cf1d7ec0d374f791c9d6e14eef93ba433" remote="couchbase" />
   <project name="memcached"               path="memcached"               revision="414d788f476a019cc5d2b05e0ce72504fe469c79" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="01bd2a5c0aff2ca35611ba3fb857198945cc84eb" />
-  <project name="ns_server"               path="ns_server"               revision="180b792ac699e24d28177cddf6cafe96d20680ec" />
+  <project name="ns_server"               path="ns_server"               revision="e40736ff046ef4c6ff33a7ba387d478f76c3402d" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379" />
