@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="apache"    fetch="git://github.com/apache/"    />
+  <remote name="couchbase" fetch="git://github.com/couchbase/" />
+  <remote name="erlang"    fetch="git://github.com/erlang/"    />
+  <remote name="membase"   fetch="git://github.com/membase/"   />
+
+  <default remote="membase" revision="master"/>
+
+  <project name="bucket_engine"           path="bucket_engine"           revision="81580d6242e0e9fc9356a1c35fecb9f93c93e8da"/>
+  <project name="couchbase-python-client" path="couchbase-python-client" revision="9750242ac52186c416b122cab0b8dcb73f4bb6b7" remote="couchbase" />
+  <project name="ep-engine"               path="ep-engine"               revision="28940de84a9310ecabecf5da81e24e258129cb38" />
+  <project name="libconflate"             path="libconflate"             revision="fee8f9463b61931f303a1ee2727016b73a5fa37e" />
+  <project name="libmemcached"            path="libmemcached"            revision="ca739a890349ac36dc79447e37da7caa9ae819f5" />
+  <project name="libvbucket"              path="libvbucket"              revision="752482a49fa8c4914b594e82908919da63d0df68" />
+  <project name="membase-cli"             path="membase-cli"             revision="9b898b44012466f109caa830409e0db34dd47350" />
+  <project name="membasex"                path="membasex"                revision="0ea8bce6b838ea6d781f58d60778a8215597bfcf" remote="couchbase" />
+  <project name="memcached"               path="memcached"               revision="e4eafbd1b44052eca9580dd641fb21560f09f924" />
+  <project name="memcachetest"            path="memcachetest"            revision="88ae3b3fc92ebfb0ece0427d95c374525133ca1f" />
+  <project name="moxi"                    path="moxi"                    revision="52a5fa887bfff0bf719c4ee5f29634dd8707500e" />
+  <project name="ns_server"               path="ns_server"               revision="f2930c1e14310a95fc4f7fd14275f53685babdf0" />
+  <project name="portsigar"               path="portsigar"               revision="a191e6c348ec73487dceaecc1c5a76c85b750bdb" remote="couchbase" />
+  <project name="sigar"                   path="sigar"                   revision="e1dcf3235129510d91d1d5303d1d93f133e3fb90" remote="couchbase" />
+  <project name="testrunner"              path="testrunner"              revision="8ee41485e6f71b0fbf64832b57280d5ac4b7c120" remote="couchbase" />
+  <project name="tlm"                     path="tlm"                     revision="58f4b7f855c7097811db4066411f74e856d4fe16">
+      <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+  <project name="vbucketmigrator"         path="vbucketmigrator"         revision="0fdc96cafc7227d52cbf4682ba7462923b773dae" />
+  <project name="workload-generator"      path="workload-generator"      revision="437522d2764eb60d92199d504e4a62c44b38fb6d" remote="couchbase" />
+</manifest>
