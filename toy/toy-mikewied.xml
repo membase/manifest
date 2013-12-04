@@ -14,7 +14,7 @@
   <project name="libvbucket" path="cmake/libvbucket" />
   <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="platform" path="cmake/platform" />
-  <project name="ep-engine" path="cmake/ep-engine" remote="mikewied", revision="backfill"/>
+  <project name="ep-engine" path="cmake/ep-engine" remote="mikewied" revision="backfill"/>
   <project name="couchbase-cli" path="cmake/couchbase-cli" />
   <project name="couchbase-examples" path="cmake/couchbase-examples" />
   <project name="couchbase-python-client" path="cmake/couchbase-python-client" revision="couchbase-181" />
