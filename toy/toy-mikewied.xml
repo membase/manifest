@@ -6,28 +6,55 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="tlm"                     path="tlm"                     revision="862733cea3805cf8eba957a120a67986cd57e4e3">
-    <copyfile src='Makefile.top' dest='Makefile'/>
-  </project>
+  <!-- Modules moved over to be built by cmake -->
+  <project name="cbsasl" path="cmake/cbsasl" />
+  <project name="couchstore" path="cmake/couchstore"/>
+  <project name="libconflate" path="cmake/libconflate" />
+  <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake" />
+  <project name="libvbucket" path="cmake/libvbucket" />
+  <project name="memcached" path="cmake/memcached" remote="membase"/>
+  <project name="platform" path="cmake/platform" />
+  <project name="ep-engine" path="cmake/ep-engine" remote="mikewied", revision="backfill"/>
+  <project name="couchbase-cli" path="cmake/couchbase-cli" />
+  <project name="couchbase-examples" path="cmake/couchbase-examples" />
+  <project name="couchbase-python-client" path="cmake/couchbase-python-client" revision="couchbase-181" />
+  <project name="healthchecker" path="cmake/healthchecker" />
+  <project name="portsigar" path="cmake/portsigar" />
+  <project name="sigar" path="cmake/sigar" />
 
-  <project name="bucket_engine"           path="bucket_engine"           revision="master" />
-  <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="master" remote="couchbase" />
-  <project name="couchbase-examples"      path="couchbase-examples"      revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379" />
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="2.1.1" />
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="2.1.1" />
-  <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
-  <project name="ep-engine"               path="ep-engine"               revision="2.5.0" />
-  <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
-  <project name="healthchecker"           path="healthchecker"           revision="829e18598bfef537263c0cf014420d499a467a7d" />
-  <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
-  <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
-  <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="memcached"               path="memcached"               revision="tcmalloc" remote="mikewied"   />
-  <project name="moxi"                    path="moxi"                    revision="2.5.0" />
-  <project name="ns_server"               path="ns_server"               revision="for-rackaware" />
-  <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
-  <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
-  <project name="testrunner"              path="testrunner" />
+
+  <!-- The rest of the modules not yet looked at -->
+  <project name="couchdb" />
+  <project name="couchdbx-app" />
+  <project name="geocouch" />
+  <project name="moxi"/>
+  <project name="ns_server" />
+  <project name="testrunner" />
+
+  <!-- thirdparty dependencies. Ideally these shouldn't be here and
+       we should use a prebuilt binary, but currently voltron builds
+       these with GNU autotools on windows. The GNU toolchain results
+       in libraries the Microsoft linker fail to open, so we'll have
+       to build them with MSVC (which provides better binaries anyway)
+  -->
+  <remote name="libevent" fetch="git://github.com/libevent/"/>
+  <remote name="curl" fetch="git://github.com/bagder/"/>
+
+  <project name="libevent"
+           path="dependencies/libevent"
+           remote="libevent"
+           revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
+  <project name="curl"
+           path="dependencies/curl"
+           remote="curl"
+           revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
+
+  <project name="tlm">
+    <copyfile src="Makefile.top" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.dependencies.txt"
+              dest="dependencies/CMakeLists.txt"/>
+    <copyfile src="CMakeLists.libevent.txt"
+              dest="dependencies/libevent/CMakeLists.txt"/>
+  </project>
 </manifest>
