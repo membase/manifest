@@ -26,7 +26,7 @@
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
   <project name="memcached"               path="memcached"               revision="branch-20" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="2.5.0" />
-  <project name="ns_server"               path="ns_server"               revision="for-rackaware" />
+  <project name="ns_server"               path="ns_server"               revision="xdcr" remote="mikewied" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
   <project name="testrunner"              path="testrunner" />
