@@ -10,7 +10,7 @@
   </project>
   <project name="bucket_engine"           path="bucket_engine"           revision="0a3a9df0a55d759b5b78a3a7d001a97a4d35af1c" />
   <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="52c2f9a0838623f90fa03d4c9cb94030c2653ea3" remote="couchbase" />
+  <project name="couchbase-cli"           path="couchbase-cli"           revision="b8c21c7462e3b45cc0c69259547613a4c45b6be3" remote="couchbase" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
   <project name="couchdb"                 path="couchdb"                 revision="01dda76eab9edb6b64490c524ccdaf8e5a8b655b" />
@@ -22,10 +22,10 @@
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
   <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="memcached"               path="memcached"               revision="d337a129b7c5ac94d93f0e4ab27e2b8dc6082f46" remote="membase"   />
+  <project name="memcached"               path="memcached"               revision="639cd3ee86d7a72f1a00d01c51fc49b5966f7f2d" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
-  <project name="ns_server"               path="ns_server"               revision="c3190a05c851feb3ed878aa6f4162e20c12c62d6" />
+  <project name="ns_server"               path="ns_server"               revision="f3192bcaa7e983259b002ccf3d31028ffce24859" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
-  <project name="testrunner"              path="testrunner"              revision="dd72a042b3a36f8c12d08de6e6fc525122457c08" />
+  <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
 </manifest>
