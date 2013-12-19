@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" />
+  <remote name="membase"   fetch="git://github.com/membase/"   />
+  <remote name="apache"    fetch="git://github.com/apache/"    />
+  <remote name="erlang"    fetch="git://github.com/erlang/"    />
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="tlm"                     path="tlm"                     revision="db49bf5d4e601c5994f8bd7f61ca6cff6840af5d">
+    <copyfile src='Makefile.top' dest='Makefile'/>
+  </project>
+  <project name="bucket_engine"           path="bucket_engine"           revision="0a3a9df0a55d759b5b78a3a7d001a97a4d35af1c" />
+  <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
+  <project name="couchbase-cli"           path="couchbase-cli"           revision="b8c21c7462e3b45cc0c69259547613a4c45b6be3" remote="couchbase" />
+  <project name="couchbase-examples"      path="couchbase-examples"      revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379" />
+  <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
+  <project name="couchdb"                 path="couchdb"                 revision="01dda76eab9edb6b64490c524ccdaf8e5a8b655b" />
+  <project name="couchdbx-app"            path="couchdbx-app"            revision="cc4fe0884faeebbb36a45fcdf6a072d736b0ca5d" />
+  <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
+  <project name="ep-engine"               path="ep-engine"               revision="7c2254cd57a987d087c092897fa35bc2e4833039" />
+  <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
+  <project name="healthchecker"           path="healthchecker"           revision="829e18598bfef537263c0cf014420d499a467a7d" />
+  <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
+  <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
+  <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
+  <project name="memcached"               path="memcached"               revision="639cd3ee86d7a72f1a00d01c51fc49b5966f7f2d" remote="membase"   />
+  <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
+  <project name="ns_server"               path="ns_server"               revision="7f17d27b0b971710c93b3fe1ef553fec83ae1e17" />
+  <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
+  <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
+  <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
+  <project name="otp"                     path="otp"                     revision="b6dc1a844eab061d0a7153d46e7e68296f15a504" remote="erlang"    />
+  <project name="icu4c"                   path="icu4c"                   revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
+  <project name="snappy"                  path="snappy"                  revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95" remote="couchbase" />
+  <project name="v8"                      path="v8"                      revision="447decb75060a106131ab4de934bcc374648e7f2" remote="couchbase" />
+  <project name="gperftools"              path="gperftools"              revision="674fcd94a8a0a3595f64e13762ba3a6529e09926" remote="couchbase" />
+  <project name="pysqlite"                path="pysqlite"                revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea" remote="couchbase" />
+  <!--
+  <project name="voltron"                 path="voltron"                 revision="20c2d314ad110bd4d301c44f12c22c7ae6365596" />
+  -->
+</manifest>
