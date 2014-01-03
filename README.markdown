@@ -116,7 +116,9 @@ page](http://code.google.com/p/git-repo/downloads/list).
 
 ## Clone the Manifest
 
-For `<branch_name>` below, you probably want to use `branch-2.0.xml`
+For `<branch_name>` below, you probably want to one of the latest
+branches in released when getting started.  As of this writing,
+that is `released/2.2.0.xml`
 unless you are working on a maintenance or experimental branch.
 
     $ mkdir couchbase
