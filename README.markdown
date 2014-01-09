@@ -67,6 +67,7 @@ you can easily install the dependencies using the following commands:
     brew install icu4c
     brew install automake
     brew install libtool
+    brew install google-perftools
 
 Make sure that icu's `icu-config` binary is on your PATH when building
 couchbase:
