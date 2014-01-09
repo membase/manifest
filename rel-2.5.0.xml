@@ -13,7 +13,7 @@
   <project name="couchbase-cli"           path="couchbase-cli"           revision="master" remote="couchbase" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="1fb1d2929eaa974144147cc6a6da4735fc97d512" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="01dda76eab9edb6b64490c524ccdaf8e5a8b655b" />
+  <project name="couchdb"                 path="couchdb"                 revision="a425d9742ae28414d06ec03dac02b85d0bac41c3" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="cc4fe0884faeebbb36a45fcdf6a072d736b0ca5d" />
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
   <project name="ep-engine"               path="ep-engine"               revision="2.5.0" />
