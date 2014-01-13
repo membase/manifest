@@ -8,7 +8,7 @@
 
   <!-- Modules moved over to be built by cmake -->
   <project name="cbsasl" path="cmake/cbsasl" />
-  <project name="couchstore" path="cmake/couchstore" remote="trondn"/>
+  <project name="couchstore" path="cmake/couchstore"/>
   <project name="libconflate" path="cmake/libconflate" />
   <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake" />
   <project name="libvbucket" path="cmake/libvbucket" />
@@ -21,13 +21,12 @@
   <project name="healthchecker" path="cmake/healthchecker" />
   <project name="portsigar" path="cmake/portsigar" />
   <project name="sigar" path="cmake/sigar" />
-
+  <project name="moxi" path="cmake/moxi"/>
 
   <!-- The rest of the modules not yet looked at -->
   <project name="couchdb" />
   <project name="couchdbx-app" />
   <project name="geocouch" />
-  <project name="moxi"/>
   <project name="ns_server" />
   <project name="testrunner" />
 
