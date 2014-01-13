@@ -12,6 +12,7 @@
   <project name="libmemcached" path="cmake/libmemcached" remote="membase" revision="cmake" />
   <project name="libvbucket" path="cmake/libvbucket" />
   <project name="memcached" path="cmake/memcached" remote="membase"/>
+  <project name="moxi" path="cmake/moxi"/>
   <project name="platform" path="cmake/platform" />
   <project name="ep-engine" path="cmake/ep-engine" />
   <project name="couchbase-cli" path="cmake/couchbase-cli" />
@@ -26,7 +27,6 @@
   <project name="couchdb" />
   <project name="couchdbx-app" />
   <project name="geocouch" />
-  <project name="moxi"/>
   <project name="ns_server" />
   <project name="testrunner" />
 
