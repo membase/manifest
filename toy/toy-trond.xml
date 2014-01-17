@@ -26,8 +26,8 @@
   <!-- The rest of the modules not yet looked at -->
   <project name="couchdb" path="pending/couchdb"/>
   <project name="couchdbx-app" />
-  <project name="geocouch" path="pending/couchdb"/>
-  <project name="ns_server" path="pending/couchdb"/>
+  <project name="geocouch" path="pending/geocouch"/>
+  <project name="ns_server" path="pending/ns_server"/>
   <project name="testrunner" />
 
   <!-- thirdparty dependencies. Ideally these shouldn't be here and
