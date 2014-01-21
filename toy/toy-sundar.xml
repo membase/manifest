@@ -2,32 +2,31 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
-  <remote name="hisundar"  fetch="git://github.com/hisundar/"  review="review.couchbase.org" />
+  <remote name="hisundar"   fetch="git://github.com/hisundar/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
-  <project name="tlm"                     path="tlm"                     revision="862733cea3805cf8eba957a120a67986cd57e4e3">
+  <project name="tlm"                     path="tlm"                     revision="db49bf5d4e601c5994f8bd7f61ca6cff6840af5d">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
-
-  <project name="bucket_engine"           path="bucket_engine"           revision="2a797a8d97f421587cce728f2e6aa2cd42c8fa26" />
+  <project name="bucket_engine"           path="bucket_engine"           revision="0a3a9df0a55d759b5b78a3a7d001a97a4d35af1c" />
   <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="3205c3305d2320bcc95e6643ecd8d1f619e083cd" remote="couchbase" />
-  <project name="couchbase-examples"      path="couchbase-examples"      revision="cd9c8600589a1996c1ba6dbea9ac171b937d3379" />
+  <project name="couchbase-cli"           path="couchbase-cli"           revision="2d3b8a2c6c6c5cc47ef09c2ea5d1b382b00245a8" remote="couchbase" />
+  <project name="couchbase-examples"      path="couchbase-examples"      revision="1fb1d2929eaa974144147cc6a6da4735fc97d512" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="386be73085c0b2a8e11cd771fc2ce367b62b7354" />
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="97fd781edaa109bf99f6f002ae5c562c8b829438" />
+  <project name="couchdb"                 path="couchdb"                 revision="a425d9742ae28414d06ec03dac02b85d0bac41c3" />
+  <project name="couchdbx-app"            path="couchdbx-app"            revision="cc4fe0884faeebbb36a45fcdf6a072d736b0ca5d" />
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
-  <project name="ep-engine" path="ep-engine" revision="mbb" remote="hisundar"/>
+  <project name="ep-engine"               path="ep-engine"               revision="4d38aa7f939120d6dc10b3101cf0f6e36d0e28dd" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
-  <project name="healthchecker"           path="healthchecker"           revision="76a176fc42854d0c4b860b17f2293a7b7fe2a9aa" />
+  <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
   <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="memcached"               path="memcached"               revision="414d788f476a019cc5d2b05e0ce72504fe469c79" remote="membase"   />
-  <project name="moxi"                    path="moxi"                    revision="01bd2a5c0aff2ca35611ba3fb857198945cc84eb" />
-  <project name="ns_server"               path="ns_server"               revision="for-rackaware" />
+  <project name="memcached"               path="memcached"               revision="cad92fc9a0651beabed686d2f47a79064dbefcdf" remote="membase"   />
+  <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
+  <project name="ns_server"               path="ns_server"               revision="88679d76b222bfc3386aea2822e335dd3fcbd144" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
-  <project name="testrunner"              path="testrunner" />
+  <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
 </manifest>
