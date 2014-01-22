@@ -24,7 +24,7 @@
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
   <project name="memcached"               path="memcached"               revision="cad92fc9a0651beabed686d2f47a79064dbefcdf" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
-  <project name="ns_server"               path="ns_server"               revision="72a5ffe7b84de06ae9ca1a69bc382e9d2b10bb55" />
+  <project name="ns_server"               path="ns_server"               revision="0a25741ddf0e961759ead78e1a74cb19047dcdd9" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
   <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
