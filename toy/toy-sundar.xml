@@ -2,6 +2,7 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
   <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
+  <remote name="hisundar"  fetch="git://github.com/hisundar/"  review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
@@ -16,7 +17,7 @@
   <project name="couchdb"                 path="couchdb"                 revision="a425d9742ae28414d06ec03dac02b85d0bac41c3" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="91ad3106f061093b590ae6c5b23af71e5ea8a7fd" />
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
-  <project name="ep-engine"               path="ep-engine"               revision="d2a6b7534f5939115de092094186c55fca268a0b" />
+  <project name="ep-engine"               path="ep-engine"               revision="6edc383fd7e7e82723ba54e71312138ba46ce6cb" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
