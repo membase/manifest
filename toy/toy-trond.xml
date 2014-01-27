@@ -27,10 +27,9 @@
   <project name="healthchecker" path="source/healthchecker" />
   <project name="portsigar" path="source/portsigar" />
   <project name="sigar" path="source/sigar" />
-
+  <project name="couchdb" path="source/couchdb" remote="trond"/>
 
   <!-- The rest of the modules not yet looked at -->
-  <project name="couchdb" path="source/pending/couchdb" />
   <project name="geocouch" path="source/pending/geocouch"  />
   <project name="ns_server" path="source/pending/ns_server" revision="28d0ea57ee57b5bb4a214e3f7badf414a6ba744c" />
 
