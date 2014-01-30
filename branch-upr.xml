@@ -30,31 +30,9 @@
   <project name="ns_server" />
   <project name="testrunner" />
 
-  <!-- thirdparty dependencies. Ideally these shouldn't be here and
-       we should use a prebuilt binary, but currently voltron builds
-       these with GNU autotools on windows. The GNU toolchain results
-       in libraries the Microsoft linker fail to open, so we'll have
-       to build them with MSVC (which provides better binaries anyway)
-  -->
-  <remote name="libevent" fetch="git://github.com/libevent/"/>
-  <remote name="curl" fetch="git://github.com/bagder/"/>
-
-  <project name="libevent"
-           path="dependencies/libevent"
-           remote="libevent"
-           revision="64177777165d9684bafbfa946abd126f7ebff11f"/>
-  <project name="curl"
-           path="dependencies/curl"
-           remote="curl"
-           revision="70812c2f32fc5734bcbbe572b9f61c380433ad6a"/>
-
   <project name="tlm">
     <copyfile src="Makefile.top" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.dependencies.txt"
-              dest="dependencies/CMakeLists.txt"/>
-    <copyfile src="CMakeLists.libevent.txt"
-              dest="dependencies/libevent/CMakeLists.txt"/>
   </project>
 
 </manifest>
