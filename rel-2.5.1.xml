@@ -15,7 +15,7 @@
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
   <project name="couchdb"                 path="couchdb"                 revision="a425d9742ae28414d06ec03dac02b85d0bac41c3" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="91ad3106f061093b590ae6c5b23af71e5ea8a7fd" />
-  <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
+  <project name="couchstore"              path="couchstore"              revision="de0dcdc292935b93c4700386c5f65c92daff7039" />
   <project name="ep-engine"               path="ep-engine"               revision="2.5.0" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
