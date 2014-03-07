@@ -5,7 +5,7 @@
 
   <project name="otp"        path="otp"        revision="refs/tags/OTP_R14B04"                     remote="erlang"    />
   <project name="icu4c"      path="icu4c"      revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
-  <project name="snappy"     path="snappy"     revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95" remote="couchbase" />
+  <project name="snappy"     path="snappy"     revision="009c4325f40e04700ca7956e866ad342f020e214" remote="couchbase" />
   <project name="v8"         path="v8"         revision="refs/tags/3.9.7"                          remote="couchbase" />
   <project name="gperftools" path="gperftools" revision="674fcd94a8a0a3595f64e13762ba3a6529e09926" remote="couchbase" />
   <project name="pysqlite"   path="pysqlite"   revision="master"                                   remote="couchbase" />
