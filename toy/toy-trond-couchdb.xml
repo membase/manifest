@@ -27,7 +27,7 @@
   <!-- The rest of the modules not yet looked at -->
   <project name="couchdbx-app" />
   <project name="geocouch" />
-  <project name="ns_server" revision="28d0ea57ee57b5bb4a214e3f7badf414a6ba744c"/>
+  <project name="ns_server" />
   <project name="testrunner" />
 
   <project name="tlm">
