@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbaselabs"   fetch="git://github.com/couchbaselabs/" review="review.couchbase.org" />
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
+
+  <default remote="couchbaselabs" revision="master"/>
+
+  <!-- Modules moved over to be built by cmake -->
+  <project name="forestdb" path="cmake/forestdb" />
+  <project name="platform" path="cmake/platform" remote="couchbase" />
+
+</manifest>
