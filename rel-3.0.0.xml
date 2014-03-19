@@ -18,10 +18,10 @@
   <project name="healthchecker" path="cmake/healthchecker" />
   <project name="portsigar" path="cmake/portsigar" />
   <project name="sigar" path="cmake/sigar" />
+  <project name="couchdb" path="cmake/couchdb" />
 
 
   <!-- The rest of the modules not yet looked at -->
-  <project name="couchdb" />
   <project name="couchdbx-app" />
   <project name="geocouch" />
   <project name="ns_server"/>
