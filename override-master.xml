@@ -8,7 +8,7 @@
   <project name="snappy"     path="snappy"     revision="009c4325f40e04700ca7956e866ad342f020e214" remote="couchbase" />
   <project name="gperftools" path="gperftools" revision="674fcd94a8a0a3595f64e13762ba3a6529e09926" remote="couchbase" />
   <project name="pysqlite"   path="pysqlite"   revision="master"                                   remote="couchbase" />
-  <project name="v8"         path="v8"         revision="refs/tags/3.21.17"                        remote="couchbase" />
+  <project name="v8"         path="v8"         revision="refs/tags/3.9.7"                        remote="couchbase" />
   <!-- Following two are v8 dependencies -->
   <project name="gyp"        path="v8/build/gyp" revision="60947b8014d56749a3def7404c827a57e64a264b" remote="couchbase" />
   <project name="icu46"      path="v8/third_party/icu" revision="2972e8c667fef766c7706c02f52a3dc06b866fab" remote="couchbase" />
