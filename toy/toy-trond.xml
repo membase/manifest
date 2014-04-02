@@ -23,6 +23,7 @@
   <project name="testrunner" />
 
   <project name="tlm" remote="trond">
+    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile.top" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
