@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
-  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="membase" fetch="git://github.com/membase/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
-  <!-- Modules moved over to be built by cmake -->
-  <project name="couchstore" path="cmake/couchstore"/>
-  <project name="memcached" path="cmake/memcached" remote="membase"/>
-  <project name="moxi" path="cmake/moxi"/>
-  <project name="platform" path="cmake/platform" />
-  <project name="ep-engine" path="cmake/ep-engine" />
-  <project name="couchbase-cli" path="cmake/couchbase-cli" />
-  <project name="couchbase-examples" path="cmake/couchbase-examples" />
-  <project name="couchbase-python-client" path="cmake/couchbase-python-client" revision="couchbase-181" />
-  <project name="healthchecker" path="cmake/healthchecker" />
-  <project name="sigar" path="cmake/sigar" />
-  <project name="couchdb" path="cmake/couchdb" />
-
-
-  <!-- The rest of the modules not yet looked at -->
-  <project name="couchdbx-app" />
-  <project name="geocouch" />
+  <project name="couchbase-cli"/>
+  <project name="couchbase-examples"/>
+  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchdb"/>
+  <project name="couchdbx-app"/>
+  <project name="couchstore"/>
+  <project name="ep-engine"/>
+  <project name="geocouch"/>
+  <project name="healthchecker"/>
+  <project name="memcached" remote="membase"/>
+  <project name="moxi"/>
   <project name="ns_server"/>
-  <project name="testrunner" />
+  <project name="platform"/>
+  <project name="sigar"/>
+  <project name="testrunner"/>
 
   <project name="tlm">
-    <copyfile src="Makefile.top" dest="Makefile"/>
-    <copyfile src="CMakeLists.txt" dest="cmake/CMakeLists.txt"/>
+    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
+    <copyfile src="Makefile" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
 
 </manifest>
