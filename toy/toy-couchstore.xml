@@ -15,7 +15,7 @@
   <project name="memcached" path="cmake/memcached" remote="membase"/>
   <project name="moxi" path="cmake/moxi"/>
   <project name="platform" path="cmake/platform" />
-  <project name="ep-engine" path="cmake/ep-engine" remote="abhinavdangeti" revision="compactTrack" />
+  <project name="ep-engine" path="cmake/ep-engine" remote="abhinavdangeti" revision="myTrack" />
   <project name="couchbase-cli" path="cmake/couchbase-cli" />
   <project name="couchbase-examples" path="cmake/couchbase-examples" />
   <project name="couchbase-python-client" path="cmake/couchbase-python-client" revision="couchbase-181" />
