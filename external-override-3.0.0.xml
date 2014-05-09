@@ -12,4 +12,5 @@
   <!-- Following two are v8 dependencies -->
   <project name="gyp"        path="v8/build/gyp" revision="couchbase-v8-3.21.17"                   remote="couchbase" />
   <project name="icu46"      path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289" remote="couchbase" />
+  <project name="python-snappy" path="python-snappy" revision="master"                             remote="couchbase" />
 </manifest>
