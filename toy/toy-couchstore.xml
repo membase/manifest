@@ -6,31 +6,6 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="tlm"                     path="tlm"                     revision="db49bf5d4e601c5994f8bd7f61ca6cff6840af5d">
-    <copyfile src='Makefile.top' dest='Makefile'/>
-  </project>
-  <project name="bucket_engine"           path="bucket_engine"           revision="0a3a9df0a55d759b5b78a3a7d001a97a4d35af1c" />
-  <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="2d3b8a2c6c6c5cc47ef09c2ea5d1b382b00245a8" remote="couchbase" />
-  <project name="couchbase-examples"      path="couchbase-examples"      revision="1fb1d2929eaa974144147cc6a6da4735fc97d512" />
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="a425d9742ae28414d06ec03dac02b85d0bac41c3" />
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="a159d148aa95c1fa94c412783640b97957ef3da4" />
-  <project name="couchstore"              path="couchstore"              revision="de0dcdc292935b93c4700386c5f65c92daff7039" />
-  <project name="ep-engine"               path="ep-engine"               remote="abhinavdangeti" revision="MB10962_251" />
-  <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
-  <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
-  <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
-  <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
-  <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="memcached"               path="memcached"               revision="349f670f51a36a795bd7016baac3b18408e8d2c5" remote="membase"   />
-  <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
-  <project name="ns_server"               path="ns_server"               revision="d606cc53502e6442cfc14af2257ba9e792239c32" />
-  <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
-  <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
-  <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
-
-<!--
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
@@ -52,5 +27,5 @@
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
--->
+
 </manifest>
