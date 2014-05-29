@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="apache" fetch="git://github.com/apache/"/>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"
-          review="review.couchbase.org" />
-  <remote name="erlang" fetch="git://github.com/erlang/"/>
-  <remote name="membase" fetch="git://github.com/membase/"
-          review="review.couchbase.org" />
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="membase" fetch="git://github.com/membase/" review="review.couchbase.org"/>
   <remote name="vmx" fetch="git://github.com/vmx/"/>
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"/>
+
   <default remote="couchbase" revision="master"/>
 
-  <project name="ep-engine" path="ep-engine" />
-  <project name="ns_server" path="ns_server" />
-  <project name="moxi" path="moxi"/>
-  <project name="tlm" path="tlm" remote="vmx" revision="geos">
-    <copyfile src='Makefile.top' dest='Makefile'/>
+  <project name="couchbase-cli"/>
+  <project name="couchbase-examples"/>
+  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchbase-couchdb" path="couchdb" remote="vmx" revision="mb-11204"/>
+  <project name="couchdbx-app"/>
+  <project name="couchstore"/>
+  <project name="ep-engine"/>
+  <project name="geocouch"/>
+  <project name="healthchecker"/>
+  <project name="memcached" remote="membase"/>
+  <project name="moxi"/>
+  <project name="ns_server"/>
+  <project name="platform"/>
+  <project name="sigar"/>
+  <project name="testrunner"/>
+
+  <project name="tlm">
+    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
+    <copyfile src="Makefile" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="membase-cli" path="membase-cli" remote="membase" revision="branch-20"/>
 
-  <project path="couchdb" name="couchdb" remote="vmx" revision="geos"/>
-  <project path="mccouch" name="mccouch" />
-  <project path="geocouch" name="geocouch" remote="vmx" revision="geos"/>
-  <project name="wkt" path="geocouch/deps/wkt" remote="vmx"/>
-  <project name="erlgeom" path="geocouch/deps/erlgeom" remote="couchbaselabs"/>
-  <!-- get the 3.3.2 release -->
-  <project name="geos" path="geos" remote="vmx" revision="3ddd217e08736e549086d1e4f6cb2ad33a3f4196"/>
-
-  <project path="testrunner" name="testrunner" />
-  <project name="snappy" path="snappy" revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95"/>
-
-  <project path="couchdbx-app" name="couchdbx-app" />
-  <project path="couchbase-python-client" name="couchbase-python-client" />
-  <project path="couchbase-examples" name="couchbase-examples" />
-  <project path="couchstore" name="couchstore" />
-  <project path="workload-generator" name="workload-generator" />
-  <project name="bucket_engine" path="bucket_engine" />
-  <project name="libvbucket" path="libvbucket" />
-  <project name="memcached" path="memcached" remote="membase"/>
-  <project name="memcachetest" remote="membase" path="memcachetest" />
-  <project name="libcouchbase" path="libcouchbase" />
-  <project name="libmemcached" path="libmemcached" remote="membase" />
-
-  <project name="libconflate" path="libconflate"/>
-  <project name="portsigar" path="portsigar" />
-  <project name="sigar" path="sigar" revision="master" />
 </manifest>
