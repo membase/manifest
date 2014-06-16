@@ -12,7 +12,7 @@
   <project name="couchdb" remote="mikewied" revision="snapshots"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" remote="mikewied" revision="snapshots"/>
+  <project name="ep-engine" remote="mikewied" revision="flow"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached" remote="membase"/>
