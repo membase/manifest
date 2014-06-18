@@ -6,23 +6,23 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="couchbase-cli"/>
-  <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchbase-cli" revision="b83a021d3da7f8b812e350ab47b45138e0ca1f59"/>
+  <project name="couchbase-examples" revision="bdad3f192ad95fc5438e347bd5b7f434fb534aea"/>
+  <project name="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944"/>
   <project name="couchdb" revision="2fc6f2714c2917154adabf670e087a82aefd5ca8"/>
-  <project name="couchdbx-app"/>
-  <project name="couchstore"/>
-  <project name="ep-engine"/>
-  <project name="geocouch"/>
-  <project name="healthchecker"/>
-  <project name="memcached" remote="membase"/>
-  <project name="moxi"/>
-  <project name="ns_server"/>
-  <project name="platform"/>
-  <project name="sigar"/>
-  <project name="testrunner"/>
+  <project name="couchdbx-app" revision="f6646fa6b1f6d8e9017e99918d55704e64a95ba6"/>
+  <project name="couchstore" revision="5da6c3d32de83842ebc7b60a1c45797678ae1ef2"/>
+  <project name="ep-engine" revision="62d32292ea49dd56485aaf8119ada110a226e012"/>
+  <project name="geocouch" revision="78873365fda50fa23055ef7a0782e31aaac1e101"/>
+  <project name="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
+  <project name="memcached" remote="membase" revision="3b74a8a326c622291e8e13b8d92c6ba2b35b4510"/>
+  <project name="moxi" revision="e0ed51ce03b282f37a10663ff350998363b0e993"/>
+  <project name="ns_server" revision="45e39786c3d08f9eacfce767571d8be7b7016060"/>
+  <project name="platform" revision="3c2a3ebff6ae1e7985f585ab915e6d4f1340e1ac"/>
+  <project name="sigar" revision="bfecbe715d4192bec29ada814ca300ed681c2cf5"/>
+  <project name="testrunner" revision="c381a034d75d221406f1208656a3924dceae575e"/>
 
-  <project name="tlm">
+  <project name="tlm" revision="c343cd16f5bcab483603e2e023a0af2c4c362983">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
