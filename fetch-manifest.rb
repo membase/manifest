@@ -15,6 +15,7 @@ more = ARGV[1] # Optional. Example: some/override.xml
 emit = ARGV[2] # Optional. Example: output/changes-since-last-fetch.txt
 oxml = ARGV[3] # Optional. Example: output/build-manifest.xml -- usable as input to repo tool.
 volt = ARGV[4] # Optional. voltron revision, to be in emitted manifest
+cachedir = ARGV[5] # Optional. Will be used as a local git cache to speed subsequent downloads.
 
 root = REXML::Document.new(File.new(path)).root
 
@@ -57,15 +58,29 @@ changes = {}
 
 projects_arr.each do |name|
   project  = projects[name]
-  path     = project.attributes['path'] || project.attributes['name']
+  path     = project.attributes['path'] || name
   remote   = remotes[project.attributes['remote'] || default.attributes['remote']]
   fetch    = remote.attributes['fetch']
   revision = project.attributes['revision'] || default.attributes['revision']
+  project_url = "#{fetch}#{name}"
 
   print "#{name} #{revision}...\n"
 
+  # If caching, update the cache first, then change remote to
+  # point to the cache
+  if cachedir
+    project_cachedir = "#{cachedir}/#{name}.git"
+    unless File.directory?(project_cachedir)
+      sh %{git clone --mirror #{fetch}#{name} #{project_cachedir}} do |ok, res|
+        exit(false) unless ok
+      end
+    end
+    sh %{git --git-dir #{project_cachedir} fetch}
+    project_url = project_cachedir
+  end
+
   unless File.directory?("#{path}/.git")
-    sh %{git clone #{fetch}#{name} #{path}} do |ok, res|
+    sh %{git clone #{project_url} #{path}} do |ok, res|
       exit(false) unless ok
     end
   else
