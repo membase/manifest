@@ -11,7 +11,7 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
-  <project name="couchstore" remote="abhinavdangeti" revision="myTrack"/>
+  <project name="couchstore"/>
   <project name="ep-engine" remote="abhinavdangeti" revision="myTrack" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
