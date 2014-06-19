@@ -10,12 +10,12 @@ if ARGV.size < 1
   exit 1
 end
 
-path = ARGV[0] # Required. Example: some/repo/manifest/default.xml
-more = ARGV[1] # Optional. Example: some/override.xml
-emit = ARGV[2] # Optional. Example: output/changes-since-last-fetch.txt
-oxml = ARGV[3] # Optional. Example: output/build-manifest.xml -- usable as input to repo tool.
-volt = ARGV[4] # Optional. voltron revision, to be in emitted manifest
-cachedir = ARGV[5] # Optional. Will be used as a local git cache to speed subsequent downloads.
+path = ARGV[0]       # Required. Example: some/repo/manifest/default.xml
+more = ARGV[1] || "" # Optional. Example: some/override.xml
+emit = ARGV[2] || "" # Optional. Example: output/changes-since-last-fetch.txt
+oxml = ARGV[3] || "" # Optional. Example: output/build-manifest.xml -- usable as input to repo tool.
+volt = ARGV[4] || "" # Optional. voltron revision, to be in emitted manifest
+cachedir = ARGV[5] || "" # Optional. Will be used as a local git cache to speed subsequent downloads.
 
 root = REXML::Document.new(File.new(path)).root
 
@@ -38,7 +38,7 @@ end
 # An override.xml file can be useful to specify different remote
 # servers, such as to a closer, local git mirror.
 #
-if more
+if more != ""
   more_root = REXML::Document.new(File.new(more)).root
   more_root.each_element("//remote") do |remote|
     unless remotes[remote.attributes['name']]
@@ -68,7 +68,7 @@ projects_arr.each do |name|
 
   # If caching, update the cache first, then change remote to
   # point to the cache
-  if cachedir
+  if cachedir != ""
     project_cachedir = "#{cachedir}/#{name}.git"
     unless File.directory?(project_cachedir)
       sh %{git clone --mirror #{fetch}#{name} #{project_cachedir}} do |ok, res|
@@ -128,7 +128,7 @@ projects_arr.each do |name|
   end
 end
 
-if emit
+if emit != ""
   result = []
   changes.keys.sort.each do |name|
     result << "=================="
@@ -140,7 +140,7 @@ if emit
   File.open(emit, 'w') {|o| o.write(result)} unless emit == '--'
 end
 
-if oxml
+if oxml != ""
   # Optionally emit a manifest.xml that can be used as input to
   # the repo / fetch-manifest.rb tool.
   #
@@ -183,7 +183,7 @@ if oxml
         end
       end
     end
-    if volt
+    if volt != ""
        o.write "  <!--\n  <project name=\"voltron\" path=\"voltron\" revision=\"#{volt}\" />\n  -->"
     end
     o.write "</manifest>\n"
