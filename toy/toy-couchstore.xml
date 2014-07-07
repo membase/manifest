@@ -12,10 +12,10 @@
   <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" remote="abhinavdangeti" revision="myTrack" />
+  <project name="ep-engine" remote="abhinavdangeti" revision="11629_alt" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="memcached" remote="membase" revision="3.0"/>
+  <project name="memcached" remote="abhinavdangeti" revision="11629_alt"/>
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
