@@ -4,23 +4,23 @@
   <remote name="membase"   fetch="git://github.com/membase/"   />
   <remote name="erlang"    fetch="git://github.com/erlang/"    />
 
-  <default remote="couchbase"                        revision="master"/>
+  <default remote="couchbase"             revision="master" />
 
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="4a0faf6026a042fba8c8abb85e2ced2b91ce700d" />
+  <project name="couchbase-cli"           path="couchbase-cli"           revision="72499a28789323e36924e53a324f8f29003d0930" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="bdad3f192ad95fc5438e347bd5b7f434fb534aea" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5" />
-  <project name="couchdb"                 path="couchdb"                 revision="26098f49e4f78f64877368440c216157986c5378" />
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="f6646fa6b1f6d8e9017e99918d55704e64a95ba6" />
-  <project name="couchstore"              path="couchstore"              revision="5668b53375e55d10b754c3d1419dab34d8293e53" />
-  <project name="ep-engine"               path="ep-engine"               revision="a72bea627fe0b9ca2d8f1e53947c9e554a8c67d5" />
+  <project name="couchdb"                 path="couchdb"                 revision="d4b447b7276b510b3f48d9524f087619a4a39388" />
+  <project name="couchdbx-app"            path="couchdbx-app"            revision="8e657ce1a61f81e58839bb96abd56be90790e7a8" />
+  <project name="couchstore"              path="couchstore"              revision="d8a1d02246acca43ed3a56128d6944b26e035c3b" />
+  <project name="ep-engine"               path="ep-engine"               revision="299deafd0c793efe9420fb56fe09944d2a6118e5" />
   <project name="geocouch"                path="geocouch"                revision="78873365fda50fa23055ef7a0782e31aaac1e101" />
   <project name="healthchecker"           path="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
-  <project name="memcached"               path="memcached"               revision="8e4053f0565ca7752c89e43486b92046e925acaa" remote="membase" />
+  <project name="memcached"               path="memcached"               revision="b0ad6021bd77dcf7307a1637eccc2dda272ac225" remote="membase" />
   <project name="moxi"                    path="moxi"                    revision="e0ed51ce03b282f37a10663ff350998363b0e993" />
-  <project name="ns_server"               path="ns_server"               revision="06a1dfcbd16e925adb7c95530cdf753d3997e652" />
+  <project name="ns_server"               path="ns_server"               revision="430699b39fdce9d2bb85eeeb2e72010b1e2af1b7" />
   <project name="platform"                path="platform"                revision="4051222eada4c62fad7020633c2247fdcebaaaeb" />
-  <project name="sigar"                   path="sigar"                   revision="bfecbe715d4192bec29ada814ca300ed681c2cf5" />
-  <project name="testrunner"              path="testrunner"              revision="20388fdd350f485116d8a21d8550749aeb54849a" />
+  <project name="sigar"                   path="sigar"                   revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9" />
+  <project name="testrunner"              path="testrunner"              revision="c1e7e01699ce5d178be7fddb0b909399e02a7126" />
   <project name="tlm"                     path="tlm"                     revision="f053b3b8bd1fa575dd8c7c6f7d8a4c336493f292">
     <copyfile src='GNUmakefile'    dest='GNUmakefile'    />
     <copyfile src='Makefile'       dest='Makefile'       />
