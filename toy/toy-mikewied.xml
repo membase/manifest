@@ -9,10 +9,10 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb" remote="mikewied" revision="snapshots"/>
+  <project name="couchdb"/>
   <project name="couchdbx-app" revision="3.0.0"/>
   <project name="couchstore"/>
-  <project name="ep-engine" remote="mikewied" revision="stuck"/>
+  <project name="ep-engine" remote="mikewied" revision="snapshots"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached" remote="membase" revision="3.0"/>
