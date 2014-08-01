@@ -14,8 +14,7 @@
   <project name="ep-engine"               />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <!-- Locking memcached to build 1075 revision -->
-  <project name="memcached"               revision="5cc2f8d928f0eef8bddbcb2fcb796bc5e9768bb8" remote="membase" />
+  <project name="memcached"               revision="3.0" remote="membase" />
   <project name="moxi"                    />
   <project name="ns_server"               />
   <project name="platform"                />
