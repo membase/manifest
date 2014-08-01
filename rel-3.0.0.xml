@@ -11,7 +11,8 @@
   <project name="couchdb"                 />
   <project name="couchdbx-app"            revision="3.0.0"         />
   <project name="couchstore"              />
-  <project name="ep-engine"               />
+  <!-- ep-engine locked to revision from build 1075 -->
+  <project name="ep-engine"               revision="3aaaaa4f67c847994994ddfdacf42733b1489182"/>
   <project name="geocouch"                />
   <project name="healthchecker"           />
   <project name="memcached"               revision="3.0" remote="membase" />
