@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
-  <remote name="membase" fetch="git://github.com/membase/"/>
-  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
+  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="master" />
 
-  <project name="couchbase-cli"           path="couchbase-cli"           revision="d4ddd5d7641a5885ea897fce20100fc7122b2f71"/>
-  <project name="couchbase-examples"      path="couchbase-examples"      revision="bdad3f192ad95fc5438e347bd5b7f434fb534aea"/>
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"/>
-  <project name="couchdb"                 path="couchdb"                 revision="6df9d02bb4973ddc35849d990252b96be0c203e8"/>
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="8e657ce1a61f81e58839bb96abd56be90790e7a8"/>
-  <project name="couchstore"              path="couchstore"              revision="ea765eb96de71b354b6c3da3bd4ed48143bb84b3"/>
-  <project name="ep-engine"               path="ep-engine"               revision="7da82c0b65fcc8840921a78ac869592024053594"/>
-  <project name="geocouch"                path="geocouch"                revision="78873365fda50fa23055ef7a0782e31aaac1e101"/>
-  <project name="healthchecker"           path="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
-  <project name="memcached"               path="memcached"               revision="f4b802c857a164d73338b86ecbaedccf7591153f"
-           remote="membase"/>
-  <project name="moxi"                    path="moxi"                    revision="30a8545c477dfc2469f2db5495e48cdce5a403a6"/>
-  <project name="ns_server"               path="ns_server"               revision="85c22e404bf70bb36baadcedecedbb6cb61dda36"/>
-  <project name="platform"                path="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
-  <project name="sigar"                   path="sigar"                   revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9"/>
-  <project name="testrunner"              path="testrunner"              revision="20a3d6ddb254f11a15a9c644b40f237e68506818"/>
-  <project name="tlm"                     path="tlm"                     revision="4bb1ba80df6058be204d637705e6ee6b6bebc64a">
-    <copyfile src='GNUmakefile'    dest='GNUmakefile'/>
-    <copyfile src='Makefile'       dest='Makefile'/>
-    <copyfile src='CMakeLists.txt' dest='CMakeLists.txt'/>
+  <project name="couchbase-cli"           />
+  <project name="couchbase-examples"      />
+  <project name="couchbase-python-client" revision="couchbase-181" />
+  <project name="couchdb"                 />
+  <project name="couchdbx-app"            revision="3.0.0"         />
+  <project name="couchstore"              />
+  <project name="ep-engine"               />
+  <project name="geocouch"                />
+  <project name="healthchecker"           />
+  <project name="memcached"               revision="3.0" remote="membase" />
+  <project name="moxi"                    />
+  <project name="ns_server"               />
+  <project name="platform"                />
+  <project name="sigar"                   />
+  <project name="testrunner"              />
+
+  <project name="tlm">
+    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
+    <copyfile src="Makefile"       dest="Makefile"       />
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
-  <!--
-  <project name="voltron"                 path="voltron"                 revision="282234f4c48ddfae9559bc7ea4fc768786e4e34a" />
-  -->
+
 </manifest>
