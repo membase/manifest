@@ -15,7 +15,7 @@
   <project name="ep-engine" remote="sriganes" revision="master"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="memcached" remote="membase" revision="3.0"/>
+  <project name="memcached" remote="sriganes" revision="3.0"/>
   <project name="moxi" remote="sriganes" revision="master"/>
   <project name="ns_server"/>
   <project name="platform"/>
