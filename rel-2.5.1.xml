@@ -13,10 +13,10 @@
   <project name="couchbase-cli"           path="couchbase-cli"           revision="2d3b8a2c6c6c5cc47ef09c2ea5d1b382b00245a8" remote="couchbase" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="1fb1d2929eaa974144147cc6a6da4735fc97d512" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="a425d9742ae28414d06ec03dac02b85d0bac41c3" />
+  <project name="couchdb"                 path="couchdb"                 revision="CBSE-1341" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="3121605b87f44cd02b347140ab6b2c0fc1b85e36" />
   <project name="couchstore"              path="couchstore"              revision="de0dcdc292935b93c4700386c5f65c92daff7039" />
-  <project name="ep-engine"               path="ep-engine"               revision="CBSE-1321" />
+  <project name="ep-engine"               path="ep-engine"               revision="MB-11037" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
