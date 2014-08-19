@@ -5,7 +5,7 @@
 
   <default remote="couchbase" revision="master" />
 
-  <project name="couchbase-cli"           />
+  <project name="couchbase-cli"           revision="3.0"/>
   <project name="couchbase-examples"      />
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"                 />
