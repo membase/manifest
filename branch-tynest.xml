@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="membase" fetch="git://github.com/membase/" review="review.couchbase.org"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="couchbase-cli"/>
+  <project name="couchbase-examples"/>
+  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchdb"/>
+  <project name="couchstore"/>
+  <project name="ep-engine"/>
+  <project name="geocouch"/>
+  <project name="healthchecker"/>
+  <project name="memcached" remote="membase"/>
+  <project name="moxi"/>
+  <project name="ns_server"/>
+  <project name="platform"/>
+  <project name="sigar"/>
+  <project name="testrunner"/>
+
+  <project name="tlm">
+    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
+    <copyfile src="Makefile" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
+  </project>
+
+</manifest>
