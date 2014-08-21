@@ -10,12 +10,12 @@
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
-  <project name="couchdbx-app" revision="3.0.0"/>
+  <project name="couchdbx-app" />
   <project name="couchstore"/>
   <project name="ep-engine" remote="abhinavdangeti" revision="remNotifier" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="memcached" revision="3.0" remote="membase" />
+  <project name="memcached" revision="3.0.1" remote="membase" />
   <project name="moxi"/>
   <project name="ns_server" remote="abhinavdangeti" revision="remNotifier" />
   <project name="platform"/>
