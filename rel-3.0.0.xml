@@ -16,7 +16,7 @@
   <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" upstream="master"/>
   <project name="memcached"               revision="3.0" remote="membase"/>
   <project name="moxi"                    revision="30a8545c477dfc2469f2db5495e48cdce5a403a6" upstream="master"/>
-  <project name="ns_server"               revision="4bae5048815c3ef17a9bf31499612788db54c3f0" upstream="master"/>
+  <project name="ns_server"               revision="baa1995d4ac2cbc6fc43eda8edb054370c94cb17" upstream="master"/>
   <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9" upstream="master"/>
   <project name="sigar"                   revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9" upstream="master"/>
   <project name="testrunner"              revision="274ef8ea9f9ad7d8de0765bc8710c32242fd9508" upstream="master"/>
