@@ -60,44 +60,58 @@ projects_arr.each do |name|
   project  = projects[name]
   path     = project.attributes['path'] || name
   remote   = remotes[project.attributes['remote'] || default.attributes['remote']]
+  remote_name = remote.attributes['name']
   fetch    = remote.attributes['fetch']
   revision = project.attributes['revision'] || default.attributes['revision']
   project_url = "#{fetch}#{name}"
 
-  print "#{name} #{revision}...\n"
+  print "#{name} #{revision} #{remote}...\n"
 
   # If caching, update the cache first, then change remote to
   # point to the cache
   if cachedir != ""
-    project_cachedir = "#{cachedir}/#{name}.git"
+    safe_fetch = fetch.chomp("/").tr_s("/:","_")
+    project_cachedir = "#{cachedir}/#{safe_fetch}/#{name}.git"
     unless File.directory?(project_cachedir)
-      sh %{git clone --mirror #{fetch}#{name} #{project_cachedir}} do |ok, res|
+      sh %{git clone --bare #{fetch}#{name} #{project_cachedir}} do |ok, res|
         exit(false) unless ok
       end
     end
-    sh %{git --git-dir #{project_cachedir} fetch}
+    sh %{git --git-dir #{project_cachedir} fetch --tags}
     project_url = project_cachedir
   end
 
+  # Create local source directory if necessary
   unless File.directory?("#{path}/.git")
-    sh %{git clone #{project_url} #{path}} do |ok, res|
+    sh %{git clone --origin #{remote_name} #{project_url} #{path}} do |ok, res|
       exit(false) unless ok
-    end
-  else
-    Dir.chdir(path) do
-      sh %{git remote update} do |ok, res|
-        exit(false) unless ok
-      end
     end
   end
 
   Dir.chdir(path) do
-    curr = `git rev-parse HEAD`.chomp
+    # See if remote is known
+    rem = %x{git ls-remote --get-url #{remote_name} }.chomp()
+    if rem == remote_name
+      # Unknown; add remote
+      sh %{git remote add #{remote_name} #{project_url} } do |ok, res|
+        exit(false) unless ok
+      end
+    elsif rem != project_url
+      print "ERROR! You changed the URL for remote #{remote_name}.\n"
+      print "It was previously #{rem}\n"
+      print "and is now #{project_url}\n"
+      print "fetch-manifest.rb cannot handle this! Please use a new name.\n\n"
+      exit (false)
+    end
 
-    sh %{git fetch --tags} do |ok, res|
+    # Update git information
+    sh %{git fetch --tags #{remote_name}} do |ok, res|
       exit(false) unless ok
     end
 
+    curr = `git rev-parse HEAD`.chomp
+
+    # Checkout a particular revision
     if revision.include?(' ')
       # Handle when the revision attribute is a full command, like...
       #
@@ -111,7 +125,7 @@ projects_arr.each do |name|
         exit(false) unless ok
       end
     else
-      sh %{git reset --hard origin/#{revision} || git reset --hard #{revision}} do |ok, res|
+      sh %{git reset --hard #{remote_name}/#{revision} || git reset --hard #{revision}} do |ok, res|
         exit(false) unless ok
       end
     end
