@@ -8,11 +8,11 @@
   <project name="couchbase-cli"           revision="3.0"/>
   <project name="couchbase-examples"      revision="3e2d4fdc888aced9eb63659b9847183073789a83" upstream="master"/>
   <project name="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5" upstream="couchbase-181"/>
-  <project name="couchdb"                 revision="b75c1fd212756ed2cb92df6a7fc6cd7e92df6288" upstream="master"/>
+  <project name="couchdb"                 revision="708ba2437cb945647ab8c6f6eee33240927959a5" upstream="master"/>
   <project name="couchdbx-app"            revision="3.0.0"/>
   <project name="couchstore"              revision="ab4276bc3022e4ab797ddcf55624f780d88b294f" upstream="master"/>
   <project name="ep-engine"               revision="3.0"/>
-  <project name="geocouch"                revision="0de5e145e1c4e67cfe8d586e8cdfb4ddf37dbc7b" upstream="master"/>
+  <project name="geocouch"                revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716" upstream="master"/>
   <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" upstream="master"/>
   <project name="memcached"               revision="3.0" remote="membase"/>
   <project name="moxi"                    revision="30a8545c477dfc2469f2db5495e48cdce5a403a6" upstream="master"/>
