@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase"      fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
-  <remote name="membase"        fetch="git://github.com/membase/"           review="review.couchbase.org" />
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
+  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
   <remote name="hisundar"  fetch="git://github.com/hisundar/"  review="review.couchbase.org" />
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="master" />
 
-  <project name="couchbase-cli"/>
-  <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb"/>
-  <project name="couchdbx-app"/>
-  <project name="couchstore"/>
-  <project name="ep-engine" remote="hisundar" revision="wip"/>
-  <project name="geocouch"/>
-  <project name="healthchecker"/>
-  <project name="memcached" remote="membase" revision="3.0"/>
-  <project name="moxi"/>
-  <project name="ns_server"/>
-  <project name="platform"/>
-  <project name="sigar"/>
-  <project name="testrunner"/>
-
-  <project name="tlm">
-    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
-    <copyfile src="Makefile" dest="Makefile"/>
+  <project name="couchbase-cli"           revision="3.0"/>
+  <project name="couchbase-examples"      revision="3e2d4fdc888aced9eb63659b9847183073789a83" upstream="master"/>
+  <project name="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5" upstream="couchbase-181"/>
+  <project name="couchdb"                 revision="3d306749748a89868ad127830b23eb71c8f8f85b" upstream="master"/>
+  <project name="couchdbx-app"            revision="3.0.0"/>
+  <project name="couchstore"              revision="ab4276bc3022e4ab797ddcf55624f780d88b294f" upstream="master"/>
+  <project name="ep-engine"               remote="hisundar" revision="wip"/>
+  <project name="geocouch"                revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716" upstream="master"/>
+  <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" upstream="master"/>
+  <project name="memcached"               revision="3.0" remote="membase"/>
+  <project name="moxi"                    revision="30a8545c477dfc2469f2db5495e48cdce5a403a6" upstream="master"/>
+  <project name="ns_server"               revision="rel-3.0.0" upstream="master"/>
+  <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9" upstream="master"/>
+  <project name="sigar"                   revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9" upstream="master"/>
+  <project name="testrunner"              revision="274ef8ea9f9ad7d8de0765bc8710c32242fd9508" upstream="master"/>
+  <project name="tlm"                     revision="3.0.0">
+    <copyfile src="GNUmakefile"    dest="GNUmakefile"/>
+    <copyfile src="Makefile"       dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-
 </manifest>
