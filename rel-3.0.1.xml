@@ -8,8 +8,8 @@
   <project name="couchbase-cli"           />
   <project name="couchbase-examples"      />
   <project name="couchbase-python-client" revision="couchbase-181"  />
-  <project name="couchdb"                 revision="plabee/MB-7250" />
-  <project name="couchdbx-app"            />
+  <project name="couchdb"                 />
+  <project name="couchdbx-app"            revision="plabee/MB-7250" />
   <project name="couchstore"              />
   <project name="ep-engine"               />
   <project name="geocouch"                />
