@@ -11,7 +11,7 @@
   <project name="couchdb"                 />
   <project name="couchdbx-app"            revision="plabee/MB-7250" />
   <project name="couchstore"              />
-  <project name="ep-engine"               />
+  <project name="ep-engine"               revision="3.0.1" />
   <project name="geocouch"                />
   <project name="healthchecker"           />
   <project name="memcached" remote="membase" revision="3.0.1"       />
