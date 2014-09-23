@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org" />
-  <remote name="membase"   fetch="git://github.com/membase/"           review="review.couchbase.org" />
-  <remote name="t3rm1n4l"   fetch="git://github.com/t3rm1n4l/"         review="review.couchbase.org" />
+  <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" />
+  <remote name="membase"       fetch="git://github.com/membase/"           review="review.couchbase.org" />
+  <remote name="t3rm1n4l"      fetch="git://github.com/t3rm1n4l/"          />
+  <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
+  <remote name="dustin"        fetch="git://github.com/dustin/"            />
+  <remote name="gorilla"       fetch="git://github.com/gorilla/"           />
+  <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
 
   <default remote="couchbase" revision="master" />
 
@@ -22,11 +26,29 @@
   <project name="platform"                />
   <project name="sigar"                   />
   <project name="testrunner"              />
-  <project name="query"                   />
-  <project name="indexing"                />
-  <project name="forestdb"                remote="couchbaselabs" />
 
-  <project name="tlm" remote="t3rm1n4l">
+  <project name="indexing-build-scripts" remote="t3rm1n4l" />
+  <project name="gomemcached"             />
+
+  <project name="goprotobuf"             remote="couchbaselabs" />
+  <project name="retriever"              remote="couchbaselabs" />
+  <project name="dparval"                remote="couchbaselabs" />
+  <project name="go-couchbase"           remote="couchbaselabs" />
+  <project name="clog"                   remote="couchbaselabs" />
+  <project name="go-slab"                remote="couchbaselabs" />
+  <project name="goforestdb"             remote="couchbaselabs" />
+  <project name="collatejson"            remote="prataprc" />
+  <project name="go-jsonpointer"         remote="dustin" />
+  <project name="gojson"                 remote="dustin" />
+  <project name="mux"                    remote="gorilla" />
+  <project name="context"                remote="gorilla" />
+  <project name="liner"                  remote="sbinet" />
+
+  <project name="forestdb"               remote="couchbaselabs" />
+  <project name="indexing"                 />
+  <project name="tuqtng"                 remote="couchbaselabs" />
+
+  <project name="tlm" />
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
