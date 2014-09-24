@@ -45,10 +45,10 @@
   <project name="liner"                  remote="sbinet" />
 
   <project name="forestdb"               remote="couchbaselabs" />
-  <project name="indexing"                 />
+  <project name="indexing"                />
   <project name="tuqtng"                 remote="couchbaselabs" />
 
-  <project name="tlm" >
+  <project name="tlm"                    remote="t3rm1n4l" >
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
