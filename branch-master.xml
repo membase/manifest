@@ -21,10 +21,10 @@
   <project name="sigar"/>
   <project name="testrunner"/>
 
-  <project name="tlm"              revision="dc379577da68211c2b7ffce67b91ba2aca1eb317">
-    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
-    <copyfile src="Makefile"       dest="Makefile"       />
-    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+  <project name="tlm">
+    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
+    <copyfile src="Makefile" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
 
 </manifest>
