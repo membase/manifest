@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
+  <remote name="membase" fetch="git://github.com/membase/"/>
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="couchbase-cli" path="couchbase-cli" revision="740852091d6d2bce3b0070566882bfd8601bae72"/>
+  <project name="couchbase-examples" path="couchbase-examples" revision="3bf85cd7b7310aaf290549d9939bfad392cfc026"/>
+  <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"/>
+  <project name="couchdb" path="couchdb" revision="8b066e93a4d6c4cd98ae1fec799a781d490eb1d1"/>
+  <project name="couchdbx-app" path="couchdbx-app" revision="70a595d7af2404128ff7aa32ce2f578338235db2"/>
+  <project name="couchstore" path="couchstore" revision="c0ea8ac80cc194b88d736dce0e828a3cafb4c9ea"/>
+  <project name="ep-engine" path="ep-engine" revision="4101daaca0b06e97481601263b95a4c827db87ab"/>
+  <project name="geocouch" path="geocouch" revision="40a092067726726152ea158c138ccab8fff2be0b"/>
+  <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
+  <project name="memcached" path="memcached" revision="a709313cce11e07c0b3c84d03d09ca12fd92b768"
+           remote="membase"/>
+  <project name="moxi" path="moxi" revision="be051586f71ae007faa5de44a11430352b851345"/>
+  <project name="ns_server" path="ns_server" revision="b1444010e6f57c08b04eaa95a347101952f43678"/>
+  <project name="platform" path="platform" revision="f811850605a643603adf8428953b517eb83725b2"/>
+  <project name="sigar" path="sigar" revision="1ed9965a94472ba58b52debbe4bdb282dd8e0352"/>
+  <project name="testrunner" path="testrunner" revision="40f55ed3fb7a92b3f1cef96c9f0b00bd6e7dbe5c"/>
+  <project name="tlm" path="tlm" revision="dc379577da68211c2b7ffce67b91ba2aca1eb317">
+    <copyfile dest='GNUmakefile' src='GNUmakefile'/>
+    <copyfile dest='Makefile' src='Makefile'/>
+    <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
+  </project>
+  <project name="otp" path="otp" revision="23790daf1a2d384b0fc11c655fa825151d9fa420"
+           remote="erlang"/>
+  <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
+           remote="couchbase"/>
+  <project name="snappy" path="snappy" revision="009c4325f40e04700ca7956e866ad342f020e214"
+           remote="couchbase"/>
+  <project name="gperftools" path="gperftools" revision="846b775dfadb77901202ae7ddbac30ad1de7df01"
+           remote="couchbase"/>
+  <project name="pysqlite" path="pysqlite" revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea"
+           remote="couchbase"/>
+  <project name="v8" path="v8" revision="05120013843918f7e3712159c03b509d3e328cf7"
+           remote="couchbase"/>
+  <project name="gyp" path="v8/build/gyp" revision="7c819b84a9a9484154d7584b7795f607e3178b3f"
+           remote="couchbase"/>
+  <project name="icu46" path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289"
+           remote="couchbase"/>
+  <project name="python-snappy" path="python-snappy" revision="c97d633ef5364740c152fd184f61c2d9e1a93d01"
+           remote="couchbase"/>
+  <!--
+  <project name="voltron" path="voltron" revision="a87b5ac4399ce54583cfb23d58a6079df138529c" />
+  --></manifest>
