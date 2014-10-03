@@ -16,7 +16,7 @@
   <project name="ep-engine" remote="mike" revision="backfill" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="memcached" />
+  <project name="memcached" remote="membase" revision="3.0.1" />
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
