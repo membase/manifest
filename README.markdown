@@ -56,65 +56,9 @@ of the experiment.
 
 # Building With Repo
 
-## Ensure You Have the Dependencies
-
-The list of dependencies differ between the versions you try to build.
-
-### Mac OS X:
-
-Using [homebrew][homebrew] and the ruby that ships with a recent OS X,
-you can easily install the dependencies using the following commands:
-
-    sudo easy_install -U pyrex
-    brew install bazaar --system
-    brew install libevent
-    brew install gnupg
-    brew install v8
-    brew install snappy
-    brew install erlang
-    brew install icu4c
-    brew install automake
-    brew install libtool
-    brew install google-perftools
-    brew install cmake
-
-Make sure that icu's `icu-config` binary is on your PATH when building
-couchbase:
-
-    export PATH=/usr/local/opt/icu4c/bin:$PATH
-
-Optionally, you can install repo from homebrew as well:
-
-    brew install repo
-
-### Debian/Ubuntu:
-
-The following works for a clean Debian stable (squeeze) installation (under root):
-
-    aptitude install -y --without-recommends build-essential automake libtool pkg-config check libssl-dev sqlite3 libevent-dev libglib2.0-dev libcurl4-openssl-dev erlang-nox curl erlang-dev erlang-src ruby libmozjs-dev libicu-dev
-    aptitude install -y python-minimal
-    aptitude install -y --without-recommends git-core
-
-Note that Debian squeeze ships Erlang R14A, yet Ubuntu 10.4, 10.10 and
-even 11.4 ship R13B03. As of this writing, couchbase requires R14B.
-
-To install R14 on Ubuntu, you can grab R14B source package from Debian
-Unstable and dpkg-buildpackage'ing it as usual.
-
-Another (any likely preferred) option is to get R14B02 from PPA:
-https://launchpad.net/~scattino/+archive/ppa
-
-In order to link with xulrunner on ubuntu (which lacks libmozjs-dev)
-you need the following:
-
-    aptitude install -y xulrunner-dev
-
-and then you need to pass extra options to make like this:
-
-    make couchdb_EXTRA_OPTIONS='--with-js-include=/usr/include/xulrunner-1.9.2.16 --with-js-lib=/usr/lib/xulrunner-devel-1.9.2.16/sdk/lib/'
-
-The path seems to vary with version. 'dpkg -l xulrunner-dev' will help
-you find the right path.
+See the readme in the correct branch for
+[tlm](https://github.com/couchbase/tlm) for the exact steps on how to
+build the desired version.
 
 ## Get Repo
 
@@ -138,5 +82,3 @@ unless you are working on a maintenance or experimental branch.
 ## Build
 
     $ make
-
-[homebrew]: https://github.com/mxcl/homebrew
