@@ -77,7 +77,8 @@ projects_arr.each do |name|
         exit(false) unless ok
       end
     end
-    sh %{git --git-dir #{project_cachedir} fetch --all --tags}
+    sh %{git --git-dir #{project_cachedir} fetch}
+    sh %{git --git-dir #{project_cachedir} fetch --tags}
     project_url = project_cachedir
   end
 
@@ -105,7 +106,7 @@ projects_arr.each do |name|
     end
 
     # Update git information
-    sh %{git fetch --all --tags} do |ok, res|
+    sh %{git fetch #{remote_name} && git fetch --tags #{remote_name}} do |ok, res|
       exit(false) unless ok
     end
 
