@@ -13,7 +13,7 @@
   <project name="couchdb" remote="nimish" revision="parallel_stream" />
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" remote="mike" revision="backfill" />
+  <project name="ep-engine" revision="3.0.1" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached" remote="membase" revision="3.0.1" />
