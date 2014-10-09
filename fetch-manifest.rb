@@ -67,7 +67,7 @@ projects_arr.each do |name|
 
   print "#{name} #{revision} #{remote}...\n"
 
-  # If caching, update the cache first, then change remote to
+  # If caching, update the cache first, then change URL to
   # point to the cache
   if cachedir != ""
     safe_fetch = fetch.chomp("/").tr_s("/:","_")
@@ -77,8 +77,7 @@ projects_arr.each do |name|
         exit(false) unless ok
       end
     end
-    sh %{git --git-dir #{project_cachedir} fetch}
-    sh %{git --git-dir #{project_cachedir} fetch --tags}
+    sh %{git --git-dir #{project_cachedir} fetch #{project_url} '+refs/*:refs/*' --prune}
     project_url = project_cachedir
   end
 
@@ -91,8 +90,8 @@ projects_arr.each do |name|
 
   Dir.chdir(path) do
     # See if remote is known
-    rem = %x{git ls-remote --get-url #{remote_name} }.chomp()
-    if rem == remote_name
+    rem = %x{git config --file .git/config --get remote.#{remote_name}.url}.chomp()
+    if rem == ""
       # Unknown; add remote
       sh %{git remote add #{remote_name} #{project_url} } do |ok, res|
         exit(false) unless ok
@@ -106,7 +105,7 @@ projects_arr.each do |name|
     end
 
     # Update git information
-    sh %{git fetch #{remote_name} && git fetch --tags #{remote_name}} do |ok, res|
+    sh %{git fetch --all --tags} do |ok, res|
       exit(false) unless ok
     end
 
