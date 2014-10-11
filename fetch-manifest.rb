@@ -105,7 +105,7 @@ projects_arr.each do |name|
     end
 
     # Update git information
-    sh %{git fetch --all --tags} do |ok, res|
+    sh %{git fetch #{remote_name} && git fetch --tags #{remote_name}} do |ok, res|
       exit(false) unless ok
     end
 
