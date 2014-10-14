@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" />
+  <remote name="membase"       fetch="git://github.com/membase/"           review="review.couchbase.org" />
+  <remote name="t3rm1n4l"      fetch="git://github.com/t3rm1n4l/"          />
+  <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
+  <remote name="dustin"        fetch="git://github.com/dustin/"            />
+  <remote name="gorilla"       fetch="git://github.com/gorilla/"           />
+  <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
+  <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
+
+  <default remote="couchbase" revision="master" />
+
+  <project name="couchbase-cli"           />
+  <project name="couchbase-examples"      />
+  <project name="couchbase-python-client" revision="couchbase-181" />
+  <project name="couchdb"                 />
+  <project name="couchdbx-app"            revision="3.0.0"         />
+  <project name="couchstore"              />
+  <project name="ep-engine"               />
+  <project name="geocouch"                />
+  <project name="healthchecker"           />
+  <project name="memcached"               revision="3.0" remote="membase" />
+  <project name="moxi"                    />
+  <project name="ns_server"               />
+  <project name="platform"                />
+  <project name="sigar"                   />
+  <project name="testrunner"              />
+
+  <project name="indexing-build-scripts" remote="t3rm1n4l" />
+  <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
+
+  <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
+  <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
+  <project name="collatejson"            remote="prataprc"       path="godeps/src/github.com/prataprc/collatejson"/>
+  <project name="retriever"              remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/retriever" />
+  <project name="dparval"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/dparval"/>
+  <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
+  <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
+  <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
+  <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
+  <project name="go-jsonpointer"         remote="dustin"         path="godeps/src/github.com/dustin/go-jsonpointer"/>
+  <project name="gojson"                 remote="dustin"         path="godeps/src/github.com/dustin/gojson" />
+  <project name="mux"                    remote="gorilla"        path="godeps/src/github.com/gorilla/mux" />
+  <project name="context"                remote="gorilla"        path="godeps/src/github.com/gorilla/context" />
+  <project name="liner"                  remote="sbinet"         path="godeps/src/github.com/sbinet/liner" />
+
+  <project name="forestdb"               remote="ceejatec" />
+  <project name="indexing"                                       path="goproj/src/github.com/couchbase/indexing" />
+  <project name="tuqtng"                 remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/tuqtng"/>
+
+  <project name="tlm" >
+    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
+    <copyfile src="Makefile"       dest="Makefile"       />
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+  </project>
+
+</manifest>
