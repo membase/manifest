@@ -21,7 +21,7 @@
   <project name="ep-engine"               />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <project name="memcached"               revision="3.0" remote="membase" />
+  <project name="memcached"  remote="membase" />
   <project name="moxi"                    />
   <project name="ns_server"               />
   <project name="platform"                />
@@ -48,9 +48,9 @@
 
   <project name="forestdb"               remote="ceejatec" />
   <project name="indexing"                                       path="goproj/src/github.com/couchbase/indexing" />
-  <project name="tuqtng"                 remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/tuqtng"/>
+  <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
 
-  <project name="tlm" >
+  <project name="tlm" remote="ceejatec">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
