@@ -22,7 +22,7 @@
   <project name="healthchecker"           />
   <project name="memcached"               revision="3.0" remote="membase" />
   <project name="moxi"                    />
-  <project name="ns_server"               />
+  <project name="ns_server"               remote="t3rm1n4l" />
   <project name="platform"                />
   <project name="sigar"                   />
   <project name="testrunner"              />
