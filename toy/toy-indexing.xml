@@ -46,6 +46,7 @@
 
   <project name="forestdb"               remote="couchbaselabs" />
   <project name="indexing"                />
+  <project name="query"                  remote="couchbaselabs" />
   <project name="tuqtng"                 remote="couchbaselabs" />
 
   <project name="tlm"                    remote="t3rm1n4l" >
