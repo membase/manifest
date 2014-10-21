@@ -16,7 +16,7 @@
   <project name="couchdb"                 path="couchdb"                 revision="2.5.1.1" />
   <project name="couchdbx-app"            path="couchdbx-app"            revision="2.5.1.1" />
   <project name="couchstore"              path="couchstore"              revision="de0dcdc292935b93c4700386c5f65c92daff7039" />
-  <project name="ep-engine"               path="ep-engine"               revision="2.5.1.1" />
+  <project name="ep-engine"               path="ep-engine"               revision="a1ac157650d879e36de62d01a4fd0cafb4688ec5" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
@@ -24,7 +24,7 @@
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
   <project name="memcached"               path="memcached"               revision="349f670f51a36a795bd7016baac3b18408e8d2c5" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
-  <project name="ns_server"               path="ns_server"               revision="rel-2.5.1.1" />
+  <project name="ns_server"               path="ns_server"               revision="2.5.1.1" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
   <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
