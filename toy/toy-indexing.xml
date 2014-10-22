@@ -17,7 +17,7 @@
   <project name="couchdb"                 />
   <project name="couchdbx-app"            revision="3.0.0"         />
   <project name="couchstore"              />
-  <project name="ep-engine"               />
+  <project name="ep-engine"               revision="3.0" />
   <project name="geocouch"                />
   <project name="healthchecker"           />
   <project name="memcached"               revision="3.0" remote="membase" />
@@ -28,12 +28,12 @@
   <project name="testrunner"              />
 
   <project name="indexing-build-scripts" remote="t3rm1n4l" />
-  <project name="gomemcached"             />
+  <project name="gomemcached"            revision="03b790e591bb052cf96aa2b000fab8a05d77f98b" />
 
   <project name="goprotobuf"             remote="couchbaselabs" />
   <project name="retriever"              remote="couchbaselabs" />
   <project name="dparval"                remote="couchbaselabs" />
-  <project name="go-couchbase"           remote="couchbaselabs" />
+  <project name="go-couchbase"           remote="couchbaselabs" revision="d27e2c955079555bbac539e6f1e1660240264be5" />
   <project name="clog"                   remote="couchbaselabs" />
   <project name="go-slab"                remote="couchbaselabs" />
   <project name="goforestdb"             remote="couchbaselabs" />
@@ -45,9 +45,9 @@
   <project name="liner"                  remote="sbinet" />
 
   <project name="forestdb"               remote="couchbaselabs" />
-  <project name="indexing"                />
+  <project name="indexing"               remote="t3rm1n4l" />
   <project name="query"                  remote="couchbaselabs" />
-  <project name="tuqtng"                 remote="couchbaselabs" />
+  <project name="tuqtng"                 remote="t3rm1n4l" revision = "index-preview" />
 
   <project name="tlm"                    remote="t3rm1n4l" >
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
