@@ -17,10 +17,10 @@
   <project name="couchdb"                 />
   <project name="couchdbx-app"            revision="3.0.0"         />
   <project name="couchstore"              />
-  <project name="ep-engine"               revision="3.0" />
+  <project name="ep-engine"               revision="1a51f57598cbae4eed8dcc0a30b9c471af9bc0ba" />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <project name="memcached"               revision="3.0" remote="membase" />
+  <project name="memcached"               revision="1e9a77d7c33714abdc347687977d4f7d9303452b" remote="membase" />
   <project name="moxi"                    />
   <project name="ns_server"               remote="t3rm1n4l" />
   <project name="platform"                />
