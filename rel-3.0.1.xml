@@ -1,30 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
-  <remote name="membase" fetch="git://github.com/membase/"/>
-  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
+  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="master" />
 
-  <project name="couchbase-cli" path="couchbase-cli" revision="a8ff5ab6d3b53c8a30cc1b8deeadad8c4b38f0c5"/>
-  <project name="couchbase-examples" path="couchbase-examples" revision="4829266f75b7e35ee5ed0dcc9c70029cd732b87c"/>
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"/>
-  <project name="couchdb" path="couchdb" revision="c2af28d229c8637f8ba585c47fa55398501d821f"/>
-  <project name="couchdbx-app" path="couchdbx-app" revision="cb0f2a7e9f97b5a325eb30afa5ff4a0cf5b3bc27"/>
-  <project name="couchstore" path="couchstore" revision="ab4276bc3022e4ab797ddcf55624f780d88b294f"/>
-  <project name="ep-engine" path="ep-engine" revision="70266212349406c828ed0d87d371f9ef60f48d6d"/>
-  <project name="geocouch" path="geocouch" revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716"/>
-  <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
-  <project name="memcached" path="memcached" revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"
-           remote="membase"/>
-  <project name="moxi" path="moxi" revision="30a8545c477dfc2469f2db5495e48cdce5a403a6"/>
-  <project name="ns_server" path="ns_server" revision="9fa81fe636e16b0a5347b62d4f7d98ad2f398d31"/>
-  <project name="platform" path="platform" revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
-  <project name="sigar" path="sigar" revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9"/>
-  <project name="testrunner" path="testrunner" revision="274ef8ea9f9ad7d8de0765bc8710c32242fd9508"/>
-  <project name="tlm" path="tlm" revision="611bce7989cd15a15082418977916cc500f52413">
-    <copyfile src='GNUmakefile' dest='GNUmakefile'/>
-    <copyfile src='Makefile' dest='Makefile'/>
-    <copyfile src='CMakeLists.txt' dest='CMakeLists.txt'/>
+  <!-- couchbase-cli, couchbase-examples: confirmed that master branches has only desirable changes -->
+  <project name="couchbase-cli"           />
+  <project name="couchbase-examples"      />
+  <!-- couchbase-python-client: branch unchanged since 3.0.0-1209 GA -->
+  <project name="couchbase-python-client" revision="couchbase-181"  />
+  <!-- couchdb, couchdbx-app same as 3.0.0-1209 GA -->
+  <project name="couchdb"                 revision="c2af28d229c8637f8ba585c47fa55398501d821f"/>
+  <project name="couchdbx-app"            revision="cb0f2a7e9f97b5a325eb30afa5ff4a0cf5b3bc27"/>
+  <!-- couchstore: confirmed that master branch has only desirable changes -->
+  <project name="couchstore"              />
+  <!-- ep-engine: backported changes on "3.0-refresh" branch -->
+  <project name="ep-engine"               revision="3.0-refresh" />
+  <!-- geocouch: same as 3.0.0-1209 GA -->
+  <project name="geocouch"                revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716"/>
+  <!-- healthchecker: master branch unchanged since 3.0.0-1209 GA -->
+  <project name="healthchecker"           />
+  <!-- memcached: backported fix for MB-12328 + 3.0.0-1209 GA -->
+  <project name="memcached" remote="membase" revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"/>
+  <!-- moxi: confirmed master branch has only desirable change -->
+  <project name="moxi"                    />
+  <!-- ns_server: backported changes on "rel-3.0.0++" branch -->
+  <project name="ns_server"               revision="192bb53d90172eb233720dfda784d9ddc489e5a4"/>
+  <!-- platform, sigar, testrunner: same as 3.0.0-1209 GA -->
+  <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
+  <project name="sigar"                   revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9"/>
+  <project name="testrunner"              revision="274ef8ea9f9ad7d8de0765bc8710c32242fd9508"/>
+
+  <!-- tlm: same as 3.0.0-1209 GA -->
+  <project name="tlm"                     revision="611bce7989cd15a15082418977916cc500f52413">
+    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
+    <copyfile src="Makefile"       dest="Makefile"       />
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
+
 </manifest>
