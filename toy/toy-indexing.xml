@@ -16,14 +16,14 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"                 />
   <project name="couchdbx-app"            revision="3.0.0"         />
-  <project name="couchstore"              />
+  <project name="couchstore"              revision="c0ea8ac80cc194b88d736dce0e828a3cafb4c9ea" />
   <project name="ep-engine"               revision="1a51f57598cbae4eed8dcc0a30b9c471af9bc0ba" />
-  <project name="geocouch"                />
+  <project name="geocouch"                revision="f6eb43eef5e6cbcbe76f863e4c6f4a8d12ff155a" />
   <project name="healthchecker"           />
   <project name="memcached"               revision="1e9a77d7c33714abdc347687977d4f7d9303452b" remote="membase" />
   <project name="moxi"                    />
-  <project name="ns_server"               remote="t3rm1n4l" />
-  <project name="platform"                />
+  <project name="ns_server"               revision="221ea86508714a62c474aa8a65d4b63c13e6d77f" remote="t3rm1n4l" />
+  <project name="platform"                revision="b5cf5c5a5f62a46f827be0d50f1cdf998d5303c4" />
   <project name="sigar"                   />
   <project name="testrunner"              />
 
@@ -36,7 +36,7 @@
   <project name="go-couchbase"           remote="couchbaselabs" revision="d27e2c955079555bbac539e6f1e1660240264be5" />
   <project name="clog"                   remote="couchbaselabs" />
   <project name="go-slab"                remote="couchbaselabs" />
-  <project name="goforestdb"             remote="couchbaselabs" />
+  <project name="goforestdb"             revision="8feb3e3020a116b9a6877227f872924dac5a6f5e" remote="couchbaselabs" />
   <project name="collatejson"            remote="prataprc" />
   <project name="go-jsonpointer"         remote="dustin" />
   <project name="gojson"                 remote="dustin" />
@@ -44,9 +44,9 @@
   <project name="context"                remote="gorilla" />
   <project name="liner"                  remote="sbinet" />
 
-  <project name="forestdb"               remote="couchbaselabs" />
+  <project name="forestdb"               revision="9edc7cd86cd8497412cea20764ea3a93edff05fb" remote="couchbaselabs" />
   <project name="indexing"               remote="t3rm1n4l" />
-  <project name="query"                  remote="couchbaselabs" />
+  <project name="query"                  revision="b9b9bcc250ed08bedfe2098554c5882121e24709" remote="couchbaselabs" />
   <project name="tuqtng"                 remote="t3rm1n4l" revision = "index-preview" />
 
   <project name="tlm"                    remote="t3rm1n4l" >
