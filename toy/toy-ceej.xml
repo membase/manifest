@@ -38,12 +38,13 @@
 
   <!-- Sherlock extension projects -->
   <project name="forestdb"               remote="ceejatec" />
-  <project name="indexing"               remote="ceejatec"       path="goproj/src/github.com/couchbase/indexing" />
+  <project name="indexing"                                       path="goproj/src/github.com/couchbase/indexing" />
   <!-- I believe we should end up with only one or the other of these two: -->
   <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
   <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
 
   <!-- Go support libraries - Couchbase-supported -->
+  <project name="gometa"                                         path="godeps/src/github.com/couchbase/gometa"/>
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
