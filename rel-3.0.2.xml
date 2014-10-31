@@ -11,14 +11,12 @@
   <project name="couchdb"                 />
   <project name="couchdbx-app"            />
   <project name="couchstore"              />
-  <!-- ep-engine: backported changes on "3.0-refresh" branch -->
-  <project name="ep-engine"               revision="3.0-refresh" />
+  <project name="ep-engine"               revision="3.0.1" />
   <project name="geocouch"                />
   <project name="healthchecker"           />
   <project name="memcached" remote="membase" revision="3.0.1"       />
   <project name="moxi"                    />
-  <!-- ns_server: backported changes on "rel-3.0.0++" branch -->
-  <project name="ns_server"               revision="rel-3.0.0++"/>
+  <project name="ns_server"               revision="rel-3.0.1"/>
   <project name="platform"                />
   <project name="sigar"                   />
   <project name="testrunner"              />
