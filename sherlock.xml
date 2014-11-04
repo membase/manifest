@@ -37,7 +37,7 @@
   </project>
 
   <!-- Sherlock extension projects -->
-  <project name="forestdb"               remote="ceejatec" />
+  <project name="forestdb"               remote="couchbaselabs" />
   <project name="indexing"                                       path="goproj/src/github.com/couchbase/indexing" />
   <!-- I believe we should end up with only one or the other of these two: -->
   <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
