@@ -2,7 +2,7 @@
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" />
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="membase"       fetch="git://github.com/membase/"           review="review.couchbase.org" />
   <remote name="membase-priv"  fetch="ssh://git@github.com/membase/"       review="review.couchbase.org" />
   <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
