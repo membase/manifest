@@ -39,7 +39,11 @@
   </project>
 
   <!-- Sherlock extension projects -->
-  <project name="forestdb"               remote="couchbaselabs" />
+
+  <!-- MB-12574 -->
+  <project name="forestdb"               remote="couchbaselabs"
+           revision="f7e910d074dceff7eb6be3ce4622f771f445c387" />
+
   <project name="indexing"                                       path="goproj/src/github.com/couchbase/indexing" />
   <!-- I believe we should end up with only one or the other of these two: -->
   <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
@@ -56,7 +60,10 @@
   <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
   <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
   <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
-  <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
+
+  <!-- MB-12574 -->
+  <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb"
+           revision="b4c2a74ffc29f07775adf4c2a99ecf1953300a89" />
 
   <!-- Go support libraries - third-party -->
   <project name="go-jsonpointer"         remote="dustin"         path="godeps/src/github.com/dustin/go-jsonpointer"/>
