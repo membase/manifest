@@ -11,6 +11,7 @@
   <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
   <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
   <remote name="erlang"        fetch="git://github.com/erlang/"            />
+  <remote name="erlang" fetch="git://github.com/twinj"/>
 
   <default remote="couchbase" revision="master" />
 
@@ -55,6 +56,7 @@
   <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
   <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
   <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
+  <project name="uuid"                   remote="twinj"          path="godeps/src/github.com/twinj/uuid"/>
 
   <!-- Go support libraries - third-party -->
   <project name="go-jsonpointer"         remote="dustin"         path="godeps/src/github.com/dustin/go-jsonpointer"/>
