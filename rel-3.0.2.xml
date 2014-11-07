@@ -14,7 +14,8 @@
   <project name="ep-engine"               revision="3.0.1" />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <project name="memcached" remote="membase" revision="3.0.1"       />
+  <!-- memcached building maintenance releases from 3.0 branch -->
+  <project name="memcached" remote="membase" revision="3.0"       />
   <project name="moxi"                    />
   <project name="ns_server"               revision="rel-3.0.1"/>
   <project name="platform"                />
