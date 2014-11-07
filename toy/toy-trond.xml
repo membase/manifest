@@ -11,7 +11,7 @@
   <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
   <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
   <remote name="erlang"        fetch="git://github.com/erlang/"            />
-  <remote name="erlang" fetch="git://github.com/twinj"/>
+  <remote name="twinj" fetch="git://github.com/twinj/"/>
 
   <default remote="couchbase" revision="master" />
 
