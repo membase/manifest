@@ -52,6 +52,8 @@
   <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
   <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
 
+  <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
+
   <!-- Go support libraries - Couchbase-supported -->
 
   <!-- MB-12574 -->
