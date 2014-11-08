@@ -5,18 +5,31 @@
 
   <default remote="couchbase" revision="master" />
 
+  <!-- couchbase-cli has only desirable changes on master -->
   <project name="couchbase-cli"           />
+
   <project name="couchbase-examples"      />
   <project name="couchbase-python-client" revision="couchbase-181"  />
+
+  <!-- couchdb has only desirable changes on master -->
   <project name="couchdb"                 />
+
+  <!-- couchdbx-app has only desirable changes on master -->
   <project name="couchdbx-app"            />
+
   <project name="couchstore"              />
   <project name="ep-engine"               revision="3.0.1" />
-  <project name="geocouch"                />
+
+  <!-- geocouch locked to same revision as 3.0.0 -->
+  <project name="geocouch"                revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716"/>
+
   <project name="healthchecker"           />
+
   <!-- memcached building maintenance releases from 3.0 branch -->
   <project name="memcached" remote="membase" revision="3.0"       />
   <project name="moxi"                    />
+
+  <!-- ns_server building 3.0.0 + cherry-picked bugfixes -->
   <project name="ns_server"               revision="rel-3.0.0++"/>
   <project name="platform"                />
   <project name="sigar"                   />
