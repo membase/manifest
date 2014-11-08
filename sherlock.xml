@@ -44,13 +44,20 @@
   <project name="forestdb"               remote="couchbaselabs"
            revision="f7e910d074dceff7eb6be3ce4622f771f445c387" />
 
-  <project name="indexing"                                       path="goproj/src/github.com/couchbase/indexing" />
+  <!-- MB-12574 -->
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing"
+           revision="7382d28569199290053aa5cea3626c1d1e83c2bd" />
+
   <!-- I believe we should end up with only one or the other of these two: -->
   <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
   <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="gometa"                                         path="godeps/src/github.com/couchbase/gometa"/>
+
+  <!-- MB-12574 -->
+  <project name="gometa"                                         path="godeps/src/github.com/couchbase/gometa"
+           revision="aaf2b240802e87c1002795d6f11d39090dbeb7f8" />
+
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
