@@ -20,8 +20,8 @@
   <project name="couchstore"              />
   <project name="ep-engine"               revision="3.0.1" />
 
-  <!-- geocouch locked to same revision as 3.0.0 -->
-  <project name="geocouch"                revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716"/>
+  <!-- geocouch has only desirable changes on master -->
+  <project name="geocouch"                />
 
   <project name="healthchecker"           />
 
