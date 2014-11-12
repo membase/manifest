@@ -48,7 +48,7 @@
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"
            revision="7382d28569199290053aa5cea3626c1d1e83c2bd" />
 
-  <project name="query"                  remote="query"          path="goproj/src/github.com/couchbaselabs/query"/>
+  <project name="query"                  remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/query"/>
   <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
 
   <!-- Go support libraries - Couchbase-supported -->
