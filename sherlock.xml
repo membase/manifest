@@ -3,7 +3,6 @@
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="membase"       fetch="git://github.com/membase/"           review="review.couchbase.org" />
   <remote name="membase-priv"  fetch="ssh://git@github.com/membase/"       review="review.couchbase.org" />
   <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
   <remote name="dustin"        fetch="git://github.com/dustin/"            />
@@ -11,6 +10,7 @@
   <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
   <remote name="twinj"         fetch="git://github.com/twinj/"             />
   <remote name="natefinch"     fetch="git://github.com/natefinch/"         />
+  <remote name="samuel"        fetch="git://github.com/samuel/"            />
   <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
   <remote name="erlang"        fetch="git://github.com/erlang/"            />
 
@@ -26,7 +26,7 @@
   <project name="ep-engine"               />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <project name="memcached"  remote="membase" />
+  <project name="memcached"               />
   <project name="moxi"                    />
   <project name="ns_server"               />
   <project name="platform"                />
@@ -48,10 +48,7 @@
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"
            revision="7382d28569199290053aa5cea3626c1d1e83c2bd" />
 
-  <!-- I believe we should end up with only one or the other of these two: -->
-  <project name="tuqtng"                 remote="ceejatec"       path="goproj/src/github.com/couchbaselabs/tuqtng"/>
-  <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
-
+  <project name="query"                  remote="query"          path="goproj/src/github.com/couchbaselabs/query"/>
   <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
 
   <!-- Go support libraries - Couchbase-supported -->
@@ -69,6 +66,7 @@
   <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
   <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
   <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
+  <project name="go-zookeeper"           remote="samuel"         path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- MB-12574 -->
   <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb"
