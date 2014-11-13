@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="couchbase"     fetch="git://github.com/couchbase" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" />
   <remote name="pavel-paulau"  fetch="git://github.com/pavel-paulau/" />
 
@@ -8,7 +9,7 @@
   </project>
 
   <project name="cbagent"                 remote="couchbaselabs" revision="master" />
-  <project name="couchbase-python-client" remote="couchbaselabs" revision="1.2.4" />
+  <project name="couchbase-python-client" remote="couchbase"     revision="1.2.4" />
   <project name="mc_bin_client"           remote="pavel-paulau"  revision="master" />
 
 </manifest>
