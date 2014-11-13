@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="python" fetch="git://github.com/python/" />
+
+  <default remote="python" revision="master" />
+
+  <!-- Python 2.7.8 -->
+  <project name="cpython" remote="python" revision="c2cd63be383ba970bfc6d17def1c159da57c058c"/>
+</manifest>
