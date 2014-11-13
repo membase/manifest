@@ -7,6 +7,7 @@
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>
 
-  <project name="mc_bin_client"  remote="pavel-paulau"  revision="master"/>
+  <project name="cbagent"        remote="couchbaselabs" revision="master" />
+  <project name="mc_bin_client"  remote="pavel-paulau"  revision="master" />
 
 </manifest>
