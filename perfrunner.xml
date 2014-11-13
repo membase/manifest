@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" />
+  <remote name="pavel-paulau"  fetch="git://github.com/pavel-paulau/" />
 
   <project name="perfrunner-tlm" remote="couchbaselabs" revision="master">
     <copyfile src='Makefile.top' dest='Makefile'/>
