@@ -11,6 +11,7 @@
   <remote name="twinj"         fetch="git://github.com/twinj/"             />
   <remote name="natefinch"     fetch="git://github.com/natefinch/"         />
   <remote name="samuel"        fetch="git://github.com/samuel/"            />
+  <remote name="rcrowley"      fetch="git://github.com/rcrowley/"          />
   <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
   <remote name="erlang"        fetch="git://github.com/erlang/"            />
 
@@ -70,6 +71,7 @@
   <project name="liner"                  remote="sbinet"         path="godeps/src/github.com/sbinet/liner" />
   <project name="uuid"                   remote="twinj"          path="godeps/src/github.com/twinj/uuid" />
   <project name="npipe"                  remote="natefinch"      path="godeps/src/github.com/natefinch/npipe" />
+  <project name="go-metrics"             remote="rcrowley"       path="godeps/src/github.com/rcrowley/go-metrics" />
 
   <!-- Non-Go third-party libraries (should eventually be removed from manifest) -->
   <project name="otp"        path="otp"        revision="refs/tags/OTP_R16B03-1" remote="erlang"   groups="notdefault,3rdparty" />
