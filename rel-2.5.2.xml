@@ -17,7 +17,7 @@
   <project name="couchbase-examples" path="couchbase-examples" revision="1fb1d2929eaa974144147cc6a6da4735fc97d512"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4"/>
   <project name="couchdb" path="couchdb" revision="2.5.1.1"/>
-  <project name="couchdbx-app" path="couchdbx-app" revision="4fc62283ac16580130de47c1ec821b30b5efa54b"/>
+  <project name="couchdbx-app" path="couchdbx-app" revision="2.5.1.1"/>
   <project name="couchstore" path="couchstore" revision="de0dcdc292935b93c4700386c5f65c92daff7039"/>
   <project name="ep-engine" path="ep-engine" revision="2.5.1.1"/>
   <project name="geocouch" path="geocouch" revision="000096996e57b2193ea8dde87e078e653a7d7b80"/>
