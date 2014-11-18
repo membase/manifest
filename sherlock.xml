@@ -39,6 +39,9 @@
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
 
+  <!-- Enterprise build extensions -->
+  <project name="cbauditd" remote="membase-priv" path="enterprise/cbauditd" groups="notdefault,enterprise" />
+
   <!-- Sherlock extension projects -->
 
   <project name="forestdb"               remote="couchbaselabs"/>
