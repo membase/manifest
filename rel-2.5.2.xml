@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
-  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
-  <remote name="mcpaddy"   fetch="git://github.com/mcpaddy/" />
+  <remote name="apache"    fetch="git://github.com/apache/"    />
+  <remote name="couchbase" fetch="git://github.com/couchbase/" />
+  <remote name="erlang"    fetch="git://github.com/erlang/"    />
+  <remote name="membase"   fetch="git://github.com/membase/"   />
 
-  <default remote="couchbase" revision="master" />
+  <default remote="couchbase" revision="master"/>
 
   <project name="tlm"                     path="tlm"                     revision="db49bf5d4e601c5994f8bd7f61ca6cff6840af5d">
     <copyfile src='Makefile.top' dest='Makefile'/>
@@ -14,18 +15,18 @@
   <project name="couchbase-cli"           path="couchbase-cli"           revision="2d3b8a2c6c6c5cc47ef09c2ea5d1b382b00245a8" remote="couchbase" />
   <project name="couchbase-examples"      path="couchbase-examples"      revision="1fb1d2929eaa974144147cc6a6da4735fc97d512" />
   <project name="couchbase-python-client" path="couchbase-python-client" revision="f14c0f53b633b5313eca1ef64b0f241330cf02c4" />
-  <project name="couchdb"                 path="couchdb"                 revision="a28dcfa850f212b0e06aed8a137e6875000b90ac" />
-  <project name="couchdbx-app"            path="couchdbx-app"            revision="4fc62283ac16580130de47c1ec821b30b5efa54b" />
+  <project name="couchdb"                 path="couchdb"                 revision="2.5.1.1" />
+  <project name="couchdbx-app"            path="couchdbx-app"            revision="3121605b87f44cd02b347140ab6b2c0fc1b85e36" />
   <project name="couchstore"              path="couchstore"              revision="de0dcdc292935b93c4700386c5f65c92daff7039" />
-  <project name="ep-engine"               path="ep-engine"               revision="a1ac157650d879e36de62d01a4fd0cafb4688ec5" />
+  <project name="ep-engine"               path="ep-engine"               revision="2.5.1.1" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="674de488b308eb6e065fd6cd9e115fabfb7e92ed" />
   <project name="libconflate"             path="libconflate"             revision="c0d3e26a51f25a2b020713559cb344d43ce0b06c" />
   <project name="libmemcached"            path="libmemcached"            revision="ea579a523ca3af872c292b1e33d800e3649a8892" remote="membase"   />
   <project name="libvbucket"              path="libvbucket"              revision="408057ec55da3862ab8d75b1ed25d2848afd640f" />
-  <project name="memcached"               path="memcached"               revision="MB-12451" remote="mcpaddy"   />
+  <project name="memcached"               path="memcached"               revision="branch-20" remote="membase"   />
   <project name="moxi"                    path="moxi"                    revision="2b5a228f58fcfd1a836d6ad9a8f279b4f0ebfe80" />
-  <project name="ns_server"               path="ns_server"               revision="127b662482968fe68bb74ca5ec8245f3a18639e3" />
+  <project name="ns_server"               path="ns_server"               revision="2.5.1.1" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
   <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
