@@ -11,8 +11,8 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchdbx-app" />
-  <project name="couchstore"/>
-  <project name="ep-engine" remote="abhinavdangeti" revision="302WIN" />
+  <project name="couchstore" remote="abhinavdangeti" revision="302WIN" />
+  <project name="ep-engine" revision="3.0.1" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached" revision="3.0" remote="membase" />
