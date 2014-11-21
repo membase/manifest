@@ -3,22 +3,21 @@
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="membase" fetch="git://github.com/membase/" review="review.couchbase.org"/>
   <remote name="nimish"  fetch="git://github.com/nimishzynga/"  />
-  <remote name="mike"  fetch="git://github.com/mikewied/"  />
 
   <default remote="couchbase" revision="master"/>
 
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb" remote="nimish" revision="parallel_stream" />
+  <project name="couchdb" remote="nimish" revision="12729" />
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
-  <project name="ep-engine" remote="mike" revision="backfill" />
+  <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached" remote="membase" revision="3.0.1" />
   <project name="moxi"/>
-  <project name="ns_server"/>
+  <project name="ns_server" remote="nimish" revision="12729"/>
   <project name="platform"/>
   <project name="sigar"/>
   <project name="testrunner"/>
