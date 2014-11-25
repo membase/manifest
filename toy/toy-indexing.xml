@@ -14,6 +14,7 @@
   <remote name="rcrowley"      fetch="git://github.com/rcrowley/"          />
   <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
   <remote name="erlang"        fetch="git://github.com/erlang/"            />
+  <remote name="t3rm1n4l"      fetch="git://github.com/t3rm1n4l/"          />
 
   <default remote="couchbase" revision="master" />
 
@@ -29,7 +30,7 @@
   <project name="healthchecker"           />
   <project name="memcached"               />
   <project name="moxi"                    />
-  <project name="ns_server"               remote="t3rm1n4l" revision="2i" />
+  <project name="ns_server"               />
   <project name="platform"                />
   <project name="sigar"                   />
   <project name="testrunner"              />
@@ -47,7 +48,7 @@
   <project name="forestdb"               remote="couchbaselabs"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query" revision="2i" />
+  <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
   <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"                 remote="t3rm1n4l"       path="goproj/src/github.com/couchbase/gometa"/>
 
@@ -58,7 +59,7 @@
   <project name="collatejson"            remote="prataprc"       path="godeps/src/github.com/prataprc/collatejson"/>
   <project name="retriever"              remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/retriever" />
   <project name="dparval"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/dparval"/>
-  <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
+  <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" revision="2i" />
   <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
   <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
   <project name="go-zookeeper"           remote="samuel"         path="godeps/src/github.com/samuel/go-zookeeper" />
