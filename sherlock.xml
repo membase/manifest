@@ -49,10 +49,9 @@
 
   <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
   <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="gometa"                                         path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="gometa"                                         path="godeps/src/github.com/couchbase/gometa"/>
-
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
