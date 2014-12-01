@@ -35,7 +35,8 @@
   <project name="sigar"                   />
   <project name="testrunner"              />
 
-  <project name="tlm" revision="07a3c9449e2824e05f6b7c60d2e9c2badf14a40a">
+  <!-- tlm uses 3.0.0 branch -->
+  <project name="tlm"                     revision="3.0.0">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
