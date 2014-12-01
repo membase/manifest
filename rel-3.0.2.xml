@@ -31,7 +31,9 @@
 
   <!-- ns_server building 3.0.0 + cherry-picked bugfixes -->
   <project name="ns_server"               revision="rel-3.0.0++"/>
-  <project name="platform"                />
+
+  <!-- platform locked to same revision as 3.0.1; no desirable intermediate changes -->
+  <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
   <project name="sigar"                   />
   <project name="testrunner"              />
 
