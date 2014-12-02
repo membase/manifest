@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
-  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
   <!-- couchbase-cli has only desirable changes on master -->
-  <project name="couchbase-cli"           />
+  <project name="couchbase-cli"           revision="c3af0306484df5c5a94a2de2821717bf7a1d0134" />
 
-  <project name="couchbase-examples"      />
+  <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
   <project name="couchbase-python-client" revision="couchbase-181"  />
 
   <!-- couchdb has only desirable changes on master -->
-  <project name="couchdb"                 />
+  <project name="couchdb"                 revision="19551d2b13c953c6c5f832e848b9414558b005ca" />
 
   <!-- couchdbx-app has only desirable changes on master -->
-  <project name="couchdbx-app"            />
+  <project name="couchdbx-app"            revision="e6820c5af5e9c30cc2c0ad10571470d88424881c" />
 
-  <project name="couchstore"              />
+  <project name="couchstore"              revision="ddaf89e7e35772c66b86196d0fb2b3325279b880" />
   <project name="ep-engine"               revision="3.0.1" />
 
   <!-- geocouch has only desirable changes on master -->
-  <project name="geocouch"                />
+  <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
 
-  <project name="healthchecker"           />
+  <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
 
   <!-- memcached building maintenance releases from 3.0 branch -->
-  <project name="memcached" remote="membase" revision="3.0"       />
-  <project name="moxi"                    />
+  <project name="memcached"               revision="3.0"       />
+  <project name="moxi"                    revision="4fa17fdc8122ffcb30d802321fbe5a424875bbc1" />
 
   <!-- ns_server building 3.0.0 + cherry-picked bugfixes -->
   <project name="ns_server"               revision="rel-3.0.0++"/>
 
   <!-- platform locked to same revision as 3.0.1; no desirable intermediate changes -->
-  <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
-  <project name="sigar"                   />
-  <project name="testrunner"              />
+  <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9" />
+  <project name="sigar"                   revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e" />
+  <project name="testrunner"              revision="20761a815238b404cae51a9337219bee673fda7c" />
 
   <!-- tlm uses 3.0.0 branch -->
   <project name="tlm"                     revision="3.0.0">
