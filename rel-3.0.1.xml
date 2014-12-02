@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
-  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
@@ -22,7 +21,7 @@
   <!-- healthchecker: master branch unchanged since 3.0.0-1209 GA -->
   <project name="healthchecker"           />
   <!-- memcached: backported fix for MB-12328 + 3.0.0-1209 GA -->
-  <project name="memcached" remote="membase" revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"/>
+  <project name="memcached"               revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"/>
   <!-- moxi: confirmed master branch has only desirable change -->
   <project name="moxi"                    />
   <!-- ns_server: backported changes on "rel-3.0.0++" branch -->

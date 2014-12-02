@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/"/>
-  <remote name="membase" fetch="git://github.com/membase/"/>
   <remote name="erlang" fetch="git://github.com/erlang/"/>
 
   <default remote="couchbase" revision="master"/>
@@ -15,8 +14,7 @@
   <project name="ep-engine" path="ep-engine" revision="70266212349406c828ed0d87d371f9ef60f48d6d"/>
   <project name="geocouch" path="geocouch" revision="b65a64c796ec444820aa7e3dc1e48f4c2ce0d716"/>
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
-  <project name="memcached" path="memcached" revision="410effdee579c218b7457cd3d4b4237fab1d29cd"
-           remote="membase"/>
+  <project name="memcached" path="memcached" revision="410effdee579c218b7457cd3d4b4237fab1d29cd"/>
   <project name="moxi" path="moxi" revision="30a8545c477dfc2469f2db5495e48cdce5a403a6"/>
   <project name="ns_server" path="ns_server" revision="9fa81fe636e16b0a5347b62d4f7d98ad2f398d31"/>
   <project name="platform" path="platform" revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
