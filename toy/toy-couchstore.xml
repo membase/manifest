@@ -6,13 +6,35 @@
 
   <default remote="couchbase" revision="master"/>
 
+  <project name="couchbase-cli"           revision="c3af0306484df5c5a94a2de2821717bf7a1d0134" />
+  <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
+  <project name="couchbase-python-client" revision="couchbase-181"  />
+  <project name="couchdb"                 revision="19551d2b13c953c6c5f832e848b9414558b005ca" />
+  <project name="couchdbx-app"            revision="e6820c5af5e9c30cc2c0ad10571470d88424881c" />
+  <project name="couchstore"              revision="ddaf89e7e35772c66b86196d0fb2b3325279b880" />
+  <project name="ep-engine" remote="abhinavdangeti" revision="MB12673" />
+  <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
+  <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
+  <project name="memcached"               revision="3.0"       />
+  <project name="moxi"                    revision="4fa17fdc8122ffcb30d802321fbe5a424875bbc1" />
+  <project name="ns_server"               revision="rel-3.0.0++"/>
+  <project name="platform"                revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9" />
+  <project name="sigar"                   revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e" />
+  <project name="testrunner"              revision="20761a815238b404cae51a9337219bee673fda7c" />
+  <project name="tlm"                     revision="3.0.0">
+    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
+    <copyfile src="Makefile"       dest="Makefile"       />
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+  </project>
+
+  <!--
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchdbx-app" />
   <project name="couchstore" remote="abhinavdangeti" revision="302WIN" />
-  <project name="ep-engine" revision="3.0.1" />
+  <project name="ep-engine" remote="abhinavdangeti" revision="MB12673" />
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached" revision="3.0" remote="membase" />
@@ -27,5 +49,6 @@
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
+  -->
 
 </manifest>
