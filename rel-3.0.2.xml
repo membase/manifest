@@ -26,7 +26,7 @@
 
   <!-- memcached building maintenance releases from 3.0 branch -->
   <project name="memcached"               revision="3.0"       />
-  <project name="moxi"                    revision="4fa17fdc8122ffcb30d802321fbe5a424875bbc1" />
+  <project name="moxi"                    revision="33c5c06adc4b127276ed751ced67df44e0ac950d" />
 
   <!-- ns_server building 3.0.0 + cherry-picked bugfixes -->
   <project name="ns_server"               revision="rel-3.0.0++"/>
