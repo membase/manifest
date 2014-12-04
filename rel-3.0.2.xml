@@ -5,7 +5,7 @@
   <default remote="couchbase" revision="master" />
 
   <!-- couchbase-cli has only desirable changes on master -->
-  <project name="couchbase-cli"           revision="c3af0306484df5c5a94a2de2821717bf7a1d0134" />
+  <project name="couchbase-cli"           revision="1d239dd7f21b32cef177c3ab58d646a3f381d8ba" />
 
   <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
   <project name="couchbase-python-client" revision="couchbase-181"  />
