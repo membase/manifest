@@ -54,6 +54,7 @@
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
+  <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="gomemcached" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="goprotobuf" remote="couchbaselabs" path="godeps/src/code.google.com/p/goprotobuf"/>
   <project name="goprotobuf" remote="couchbaselabs" path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
