@@ -66,7 +66,7 @@
   <project name="go-slab" remote="couchbaselabs" path="godeps/src/github.com/couchbaselabs/go-slab" />
   <project name="go-zookeeper" remote="samuel" path="godeps/src/github.com/samuel/go-zookeeper" />
 
-  <project name="goforestdb" remote="couchbaselabs" path="godeps/src/github.com/couchbaselabs/goforestdb"/>
+  <project name="goforestdb" remote="couchbaselabs" path="godeps/src/github.com/couchbaselabs/goforestdb" revision="b59d31a898b07e2b24988db95090f61168a43ecb"/>
 
   <!-- Go support libraries - third-party -->
   <project name="go-jsonpointer" remote="dustin" path="godeps/src/github.com/dustin/go-jsonpointer"/>
