@@ -46,7 +46,7 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb" remote="couchbaselabs"/>
+  <project name="forestdb" remote="couchbaselabs" revision="c99459d2b6a07b929db603445b8cdb6babd1e648"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query" remote="couchbaselabs" path="goproj/src/github.com/couchbaselabs/query"/>
@@ -54,7 +54,7 @@
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
+  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="gomemcached" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="goprotobuf" remote="couchbaselabs" path="godeps/src/code.google.com/p/goprotobuf"/>
   <project name="goprotobuf" remote="couchbaselabs" path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
