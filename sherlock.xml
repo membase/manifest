@@ -46,7 +46,7 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb"               remote="ceejatec" "/>
+  <project name="forestdb"               remote="ceejatec" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
