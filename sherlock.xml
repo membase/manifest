@@ -39,11 +39,6 @@
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
 
-  <!-- Enterprise build extensions -->
-  <!-- By default enterprise projects should reside in the enterprise directory -->
-  <!-- cbauditd needs to be in a subdirectory of memcached because it is referenced as a link target by memcached -->
-  <project name="cbauditd" remote="membase-priv" path="memcached/cbauditd" groups="notdefault,enterprise" />
-
   <!-- Sherlock extension projects -->
 
   <project name="forestdb"               remote="couchbaselabs" />
