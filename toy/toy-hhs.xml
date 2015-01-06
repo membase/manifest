@@ -10,7 +10,7 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb"/>
+  <project name="couchdb" remote="hhs"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
   <project name="ep-engine"/>
