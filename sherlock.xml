@@ -27,10 +27,10 @@
   <project name="ep-engine"               />
   <project name="geocouch"                />
   <project name="healthchecker"           />
-  <project name="memcached"               />
+  <project name="memcached" revision="sherlock"/>
   <project name="moxi"                    />
   <project name="ns_server"               />
-  <project name="platform"                />
+  <project name="platform" revision="sherlock"/>
   <project name="sigar"                   />
   <project name="testrunner"              />
   <project name="tlm">
