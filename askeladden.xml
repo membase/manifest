@@ -91,6 +91,6 @@
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron" remote="couchbase-priv" groups="notdefault,build" />
-  <project name="grommit" remote="membase-priv" groups="notdefault,build" />
+  <project name="voltron" remote="couchbase-priv" groups="notdefault,packaging" />
+  <project name="grommit" remote="membase-priv" groups="notdefault,packaging" />
 </manifest>
