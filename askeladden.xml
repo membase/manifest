@@ -22,7 +22,6 @@
   <project name="couchbase-examples" />
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" />
-  <project name="couchdbx-app" revision="3.0.0" />
   <project name="couchstore" />
   <project name="ep-engine" />
   <project name="geocouch" />
@@ -93,4 +92,6 @@
   </project>
   <project name="voltron" remote="couchbase-priv" groups="notdefault,packaging" />
   <project name="grommit" remote="membase-priv" groups="notdefault,packaging" />
+  <project name="couchdbx-app" groups="notdefault,packaging" />
+
 </manifest>

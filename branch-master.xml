@@ -9,7 +9,6 @@
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
-  <project name="couchdbx-app"/>
   <project name="couchstore"/>
   <project name="ep-engine"/>
   <project name="geocouch"/>
@@ -26,5 +25,5 @@
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-
+  <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
