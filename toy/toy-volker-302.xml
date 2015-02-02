@@ -21,10 +21,10 @@
   <project name="couchbase-cli" path="couchbase-cli" revision="1d239dd7f21b32cef177c3ab58d646a3f381d8ba"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"/>
-  <project name="couchdb" path="couchdb" revision="b2500ac72527217b3df097d15458d94bbbd6048d"/>
-  <project name="couchstore" path="couchstore" revision="46f1ef48f3966a0aebaf2a914a678c379bf3cda3"/>
+  <project name="couchdb" path="couchdb" revision="19551d2b13c953c6c5f832e848b9414558b005ca"/>
+  <project name="couchstore" path="couchstore" revision="ddaf89e7e35772c66b86196d0fb2b3325279b880"/>
   <project name="ep-engine" path="ep-engine" revision="fb165a6610673d97deda6679535b6e3f649c6afe"/>
-  <project name="geocouch" path="geocouch" revision="af3d31d19fba77813257b2b534512347c4922eb1"/>
+  <project name="geocouch" path="geocouch" revision="2f4508ab7c4815dc0f587c94be5f673185dd5465"/>
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
   <project name="memcached" path="memcached" revision="be691c3b78a68e441d58c249e02121df7e9f8556"/>
   <project name="moxi" path="moxi" revision="33c5c06adc4b127276ed751ced67df44e0ac950d"/>
