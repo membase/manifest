@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest looks almost like branch-master, but it doesn't
+  have the very latest stuff in memcached and tlm that won't build the
+  old way. This is a short-lived manifest to unstick some older
+  commit-validation jobs that have not yet migrated to
+  Sherlock-capable infrastructure. See CBD-1493. -->
+
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="couchbase-cli"/>
+  <project name="couchbase-examples"/>
+  <project name="couchbase-python-client" revision="couchbase-181"/>
+  <project name="couchdb"/>
+  <project name="couchstore"/>
+  <project name="ep-engine"/>
+  <project name="geocouch"/>
+  <project name="healthchecker"/>
+  <project name="memcached" revision="sherlock"/>
+  <project name="moxi"/>
+  <project name="ns_server"/>
+  <project name="platform"/>
+  <project name="sigar"/>
+  <project name="testrunner"/>
+
+  <project name="tlm" revision="a5fbffd8f3a192b53530e1342ad8b5777000661e">
+    <copyfile src="GNUmakefile" dest="GNUmakefile"/>
+    <copyfile src="Makefile" dest="Makefile"/>
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
+  </project>
+  <project name="couchdbx-app" groups="notdefault,packaging" />
+</manifest>
