@@ -28,7 +28,7 @@
   <project name="healthchecker"           />
   <project name="memcached" revision="sherlock"/>
   <project name="moxi"                    />
-  <project name="ns_server" path="ns_server" revision="c2275a04cb8d5e2100a212dad9c9a301e4eb71ee"/>
+  <project name="ns_server" revision="c2275a04cb8d5e2100a212dad9c9a301e4eb71ee" upstream="master"/>
   <project name="platform" revision="sherlock"/>
   <project name="sigar"                   />
   <project name="testrunner"              />
