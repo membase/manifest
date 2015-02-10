@@ -10,16 +10,16 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
-  <project name="couchdb" remote="hhs"/>
+  <project name="couchdb"/>
   <project name="couchdbx-app"/>
   <project name="couchstore"/>
   <project name="ep-engine"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
-  <project name="memcached" remote="membase"/>
+  <project name="memcached" revision="sherlock"/>
   <project name="moxi"/>
   <project name="ns_server" remote="hhs"/>
-  <project name="platform"/>
+  <project name="platform" revision="sherlock"/>
   <project name="sigar"/>
   <project name="testrunner"/>
 
