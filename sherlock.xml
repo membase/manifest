@@ -3,7 +3,6 @@
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="membase-priv"  fetch="ssh://git@github.com/membase/"       review="review.couchbase.org" />
   <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
   <remote name="dustin"        fetch="git://github.com/dustin/"            />
   <remote name="gorilla"       fetch="git://github.com/gorilla/"           />
@@ -72,17 +71,6 @@
   <project name="npipe"                  remote="natefinch"      path="godeps/src/github.com/natefinch/npipe" />
   <project name="go-metrics"             remote="rcrowley"       path="godeps/src/github.com/rcrowley/go-metrics" />
 
-  <!-- Non-Go third-party libraries (should eventually be removed from manifest) -->
-  <project name="otp"        path="otp"        revision="mb11917"                                  groups="notdefault,3rdparty" remote="couchbaselabs"  />
-  <project name="icu4c"      path="icu4c"      revision="26359393672c378f41f2103a8699c4357c894be7" groups="notdefault,3rdparty"  />
-  <project name="gperftools" path="gperftools" revision="refs/tags/gperftools-2.2"                 groups="notdefault,3rdparty"  />
-  <project name="pysqlite"   path="pysqlite"   revision="master"                                   groups="notdefault,3rdparty"  />
-  <project name="v8"         path="v8"         revision="3.21.17-couchbase"                        groups="notdefault,3rdparty"  />
-  <!-- Following two are v8 dependencies -->
-  <project name="gyp"        path="v8/build/gyp" revision="couchbase-v8-3.21.17"                   groups="notdefault,3rdparty"   />
-  <project name="icu46"      path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289" groups="notdefault,3rdparty" />
-  <project name="python-snappy" path="python-snappy" revision="master"                             groups="notdefault,3rdparty"   />
-
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
@@ -90,6 +78,5 @@
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
-  <project name="grommit"    remote="membase-priv"    groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
