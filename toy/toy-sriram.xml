@@ -23,7 +23,7 @@
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
   <project name="couchdb" revision="b2500ac72527217b3df097d15458d94bbbd6048d" />
   <project name="couchstore"  revision="dcca3a2e74676d16bfa4ffc978b027945bb81b92" />
-  <project name="ep-engine" revision="eba6ea38fe7da846d87e9d22b68b9c361d67b0dd" />
+  <project name="ep-engine" remote="sriganes" revision="confmode1141" />
   <project name="geocouch"  revision="af3d31d19fba77813257b2b534512347c4922eb1" />
   <project name="healthchecker"  revision="fe28bc77002e85deb79bd5f3b499216b84b4ec2f" />
   <project name="memcached" revision="f20389e16f886f2b99cf68cbda9215f4108626ca" />
