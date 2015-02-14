@@ -73,7 +73,7 @@
   <project name="go-metrics"             remote="rcrowley"       path="godeps/src/github.com/rcrowley/go-metrics" revision="dee209f2455f101a5e4e593dea94872d2c62d85d"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build" revision="5e32095eefe9b58d5ec5a02d428e98db82a88a52">
+  <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
