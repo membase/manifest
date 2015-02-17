@@ -11,7 +11,7 @@
   <remote name="natefinch"     fetch="git://github.com/natefinch/"         />
   <remote name="samuel"        fetch="git://github.com/samuel/"            />
   <remote name="rcrowley"      fetch="git://github.com/rcrowley/"          />
-  <remote name="ceejatec-priv" fetch="ssh://git@github.com/ceejatec/"          />
+  <remote name="ceejatec-priv" fetch="ssh://git@github.com/ceejatec/"      />
   <remote name="erlang"        fetch="git://github.com/erlang/"            />
 
   <default remote="couchbase" revision="master" />
@@ -72,11 +72,11 @@
   <project name="go-metrics"             remote="rcrowley"       path="godeps/src/github.com/rcrowley/go-metrics" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"  remote="ceejatec-priv"    path="cbbuild"           groups="notdefault,build">
+  <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="ceejatec-priv"  groups="notdefault,packaging" />
+  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
