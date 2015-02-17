@@ -48,12 +48,7 @@
   <project name="goprotobuf" path="godeps/src/code.google.com/p/goprotobuf" remote="couchbaselabs" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6" upstream="master"/>
   <project name="goprotobuf" path="godeps/src/github.com/couchbaselabs/goprotobuf" remote="couchbaselabs" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6" upstream="master"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="1fd23b05dea149c72a10616539425e03287c3004" upstream="master"/>
-  <project groups="notdefault,3rdparty" name="gperftools" revision="846b775dfadb77901202ae7ddbac30ad1de7df01" upstream="refs/tags/gperftools-2.2"/>
-  <project groups="notdefault,build" name="grommit" remote="membase-priv" revision="405da4877a67f230e9933a45f16901ad6b97a09b" upstream="master"/>
-  <project groups="notdefault,3rdparty" name="gyp" path="v8/build/gyp" revision="7c819b84a9a9484154d7584b7795f607e3178b3f" upstream="couchbase-v8-3.21.17"/>
   <project name="healthchecker" revision="fe28bc77002e85deb79bd5f3b499216b84b4ec2f" upstream="master"/>
-  <project groups="notdefault,3rdparty" name="icu46" path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289"/>
-  <project groups="notdefault,3rdparty" name="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="e81890b0e0955b3361e162f665e81a6a7984dd15" upstream="master"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="sbinet" revision="3d8e6ee550f5d4f4105967410a16fd5c8b47bde4" upstream="master"/>
   <project name="memcached" revision="90134d8cd93d5438092c91dd3319eb10913766b3" upstream="sherlock"/>
@@ -61,10 +56,7 @@
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="gorilla" revision="e444e69cbd2e2e3e0749a2f3c717cec491552bbf" upstream="master"/>
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="natefinch" revision="272c8150302e83f23d32a355364578c9c13ab20f" upstream="master"/>
   <project name="ns_server" revision="d6e1b2b5a51bdcedfa0d5610af008b55a8d23946" upstream="master"/>
-  <project groups="notdefault,3rdparty" name="otp" remote="couchbaselabs" revision="30a87dc52108dd33f9bd556917f5c6c7559b0b5b" upstream="mb11917"/>
   <project name="platform" revision="877ba0c5dfdf13a891b9dedc7568a0154c141e6f" upstream="sherlock"/>
-  <project groups="notdefault,3rdparty" name="pysqlite" revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea" upstream="master"/>
-  <project groups="notdefault,3rdparty" name="python-snappy" revision="c97d633ef5364740c152fd184f61c2d9e1a93d01" upstream="master"/>
   <project name="query" path="goproj/src/github.com/couchbaselabs/query" remote="couchbaselabs" revision="f96f432eb2015429948b9feb79908b7137518d6f" upstream="master"/>
   <project name="retriever" path="godeps/src/github.com/couchbaselabs/retriever" remote="couchbaselabs" revision="8dda55f8a35e60b8138b11370dd15b470d9749aa" upstream="master"/>
   <project name="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e" upstream="master"/>
@@ -76,6 +68,5 @@
     <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
   </project>
   <project name="uuid" path="godeps/src/github.com/twinj/uuid" remote="twinj" revision="4d772442af203e27723acc7d1eea6c93cd319c57" upstream="master"/>
-  <project groups="notdefault,3rdparty" name="v8" revision="05120013843918f7e3712159c03b509d3e328cf7" upstream="3.21.17-couchbase"/>
   <project groups="notdefault,build" name="voltron" remote="couchbase-priv" revision="cda9481fd3540cf3ded01b660daae31c0de9e478" upstream="master"/>
 </manifest>
