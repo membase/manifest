@@ -29,10 +29,10 @@
   <project name="memcached" path="memcached" revision="be691c3b78a68e441d58c249e02121df7e9f8556"/>
   <project name="moxi" path="moxi" revision="33c5c06adc4b127276ed751ced67df44e0ac950d"/>
   <project name="ns_server" path="ns_server" revision="0e3e6ab8d9c89662b04f690adf7ec707e3d5e2d3"/>
-  <project name="platform" path="platform" revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
+  <project name="platform" path="platform" revision="bcfb6e345a1e522805da78b8cdf4f0ef846e0d01"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
-  <project name="tlm" path="tlm" revision="6cf181681f6bced255dda51454f89e29ce7a997c">
+  <project name="tlm" path="tlm" revision="3ffdce84e7f29d3fb94c3858e8df8d22c087ae69">
     <copyfile dest='GNUmakefile' src='GNUmakefile'/>
     <copyfile dest='Makefile' src='Makefile'/>
     <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
