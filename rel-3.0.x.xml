@@ -18,8 +18,8 @@
 
   <!-- couchstore building 3.0.x maintenance releases on elsa branch -->
   <project name="couchstore"              revision="elsa" />
-  <!-- ep-engine building 3.0.x maintenance releases on 3.0.1 branch -->
-  <project name="ep-engine"               revision="3.0.1" />
+  <!-- ep-engine building 3.0.x maintenance releases on 3.0.3 branch -->
+  <project name="ep-engine"               revision="3.0.3" />
 
   <!-- geocouch has only desirable changes on master -->
   <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
