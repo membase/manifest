@@ -20,7 +20,7 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"                 />
   <project name="couchstore"              />
-  <project name="ep-engine"               />
+  <project name="ep-engine" revision="sherlock"/>
   <project name="geocouch"                />
   <project name="healthchecker"           />
   <project name="memcached" revision="sherlock"/>
@@ -37,7 +37,7 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb"                />
+  <project name="forestdb" revision="sherlock"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"                  remote="couchbase"      path="goproj/src/github.com/couchbase/query"/>
