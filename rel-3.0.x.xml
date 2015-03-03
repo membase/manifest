@@ -4,8 +4,8 @@
 
   <default remote="couchbase" revision="master" />
 
-  <!-- couchbase-cli has only desirable changes on master -->
-  <project name="couchbase-cli"           revision="1d239dd7f21b32cef177c3ab58d646a3f381d8ba" />
+  <!-- couchbase-cli building 3.0.x maintenance releases from 3.0.x branch -->
+  <project name="couchbase-cli"           revision="3.0.x" />
 
   <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
   <project name="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"  />
@@ -30,10 +30,10 @@
   <project name="memcached"               revision="3.0"/>
   <project name="moxi"                    revision="33c5c06adc4b127276ed751ced67df44e0ac950d" />
 
-  <!-- ns_server building 3.0.0 + cherry-picked bugfixes -->
-  <project name="ns_server"               revision="0e3e6ab8d9c89662b04f690adf7ec707e3d5e2d3"/>
+  <!-- ns_server building 3.0.x maintenance releases from rel-3.0.0++ branch -->
+  <project name="ns_server"               revision="rel-3.0.0++"/>
 
-  <!-- platform building 3.0.x maintainance releases from 3.0.x branch -->
+  <!-- platform building 3.0.x maintenance releases from 3.0.x branch -->
   <project name="platform"                revision="3.0.x" />
 
   <project name="sigar"                   revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e" />
