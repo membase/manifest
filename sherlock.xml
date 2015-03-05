@@ -4,7 +4,6 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
-  <remote name="erlang"        fetch="git://github.com/erlang/"            />
 
   <default remote="couchbase" revision="master" />
 
@@ -43,11 +42,11 @@
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
   <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
-  <project name="retriever"              remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/retriever" />
-  <project name="dparval"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/dparval"/>
+  <project name="retriever"                                      path="godeps/src/github.com/couchbaselabs/retriever" />
+  <project name="dparval"                                        path="godeps/src/github.com/couchbaselabs/dparval"/>
   <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
-  <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
-  <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
+  <project name="clog"                                           path="godeps/src/github.com/couchbaselabs/clog" />
+  <project name="go-slab"                                        path="godeps/src/github.com/couchbaselabs/go-slab" />
   <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
 
   <!-- Go support libraries - third-party -->
