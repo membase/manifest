@@ -11,7 +11,6 @@
     <project name="couchdb" path="couchdb" revision="19551d2b13c953c6c5f832e848b9414558b005ca"/>
     <project name="couchdbx-app" path="couchdbx-app" revision="e6820c5af5e9c30cc2c0ad10571470d88424881c"/>
     <project name="couchstore" path="couchstore" revision="c2c6bd72f914202ad00d3f512148406c0afc8a4d"/>
-    <project name="ep-engine" path="ep-engine" revision="6cd22a5aeb34f581d9fd145de0d126260b8029f5"/>
     <project name="ep-engine" remote="abhinavdangeti" revision="303" />
     <project name="geocouch" path="geocouch" revision="2f4508ab7c4815dc0f587c94be5f673185dd5465"/>
     <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
