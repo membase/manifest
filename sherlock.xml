@@ -2,7 +2,6 @@
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
@@ -45,7 +44,7 @@
   <project name="go-couchbase"                                   path="godeps/src/github.com/couchbaselabs/go-couchbase" />
   <project name="clog"                                           path="godeps/src/github.com/couchbaselabs/clog" />
   <project name="go-slab"                                        path="godeps/src/github.com/couchbaselabs/go-slab" />
-  <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
+  <project name="goforestdb"                                     path="godeps/src/github.com/couchbaselabs/goforestdb" />
 
   <!-- Go support libraries - third-party -->
   <project name="goprotobuf"             remote="couchbasedeps"  path="godeps/src/code.google.com/p/goprotobuf"/>
