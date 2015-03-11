@@ -39,12 +39,12 @@
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
-  <project name="retriever"                                      path="godeps/src/github.com/couchbaselabs/retriever" />
-  <project name="dparval"                                        path="godeps/src/github.com/couchbaselabs/dparval"/>
-  <project name="go-couchbase"                                   path="godeps/src/github.com/couchbaselabs/go-couchbase" />
-  <project name="clog"                                           path="godeps/src/github.com/couchbaselabs/clog" />
-  <project name="go-slab"                                        path="godeps/src/github.com/couchbaselabs/go-slab" />
-  <project name="goforestdb"                                     path="godeps/src/github.com/couchbaselabs/goforestdb" />
+  <project name="retriever"                                      path="godeps/src/github.com/couchbase/retriever" />
+  <project name="dparval"                                        path="godeps/src/github.com/couchbase/dparval"/>
+  <project name="go-couchbase"                                   path="godeps/src/github.com/couchbase/go-couchbase" />
+  <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
+  <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
+  <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
   <project name="goprotobuf"             remote="couchbasedeps"  path="godeps/src/code.google.com/p/goprotobuf"/>
