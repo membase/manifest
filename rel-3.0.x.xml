@@ -5,7 +5,7 @@
   <default remote="couchbase" revision="master" />
 
   <!-- couchbase-cli building 3.0.x maintenance releases from 3.0.x branch -->
-  <project name="couchbase-cli"           revision="3.0.x" />
+  <project name="couchbase-cli"           revision="93142128f29e416d71c342fe2b538c456fb3707a" />
 
   <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
   <project name="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"  />
@@ -17,9 +17,9 @@
   <project name="couchdbx-app"            revision="e6820c5af5e9c30cc2c0ad10571470d88424881c" />
 
   <!-- couchstore building 3.0.x maintenance releases on elsa branch -->
-  <project name="couchstore"              revision="elsa" />
+  <project name="couchstore"              revision="c2c6bd72f914202ad00d3f512148406c0afc8a4d" />
   <!-- ep-engine building 3.0.x maintenance releases on 3.0.3 branch -->
-  <project name="ep-engine"               revision="3.0.3" />
+  <project name="ep-engine"               revision="f6f7782fb27c1e1c0833cab52c2da59ff5cedfa0" />
 
   <!-- geocouch has only desirable changes on master -->
   <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
@@ -27,14 +27,14 @@
   <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
 
   <!-- memcached building 3.0.x maintenance releases from 3.0 branch -->
-  <project name="memcached"               revision="3.0"/>
+  <project name="memcached"               revision="4424e903ad7e44726dc46f73acebd07c960f8e72"/>
   <project name="moxi"                    revision="33c5c06adc4b127276ed751ced67df44e0ac950d" />
 
   <!-- ns_server building 3.0.x maintenance releases from rel-3.0.0++ branch -->
-  <project name="ns_server"               revision="rel-3.0.0++"/>
+  <project name="ns_server"               revision="9563c0ca540e0958fefac2aab8d182fc7446e272"/>
 
   <!-- platform building 3.0.x maintenance releases from 3.0.x branch -->
-  <project name="platform"                revision="3.0.x" />
+  <project name="platform"                revision="7c10b1f5c51794b5310188543dc1f9d533e615e7" />
 
   <project name="sigar"                   revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e" />
   <project name="testrunner"              revision="20761a815238b404cae51a9337219bee673fda7c" />
