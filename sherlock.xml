@@ -42,7 +42,7 @@
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                      path="godeps/src/github.com/couchbaselabs/retriever" />
   <project name="dparval"                                        path="godeps/src/github.com/couchbaselabs/dparval"/>
-  <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
+  <project name="go-couchbase"                                   path="godeps/src/github.com/couchbaselabs/go-couchbase" />
   <project name="clog"                                           path="godeps/src/github.com/couchbaselabs/clog" />
   <project name="go-slab"                                        path="godeps/src/github.com/couchbaselabs/go-slab" />
   <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
