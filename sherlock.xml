@@ -21,7 +21,7 @@
   <project name="platform" revision="sherlock"/>
   <project name="sigar"                   />
   <project name="testrunner"              />
-  <project name="tlm">
+  <project name="tlm" revision="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
