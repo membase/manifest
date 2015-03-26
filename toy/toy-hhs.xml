@@ -18,7 +18,7 @@
   <project name="couchbase-cli" revision="0dcbe290bf421337a7be4f99f815b57c56396d1e" upstream="master"/>
   <project name="couchbase-examples" revision="7b608a9b7f08810459ab48ded249becc76a5cd6e" upstream="master"/>
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" upstream="couchbase-181"/>
-  <project name="couchbase-couchdb" path="couchdb" remote="vmx" revision="3033b1636855031ba27496e3031db48da295fb6b"/>
+  <project name="couchbase-couchdb" path="couchdb" remote="vmx" revision="5a26d77e61398c5b0ddecf01791fc80d683f4cb5"/>
   <project groups="notdefault,packaging" name="couchdbx-app" revision="cc1356f3fefbe22738c37f0cfd237fb80c2691aa" upstream="master"/>
   <project name="couchstore" revision="81a8545e8847daf10df5d4fabc0d51169f0f15b1" upstream="master"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae" upstream="master"/>
