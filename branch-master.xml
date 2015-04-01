@@ -3,6 +3,7 @@
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
+  <remote name="mnunberg"      fetch="git://github.com/mnunberg/"                                        />
 
   <default remote="couchbase" revision="master" />
 
@@ -56,6 +57,9 @@
   <project name="npipe"                  remote="couchbasedeps"  path="godeps/src/github.com/natefinch/npipe" />
   <project name="go-metrics"             remote="couchbasedeps"  path="godeps/src/github.com/rcrowley/go-metrics" />
   <project name="go-zookeeper"           remote="couchbasedeps"  path="godeps/src/github.com/samuel/go-zookeeper" />
+
+  <!-- C/C++ support libraries -->
+  <project name="subjson"                remote="mnunberg"/>
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
