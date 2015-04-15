@@ -2,17 +2,8 @@
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
-  <remote name="dustin"        fetch="git://github.com/dustin/"            />
-  <remote name="gorilla"       fetch="git://github.com/gorilla/"           />
-  <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
-  <remote name="twinj"         fetch="git://github.com/twinj/"             />
-  <remote name="natefinch"     fetch="git://github.com/natefinch/"         />
-  <remote name="samuel"        fetch="git://github.com/samuel/"            />
-  <remote name="rcrowley"      fetch="git://github.com/rcrowley/"          />
-  <remote name="ceejatec-priv" fetch="ssh://git@github.com/ceejatec/"      />
-  <remote name="erlang"        fetch="git://github.com/erlang/"            />
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
+  <remote name="ceejatec"      fetch="ssh://git@github.com/ceejatec/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -22,16 +13,15 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"                 />
   <project name="couchstore"              />
-  <project name="ep-engine"               />
+  <project name="ep-engine" revision="sherlock"/>
   <project name="geocouch"                />
-  <project name="healthchecker"           />
   <project name="memcached" revision="sherlock"/>
   <project name="moxi"                    />
   <project name="ns_server"               />
   <project name="platform" revision="sherlock"/>
   <project name="sigar"                   />
   <project name="testrunner"              />
-  <project name="tlm">
+  <project name="tlm" revision="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
@@ -39,44 +29,40 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb"               remote="couchbaselabs" />
+  <project name="forestdb" revision="sherlock"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"                  remote="couchbase"      path="goproj/src/github.com/couchbaselabs/query"/>
+  <project name="query"                  remote="couchbase"      path="goproj/src/github.com/couchbase/query"/>
   <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"                                         path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
-  <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
-  <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
-  <project name="collatejson"            remote="prataprc"       path="godeps/src/github.com/prataprc/collatejson"/>
-  <project name="retriever"              remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/retriever" />
-  <project name="dparval"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/dparval"/>
-  <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" />
-  <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
-  <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
-  <project name="go-zookeeper"           remote="samuel"         path="godeps/src/github.com/samuel/go-zookeeper" />
-
-  <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb" />
+  <project name="retriever"                                      path="godeps/src/github.com/couchbase/retriever" />
+  <project name="dparval"                                        path="godeps/src/github.com/couchbase/dparval"/>
+  <project name="go-couchbase"                                   path="godeps/src/github.com/couchbase/go-couchbase" />
+  <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
+  <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
+  <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
-  <project name="go-jsonpointer"         remote="dustin"         path="godeps/src/github.com/dustin/go-jsonpointer"/>
-  <project name="gojson"                 remote="dustin"         path="godeps/src/github.com/dustin/gojson" />
-  <project name="mux"                    remote="gorilla"        path="godeps/src/github.com/gorilla/mux" />
-  <project name="context"                remote="gorilla"        path="godeps/src/github.com/gorilla/context" />
-  <project name="liner"                  remote="sbinet"         path="godeps/src/github.com/sbinet/liner" />
-  <project name="uuid"                   remote="twinj"          path="godeps/src/github.com/twinj/uuid" />
-  <project name="npipe"                  remote="natefinch"      path="godeps/src/github.com/natefinch/npipe" />
-  <project name="go-metrics"             remote="rcrowley"       path="godeps/src/github.com/rcrowley/go-metrics" />
+  <project name="goprotobuf"             remote="couchbasedeps"  path="godeps/src/code.google.com/p/goprotobuf"/>
+  <project name="go-jsonpointer"         remote="couchbasedeps"  path="godeps/src/github.com/dustin/go-jsonpointer"/>
+  <project name="gojson"                 remote="couchbasedeps"  path="godeps/src/github.com/dustin/gojson" />
+  <project name="mux"                    remote="couchbasedeps"  path="godeps/src/github.com/gorilla/mux" />
+  <project name="context"                remote="couchbasedeps"  path="godeps/src/github.com/gorilla/context" />
+  <project name="liner"                  remote="couchbasedeps"  path="godeps/src/github.com/sbinet/liner" />
+  <project name="npipe"                  remote="couchbasedeps"  path="godeps/src/github.com/natefinch/npipe" />
+  <project name="go-metrics"             remote="couchbasedeps"  path="godeps/src/github.com/rcrowley/go-metrics" />
+  <project name="go-zookeeper"           remote="couchbasedeps"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
+  <project name="build"      path="cbbuild" remote="ceejatec"           groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
+  <project name="voltron"    remote="ceejatec"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
