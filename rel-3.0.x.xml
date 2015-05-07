@@ -27,7 +27,7 @@
   <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
 
   <!-- memcached building 3.0.x maintenance releases from 3.0 branch -->
-  <project name="memcached"               revision="4424e903ad7e44726dc46f73acebd07c960f8e72"/>
+  <project name="memcached"               revision="3.0"/>
   <project name="moxi"                    revision="3.0.x" />
 
   <!-- ns_server building 3.0.x maintenance releases from rel-3.0.0++ branch -->
