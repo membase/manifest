@@ -1,69 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
-  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
-  <remote name="vmx" fetch="git://github.com/vmx/" />
+  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
+  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="vmx" fetch="git://github.com/vmx/"/>
 
-  <default remote="couchbase" revision="master" />
+  <default remote="couchbase" revision="master"/>
 
-  <!-- Core Couchbase Server projects -->
-  <project name="couchbase-cli"           />
-  <project name="couchbase-examples"      />
-  <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchbase-couchdb" path="couchdb" revision="sg" remote="vmx"/>
-  <project name="couchstore"              />
-  <project name="ep-engine" revision="sherlock"/>
-  <project name="geocouch"                />
-  <project name="memcached" revision="sherlock"/>
-  <project name="moxi"                    />
-  <project name="ns_server"               />
-  <project name="platform" revision="sherlock"/>
-  <project name="sigar"                   />
-  <project name="testrunner"              />
-  <project name="tlm" revision="sherlock">
-    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
-    <copyfile src="Makefile"       dest="Makefile"       />
-    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+  <project name="couchbase-cli" path="couchbase-cli" revision="93142128f29e416d71c342fe2b538c456fb3707a"/>
+  <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
+  <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"/>
+  <project name="couchdb" path="couchdb"/>
+  <project name="couchdbx-app" path="couchdbx-app" revision="e6820c5af5e9c30cc2c0ad10571470d88424881c"/>
+  <project name="couchstore" path="couchstore"/>
+  <project name="ep-engine" path="ep-engine" revision="ve4" remote="vmx"/>
+  <project name="geocouch" path="geocouch"/>
+  <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
+  <project name="memcached" path="memcached" revision="ve4" remote="vmx"/>
+  <project name="moxi" path="moxi" revision="33c5c06adc4b127276ed751ced67df44e0ac950d"/>
+  <project name="ns_server" path="ns_server" revision="9563c0ca540e0958fefac2aab8d182fc7446e272"/>
+  <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
+  <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
+  <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
+  <project name="tlm" path="tlm" revision="6cf181681f6bced255dda51454f89e29ce7a997c">
+    <copyfile dest='GNUmakefile' src='GNUmakefile'/>
+    <copyfile dest='Makefile' src='Makefile'/>
+    <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
   </project>
-
-  <!-- Sherlock extension projects -->
-
-  <project name="forestdb" revision="sherlock"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
-
-  <project name="query"                  remote="couchbase"      path="goproj/src/github.com/couchbase/query"/>
-  <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
-  <project name="gometa"                                         path="goproj/src/github.com/couchbase/gometa"/>
-
-  <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
-  <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
-  <project name="retriever"                                      path="godeps/src/github.com/couchbase/retriever" />
-  <project name="dparval"                                        path="godeps/src/github.com/couchbase/dparval"/>
-  <project name="go-couchbase"                                   path="godeps/src/github.com/couchbase/go-couchbase" />
-  <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
-  <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
-  <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
-
-  <!-- Go support libraries - third-party -->
-  <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
-  <project name="goprotobuf"     remote="couchbasedeps" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6" path="godeps/src/code.google.com/p/goprotobuf"/>
-  <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
-  <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
-  <project name="mux"            remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" path="godeps/src/github.com/gorilla/mux" />
-  <project name="context"        remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" path="godeps/src/github.com/gorilla/context" />
-  <project name="liner"          remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" path="godeps/src/github.com/sbinet/liner" />
-  <project name="npipe"          remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f" path="godeps/src/github.com/natefinch/npipe" />
-  <project name="go-metrics"     remote="couchbasedeps" revision="dee209f2455f101a5e4e593dea94872d2c62d85d"  path="godeps/src/github.com/rcrowley/go-metrics" />
-  <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
-
-  <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
-    <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
-    <annotation name="EDITION" value="@EDITION@" keep="true"/>
-  </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
-  <project name="couchdbx-app" groups="notdefault,packaging" />
-</manifest>
+  <project name="otp" path="otp" revision="23790daf1a2d384b0fc11c655fa825151d9fa420"
+           remote="erlang"/>
+  <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
+           remote="couchbase"/>
+  <project name="snappy" path="snappy" revision="009c4325f40e04700ca7956e866ad342f020e214"
+           remote="couchbase"/>
+  <project name="gperftools" path="gperftools" revision="846b775dfadb77901202ae7ddbac30ad1de7df01"
+           remote="couchbase"/>
+  <project name="pysqlite" path="pysqlite" revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea"
+           remote="couchbase"/>
+  <project name="v8" path="v8" revision="05120013843918f7e3712159c03b509d3e328cf7"
+           remote="couchbase"/>
+  <project name="gyp" path="v8/build/gyp" revision="7c819b84a9a9484154d7584b7795f607e3178b3f"
+           remote="couchbase"/>
+  <project name="icu46" path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289"
+           remote="couchbase"/>
+  <project name="python-snappy" path="python-snappy" revision="c97d633ef5364740c152fd184f61c2d9e1a93d01"
+           remote="couchbase"/>
+  <!--
+  <project name="voltron" path="voltron" revision="e10cd47a98c5660f088ca41187eabe645c8c2b1f" />
+  --></manifest>
