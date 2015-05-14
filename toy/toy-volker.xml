@@ -18,10 +18,10 @@
   <project name="memcached" path="memcached" revision="ve4" remote="vmx"/>
   <project name="moxi" path="moxi" revision="33c5c06adc4b127276ed751ced67df44e0ac950d"/>
   <project name="ns_server" path="ns_server" revision="9563c0ca540e0958fefac2aab8d182fc7446e272"/>
-  <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
+  <project name="platform" path="platform"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
-  <project name="tlm" path="tlm" revision="6cf181681f6bced255dda51454f89e29ce7a997c">
+  <project name="tlm" path="tlm" revision="b4f44376cbf4e90acd49cab487a23324bca48986">
     <copyfile dest='GNUmakefile' src='GNUmakefile'/>
     <copyfile dest='Makefile' src='Makefile'/>
     <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
