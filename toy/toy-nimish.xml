@@ -13,7 +13,7 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"               remote="nimish" revision="revert_lhttp"/>
   <project name="couchstore"/>
-  <project name="ep-engine"/>
+  <project name="ep-engine"             remote="nimish" revision="test1"/>
   <project name="geocouch"/>
   <project name="healthchecker"/>
   <project name="memcached"/>
