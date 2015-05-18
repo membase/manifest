@@ -12,11 +12,11 @@
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" upstream="couchbase-181"/>
   <project name="couchdb" revision="efb2fd12b141183fee273e82e6d89b98cd513903" upstream="master"/>
   <project name="couchstore" revision="f93a380c6160554a7c61539407bcdd3d35e2d777" upstream="master"/>
-  <project name="ep-engine" revision="15f0c752394846632bb92d2a92fd07da56b57508" upstream="sherlock"/>
+  <project name="ep-engine" revision="033674e29a80cc6c0b390301fdc3f7af6774df77" upstream="sherlock"/>
   <project name="geocouch" revision="5c10925c6b7e16c9d70ab00e99eb836a8d0ad2e8" upstream="master"/>
   <project name="memcached" revision="59efd719fc37c4f48c5d85c2fec9ff983226fd14" upstream="sherlock"/>
   <project name="moxi" revision="78326ab133bd8ff7eae4000e270c304db6bb9e86" upstream="master"/>
-  <project name="ns_server" revision="sherlock-beta" upstream="master"/>
+  <project name="ns_server" revision="sherlock" upstream="master"/>
   <project name="platform" revision="081d4eec549ace1a6181c8883fb5188b08237ce1" upstream="sherlock"/>
   <project name="sigar" revision="3b99ab91c678d89418eeac259ee4d33d4939096c" upstream="master"/>
   <project name="testrunner" revision="sherlock-beta" upstream="master"/>
@@ -33,7 +33,7 @@
 
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="sherlock-beta" upstream="master"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="sherlock-beta" upstream="master"/>
-  <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="da692508098262b144d1935e892234d811008b92" upstream="master"/>
+  <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="70381e1054bef93f681f3acf330d0efc1122e79f" upstream="master"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="6fc27ea852661fa6a1b6b1939f2b9c4ea68b6615" upstream="master"/>
@@ -58,7 +58,7 @@
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project groups="notdefault,build" name="build" path="cbbuild" revision="639016ff2ffeffc3a8b4d39b68b2c56c67996981" upstream="master">
+  <project groups="notdefault,build" name="build" path="cbbuild" revision="42c230f9ca72a606b87934ae636e00e03f52c49c" upstream="master">
     <annotation name="BLD_NUM" value="@BLD_NUM@"/>
     <annotation name="RELEASE" value="@RELEASE@"/>
     <annotation name="EDITION" value="@EDITION@"/>
