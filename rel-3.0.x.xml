@@ -18,8 +18,9 @@
 
   <!-- couchstore building 3.0.x maintenance releases on elsa branch -->
   <project name="couchstore"              revision="c2c6bd72f914202ad00d3f512148406c0afc8a4d" />
+
   <!-- ep-engine building 3.0.x maintenance releases on 3.0.3 branch -->
-  <project name="ep-engine"               revision="19affd1ac552310f4c7e5f97fc120cc5ef2ec973" />
+  <project name="ep-engine"               revision="988666e2aebf8560975db1c78a08523ea80ccfcc" />
 
   <!-- geocouch has only desirable changes on master -->
   <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
@@ -27,8 +28,10 @@
   <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
 
   <!-- memcached building 3.0.x maintenance releases from 3.0 branch -->
-  <project name="memcached"               revision="3.0"/>
-  <project name="moxi"                    revision="3.0.x" />
+  <project name="memcached"               revision="4424e903ad7e44726dc46f73acebd07c960f8e72"/>
+
+  <!-- moxi building 3.0.x maintenance releases from 3.0.x branch -->
+  <project name="moxi"                    revision="33c5c06adc4b127276ed751ced67df44e0ac950d" />
 
   <!-- ns_server building 3.0.x maintenance releases from rel-3.0.0++ branch -->
   <project name="ns_server"               revision="9563c0ca540e0958fefac2aab8d182fc7446e272"/>
