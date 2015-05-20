@@ -16,10 +16,10 @@
   <project name="geocouch" revision="5c10925c6b7e16c9d70ab00e99eb836a8d0ad2e8" upstream="master"/>
   <project name="memcached" revision="59efd719fc37c4f48c5d85c2fec9ff983226fd14" upstream="sherlock"/>
   <project name="moxi" revision="78326ab133bd8ff7eae4000e270c304db6bb9e86" upstream="master"/>
-  <project name="ns_server" revision="sherlock" upstream="master"/>
+  <project name="ns_server" revision="sherlock"/>
   <project name="platform" revision="081d4eec549ace1a6181c8883fb5188b08237ce1" upstream="sherlock"/>
   <project name="sigar" revision="3b99ab91c678d89418eeac259ee4d33d4939096c" upstream="master"/>
-  <project name="testrunner" revision="sherlock-beta" upstream="master"/>
+  <project name="testrunner" revision="sherlock-beta"/>
   <project name="tlm" revision="5840fd94be6aa055607c4ce05344a245b727fe17" upstream="sherlock">
     <copyfile dest="GNUmakefile" src="GNUmakefile"/>
     <copyfile dest="Makefile" src="Makefile"/>
@@ -28,11 +28,11 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb" revision="sherlock-beta" upstream="sherlock"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="fe5926c47aa5a08c091a718edbf2ae32d513803b" upstream="master"/>
+  <project name="forestdb" revision="sherlock-beta"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="sherlock-beta"/>
 
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="sherlock-beta" upstream="master"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="sherlock-beta" upstream="master"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="sherlock-beta"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="sherlock-beta"/>
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="70381e1054bef93f681f3acf330d0efc1122e79f" upstream="master"/>
 
   <!-- Go support libraries - Couchbase-supported -->
