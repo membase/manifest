@@ -3,7 +3,6 @@
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
-  <remote name="hhs" fetch="git://github.com/hsharsha/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -11,11 +10,10 @@
   <project name="couchbase-cli"           />
   <project name="couchbase-examples"      />
   <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"     />
-  <project name="couchstore" remote="hhs"      />
+  <project name="couchdb" revision="19551d2b13c953c6c5f832e848b9414558b005ca"                 />
+  <project name="couchstore" revision="c2c6bd72f914202ad00d3f512148406c0afc8a4d"              />
   <project name="ep-engine" revision="sherlock"/>
-  <project name="geocouch"                />
-  <project name="healthchecker"           />
+  <project name="geocouch" revision="2f4508ab7c4815dc0f587c94be5f673185dd5465"                />
   <project name="memcached" revision="sherlock"/>
   <project name="moxi"                    />
   <project name="ns_server"               />
@@ -48,15 +46,16 @@
   <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
-  <project name="goprotobuf"             remote="couchbasedeps"  path="godeps/src/code.google.com/p/goprotobuf"/>
-  <project name="go-jsonpointer"         remote="couchbasedeps"  path="godeps/src/github.com/dustin/go-jsonpointer"/>
-  <project name="gojson"                 remote="couchbasedeps"  path="godeps/src/github.com/dustin/gojson" />
-  <project name="mux"                    remote="couchbasedeps"  path="godeps/src/github.com/gorilla/mux" />
-  <project name="context"                remote="couchbasedeps"  path="godeps/src/github.com/gorilla/context" />
-  <project name="liner"                  remote="couchbasedeps"  path="godeps/src/github.com/sbinet/liner" />
-  <project name="npipe"                  remote="couchbasedeps"  path="godeps/src/github.com/natefinch/npipe" />
-  <project name="go-metrics"             remote="couchbasedeps"  path="godeps/src/github.com/rcrowley/go-metrics" />
-  <project name="go-zookeeper"           remote="couchbasedeps"  path="godeps/src/github.com/samuel/go-zookeeper" />
+  <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
+  <project name="goprotobuf"     remote="couchbasedeps" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6" path="godeps/src/code.google.com/p/goprotobuf"/>
+  <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
+  <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
+  <project name="mux"            remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" path="godeps/src/github.com/gorilla/mux" />
+  <project name="context"        remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" path="godeps/src/github.com/gorilla/context" />
+  <project name="liner"          remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" path="godeps/src/github.com/sbinet/liner" />
+  <project name="npipe"          remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f" path="godeps/src/github.com/natefinch/npipe" />
+  <project name="go-metrics"     remote="couchbasedeps" revision="dee209f2455f101a5e4e593dea94872d2c62d85d"  path="godeps/src/github.com/rcrowley/go-metrics" />
+  <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
