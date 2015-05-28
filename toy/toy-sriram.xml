@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/ceejatec/" name="ceejatec"/>
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/dustin/" name="dustin"/>
-  <remote fetch="git://github.com/erlang/" name="erlang"/>
-  <remote fetch="git://github.com/gorilla/" name="gorilla"/>
-  <remote fetch="ssh://git@github.com/membase/" name="membase-priv" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/natefinch/" name="natefinch"/>
-  <remote fetch="git://github.com/prataprc/" name="prataprc"/>
-  <remote fetch="git://github.com/rcrowley/" name="rcrowley"/>
-  <remote fetch="git://github.com/samuel/" name="samuel"/>
-  <remote fetch="git://github.com/sbinet/" name="sbinet"/>
-  <remote fetch="git://github.com/twinj/" name="twinj"/>
-
+  <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
+  
   <default remote="couchbase" revision="master"/>
-
-  <project groups="notdefault,build" name="build" path="cbbuild" upstream="master">
-    <annotation name="BLD_NUM" value="@BLD_NUM@"/>
+  
+  <project groups="notdefault,build" name="build" path="cbbuild" revision="42c230f9ca72a606b87934ae636e00e03f52c49c">
+    <annotation name="BLD_NUM" value="2213"/>
     <annotation name="RELEASE" value="@RELEASE@"/>
     <annotation name="EDITION" value="@EDITION@"/>
   </project>
