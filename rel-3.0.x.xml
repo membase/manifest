@@ -13,14 +13,14 @@
   <!-- couchdb building 3.0.x maintenance releases on 3.x branch -->
   <project name="couchdb"                 revision="3.x" />
 
-  <!-- couchdbx-app has only desirable changes on master -->
-  <project name="couchdbx-app"            revision="e6820c5af5e9c30cc2c0ad10571470d88424881c" />
+  <!-- couchdbx-app building 3.0.x maintenance releases on 3.0.x branch -->
+  <project name="couchdbx-app"            revision="3.0.x" />
 
   <!-- couchstore building 3.0.x maintenance releases on elsa branch -->
   <project name="couchstore"              revision="elsa" />
 
-  <!-- ep-engine building 3.0.x maintenance releases on 3.0.3 branch -->
-  <project name="ep-engine"               revision="988666e2aebf8560975db1c78a08523ea80ccfcc" />
+  <!-- ep-engine building 3.0.x maintenance releases on 3.0.x branch -->
+  <project name="ep-engine"               revision="3.0.x" />
 
   <!-- geocouch has only desirable changes on master -->
   <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
