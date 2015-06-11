@@ -8,7 +8,7 @@
   <project name="couchbase-cli"           revision="3.0.x" />
 
   <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
-  <project name="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"  />
+  <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"  />
 
   <!-- couchdb building 3.0.x maintenance releases on 3.x branch -->
   <project name="couchdb"                 revision="3.x" />
