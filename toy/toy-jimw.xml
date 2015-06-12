@@ -2,7 +2,7 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/"/>
   <remote name="erlang" fetch="git://github.com/erlang/"/>
-  <remote name="jimwwalker" fetch="git://github.com/jimwwalker/">
+  <remote name="jimwwalker" fetch="git://github.com/jimwwalker/"/>
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>
