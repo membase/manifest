@@ -8,7 +8,7 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="couchbase-cli" revision="ed8aec4a5592f24be23e16fc02d1e1a0c6a8b89c" upstream="master"/>
-  <project name="couchbase-examples" revision="781460c0fd5f3458599289587e9c123416268cf1" upstream="master"/>
+  <project name="couchbase-examples" revision="4045fbf214426dafad2c693063e9cbcd3e9aca1e" upstream="master"/>
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" upstream="couchbase-181"/>
   <project name="couchdb" revision="efb2fd12b141183fee273e82e6d89b98cd513903" upstream="master"/>
   <project name="couchstore" revision="f93a380c6160554a7c61539407bcdd3d35e2d777" upstream="master"/>
@@ -16,11 +16,11 @@
   <project name="geocouch" revision="5c10925c6b7e16c9d70ab00e99eb836a8d0ad2e8" upstream="master"/>
   <project name="memcached" revision="59efd719fc37c4f48c5d85c2fec9ff983226fd14" upstream="sherlock"/>
   <project name="moxi" revision="78326ab133bd8ff7eae4000e270c304db6bb9e86" upstream="master"/>
-  <project name="ns_server" revision="sherlock"/>
+  <project name="ns_server" revision="dc3539a86ec7caa9a3be5174a70d39b84c246a04"/>
   <project name="platform" revision="081d4eec549ace1a6181c8883fb5188b08237ce1" upstream="sherlock"/>
   <project name="sigar" revision="3b99ab91c678d89418eeac259ee4d33d4939096c" upstream="master"/>
   <project name="testrunner" revision="sherlock-beta"/>
-  <project name="tlm" revision="5840fd94be6aa055607c4ce05344a245b727fe17" upstream="sherlock">
+  <project name="tlm" revision="498056fcb0a1bd3e28ed7df0bff73c45ed435e26" upstream="sherlock">
     <copyfile dest="GNUmakefile" src="GNUmakefile"/>
     <copyfile dest="Makefile" src="Makefile"/>
     <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
