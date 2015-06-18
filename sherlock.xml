@@ -58,7 +58,7 @@
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project groups="notdefault,build" name="build" path="cbbuild" revision="42c230f9ca72a606b87934ae636e00e03f52c49c" upstream="master">
+  <project groups="notdefault,build" name="build" path="cbbuild" revision="sherlock-beta">
     <annotation name="BLD_NUM" value="@BLD_NUM@"/>
     <annotation name="RELEASE" value="@RELEASE@"/>
     <annotation name="EDITION" value="@EDITION@"/>
