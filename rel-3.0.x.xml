@@ -23,7 +23,7 @@
   <project name="ep-engine"               revision="3.0.x" />
 
   <!-- geocouch has only desirable changes on master -->
-  <project name="geocouch"                revision="2f4508ab7c4815dc0f587c94be5f673185dd5465" />
+  <project name="geocouch"                revision="106f827bdb48ff033a1f0db9410fd43a28457994" />
 
   <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
 
