@@ -47,7 +47,7 @@
   <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
-  <project name="goprotobuf"             remote="couchbasedeps"  path="godeps/src/code.google.com/p/goprotobuf"/>
+  <project name="protobuf"               remote="couchbasedeps"  path="godeps/src/github.com/golang/protobuf"/>
   <project name="go-jsonpointer"         remote="couchbasedeps"  path="godeps/src/github.com/dustin/go-jsonpointer"/>
   <project name="gojson"                 remote="couchbasedeps"  path="godeps/src/github.com/dustin/gojson" />
   <project name="mux"                    remote="couchbasedeps"  path="godeps/src/github.com/gorilla/mux" />
