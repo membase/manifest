@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="couchbase"      fetch="git://github.com/couchbase/"    />
-  <remote  name="couchbasedeps"  fetch="git://github.com/couchbasedeps" />
+  <remote  name="couchbase"      fetch="git://github.com/couchbase/"     />
+  <remote  name="couchbasedeps"  fetch="git://github.com/couchbasedeps/" />
 
   <project name="erlang"     path="otp"        revision="couchbase-3.x"                            remote="couchbasedeps" />
   <project name="icu4c"      path="icu4c"      revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
