@@ -3,7 +3,8 @@
   <remote name="couchbase" fetch="git://github.com/couchbase/"/>
   <!--<remote name="erlang" fetch="git://github.com/erlang/"/>-->
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
-  <remote name="daverigby" fetch="git://github.com/daverigby/"/>
+  <!--<remote name="daverigby" fetch="git://github.com/daverigby/"/>-->
+  <remote name="vmx" fetch="git://github.com/vmx/"/>
 
 
   <default remote="couchbase" revision="master"/>
@@ -17,17 +18,17 @@
   <project name="ep-engine" path="ep-engine" revision="3bae6e4d8f94ed7bfdcc0f7cc53ee03d5bdb46be"/>
   <project name="geocouch" path="geocouch" revision="106f827bdb48ff033a1f0db9410fd43a28457994"/>
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
-
-  <project name="memcached" path="memcached" revision="1e7fbb223e9538a05e2fbaff56d4558d427d83cd" remote="daverigby"/>
 <!--
-  <project name="memcached" path="memcached" revision="efa7ee830bee19c92cf5ff860aa80459cb19002f"/>
+  <project name="memcached" path="memcached" revision="1e7fbb223e9538a05e2fbaff56d4558d427d83cd" remote="daverigby"/>
 -->
+  <project name="memcached" path="memcached" revision="efa7ee830bee19c92cf5ff860aa80459cb19002f"/>
+
   <project name="moxi" path="moxi" revision="2ad8ecb45f4f8bd46ce23665ff72f621251278c9"/>
   <project name="ns_server" path="ns_server" revision="7589928c4deacf93d8528bd5828e1b6ba4acff96"/>
   <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
-  <project name="tlm" path="tlm" revision="6888682a86fdc8ccf014e41f7ddbb96c0fef3a18">
+  <project name="tlm" path="tlm" revision="mb-15700" remote="vmx">
     <copyfile dest='GNUmakefile' src='GNUmakefile'/>
     <copyfile dest='Makefile' src='Makefile'/>
     <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
