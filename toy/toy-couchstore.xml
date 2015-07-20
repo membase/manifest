@@ -23,7 +23,7 @@
   <project name="couchstore"              revision="elsa" />
 
   <!-- ep-engine building 3.0.x maintenance releases on 3.0.x branch -->
-  <project name="ep-engine"               revision="3.0.x" />
+  <project name="ep-engine"               revision="310_temp" />
 
   <!-- geocouch has only desirable changes on master -->
   <project name="geocouch"                revision="106f827bdb48ff033a1f0db9410fd43a28457994" />
