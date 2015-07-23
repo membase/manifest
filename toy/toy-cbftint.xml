@@ -10,7 +10,6 @@
   <remote name="cznic"    fetch="git://github.com/cznic"/>
   <remote name="elazarl"  fetch="git://github.com/elazarl"/>
   <remote name="golang"   fetch="git://github.com/golang"/>
-  <remote name="google"   fetch="git://github.com/google"/>
   <remote name="jmhodges" fetch="git://github.com/jmhodges"/>
   <remote name="ryszard"  fetch="git://github.com/ryszard"/>
   <remote name="steveyen" fetch="git://github.com/steveyen"/>
@@ -81,7 +80,7 @@
   <project name="bolt"               remote="boltdb"   path="godeps/src/github.com/boltdb/bolt"/>
   <project name="b"                  remote="cznic"    path="godeps/src/github.com/cznic/b"/>
   <project name="go-bindata-assetfs" remote="elazarl"  path="godeps/src/github.com/elazarl/go-bindata-assetfs"/>
-  <project name="go-snappy"          remote="google"   path="godeps/src/github.com/google/go-snappy"/>
+  <project name="snappy"             remote="golang"   path="godeps/src/github.com/golang/snappy"/>
   <project name="levigo"             remote="jmhodges" path="godeps/src/github.com/jmhodges/levigo"/>
   <project name="goskiplist"         remote="ryszard"  path="godeps/src/github.com/ryszard/goskiplist"/>
   <project name="gtreap"             remote="steveyen" path="godeps/src/github.com/steveyen/gtreap"/>
