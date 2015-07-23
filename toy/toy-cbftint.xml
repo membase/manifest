@@ -28,12 +28,12 @@
   <project name="geocouch"/>
   <project name="memcached"/>
   <project name="moxi"/>
-  <project name="ns_server"/>
+  <project name="ns_server"        remote="steveyen" revision="cbftint"/>
   <project name="platform"/>
   <project name="sigar"/>
   <project name="subjson"/>
   <project name="testrunner"/>
-  <project name="tlm">
+  <project name="tlm"              remote="steveyen" revision="cbftint">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
