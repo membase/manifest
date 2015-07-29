@@ -29,7 +29,7 @@
   <!-- Sherlock extension projects -->
 
   <project name="forestdb" revision="sherlock"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="3fbd864b49dd0f042d9328424dc4638976951ce5" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"                  remote="couchbase"      path="goproj/src/github.com/couchbase/query"/>
   <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
