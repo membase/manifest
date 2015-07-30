@@ -7,20 +7,20 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="couchbase-cli"           />
-  <project name="couchbase-examples"      />
-  <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"                 />
-  <project name="couchstore"              />
-  <project name="ep-engine" revision="sherlock"/>
-  <project name="geocouch"                />
-  <project name="memcached" revision="sherlock"/>
-  <project name="moxi"                    />
+  <project name="couchbase-cli"           revision="bf6821937fac25f32eeb688731ebd8200e65460b" />
+  <project name="couchbase-examples"      revision="2e9cd32988929935c9b172fb713434c1f81243de" />
+  <project name="couchbase-python-client" revision="bf6821937fac25f32eeb688731ebd8200e65460b" />
+  <project name="couchdb"                 revision="3ee4da1f9b3ff4a699b0632500d6ebd271f98537" />
+  <project name="couchstore"              revision="dfab1c7a10c469a1bd09e01317ad49d90ac030a9" />
+  <project name="ep-engine"               revision="ecea5bd99188f1fa32757dd288954731925d17d3" upstream="sherlock" />
+  <project name="geocouch"                revision="399911d745e271b6543fc8cb55985a93cecf32bb" />
+  <project name="memcached"               revision="a7a7729d2d46854d2759814167722e0e5618d2fc" upstream="sherlock" />
+  <project name="moxi"                    revision="dae52370a3c5c576cb55fc07f9e00f079357170c" />
   <project name="ns_server"               />
-  <project name="platform" revision="sherlock"/>
-  <project name="sigar"                   />
-  <project name="testrunner"              />
-  <project name="tlm" revision="sherlock">
+  <project name="platform"                revision="a44eb642b2edafe4d9d017d6c98b6ad25a051f46" upstream="sherlock" />
+  <project name="sigar"                   revision="829a4c032705b78ae3e2aeb4124dcb6faae51309" />
+  <project name="testrunner"              revision="ce8481f9a531f3f417795e1ed4d148fa6317ba20" />
+  <project name="tlm"                     revision="24d44145c4edbf540bc65a4b0122c6c2abf6d38e" upstream="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
@@ -28,22 +28,22 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb" revision="sherlock"/>
+  <project name="forestdb" revision="bda6f4266cc36ca3b387e410d9add1b91484f5ba" upstream="sherlock" />
   <project name="indexing" revision="3fbd864b49dd0f042d9328424dc4638976951ce5" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"                  remote="couchbase"      path="goproj/src/github.com/couchbase/query"/>
-  <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
-  <project name="gometa"                                         path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="query"    path="goproj/src/github.com/couchbase/query" />
+  <project name="goxdcr"   path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
-  <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
-  <project name="retriever"                                      path="godeps/src/github.com/couchbase/retriever" />
-  <project name="dparval"                                        path="godeps/src/github.com/couchbase/dparval"/>
-  <project name="go-couchbase"                                   path="godeps/src/github.com/couchbase/go-couchbase" />
-  <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
-  <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
-  <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
+  <project name="cbauth"   revision="92c0cef0bd7228ee440e0c2504f20a21d6bc86f1" path="godeps/src/github.com/couchbase/cbauth"/>
+  <project name="gomemcached" revision="2a088a15cc25324ac82f8d4b9a4680c45e4de380" path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever" />
+  <project name="dparval"  revision="9def03782da875a2477c05bf64985db3f19f59ae" path="godeps/src/github.com/couchbase/dparval"/>
+  <project name="go-couchbase" revision="26011e20e9e19849a3382b21db391db4ceae45b7" path="godeps/src/github.com/couchbase/go-couchbase" />
+  <project name="clog"     revision="e0f356188f6f2f3098eb7dbc9082801dffc3f1a8dd" path="godeps/src/github.com/couchbase/clog" />
+  <project name="go-slab"  revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f" path="godeps/src/github.com/couchbase/go-slab" />
+  <project name="goforestdb" revision="7f10126c688e246d50511a8fb182ab71f3ea376dd" path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
@@ -58,11 +58,11 @@
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
+  <project name="build" revision="b6cf873a86817451db429c7466545ca9ad6b8700" path="cbbuild" groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
-  <project name="couchdbx-app" groups="notdefault,packaging" />
+  <project name="voltron" revision="e8f08d76e30414aa85e729ed0deff90412c64443" remote="couchbase-priv" groups="notdefault,packaging" />
+  <project name="couchdbx-app" revision="f8bddafe4cc46e7b34c082541109ebba37b048ee" groups="notdefault,packaging" />
 </manifest>
