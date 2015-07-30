@@ -12,7 +12,7 @@
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
   <project name="couchdb"                 revision="3ee4da1f9b3ff4a699b0632500d6ebd271f98537" />
   <project name="couchstore"              revision="dfab1c7a10c469a1bd09e01317ad49d90ac030a9" />
-  <project name="ep-engine"               revision="ecea5bd99188f1fa32757dd288954731925d17d3" upstream="sherlock" />
+  <project name="ep-engine"               revision="sherlock" />
   <project name="geocouch"                revision="399911d745e271b6543fc8cb55985a93cecf32bb" />
   <project name="memcached"               revision="a7a7729d2d46854d2759814167722e0e5618d2fc" upstream="sherlock" />
   <project name="moxi"                    revision="dae52370a3c5c576cb55fc07f9e00f079357170c" />
@@ -28,7 +28,7 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb" revision="bda6f4266cc36ca3b387e410d9add1b91484f5ba" upstream="sherlock" />
+  <project name="forestdb" revision="sherlock" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"    path="goproj/src/github.com/couchbase/query" />
