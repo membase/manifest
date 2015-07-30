@@ -32,7 +32,7 @@
   <project name="indexing" revision="3fbd864b49dd0f042d9328424dc4638976951ce5" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"    path="goproj/src/github.com/couchbase/query" />
-  <project name="goxdcr"   path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr"   revision="6f48090e503fe4557a20b4da53d5202110688105" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
@@ -58,7 +58,7 @@
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="b6cf873a86817451db429c7466545ca9ad6b8700" path="cbbuild" groups="notdefault,build">
+  <project name="build" revision="b48451d76a87927ff8a0f6a59c7c4c13986054dc" path="cbbuild" groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
