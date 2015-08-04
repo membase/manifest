@@ -31,7 +31,7 @@
   <project name="forestdb" revision="sherlock" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"    path="goproj/src/github.com/couchbase/query" />
+  <project name="query"    revision="c7d4e4df98e400a4f1891d9b28c0b3f125347482" path="goproj/src/github.com/couchbase/query" />
   <project name="goxdcr"   revision="b50d6e1864789fdc39e3d51fabaf63d914ec00f2" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
