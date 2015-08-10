@@ -10,10 +10,10 @@
   <project name="couchbase-cli"           revision="bf6821937fac25f32eeb688731ebd8200e65460b" />
   <project name="couchbase-examples"      revision="2e9cd32988929935c9b172fb713434c1f81243de" />
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
-  <project name="couchdb"                 revision="3ee4da1f9b3ff4a699b0632500d6ebd271f98537" />
-  <project name="couchstore"              revision="dfab1c7a10c469a1bd09e01317ad49d90ac030a9" />
+  <project name="couchdb"                 revision="sherlock" />
+  <project name="couchstore"              revision="sherlock" />
   <project name="ep-engine"               revision="sherlock" />
-  <project name="geocouch"                revision="399911d745e271b6543fc8cb55985a93cecf32bb" />
+  <project name="geocouch"                revision="sherlock" />
   <project name="memcached"               revision="a7a7729d2d46854d2759814167722e0e5618d2fc" upstream="sherlock" />
   <project name="moxi"                    revision="dae52370a3c5c576cb55fc07f9e00f079357170c" />
   <project name="ns_server"               />
@@ -31,7 +31,7 @@
   <project name="forestdb" revision="sherlock" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"    revision="c7d4e4df98e400a4f1891d9b28c0b3f125347482" path="goproj/src/github.com/couchbase/query" />
+  <project name="query"    revision="3d0876a523a88d462817ea8afd6d89da2c7a794b" path="goproj/src/github.com/couchbase/query" />
   <project name="goxdcr"   revision="3c4235183ef9ecf391d8b8d760bf717226c0ec92" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
