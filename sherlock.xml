@@ -10,13 +10,13 @@
   <project name="couchbase-cli"           revision="bf6821937fac25f32eeb688731ebd8200e65460b" />
   <project name="couchbase-examples"      revision="2e9cd32988929935c9b172fb713434c1f81243de" />
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
-  <project name="couchdb"                 revision="sherlock" />
-  <project name="couchstore"              revision="sherlock" />
-  <project name="ep-engine"               revision="sherlock" />
-  <project name="geocouch"                revision="sherlock" />
+  <project name="couchdb"                 revision="b1a22b88418e4a5388af68e80a5d30daa4be88db" />
+  <project name="couchstore"              revision="dfab1c7a10c469a1bd09e01317ad49d90ac030a9" />
+  <project name="ep-engine"               revision="2cd4779162506eb09d8b7667a6500b76050098fe" />
+  <project name="geocouch"                revision="a8b9540e38ca9c116fadfe7c3d163f693b3b2300" />
   <project name="memcached"               revision="a7a7729d2d46854d2759814167722e0e5618d2fc" upstream="sherlock" />
   <project name="moxi"                    revision="dae52370a3c5c576cb55fc07f9e00f079357170c" />
-  <project name="ns_server"               revision="sherlock" />
+  <project name="ns_server"               revision="6ccc76b69c9b9537c5762eb6a90df3e4eac366e5" />
   <project name="platform"                revision="a44eb642b2edafe4d9d017d6c98b6ad25a051f46" upstream="sherlock" />
   <project name="sigar"                   revision="829a4c032705b78ae3e2aeb4124dcb6faae51309" />
   <project name="testrunner"              revision="ce8481f9a531f3f417795e1ed4d148fa6317ba20" />
@@ -28,8 +28,8 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb" revision="sherlock" />
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="forestdb" revision="52ade7a454bfe8a22f6284f0c88da3c4b2e314fe" />
+  <project name="indexing" revision="13ee1b8b477c65e242c31c4a291e2744d0cd6d22" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"    revision="3d0876a523a88d462817ea8afd6d89da2c7a794b" path="goproj/src/github.com/couchbase/query" />
   <project name="goxdcr"   revision="3c4235183ef9ecf391d8b8d760bf717226c0ec92" path="goproj/src/github.com/couchbase/goxdcr" />
@@ -63,6 +63,6 @@
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron" revision="sherlock" remote="couchbase-priv" groups="notdefault,packaging" />
+  <project name="voltron" revision="759477e179e29ec3b105888929e18c09d2c84b75" remote="couchbase-priv" groups="notdefault,packaging" />
   <project name="couchdbx-app" revision="e6876e627422d3f769cc850850ec512a2d0847cf" groups="notdefault,packaging" />
 </manifest>
