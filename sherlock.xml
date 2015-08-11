@@ -16,7 +16,7 @@
   <project name="geocouch"  revision="sherlock"/>
   <project name="memcached" revision="sherlock"/>
   <project name="moxi"                    />
-  <project name="ns_server"               />
+  <project name="ns_server" revision="sherlock"/>
   <project name="platform" revision="sherlock"/>
   <project name="sigar"                   />
   <project name="testrunner"              />
