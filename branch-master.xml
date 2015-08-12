@@ -3,6 +3,7 @@
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
@@ -26,6 +27,7 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
+  <project name="CLion-Project-Setup" remote="couchbaselabs" path=".idea" groups="notdefault,clion"/>
 
   <!-- Sherlock extension projects -->
 
