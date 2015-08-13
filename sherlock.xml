@@ -28,7 +28,7 @@
 
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb" revision="52ade7a454bfe8a22f6284f0c88da3c4b2e314fe" />
+  <project name="forestdb" revision="3155b82d0ec739b26849f86ce0381b3ee9965007" />
   <project name="indexing" revision="af8c6a59c63e2df609f20c9820165f92a2533816" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"    revision="3d0876a523a88d462817ea8afd6d89da2c7a794b" path="goproj/src/github.com/couchbase/query" />
