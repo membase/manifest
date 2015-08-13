@@ -16,7 +16,7 @@
   <project name="geocouch"                revision="a8b9540e38ca9c116fadfe7c3d163f693b3b2300" />
   <project name="memcached"               revision="a7a7729d2d46854d2759814167722e0e5618d2fc" upstream="sherlock" />
   <project name="moxi"                    revision="dae52370a3c5c576cb55fc07f9e00f079357170c" />
-  <project name="ns_server"               revision="6ccc76b69c9b9537c5762eb6a90df3e4eac366e5" />
+  <project name="ns_server"               revision="a17bc01233d44300a2063432a90bbf23c3975ce6" />
   <project name="platform"                revision="a44eb642b2edafe4d9d017d6c98b6ad25a051f46" upstream="sherlock" />
   <project name="sigar"                   revision="829a4c032705b78ae3e2aeb4124dcb6faae51309" />
   <project name="testrunner"              revision="ce8481f9a531f3f417795e1ed4d148fa6317ba20" />
