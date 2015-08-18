@@ -2,99 +2,68 @@
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="membase-priv"  fetch="ssh://git@github.com/membase/"       review="review.couchbase.org" />
-  <remote name="prataprc"      fetch="git://github.com/prataprc/"          />
-  <remote name="dustin"        fetch="git://github.com/dustin/"            />
-  <remote name="gorilla"       fetch="git://github.com/gorilla/"           />
-  <remote name="sbinet"        fetch="git://github.com/sbinet/"            />
-  <remote name="twinj"         fetch="git://github.com/twinj/"             />
-  <remote name="natefinch"     fetch="git://github.com/natefinch/"         />
-  <remote name="samuel"        fetch="git://github.com/samuel/"            />
-  <remote name="rcrowley"      fetch="git://github.com/rcrowley/"          />
-  <remote name="ceejatec"      fetch="git://github.com/ceejatec/"          />
-  <remote name="erlang"        fetch="git://github.com/erlang/"            />
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
+  <remote name="t3rm1n4l"      fetch="git://github.com/t3rm1n4l/" />
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="couchbase-cli"           />
-  <project name="couchbase-examples"      />
-  <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"                 />
-  <project name="couchdbx-app"            revision="3.0.0"         />
-  <project name="couchstore"              />
-  <project name="ep-engine"               />
-  <project name="geocouch"                />
-  <project name="healthchecker"           />
-  <project name="memcached"               />
-  <project name="moxi"                    />
-  <project name="ns_server"               />
-  <project name="platform"                />
-  <project name="sigar"                   />
-  <project name="testrunner"              />
-  <project name="tlm">
+  <project name="couchbase-cli"           revision="bf6821937fac25f32eeb688731ebd8200e65460b" />
+  <project name="couchbase-examples"      revision="2e9cd32988929935c9b172fb713434c1f81243de" />
+  <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
+  <project name="couchdb"                 revision="b1a22b88418e4a5388af68e80a5d30daa4be88db" />
+  <project name="couchstore"              revision="dfab1c7a10c469a1bd09e01317ad49d90ac030a9" />
+  <project name="ep-engine"               revision="2cd4779162506eb09d8b7667a6500b76050098fe" />
+  <project name="geocouch"                revision="a8b9540e38ca9c116fadfe7c3d163f693b3b2300" />
+  <project name="memcached"               revision="a7a7729d2d46854d2759814167722e0e5618d2fc" upstream="sherlock" />
+  <project name="moxi"                    revision="dae52370a3c5c576cb55fc07f9e00f079357170c" />
+  <project name="ns_server"               revision="4377cf37ee283db98423c22ce55aa8ce1bee8dbc" />
+  <project name="platform"                revision="a44eb642b2edafe4d9d017d6c98b6ad25a051f46" upstream="sherlock" />
+  <project name="sigar"                   revision="829a4c032705b78ae3e2aeb4124dcb6faae51309" />
+  <project name="testrunner"              revision="ce8481f9a531f3f417795e1ed4d148fa6317ba20" />
+  <project name="tlm"                     revision="24d44145c4edbf540bc65a4b0122c6c2abf6d38e" upstream="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
 
-  <!-- Enterprise build extensions -->
-  <project name="cbauditd" remote="membase-priv" path="enterprise/cbauditd" groups="notdefault,enterprise" />
-
   <!-- Sherlock extension projects -->
 
-  <project name="forestdb"               remote="couchbaselabs"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="forestdb" revision="41a273e36cf90c9b4c907911769ec0959e4f90cb" />
+  <project name="indexing" revision="memdbv2" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"                  remote="couchbaselabs"  path="goproj/src/github.com/couchbaselabs/query"/>
-  <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="query"    revision="93ab5af4dcb9bca358b424d5628da5dd5c58ce3e" path="goproj/src/github.com/couchbase/query" />
+  <project name="goxdcr"   revision="3c4235183ef9ecf391d8b8d760bf717226c0ec92" path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="gometa"                                         path="godeps/src/github.com/couchbase/gometa"/>
-
-  <project name="gomemcached"                                    path="godeps/src/github.com/couchbase/gomemcached"/>
-  <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/code.google.com/p/goprotobuf"/>
-  <project name="goprotobuf"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goprotobuf"/>
-  <project name="collatejson"            remote="prataprc"       path="godeps/src/github.com/prataprc/collatejson"/>
-  <project name="retriever"              remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/retriever" />
-  <project name="dparval"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/dparval"/>
-  <project name="go-couchbase"           remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-couchbase" revision="2i" />
-  <project name="clog"                   remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/clog" />
-  <project name="go-slab"                remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/go-slab" />
-  <project name="go-zookeeper"           remote="samuel"         path="godeps/src/github.com/samuel/go-zookeeper" />
-
-  <project name="goforestdb"             remote="couchbaselabs"  path="godeps/src/github.com/couchbaselabs/goforestdb"/>
+  <project name="cbauth"   revision="92c0cef0bd7228ee440e0c2504f20a21d6bc86f1" path="godeps/src/github.com/couchbase/cbauth"/>
+  <project name="gomemcached" revision="182dfcc4f567a714c57a954b942669707c2f129a" path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever" />
+  <project name="dparval"  revision="9def03782da875a2477c05bf64985db3f19f59ae" path="godeps/src/github.com/couchbase/dparval"/>
+  <project name="go-couchbase" revision="26011e20e9e19849a3382b21db391db4ceae45b7" path="godeps/src/github.com/couchbase/go-couchbase" />
+  <project name="clog"     revision="e0f356188f6f2f3098eb7dbc9082801dffc3f1a8" path="godeps/src/github.com/couchbase/clog" />
+  <project name="go-slab"  revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f" path="godeps/src/github.com/couchbase/go-slab" />
+  <project name="goforestdb" revision="7f10126c688e246d50511a8fb182ab71f3ea376d" path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
-  <project name="go-jsonpointer"         remote="dustin"         path="godeps/src/github.com/dustin/go-jsonpointer"/>
-  <project name="gojson"                 remote="dustin"         path="godeps/src/github.com/dustin/gojson" />
-  <project name="mux"                    remote="gorilla"        path="godeps/src/github.com/gorilla/mux" />
-  <project name="context"                remote="gorilla"        path="godeps/src/github.com/gorilla/context" />
-  <project name="liner"                  remote="sbinet"         path="godeps/src/github.com/sbinet/liner" />
-  <project name="uuid"                   remote="twinj"          path="godeps/src/github.com/twinj/uuid" />
-  <project name="npipe"                  remote="natefinch"      path="godeps/src/github.com/natefinch/npipe" />
-  <project name="go-metrics"             remote="rcrowley"       path="godeps/src/github.com/rcrowley/go-metrics" />
-
-  <!-- Non-Go third-party libraries (should eventually be removed from manifest) -->
-  <project name="otp"        path="otp"        revision="refs/tags/OTP_R16B03-1" remote="erlang"   groups="notdefault,3rdparty" />
-  <project name="icu4c"      path="icu4c"      revision="26359393672c378f41f2103a8699c4357c894be7" groups="notdefault,3rdparty"  />
-  <project name="snappy"     path="snappy"     revision="009c4325f40e04700ca7956e866ad342f020e214" groups="notdefault,3rdparty"  />
-  <project name="gperftools" path="gperftools" revision="refs/tags/gperftools-2.2"                 groups="notdefault,3rdparty"  />
-  <project name="pysqlite"   path="pysqlite"   revision="master"                                   groups="notdefault,3rdparty"  />
-  <project name="v8"         path="v8"         revision="3.21.17-couchbase"                        groups="notdefault,3rdparty"  />
-  <!-- Following two are v8 dependencies -->
-  <project name="gyp"        path="v8/build/gyp" revision="couchbase-v8-3.21.17"                   groups="notdefault,3rdparty"   />
-  <project name="icu46"      path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289" groups="notdefault,3rdparty" />
-  <project name="python-snappy" path="python-snappy" revision="master"                             groups="notdefault,3rdparty"   />
+  <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
+  <project name="goprotobuf"     remote="couchbasedeps" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6" path="godeps/src/code.google.com/p/goprotobuf"/>
+  <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
+  <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
+  <project name="mux"            remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" path="godeps/src/github.com/gorilla/mux" />
+  <project name="context"        remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" path="godeps/src/github.com/gorilla/context" />
+  <project name="liner"          remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" path="godeps/src/github.com/sbinet/liner" />
+  <project name="npipe"          remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f" path="godeps/src/github.com/natefinch/npipe" />
+  <project name="go-metrics"     remote="couchbasedeps" revision="dee209f2455f101a5e4e593dea94872d2c62d85d"  path="godeps/src/github.com/rcrowley/go-metrics" />
+  <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
+  <project name="build" revision="b48451d76a87927ff8a0f6a59c7c4c13986054dc" path="cbbuild" groups="notdefault,build">
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,build" />
-  <project name="grommit"    remote="membase-priv"    groups="notdefault,build" />
+  <project name="voltron" revision="759477e179e29ec3b105888929e18c09d2c84b75" remote="couchbase-priv" groups="notdefault,packaging" />
+  <project name="couchdbx-app" revision="e6876e627422d3f769cc850850ec512a2d0847cf" groups="notdefault,packaging" />
 </manifest>
-
