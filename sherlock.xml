@@ -43,7 +43,7 @@
   <project name="go-couchbase" revision="sherlock"               path="godeps/src/github.com/couchbase/go-couchbase" />
   <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
   <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
-  <project name="goforestdb"                                     path="godeps/src/github.com/couchbase/goforestdb" />
+  <project name="goforestdb" revision="sherlock"                 path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
