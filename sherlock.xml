@@ -32,7 +32,7 @@
   <project name="indexing" revision="0105f428b63df659224ec925a7b8e6a4f9b5ad1f" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query"    revision="7ec94a12e1e87485cd447d7268e0889f2b5d33e1" path="goproj/src/github.com/couchbase/query" />
-  <project name="goxdcr"   revision="3c4235183ef9ecf391d8b8d760bf717226c0ec92" path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr"   revision="f8ffc3a799651d18946372a9a040e202c6fe9629" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
