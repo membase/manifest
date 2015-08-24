@@ -32,7 +32,7 @@
   <project name="indexing" revision="sherlock" path="goproj/src/github.com/couchbase/indexing"/>
 
   <project name="query" revision="sherlock" remote="couchbase"   path="goproj/src/github.com/couchbase/query"/>
-  <project name="goxdcr"                 remote="couchbase"      path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr" revision="sherlock" remote="couchbase"  path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="sherlock"                     path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
