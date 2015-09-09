@@ -7,7 +7,7 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="couchbase-cli"           revision="bf6821937fac25f32eeb688731ebd8200e65460b" />
+  <project name="couchbase-cli"           revision="a54d28bd5e59557179e4cfe1939fac2d3ea8cb67" />
   <project name="couchbase-examples"      revision="2e9cd32988929935c9b172fb713434c1f81243de" />
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
   <project name="couchdb"                 revision="b1a22b88418e4a5388af68e80a5d30daa4be88db" />
