@@ -12,7 +12,7 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchstore"/>
-  <project name="ep-engine"/>
+  <project name="ep-engine" revision="sherlock"/>
   <project name="forestdb"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
