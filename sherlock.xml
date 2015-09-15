@@ -31,7 +31,7 @@
   <project name="forestdb" revision="sherlock"/>
   <project name="indexing" revision="sherlock" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query" revision="sherlock" remote="couchbase"   path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"  revision="4.1.0"    remote="couchbase"  path="goproj/src/github.com/couchbase/query"/>
   <project name="goxdcr" revision="sherlock" remote="couchbase"  path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="sherlock"                     path="goproj/src/github.com/couchbase/gometa"/>
 
@@ -40,7 +40,7 @@
   <project name="gomemcached" revision="sherlock"                path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                      path="godeps/src/github.com/couchbase/retriever" />
   <project name="dparval"                                        path="godeps/src/github.com/couchbase/dparval"/>
-  <project name="go-couchbase" revision="sherlock"               path="godeps/src/github.com/couchbase/go-couchbase" />
+  <project name="go-couchbase" revision="4.1.0"                  path="godeps/src/github.com/couchbase/go-couchbase" />
   <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
   <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
   <project name="goforestdb" revision="sherlock"                 path="godeps/src/github.com/couchbase/goforestdb" />
