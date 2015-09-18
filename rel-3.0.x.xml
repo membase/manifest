@@ -8,7 +8,7 @@
   <project name="couchbase-cli" path="couchbase-cli" revision="1e358c58d515071e993004f460d6837483f51b06"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"/>
-  <project name="couchdb" path="couchdb" revision="23f7cfbf1fc7daf4d67eeebbb37b9bf7a6d24bed"/>
+  <project name="couchdb" path="couchdb" revision="6d96797f7502db5a176095d996b543b4d0c9dda5"/>
   <project name="couchdbx-app" path="couchdbx-app" revision="6cda98dd572cdefdc54bfba7ee831e3506268264"/>
   <project name="couchstore" path="couchstore" revision="e19a23db069b8e3ca63d6d71ed2ce62dc4d9af98"/>
   <project name="ep-engine" path="ep-engine" revision="df9e68158d7d4dbbb6c041128996f93b5772f939"/>
@@ -16,7 +16,7 @@
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
   <project name="memcached" path="memcached" revision="bc21dbafefacf404dcd2bb020f4b7c83f5ce2516"/>
   <project name="moxi" path="moxi" revision="2ad8ecb45f4f8bd46ce23665ff72f621251278c9"/>
-  <project name="ns_server" path="ns_server" revision="87b6236ec9778658c1c0bf889f0a8b8b7fb655d8"/>
+  <project name="ns_server" path="ns_server" revision="f39fb111ecd7c37ae760341a7079161e761a3504"/>
   <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
