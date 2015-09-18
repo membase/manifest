@@ -10,7 +10,7 @@
   <project name="couchbase-cli"           revision="a54d28bd5e59557179e4cfe1939fac2d3ea8cb67" />
   <project name="couchbase-examples"      revision="2e9cd32988929935c9b172fb713434c1f81243de" />
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" />
-  <project name="couchdb"                 revision="b1a22b88418e4a5388af68e80a5d30daa4be88db" />
+  <project name="couchdb"                 revision="90aae633a3003184139893783bb87f4e3769ba11" />
   <project name="couchstore"              revision="dfab1c7a10c469a1bd09e01317ad49d90ac030a9" />
   <project name="ep-engine"               revision="2cd4779162506eb09d8b7667a6500b76050098fe" />
   <project name="geocouch"                revision="a8b9540e38ca9c116fadfe7c3d163f693b3b2300" />
