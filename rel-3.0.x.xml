@@ -14,7 +14,7 @@
   <project name="ep-engine" path="ep-engine" revision="df9e68158d7d4dbbb6c041128996f93b5772f939"/>
   <project name="geocouch" path="geocouch" revision="106f827bdb48ff033a1f0db9410fd43a28457994"/>
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
-  <project name="memcached" path="memcached" revision="bc21dbafefacf404dcd2bb020f4b7c83f5ce2516"/>
+  <project name="memcached" path="memcached" revision="2ba97633f19004a525d57840c0e9ab6e211aff17"/>
   <project name="moxi" path="moxi" revision="2ad8ecb45f4f8bd46ce23665ff72f621251278c9"/>
   <project name="ns_server" path="ns_server" revision="f39fb111ecd7c37ae760341a7079161e761a3504"/>
   <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
