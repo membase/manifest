@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase"     fetch="git://github.com/couchbase/"     review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" />
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- Core Couchbase projects -->
+  <project name="cbq-gui" remote="couchbaselabs" path="goproj/src/github.com/couchbaselabs/cbq-gui">
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
+  </project>
+  <project name="query"   path="goproj/src/github.com/couchbase/query"/>
+  <project name="tlm"     path="tlm"/>
+  <!-- Go support libraries - Couchbase-supported -->
+  <project name="gomemcached"    path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="go-couchbase"   path="godeps/src/github.com/couchbase/go-couchbase"/>
+
+  <!-- Go support libraries - third-party -->
+  <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
+  <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson"/>
+</manifest>
