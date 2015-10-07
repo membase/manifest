@@ -17,7 +17,7 @@
   <project name="memcached" path="memcached" revision="2ba97633f19004a525d57840c0e9ab6e211aff17"/>
   <project name="moxi" path="moxi" revision="2ad8ecb45f4f8bd46ce23665ff72f621251278c9"/>
   <project name="ns_server" path="ns_server" revision="f39fb111ecd7c37ae760341a7079161e761a3504"/>
-  <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
+  <project name="platform" path="platform" revision="606c4c86f0ed9bffae7de27622810c130e8f5364"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
   <project name="tlm" path="tlm" revision="76239c231b6735a6380495faecefbd8f99096f3c">
