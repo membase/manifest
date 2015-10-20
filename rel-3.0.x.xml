@@ -5,7 +5,7 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="couchbase-cli" path="couchbase-cli" revision="06ddb31d411539a585509ba1b2d517ab78b50eb4"/>
+  <project name="couchbase-cli" path="couchbase-cli" revision="a791b7242b0c53f5f413feb8e34790a48a7144ce"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"/>
   <project name="couchdb" path="couchdb" revision="80ef1269240de114fd73c158b44bbe337ee51fcc"/>
