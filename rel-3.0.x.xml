@@ -11,12 +11,12 @@
   <project name="couchdb" path="couchdb" revision="80ef1269240de114fd73c158b44bbe337ee51fcc"/>
   <project name="couchdbx-app" path="couchdbx-app" revision="6cda98dd572cdefdc54bfba7ee831e3506268264"/>
   <project name="couchstore" path="couchstore" revision="e19a23db069b8e3ca63d6d71ed2ce62dc4d9af98"/>
-  <project name="ep-engine" path="ep-engine" revision="495e00acc2461b0d8d5700680abfb863aac22f3e"/>
+  <project name="ep-engine" path="ep-engine" revision="0f1ff180516d6cdb0ec7314ae572dc371ca68353"/>
   <project name="geocouch" path="geocouch" revision="106f827bdb48ff033a1f0db9410fd43a28457994"/>
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
   <project name="memcached" path="memcached" revision="168b953408de12b1c68f816307d337113a1436e8"/>
   <project name="moxi" path="moxi" revision="2ad8ecb45f4f8bd46ce23665ff72f621251278c9"/>
-  <project name="ns_server" path="ns_server" revision="f39fb111ecd7c37ae760341a7079161e761a3504"/>
+  <project name="ns_server" path="ns_server" revision="a999da151d36087cec54d7e75a6bc1268da81f7c"/>
   <project name="platform" path="platform" revision="3617eb5e38a4f1403b060704f28fe9dc9c569d5f"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
