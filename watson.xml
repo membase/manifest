@@ -13,13 +13,13 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchstore"/>
-  <project name="ep-engine" revision="sherlock"/>
+  <project name="ep-engine"/>
   <project name="forestdb"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="sherlock"/>
+  <project name="memcached"/>
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
@@ -82,6 +82,6 @@
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"  revision="sherlock"  remote="couchbase-priv"  groups="notdefault,packaging"/>
+  <project name="voltron"  remote="couchbase-priv"  groups="notdefault,packaging"/>
   <project name="couchdbx-app" groups="notdefault,packaging"/>
 </manifest>
