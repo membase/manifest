@@ -52,10 +52,11 @@
   <project name="gocb"           revision="1ed4d84cfa015c9d6e6b9d186b0672412ae483cc" path="godeps/src/github.com/couchbase/gocb"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"          remote="blevesearch" revision="21473509b2123a0a184a50c272ac6d812f59d038" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="blevex"         remote="blevesearch" revision="9b29cb335b31e3fff943084149180362bef868e8" path="godeps/src/github.com/blevesearch/blevex"/>
+  <project name="bleve"            remote="blevesearch" revision="21473509b2123a0a184a50c272ac6d812f59d038" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="blevex"           remote="blevesearch" revision="9b29cb335b31e3fff943084149180362bef868e8" path="godeps/src/github.com/blevesearch/blevex"/>
+  <project name="bleve-mapping-ui" remote="blevesearch" revision="c8ab9d4cac5e63e2ec7e892fdf0ee5376264a44b" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
-  <project name="segment"        remote="blevesearch" revision="1075dc18be4c90a4f1972ef2734bb7d6dcf29db8" path="godeps/src/github.com/blevesearch/segment"/>
+  <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
 
   <!-- Go support libraries - third-party -->
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
