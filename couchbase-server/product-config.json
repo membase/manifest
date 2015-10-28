@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "master.xml": {
+            "release": "master",       
+            "production": true
+        },
+        "watson/watson.xml": {
+            "release": "watson",
+            "parent": "master.xml",
+            "production": true,
+            "start_build": 4500
+        }
+    }
+}
