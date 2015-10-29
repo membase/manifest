@@ -16,7 +16,7 @@
   <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
   <project name="memcached" path="memcached" revision="168b953408de12b1c68f816307d337113a1436e8"/>
   <project name="moxi" path="moxi" revision="2ad8ecb45f4f8bd46ce23665ff72f621251278c9"/>
-  <project name="ns_server" path="ns_server" revision="d98e46fb78d0bce76a1ee1f897829337a0112ea5"/>
+  <project name="ns_server" path="ns_server" revision="92ff62b9deb59fe3e409ca6af733459c2b7f72b1"/>
   <project name="platform" path="platform" revision="d3855e552a21be8bb5503103691aa65ec8fe53a0"/>
   <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
   <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
