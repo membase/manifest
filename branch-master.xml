@@ -57,9 +57,6 @@
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"        remote="blevesearch" revision="1075dc18be4c90a4f1972ef2734bb7d6dcf29db8" path="godeps/src/github.com/blevesearch/segment"/>
 
-  <!-- Go support libraries - Backup-supported -->
-  <project name="gocb"           remote="mikewied"               path="godeps/src/github.com/mikewied/gocb" groups="notdefault,enterprise"/>
-
   <!-- Go support libraries - third-party -->
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
