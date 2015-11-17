@@ -54,7 +54,7 @@
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="74c309a7c22e7ada9442fdeb8a67c9999b742336" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="fc7077363781f5cf26951e91eaf0d1ccbe07df30" path="godeps/src/github.com/blevesearch/blevex"/>
-  <project name="bleve-mapping-ui" remote="blevesearch" revision="c1385460dd5cee833b224b41a66a29e58c5d1462" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
+  <project name="bleve-mapping-ui" remote="blevesearch" revision="044d48f8f0151ea9a4b95ba61edfba5a0dec5f55" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
 
