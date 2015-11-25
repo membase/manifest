@@ -41,7 +41,7 @@
   <project name="moxi" revision="6df29f93c935e16479a72c4a11c488b8673f5e0d" upstream="master"/>
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b"/>
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f"/>
-  <project name="ns_server" revision="08a78528d0edfb88e9a39e8e1a97931945f067f3" upstream="sherlock"/>
+  <project name="ns_server" revision="ad1ca88a68b7f314266b67c25386046a1dccdf3b" upstream="sherlock"/>
   <project name="platform" revision="d91fece94c69331e876a8d18b2d75090fbf88848" upstream="sherlock"/>
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="e629e9f0657cbb5be0152821084455c34a0130a3" upstream="4.1.0"/>
