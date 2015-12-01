@@ -44,7 +44,7 @@
   <project name="ns_server" revision="ad1ca88a68b7f314266b67c25386046a1dccdf3b" upstream="sherlock"/>
   <project name="platform" revision="d91fece94c69331e876a8d18b2d75090fbf88848" upstream="sherlock"/>
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="2644dc04e3f33e4c42d12c0eddc0fb43d8d38513" upstream="4.1.0"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="aaf02abc3085a51b0e7d9b30684a698811c9e6b6" upstream="4.1.0"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" upstream="master"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c" upstream="master"/>
   <project name="testrunner" revision="325345ea7245121c791eb0369fb79eafb09fa657" upstream="master"/>
