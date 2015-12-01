@@ -1,14 +1,15 @@
 {
     "manifests": {
         "master.xml": {
-            "release": "master",       
-            "production": true
+            "release": "master",
+            "production": true,
+            "interval": 1440
         },
-        "watson/watson.xml": {
-            "release": "watson",
+        "spock/spock.xml": {
+            "release": "spock",
             "parent": "master.xml",
             "production": true,
-            "start_build": 4500
+            "start_build": 100
         }
     }
 }
