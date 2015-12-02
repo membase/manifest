@@ -21,7 +21,7 @@
   <project groups="notdefault,packaging" name="couchdbx-app" revision="c787173fcbc8a1cc8e6928173dcb7a9915fdbc65" upstream="master"/>
   <project name="couchstore" revision="7d6bc22a15b80f1da6dd169a3e538e985db1b91a" upstream="sherlock"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae" upstream="master"/>
-  <project name="ep-engine" revision="2aeacf4efb7e1747db87127ea649355027e1f92f" upstream="sherlock"/>
+  <project name="ep-engine" revision="d93a4458d1476eb417d44f65a5019943280a5bc3" upstream="sherlock"/>
   <project name="forestdb" revision="bb0e3614bdd6e6e3ef7908d2803bd78679d9895b" upstream="4.1.0"/>
   <project name="geocouch" revision="a8b9540e38ca9c116fadfe7c3d163f693b3b2300" upstream="sherlock"/>
   <project name="go-couchbase" path="godeps/src/github.com/couchbase/go-couchbase" revision="1baafa1d1fc9e8975e0374395e52f8a4c164f2a7" upstream="4.1.0"/>
