@@ -46,7 +46,7 @@
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="cbgt"                                                               path="godeps/src/github.com/couchbase/cbgt"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb"           revision="cd61123dd107e79db973cfc0850c278c3e6a9a1f" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocb"           revision="e79ba4951559c53c2d11531c11d1bcb351458b4f" path="godeps/src/github.com/couchbase/gocb"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="74c309a7c22e7ada9442fdeb8a67c9999b742336" path="godeps/src/github.com/blevesearch/bleve"/>
