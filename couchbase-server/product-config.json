@@ -10,6 +10,13 @@
             "parent": "master.xml",
             "production": true,
             "start_build": 100
+        },
+        "../rel-3.0.x.xml": {
+            "release": "3.x",
+            "parent": "master.xml",
+            "do-build": false,
+            "restricted": true,
+            "approval_ticket": "MB-16962"
         }
     }
 }
