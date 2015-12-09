@@ -9,6 +9,7 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
@@ -44,7 +45,6 @@
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
-  <project name="cbgt"                                                               path="godeps/src/github.com/couchbase/cbgt"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="e79ba4951559c53c2d11531c11d1bcb351458b4f" path="godeps/src/github.com/couchbase/gocb"/>
 
