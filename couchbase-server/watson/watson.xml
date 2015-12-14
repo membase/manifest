@@ -87,4 +87,6 @@
   </project>
   <project name="voltron"  remote="couchbase-priv"  groups="notdefault,packaging"/>
   <project name="couchdbx-app" groups="notdefault,packaging"/>
+  <!-- Couchbase developer infrastructure -->
+  <project name="CLion-Project-Setup" remote="couchbaselabs" path=".idea" groups="notdefault,clion"/>
 </manifest>
