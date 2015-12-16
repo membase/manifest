@@ -16,7 +16,7 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchstore"/>
-  <project name="ep-engine" revision="69ab4c61bf2b6b38ea3504b6ef68551528a37e33"/>
+  <project name="ep-engine" revision="07d5972e1969c28a52cee2b8adc820d13082d641"/>
   <project name="forestdb"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
