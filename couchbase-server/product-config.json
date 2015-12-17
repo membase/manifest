@@ -16,7 +16,7 @@
             "parent": "master.xml",
             "do-build": false,
             "restricted": true,
-            "approval_ticket": "MB-16779"
+            "approval_ticket": "MB-16962"
         }
     }
 }
