@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="couchbase"      fetch="git://github.com/couchbase/"     />
-  <remote  name="erlang"         fetch="git://github.com/erlang/" />
+  <remote  name="couchbasedeps"  fetch="git://github.com/couchbasedeps/" />
 
-  <project name="otp" path="otp" revision="23790daf1a2d384b0fc11c655fa825151d9fa420"
-           remote="erlang"/>
-  <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
-           remote="couchbase"/>
-  <project name="snappy" path="snappy" revision="009c4325f40e04700ca7956e866ad342f020e214"
-           remote="couchbase"/>
-  <project name="gperftools" path="gperftools" revision="846b775dfadb77901202ae7ddbac30ad1de7df01"
-           remote="couchbase"/>
-  <project name="pysqlite" path="pysqlite" revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea"
-           remote="couchbase"/>
-  <project name="v8" path="v8" revision="05120013843918f7e3712159c03b509d3e328cf7"
-           remote="couchbase"/>
-  <project name="gyp" path="v8/build/gyp" revision="7c819b84a9a9484154d7584b7795f607e3178b3f"
-           remote="couchbase"/>
-  <project name="icu46" path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289"
-           remote="couchbase"/>
-  <project name="python-snappy" path="python-snappy" revision="c97d633ef5364740c152fd184f61c2d9e1a93d01"
-           remote="couchbase"/>
+  <project name="erlang"     path="otp"        revision="mb11917"                                  remote="couchbasedeps" />
+  <project name="icu4c"      path="icu4c"      revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
+  <project name="snappy"     path="snappy"     revision="009c4325f40e04700ca7956e866ad342f020e214" remote="couchbase" />
+  <project name="gperftools" path="gperftools" revision="refs/tags/gperftools-2.2"                 remote="couchbase" />
+  <project name="pysqlite"   path="pysqlite"   revision="master"                                   remote="couchbase" />
+  <project name="v8"         path="v8"         revision="3.21.17-couchbase"                        remote="couchbase" />
+  <!-- Following two are v8 dependencies -->
+  <project name="gyp"        path="v8/build/gyp" revision="couchbase-v8-3.21.17"                   remote="couchbase" />
+  <project name="icu46"      path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289" remote="couchbase" />
+  <project name="python-snappy" path="python-snappy" revision="master"                             remote="couchbase" />
 </manifest>

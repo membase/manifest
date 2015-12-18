@@ -12,7 +12,7 @@
             "start_build": 100,
             "interval": 240
         },
-        "rel-3.0.x-original.xml": {
+        "../rel-3.0.x.xml": {
             "release": "3.x",
             "parent": "master.xml",
             "do-build": false,

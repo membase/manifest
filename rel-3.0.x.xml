@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
-  <remote name="erlang" fetch="git://github.com/erlang/"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="master" />
 
-  <project name="couchbase-cli" path="couchbase-cli" revision="93142128f29e416d71c342fe2b538c456fb3707a"/>
-  <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
-  <project name="couchbase-python-client" path="couchbase-python-client" revision="ba49b75d4bbb02ff6dbac314ad0944d14809cdd5"/>
-  <project name="couchdb" path="couchdb" revision="19551d2b13c953c6c5f832e848b9414558b005ca"/>
-  <project name="couchdbx-app" path="couchdbx-app" revision="e6820c5af5e9c30cc2c0ad10571470d88424881c"/>
-  <project name="couchstore" path="couchstore" revision="c2c6bd72f914202ad00d3f512148406c0afc8a4d"/>
-  <project name="ep-engine" path="ep-engine" revision="19affd1ac552310f4c7e5f97fc120cc5ef2ec973"/>
-  <project name="geocouch" path="geocouch" revision="2f4508ab7c4815dc0f587c94be5f673185dd5465"/>
-  <project name="healthchecker" path="healthchecker" revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3"/>
-  <project name="memcached" path="memcached" revision="4ddf710a512f5b0b71510b858a2c9c78eb22d0d2"/>
-  <project name="moxi" path="moxi" revision="33c5c06adc4b127276ed751ced67df44e0ac950d"/>
-  <project name="ns_server" path="ns_server" revision="9563c0ca540e0958fefac2aab8d182fc7446e272"/>
-  <project name="platform" path="platform" revision="7c10b1f5c51794b5310188543dc1f9d533e615e7"/>
-  <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
-  <project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
-  <project name="tlm" path="tlm" revision="6cf181681f6bced255dda51454f89e29ce7a997c">
-    <copyfile dest='GNUmakefile' src='GNUmakefile'/>
-    <copyfile dest='Makefile' src='Makefile'/>
-    <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
+  <!-- couchbase-cli building 3.0.x maintenance releases from 3.0.x branch -->
+  <project name="couchbase-cli"           revision="3.0.x" />
+
+  <project name="couchbase-examples"      revision="5f87273ad59bd3c0473ba6bcedf863db57238313" />
+  <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"  />
+
+  <!-- couchdb building 3.0.x maintenance releases on 3.x branch -->
+  <project name="couchdb"                 revision="3.x" />
+
+  <!-- couchdbx-app building 3.0.x maintenance releases on 3.0.x branch -->
+  <project name="couchdbx-app"            revision="3.0.x" />
+
+  <!-- couchstore building 3.0.x maintenance releases on elsa branch -->
+  <project name="couchstore"              revision="elsa" />
+
+  <!-- ep-engine building 3.0.x maintenance releases on 3.0.x branch, except 3.1.3 -->
+  <project name="ep-engine"               revision="3.1.3" />
+
+  <!-- geocouch has only desirable changes on master -->
+  <project name="geocouch"                revision="106f827bdb48ff033a1f0db9410fd43a28457994" />
+
+  <project name="healthchecker"           revision="a6d5a274ff92282bc42a4ba815c75d64553e0ad3" />
+
+  <!-- memcached building 3.0.x maintenance releases from 3.0 branch -->
+  <project name="memcached"               revision="3.0"/>
+
+  <!-- moxi building 3.0.x maintenance releases from 3.0.x branch -->
+  <project name="moxi"                    revision="3.0.x" />
+
+  <!-- ns_server building 3.0.x maintenance releases from rel-3.0.0++ branch -->
+  <project name="ns_server"               revision="rel-3.0.0++"/>
+
+  <!-- platform building 3.0.x maintenance releases from 3.0.x branch -->
+  <project name="platform"                revision="3.0.x" />
+
+  <project name="sigar"                   revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e" />
+  <project name="testrunner"              revision="20761a815238b404cae51a9337219bee673fda7c" />
+
+  <!-- tlm uses 3.0.0 branch -->
+  <project name="tlm"                     revision="3.0.0">
+    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
+    <copyfile src="Makefile"       dest="Makefile"       />
+    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
-  <!--
-  <project name="voltron" path="voltron" revision="e10cd47a98c5660f088ca41187eabe645c8c2b1f" />
-  --></manifest>
+
+</manifest>
