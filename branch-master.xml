@@ -79,6 +79,7 @@
   <project name="goleveldb"      remote="couchbasedeps" revision="1a9d62f03ea92815b46fcaab357cfd4df264b1a0" path="godeps/src/github.com/syndtr/goleveldb"/>
   <project name="gosnappy"       remote="couchbasedeps" revision="156a073208e131d7d2e212cb749feae7c339e846" path="godeps/src/github.com/syndtr/gosnappy"/>
   <project name="bitset"         remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" path="godeps/src/github.com/willf/bitset"/>
+  <project name="ts"             remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" path="godeps/src/github.com/olekukonko/ts">
   <project name="text"           remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" path="godeps/src/golang.org/x/text"/>
 
   <!-- C/C++ support libraries -->
