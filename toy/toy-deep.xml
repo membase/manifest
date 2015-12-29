@@ -36,7 +36,7 @@
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" upstream="sherlock"/>
   <project name="goprotobuf" path="godeps/src/code.google.com/p/goprotobuf" remote="couchbasedeps" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="77411e42ff2e1e8228ea531b1df0f933721be661" upstream="sherlock"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="d552b60fe050ba00d2e0a642503f3967ee5f048d" upstream="sherlock" remote="deepkaran"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="8d3aab95e8e6b5df1c9a32965c5dfb1c0b488324" upstream="unstable" remote="deepkaran"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50"/>
   <project name="memcached" revision="7d88d0bba08f07c667ef167f79d3a81dc5f5a825" upstream="sherlock"/>
   <project name="moxi" revision="6df29f93c935e16479a72c4a11c488b8673f5e0d" upstream="master"/>
