@@ -49,6 +49,7 @@
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="d9350c312fdc54962dd25c7f1c5aba564c8610fd" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="8efbd556a3b7daed4dfc82351be0e4b51543d282" path="godeps/src/github.com/blevesearch/bleve"/>
@@ -79,6 +80,7 @@
   <project name="bitset"         remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" path="godeps/src/github.com/willf/bitset"/>
   <project name="ts"             remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" path="godeps/src/github.com/olekukonko/ts"/>
   <project name="text"           remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" path="godeps/src/golang.org/x/text"/>
+  <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
 
   <!-- C/C++ support libraries - third-party -->
   <project name="gtest"          remote="couchbasedeps" revision="81521948620e1643b85aaf8501df7b3acd1bd3d9" />
