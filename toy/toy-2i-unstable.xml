@@ -31,7 +31,7 @@
   <project name="forestdb" revision="62b92a91543076c73e2082336ae1b02dc9c791d9" />
   <project name="indexing" revision="unstable" path="goproj/src/github.com/couchbase/indexing"/>
 
-  <project name="query"    revision="9f2151a5d5cd1e705e9ade0456b3e8b7a4ebf37b" path="goproj/src/github.com/couchbase/query" />
+  <project name="query"    revision="e628bd38f3bbb91d84711da12c9a41ef02368a8c" path="goproj/src/github.com/couchbase/query" />
   <project name="goxdcr"   revision="f6be229064bdcd0ea555fd86e3cc01e5346b10e3" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" path="goproj/src/github.com/couchbase/gometa"/>
 
