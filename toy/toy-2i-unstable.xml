@@ -19,7 +19,7 @@
   <project name="ns_server"               revision="6dcdf2bdf4bb07d766c7eb87a30a9332e4fed84c" />
   <project name="platform"                revision="b313e2ba4589c27332c42e5269501115cc37e881" upstream="sherlock" />
   <project name="sigar"                   revision="83bd88595f558987731a1baa3330f641bc36554c" />
-  <project name="testrunner"              revision="72165035b1afde1dc17ab07bd58d58b9ae658862" />
+  <project name="testrunner"              revision="e4e75650e7aca39dcba5933c0ef28fab59b71a6e" />
   <project name="tlm"                     revision="24d44145c4edbf540bc65a4b0122c6c2abf6d38e" upstream="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
