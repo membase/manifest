@@ -52,7 +52,7 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="b7c03dae1acc58fe52f9d8fe5d8e10fd22b1f336" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="81f85098905b362a2e5fdbb1d0ac6f3678a4ff5c" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="bce79f677ec769471cf19ba88dd8a6e4da0ba3ef" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="665d407d4c551830749cca96bcbc32671057cbab" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
