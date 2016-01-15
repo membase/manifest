@@ -27,7 +27,7 @@
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query" revision="faebd81f09fd0533fb56b3eae1185f54fbb06d86"/>
   <project name="query-ui"/>
   <project name="sigar"/>
   <project name="subjson"/>
