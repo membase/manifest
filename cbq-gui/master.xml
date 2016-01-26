@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"     review="review.couchbase.org"/>
-  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" />
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase projects -->
-  <project name="cbq-gui" remote="couchbaselabs" path="goproj/src/github.com/couchbaselabs/cbq-gui">
+  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui">
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="query"   path="goproj/src/github.com/couchbase/query"/>
