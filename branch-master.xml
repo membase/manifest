@@ -5,14 +5,14 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="mikewied"      fetch="git://github.com/mikewied/" />
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
