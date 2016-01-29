@@ -16,23 +16,23 @@
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
-  <project name="couchstore"/>
-  <project name="ep-engine"/>
-  <project name="forestdb"/>
+  <project name="couchstore" groups="kv"/>
+  <project name="ep-engine" groups="kv"/>
+  <project name="forestdb" groups="kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached"/>
-  <project name="moxi"/>
+  <project name="memcached" groups="kv"/>
+  <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
-  <project name="platform"/>
+  <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
-  <project name="sigar"/>
-  <project name="subjson"/>
+  <project name="sigar" groups="kv"/>
+  <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm"                      >
+  <project name="tlm" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"/>
     <copyfile src="Makefile"       dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
@@ -83,7 +83,7 @@
   <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
 
   <!-- C/C++ support libraries - third-party -->
-  <project name="gtest"          remote="couchbasedeps" revision="81521948620e1643b85aaf8501df7b3acd1bd3d9" />
+  <project name="gtest" groups="kv" remote="couchbasedeps" revision="81521948620e1643b85aaf8501df7b3acd1bd3d9" />
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
@@ -93,5 +93,5 @@
   <project name="couchdbx-app" groups="notdefault,packaging"/>
 
   <!-- Couchbase developer infrastructure -->
-  <project name="CLion-Project-Setup" remote="couchbaselabs" path=".idea" groups="notdefault,clion"/>
+  <project name="CLion-Project-Setup" remote="couchbaselabs" path=".idea" groups="notdefault,clion,kv"/>
 </manifest>
