@@ -19,8 +19,8 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchstore"/>
-  <project name="ep-engine" path="ep-engine" revision="temp" remote="abhinavdangeti"/>
-  <project name="forestdb"/>
+  <project name="ep-engine"/>
+  <project name="forestdb" path="forestdb" revision="temp" remote="abhinavdangeti"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
