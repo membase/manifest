@@ -23,7 +23,7 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing" revision="unstable" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" revision="unstable"/>
   <project name="memcached"/>
   <project name="moxi"/>
   <project name="ns_server"/>
@@ -53,9 +53,9 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="10e2207179003d872fd9e8745a976be23e151d9b" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="a236737a6800cbae04aa5eab5fbee04fbe64db08" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="4df87033ef8378e9e6a968c29f382ab5fc10def8" path="godeps/src/github.com/blevesearch/blevex"/>
-  <project name="bleve-mapping-ui" remote="blevesearch" revision="2b29039f01615a23be79a0fceb13359fba8fe34d" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
+  <project name="bleve-mapping-ui" remote="blevesearch" revision="1c6d1c18d929d6132825f69902a4677a7991a835" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
 
