@@ -5,7 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="mikewied"      fetch="git://github.com/mikewied/" />
+  <remote name="jliang00"      fetch="git://github.com/jliang00/" />
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
@@ -22,7 +22,7 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing"  revision="f2c1d620c774d465047ac35f211c30016608957a" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  remote="jliang00" revision="f2c1d620c774d465047ac35f211c30016608957a" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached"/>
   <project name="moxi"/>
   <project name="ns_server"/>
