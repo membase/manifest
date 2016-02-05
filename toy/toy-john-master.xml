@@ -24,7 +24,7 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing"  remote="jliang00" revision="f2c1d620c774d465047ac35f211c30016608957a" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  remote="jliang00" revision="78b7c99559043732984e150782179802d20b986e" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached"/>
   <project name="moxi"/>
   <project name="ns_server"/>
