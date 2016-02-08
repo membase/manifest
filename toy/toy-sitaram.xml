@@ -29,7 +29,7 @@
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
-  <project name="query"     remote="sitaramv" revision="669ce535e6c2aee4c48cac6dcf20af652118405b" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     remote="sitaramv" revision="2ec5d2fba4cbee0162f3ca2385d4b62c99d913e6" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar"/>
   <project name="subjson"/>
