@@ -1,20 +1,23 @@
 {
     "manifests": {
-        "master.xml": {
+        "../branch-master.xml": {
             "release": "master",
+            "release_name": "Branch Master",
             "production": true,
             "interval": 1440
         },
         "spock.xml": {
             "release": "spock",
-            "parent": "master.xml",
+            "release_name": "Spock (mainline)",
+            "parent": "../branch-master.xml",
             "production": true,
             "start_build": 100,
             "interval": 240
         },
         "../rel-3.0.x.xml": {
             "release": "3.x",
-            "parent": "master.xml",
+            "release_name": "3.0.x",
+            "parent": "../branch-master.xml",
             "do-build": false,
             "restricted": true,
             "approval_ticket": "MB-16962"
