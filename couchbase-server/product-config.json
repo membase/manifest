@@ -14,6 +14,14 @@
             "start_build": 100,
             "interval": 240
         },
+        "watson/dp1.xml": {
+            "release": "watson",
+            "release_name": "Watson DP1",
+            "parent" : "../watson.xml",
+            "do-build": false,
+            "restricted": true,
+            "approval_ticket": "CBD-1757"
+        },
         "../rel-3.0.x.xml": {
             "release": "3.x",
             "release_name": "3.0.x",
