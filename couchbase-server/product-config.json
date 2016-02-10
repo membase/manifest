@@ -14,11 +14,22 @@
             "start_build": 100,
             "interval": 240
         },
+        "../watson.xml": {
+            "release": "watson",
+            "release_name": "Watson Master",
+            "parent": "../branch-master.xml",
+            "production": true,
+            "do-build": false,
+            "start_build": 1400
+        },
         "watson/dp1.xml": {
             "release": "watson",
+            "branch": "watson-dp1",
             "release_name": "Watson DP1",
             "parent" : "../watson.xml",
+            "production": true,
             "do-build": false,
+            "start_build": 1300,
             "restricted": true,
             "approval_ticket": "CBD-1757"
         },
