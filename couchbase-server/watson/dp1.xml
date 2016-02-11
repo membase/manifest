@@ -24,7 +24,7 @@
   </project>
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="ff0d7339a1e3c72d08eef5d32dc5980ac4a6cdfa" upstream="master"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="219058934699fb27120d9917fbf73b8f34155b55" upstream="master"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="8c835453495f7033e7de332c093bf6c7500ebbb7" upstream="master"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="f82a490d08a1d9dcc532637b57f6887f752ae6f8" upstream="master"/>
   <project groups="notdefault,enterprise" name="cbq-gui" path="goproj/src/github.com/couchbase/cbq-gui" remote="couchbase-priv" revision="fdfdcce5031ae4e1e8f309ddcc3ff25675849c4b" upstream="master"/>
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="eebc98233c3e032eb6b9036575d51324ab5932e6" upstream="master"/>
   <project name="context" path="godeps/src/github.com/gorilla/context" remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd"/>
