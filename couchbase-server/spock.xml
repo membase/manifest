@@ -52,6 +52,7 @@
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="4fec6cf3501389515568eb577eb5d4f589018ae1" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
+  <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="f38e3e1b245b90f7a42078f71aaa1e5591ef62f4" path="godeps/src/github.com/blevesearch/bleve"/>
