@@ -28,7 +28,7 @@
   <project groups="notdefault,enterprise" name="cbq-gui" path="goproj/src/github.com/couchbase/cbq-gui" remote="couchbase-priv" revision="fdfdcce5031ae4e1e8f309ddcc3ff25675849c4b" upstream="master"/>
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="eebc98233c3e032eb6b9036575d51324ab5932e6" upstream="master"/>
   <project name="context" path="godeps/src/github.com/gorilla/context" remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd"/>
-  <project name="couchbase-cli" revision="487bb8a4432dae42f3c4315b23606cc6cc2a92da" upstream="master"/>
+  <project name="couchbase-cli" revision="ddad5cc77311dfb22123f8afa453274ab882bc6e" upstream="master"/>
   <project name="couchbase-examples" revision="a17432c391b2e8f443bbff2c5eeece37eecaf474" upstream="master"/>
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f" upstream="couchbase-181"/>
   <project name="couchdb" revision="29c7ee689a796a2ba1585369c9dd1184ccee25c5" upstream="master"/>
