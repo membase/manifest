@@ -57,7 +57,7 @@
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="d00710035dc7929e975cd087a3656a22aad18b23" upstream="master"/>
   <project name="goskiplist" path="godeps/src/github.com/ryszard/goskiplist" remote="couchbasedeps" revision="2dfbae5fcf46374f166f8969cb07e167f1be6273"/>
   <project name="gosnappy" path="godeps/src/github.com/syndtr/gosnappy" remote="couchbasedeps" revision="156a073208e131d7d2e212cb749feae7c339e846"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="de935d1f2651acefe0f768d9b2c719b2f342cfb9" upstream="master"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="watson-dp1" upstream="master"/>
   <project groups="kv" name="gtest" remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5"/>
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="62b18ecbcc2e66416128d2dfba20946212c4564e" upstream="master"/>
