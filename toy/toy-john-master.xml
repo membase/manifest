@@ -28,7 +28,7 @@
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="platform" groups="kv"/>
-  <project name="query" remote="jliang00" revision="master" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query" revision="8ec34884f96ac21beddfff2e852abccd09c7d805" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
