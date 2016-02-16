@@ -19,13 +19,13 @@
   <project name="couchbase-python-client" revision="couchbase-181"/>
   <project name="couchdb"/>
   <project name="couchstore"/>
-  <project name="ep-engine"/>
+  <project name="ep-engine"         revision="MB-18135" remote="owend"/>
   <project name="forestdb"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached"         revision="MB-17664" remote="owend"/>
+  <project name="memcached"         revision="MB-18135" remote="owend"/>
   <project name="moxi"/>
   <project name="ns_server"/>
   <project name="platform"/>
