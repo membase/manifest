@@ -60,7 +60,7 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="watson-dp1" upstream="master"/>
   <project groups="kv" name="gtest" remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5"/>
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="5c720857d2ae4793c342dad1ae3438cfd2fdadb3" upstream="master"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="dade9b913d20424034b211cee368773887c88c72" upstream="master"/>
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50"/>
   <project groups="kv" name="memcached" revision="16ec224472af95cb7ee08e476db2bc2e0f84e3b7" upstream="master"/>
