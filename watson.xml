@@ -17,23 +17,23 @@
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"/>
-  <project name="couchstore" groups="kv"/>
-  <project name="ep-engine" groups="kv"/>
+  <project name="couchstore" revision="watson" groups="kv"/>
+  <project name="ep-engine" revision="watson" groups="kv"/>
   <project name="forestdb" groups="kv" revision="091e3791e79fed6f201650b5d18dbc5a9d1a494c"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" groups="kv"/>
+  <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
-  <project name="platform" groups="kv"/>
+  <project name="platform" revision="watson" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv">
+  <project name="tlm" revision="watson" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
