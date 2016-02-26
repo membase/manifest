@@ -16,8 +16,8 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"/>
-  <project name="couchstore" groups="kv"/>
+  <project name="couchdb" revision="2bed7032ca7ac1c1df0158be3b08a6348d5b9681"/>
+  <project name="couchstore" groups="kv" revision="1daef432880aa931aaa76a800aa8973c943fddab"/>
   <project name="ep-engine" groups="kv"/>
   <project name="forestdb" groups="kv"/>
   <project name="geocouch"/>
