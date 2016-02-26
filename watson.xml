@@ -19,7 +19,7 @@
   <project name="couchdb" revision="2bed7032ca7ac1c1df0158be3b08a6348d5b9681"/>
   <project name="couchstore" groups="kv" revision="1daef432880aa931aaa76a800aa8973c943fddab"/>
   <project name="ep-engine" groups="kv"/>
-  <project name="forestdb" groups="kv"/>
+  <project name="forestdb" groups="kv" revision="091e3791e79fed6f201650b5d18dbc5a9d1a494c"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
