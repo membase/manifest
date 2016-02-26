@@ -53,6 +53,7 @@
   <project name="gocb"           revision="3d8bf80e4f8ff89799f8a3badf128270c14782fd" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
+  <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="265ab24b6ea2d8d00f8f7a2a229ebc3bef34a4e9" path="godeps/src/github.com/blevesearch/bleve"/>
