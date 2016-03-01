@@ -17,8 +17,8 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb" revision="2bed7032ca7ac1c1df0158be3b08a6348d5b9681"/>
-  <project name="couchstore" groups="kv" revision="1daef432880aa931aaa76a800aa8973c943fddab"/>
+  <project name="couchdb"/>
+  <project name="couchstore" groups="kv"/>
   <project name="ep-engine" groups="kv"/>
   <project name="forestdb" groups="kv" revision="091e3791e79fed6f201650b5d18dbc5a9d1a494c"/>
   <project name="geocouch"/>
@@ -57,7 +57,7 @@
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="265ab24b6ea2d8d00f8f7a2a229ebc3bef34a4e9" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="2527651c6dbad38188f7507b73e451161685dfc8" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="8197acecfe7755fcf01b4982efccb03c7482aafe" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="1c6d1c18d929d6132825f69902a4677a7991a835" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
