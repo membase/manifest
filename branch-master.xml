@@ -54,6 +54,7 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
+  <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="9d2f424a885a36aee993c9445b6125e5fa64ae85" path="godeps/src/github.com/blevesearch/bleve"/>
