@@ -58,7 +58,7 @@
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="f1a3a7a221c23f55f28212f207bc0a765d80b63c" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="8197acecfe7755fcf01b4982efccb03c7482aafe" path="godeps/src/github.com/blevesearch/blevex"/>
-  <project name="bleve-mapping-ui" remote="blevesearch" revision="1c6d1c18d929d6132825f69902a4677a7991a835" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
+  <project name="bleve-mapping-ui" remote="blevesearch" revision="650911a0d9597aa907d4bb343829fbd401411203" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
 
@@ -74,7 +74,7 @@
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
   <project name="bolt"           remote="couchbasedeps" revision="51f99c862475898df9773747d3accd05a7ca33c1" path="godeps/src/github.com/boltdb/bolt"/>
   <project name="cznic-b"        remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" path="godeps/src/github.com/cznic/b"/>
-  <project name="go-bindata-assetfs" remote="couchbasedeps" revision="d5cac425555ca5cf00694df246e04f05e6a55150" path="godeps/src/github.com/elazarl/go-bindata-assetfs"/>
+  <project name="go-bindata-assetfs" remote="couchbasedeps" revision="57eb5e1fc594ad4b0b1dbea7b286d299e0cb43c2" path="godeps/src/github.com/elazarl/go-bindata-assetfs"/>
   <project name="golang-snappy"  remote="couchbasedeps" revision="723cc1e459b8eea2dea4583200fd60757d40097a" path="godeps/src/github.com/golang/snappy"/>
   <project name="levigo"         remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" path="godeps/src/github.com/jmhodges/levigo"/>
   <project name="goskiplist"     remote="couchbasedeps" revision="2dfbae5fcf46374f166f8969cb07e167f1be6273" path="godeps/src/github.com/ryszard/goskiplist"/>
