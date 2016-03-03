@@ -56,7 +56,7 @@
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="f1a3a7a221c23f55f28212f207bc0a765d80b63c" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="9d2f424a885a36aee993c9445b6125e5fa64ae85" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="8197acecfe7755fcf01b4982efccb03c7482aafe" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f87a9271013c4b21c3c0f5ab742033d69fffc09f" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
