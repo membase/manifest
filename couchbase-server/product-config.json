@@ -39,7 +39,7 @@
             "parent": "../branch-master.xml",
             "do-build": false,
             "restricted": true,
-            "approval_ticket": "MB-16962"
+            "approval_ticket": "CBSE-2434"
         }
     }
 }
