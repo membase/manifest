@@ -15,6 +15,7 @@
   <!-- Go support libraries - Couchbase-supported -->
   <project name="gomemcached"    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="go-couchbase"   path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="goutils"        path="godeps/src/github.com/couchbase/goutils"/>
 
   <!-- Go support libraries - third-party -->
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
