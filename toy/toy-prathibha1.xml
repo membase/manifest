@@ -6,6 +6,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote fetch="git://github.com/prathibha-cb/" name="prathibha" />
 
   <default remote="couchbase" revision="master" />
 
@@ -23,7 +24,7 @@
   <project name="forestdb" groups="kv" revision="091e3791e79fed6f201650b5d18dbc5a9d1a494c"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
-  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa" revision="master" remote="prathibha"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" revision="unstable"/>
   <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" groups="kv"/>
