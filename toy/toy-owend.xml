@@ -25,7 +25,7 @@
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="watson" groups="kv" remote="owend"/>
+  <project name="memcached" revision="watson-17042" groups="kv" remote="owend"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="platform" revision="watson" groups="kv"/>
