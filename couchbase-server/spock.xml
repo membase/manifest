@@ -57,7 +57,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="e76b1dd8f34621e19831e0eb7f157bcbde224f2f" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="b31f15002bb73e00829d57128d3b58f7f53181f0" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="2b29948a3592b9a810da356578dba80f5a6760a0" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="cca7a2b17645e4e8f84014ecec153ec0b62c1d47" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
