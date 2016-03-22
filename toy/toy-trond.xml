@@ -89,6 +89,7 @@
   <project name="text"           remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" path="godeps/src/golang.org/x/text"/>
   <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
   <project name="net"            remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" path="godeps/src/golang.org/x/net"/>
+  <project name="sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" path="godeps/src/golang.org/x/sys" groups="solaris,notdefault"/>
 
   <!-- C/C++ support libraries -->
   <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" groups="kv"/>
