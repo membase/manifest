@@ -17,15 +17,15 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"/>
+  <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
-  <project name="ep-engine" revision="watson-17042" groups="kv" remote="owend"/>
-  <project name="forestdb" groups="kv" revision="091e3791e79fed6f201650b5d18dbc5a9d1a494c"/>
-  <project name="geocouch"/>
+  <project name="ep-engine" revision="watson-fix" groups="kv" remote="owend"/>
+  <project name="forestdb" groups="kv"/>
+  <project name="geocouch" revision="watson"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="watson-17042" groups="kv" remote="owend"/>
+  <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="platform" revision="watson" groups="kv"/>
@@ -51,15 +51,15 @@
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb"           revision="660780954cd7de2fd4520bbc84cb037c1fc7ea30" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocb"           revision="3d0e906e8e78d7bd4efd3c5849f3ffa8f15a321c" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="b31f15002bb73e00829d57128d3b58f7f53181f0" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="blevex"           remote="blevesearch" revision="2b29948a3592b9a810da356578dba80f5a6760a0" path="godeps/src/github.com/blevesearch/blevex"/>
+  <project name="bleve"            remote="blevesearch" revision="5ea6b063ad83ae71eb9808501ccedfb161f9abc4" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="blevex"           remote="blevesearch" revision="359340239083583f88fa8158f86153dd98f58fdb" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="91d3b42d30b7b49c2ff51ef3371c2e1ba0c1c16e" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
@@ -89,6 +89,7 @@
   <project name="text"           remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" path="godeps/src/golang.org/x/text"/>
   <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
   <project name="net"            remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" path="godeps/src/golang.org/x/net"/>
+  <project name="sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" path="godeps/src/golang.org/x/sys" groups="solaris,notdefault"/>
 
   <!-- C/C++ support libraries -->
   <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" groups="kv"/>
