@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="jliang00"      fetch="git://github.com/jliang00/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -16,14 +17,14 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb"/>
+  <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
   <project name="ep-engine" revision="watson" groups="kv"/>
-  <project name="forestdb" groups="kv" revision="091e3791e79fed6f201650b5d18dbc5a9d1a494c" />
-  <project name="geocouch"/>
+  <project name="forestdb" groups="kv"/>
+  <project name="geocouch" revision="watson"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  remote="jliang00" revision="master" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
@@ -57,7 +58,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="5ea6b063ad83ae71eb9808501ccedfb161f9abc4" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="2b82387eaef5681510b45fb343c9c72de42be74c" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="359340239083583f88fa8158f86153dd98f58fdb" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="91d3b42d30b7b49c2ff51ef3371c2e1ba0c1c16e" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
