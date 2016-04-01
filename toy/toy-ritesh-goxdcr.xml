@@ -5,7 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="rmotlani"      fetch="git://github.com/rmotlani/" />
+  <remote name="riteshmotlani" fetch="git://github.com/riteshmotlani/" />
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
@@ -21,7 +21,7 @@
   <project name="ep-engine" revision="watson" groups="kv"/>
   <project name="forestdb" groups="kv"/>
   <project name="geocouch"/>
-  <project name="goxdcr"    remote="rmotlani"  path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr"    remote="riteshmotlani"  path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="watson" groups="kv"/>
