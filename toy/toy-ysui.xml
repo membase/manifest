@@ -17,7 +17,6 @@
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
   <project name="couchbase-python-client" revision="couchbase-181" />
-  <project name="couchdb" remote="hhs"/>
   <project name="couchstore" revision="watson" groups="kv"/>
   <project name="ep-engine" revision="watson" groups="kv"/>
   <project name="forestdb" groups="kv"/>
