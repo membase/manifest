@@ -5,7 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="hhs"   fetch="git://github.com/hsharsha/couchdb/" />
+  <remote name="hhs"   fetch="git://github.com/hsharsha/" />
 
   <default remote="couchbase" revision="master" />
 
