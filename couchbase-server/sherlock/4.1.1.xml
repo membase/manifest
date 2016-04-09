@@ -21,7 +21,7 @@
   <project groups="notdefault,packaging" name="couchdbx-app" revision="91d966208f527b9ce5a679e5720b210cb3b694a0"/>
   <project name="couchstore" revision="7d6bc22a15b80f1da6dd169a3e538e985db1b91a" upstream="sherlock"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
-  <project name="ep-engine" revision="ec6769146e169ccc24ccb06ea546e4bfec6c3a2d" upstream="sherlock"/>
+  <project name="ep-engine" revision="aa91bc7e31e78f5c43b03d25cca0ba1c992eccd0" upstream="sherlock"/>
   <project name="forestdb" revision="d0bba431f029caa4c865dfd6b5b49b8006298a1f" upstream="4.1.0"/>
   <project name="geocouch" revision="a8b9540e38ca9c116fadfe7c3d163f693b3b2300" upstream="sherlock"/>
   <project name="go-couchbase" path="godeps/src/github.com/couchbase/go-couchbase" revision="162c266a6106641f182685b9b8e618a871936269" upstream="4.1.0"/>
@@ -34,7 +34,7 @@
   <project name="gomemcached" path="godeps/src/github.com/couchbase/gomemcached" revision="182dfcc4f567a714c57a954b942669707c2f129a" upstream="sherlock"/>
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="7451ab4fa283b755eb083b4cc2fcf824b25e0756" upstream="sherlock"/>
   <project name="goprotobuf" path="godeps/src/code.google.com/p/goprotobuf" remote="couchbasedeps" revision="682707530d5a3d6cb757dfe8fa322d0fde7621c6"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="68fb3941bc6aa043e279205b608f3e2633696d05" upstream="sherlock"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="45cbb7086fe6f22400e5440ad66501a604ab1b6a" upstream="sherlock"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="9eda26cacdcc887096abd2fceee8a1ad6ba2d604" upstream="sherlock"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50"/>
   <project name="memcached" revision="0c77a90723d6ab5e2991baac720b393c87b99c04" upstream="sherlock"/>
