@@ -19,7 +19,7 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
-  <project name="ep-engine" revision="watson-fix4" groups="kv" remote="owend"/>
+  <project name="ep-engine" revision="watson-fix5" groups="kv" remote="owend"/>
   <project name="forestdb" groups="kv"/>
   <project name="geocouch" revision="watson"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
