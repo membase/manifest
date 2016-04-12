@@ -19,7 +19,7 @@
   <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
-  <project name="ep-engine" revision="watson-fix2" groups="kv" remote="owend"/>
+  <project name="ep-engine" revision="watson-fix4" groups="kv" remote="owend"/>
   <project name="forestdb" groups="kv"/>
   <project name="geocouch" revision="watson"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
@@ -58,7 +58,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="0b171c85da0922a0baf5fd559ec8515dd35cadb8" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="74b787298783770890ea289d5a685e6c2a0c048d" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="476f0a74bcb7c2251b6b5a4d995059c3845e659d" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="0040d45e4068b46572ecc032389d7b041229c071" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
