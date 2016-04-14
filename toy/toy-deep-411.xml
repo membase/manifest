@@ -3,6 +3,7 @@
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
+  <remote fetch="git://github.com/deepkaran/" name="deepkaran" />
   
   <default remote="couchbase" revision="master"/>
   
