@@ -7,19 +7,19 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="couchbase-cli"           />
-  <project name="couchbase-examples"      />
-  <project name="couchbase-python-client" revision="couchbase-181" />
+  <project name="couchbase-cli" revision="4.1.1"/>
+  <project name="couchbase-examples" revision="2e9cd32988929935c9b172fb713434c1f81243de"/>
+  <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"/>
   <project name="couchdb"   revision="sherlock"/>
   <project name="couchstore" revision="sherlock"/>
   <project name="ep-engine" revision="sherlock"/>
   <project name="geocouch"  revision="sherlock"/>
   <project name="memcached" revision="sherlock"/>
-  <project name="moxi"                    />
+  <project name="moxi" revision="5ab60b49048b8f6d93386a30ff743a8e5daa7c7a"/>
   <project name="ns_server" revision="sherlock"/>
   <project name="platform" revision="sherlock"/>
-  <project name="sigar"                   />
-  <project name="testrunner"              />
+  <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c"/>
+  <project name="testrunner" revision="325345ea7245121c791eb0369fb79eafb09fa657"/>
   <project name="tlm" revision="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
@@ -36,13 +36,13 @@
   <project name="gometa" revision="sherlock"                     path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth"                                         path="godeps/src/github.com/couchbase/cbauth"/>
+  <project name="cbauth" revision="1323b92ac2619c29d50e588e59d7a6b4839da629" path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="gomemcached" revision="sherlock"                path="godeps/src/github.com/couchbase/gomemcached"/>
-  <project name="retriever"                                      path="godeps/src/github.com/couchbase/retriever" />
-  <project name="dparval"                                        path="godeps/src/github.com/couchbase/dparval"/>
+  <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever" />
+  <project name="dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae" path="godeps/src/github.com/couchbase/dparval"/>
   <project name="go-couchbase" revision="4.1.0"                  path="godeps/src/github.com/couchbase/go-couchbase" />
-  <project name="clog"                                           path="godeps/src/github.com/couchbase/clog" />
-  <project name="go-slab"                                        path="godeps/src/github.com/couchbase/go-slab" />
+  <project name="clog" revision="e0f356188f6f2f3098eb7dbc9082801dffc3f1a8" path="godeps/src/github.com/couchbase/clog" />
+  <project name="go-slab" revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f" path="godeps/src/github.com/couchbase/go-slab" />
   <project name="goforestdb" revision="sherlock"                 path="godeps/src/github.com/couchbase/goforestdb" />
 
   <!-- Go support libraries - third-party -->
@@ -64,5 +64,5 @@
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
   <project name="voltron" revision="sherlock" remote="couchbase-priv" groups="notdefault,packaging" />
-  <project name="couchdbx-app" groups="notdefault,packaging" />
+  <project name="couchdbx-app" revision="91d966208f527b9ce5a679e5720b210cb3b694a0" groups="notdefault,packaging" />
 </manifest>
