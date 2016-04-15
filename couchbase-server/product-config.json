@@ -20,7 +20,7 @@
             "parent": "../branch-master.xml",
             "production": true,
             "do-build": false,
-            "start_build": 1400
+            "start_build": 2300
         },
         "watson/dp1.xml": {
             "release": "watson",
@@ -32,6 +32,14 @@
             "start_build": 1300,
             "restricted": false,
             "approval_ticket": "CBD-1757"
+        },
+        "watson/beta.xml": {
+            "release": "watson",
+            "branch": "watson-beta",
+            "release_name": "Watson Beta",
+            "parent" : "../watson.xml",
+            "production": true,
+            "start_build": 2200
         },
         "../sherlock.xml": {
             "release": "sherlock",
