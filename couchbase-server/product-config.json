@@ -39,6 +39,7 @@
             "release_name": "Watson Beta",
             "parent" : "../watson.xml",
             "production": true,
+            "do_build": false,
             "start_build": 2200
         },
         "../sherlock.xml": {
