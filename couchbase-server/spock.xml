@@ -15,7 +15,6 @@
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="ep-engine" groups="kv"/>
