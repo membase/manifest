@@ -5,7 +5,6 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-
   <remote name="ysui6888"      fetch="git://github.com/ysui6888/" />
 
   <default remote="couchbase" revision="master" />
@@ -17,7 +16,6 @@
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
   <project name="ep-engine" revision="watson" groups="kv"/>
@@ -52,15 +50,15 @@
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb"           revision="3d0e906e8e78d7bd4efd3c5849f3ffa8f15a321c" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocb"           revision="b6a973ceb0443e5fa3663eaec0cbf6456580b892" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="0b171c85da0922a0baf5fd559ec8515dd35cadb8" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="blevex"           remote="blevesearch" revision="476f0a74bcb7c2251b6b5a4d995059c3845e659d" path="godeps/src/github.com/blevesearch/blevex"/>
+  <project name="bleve"            remote="blevesearch" revision="d0c6dbc9cfb7057a80b034b0a210a4cabfb4e1f3" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="blevex"           remote="blevesearch" revision="465ed49f59f5c9e67987c02b2108f7820ddf7275" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="0040d45e4068b46572ecc032389d7b041229c071" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
@@ -90,7 +88,11 @@
   <project name="text"           remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" path="godeps/src/golang.org/x/text"/>
   <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
   <project name="net"            remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" path="godeps/src/golang.org/x/net"/>
-  <project name="sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" path="godeps/src/golang.org/x/sys" groups="solaris,notdefault"/>
+  <project name="sys"            remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" path="godeps/src/golang.org/x/sys" groups="solaris,notdefault"/>
+  <project name="minify"         remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" path="godeps/src/github.com/tdewolff/minify"/>
+  <project name="buffer"         remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e" path="godeps/src/github.com/tdewolff/buffer"/>
+  <project name="parse"          remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" path="godeps/src/github.com/tdewolff/parse"/>
+  <project name="strconv"        remote="couchbasedeps" revision="9b189f5be77f33c46776f24dbddb2a7ab32af214" path="godeps/src/github.com/tdewolff/strconv"/>
 
   <!-- C/C++ support libraries -->
   <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" groups="kv"/>
