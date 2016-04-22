@@ -16,7 +16,6 @@
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchbase-examples"/>
-  <project name="couchbase-python-client" revision="couchbase-181" />
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
   <project name="ep-engine" revision="watson" groups="kv"/>
@@ -46,20 +45,20 @@
   <project name="gomemcached"                                                        path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval"                                                            path="godeps/src/github.com/couchbase/dparval"/>
-  <project name="go-couchbase"                                                       path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="go-couchbase"   remote="sitaramv" revision="master"                 path="godeps/src/github.com/couchbase/go-couchbase"/>
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb"           revision="3d0e906e8e78d7bd4efd3c5849f3ffa8f15a321c" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocb"           revision="b6a973ceb0443e5fa3663eaec0cbf6456580b892" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="0b171c85da0922a0baf5fd559ec8515dd35cadb8" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="blevex"           remote="blevesearch" revision="476f0a74bcb7c2251b6b5a4d995059c3845e659d" path="godeps/src/github.com/blevesearch/blevex"/>
+  <project name="bleve"            remote="blevesearch" revision="d0c6dbc9cfb7057a80b034b0a210a4cabfb4e1f3" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="blevex"           remote="blevesearch" revision="465ed49f59f5c9e67987c02b2108f7820ddf7275" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="0040d45e4068b46572ecc032389d7b041229c071" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd" path="godeps/src/github.com/blevesearch/segment"/>
