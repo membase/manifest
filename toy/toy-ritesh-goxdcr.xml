@@ -58,7 +58,7 @@
 
   <!-- Go support libraries - Bleve-supported -->
  
-  <project name="bleve"            remote="blevesearch" revision="d0c6dbc9cfb7057a80b034b0a210a4cabfb4e1f3" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="3badeb5fe1941c6b4fa9fa5415967db08ad9c0d6" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="465ed49f59f5c9e67987c02b2108f7820ddf7275" path="godeps/src/github.com/blevesearch/blevex"/> 
   <project name="bleve-mapping-ui" remote="blevesearch" revision="0040d45e4068b46572ecc032389d7b041229c071" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
@@ -89,8 +89,10 @@
   <project name="text"           remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" path="godeps/src/golang.org/x/text"/>
   <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
   <project name="net"            remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" path="godeps/src/golang.org/x/net"/>
-  <project name="sys"            remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" path="godeps/src/golang.org/x/sys" groups="solaris,notdefault"/>  
-   <project name="minify"         remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" path="godeps/src/github.com/tdewolff/minify"/>
+  <project name="sys"            remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" path="godeps/src/golang.org/x/sys" groups="solaris,notdefault"/>
+  <project name="minify"         remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" path="godeps/src/github.com/tdewolff/minify"/>
+  
+
   <project name="buffer"         remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e" path="godeps/src/github.com/tdewolff/buffer"/>
   <project name="parse"          remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" path="godeps/src/github.com/tdewolff/parse"/>
   <project name="strconv"        remote="couchbasedeps" revision="9b189f5be77f33c46776f24dbddb2a7ab32af214" path="godeps/src/github.com/tdewolff/strconv"/>
@@ -107,5 +109,5 @@
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
-  <project name="couchdbx-app" revision="91d966208f527b9ce5a679e5720b210cb3b694a0" groups="notdefault,packaging" /> 
+  <project name="couchdbx-app"  groups="notdefault,packaging" /> 
 </manifest>
