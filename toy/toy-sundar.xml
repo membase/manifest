@@ -39,7 +39,7 @@
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae" upstream="master"/>
   <project groups="kv" name="ep-engine" revision="5a90fb8ad89a36caf2831332b08a678c4eceb4ff" upstream="watson"/>
-  <project groups="kv" name="forestdb" remote="hisundar" revision="lsmaster" upstream="lsmaster"/>
+  <project groups="kv" name="forestdb" remote="hisundar" revision="hmaster" upstream="hmaster"/>
   <project name="geocouch" revision="74b4bab07713b233ca2780f9a9a3f7daa1a1dff4" upstream="watson"/>
   <project name="go-bindata-assetfs" path="godeps/src/github.com/elazarl/go-bindata-assetfs" remote="couchbasedeps" revision="57eb5e1fc594ad4b0b1dbea7b286d299e0cb43c2"/>
   <project name="go-couchbase" path="godeps/src/github.com/couchbase/go-couchbase" revision="c9176bd9b97bbccdb1e286cf3b9dbc0782353a5d" upstream="master"/>
