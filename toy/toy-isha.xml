@@ -6,11 +6,11 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="isha" fetch="git://github.com/ikandaswamy/"/>
-
+  
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" revision="watson" groups="notdefault,enterprise"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -28,7 +28,7 @@
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="platform" revision="watson" groups="kv"/>
-  <project name="query"     remote="isha" revision="master"  path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
@@ -45,7 +45,7 @@
   <project name="gomemcached"                                                        path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval"                                                            path="godeps/src/github.com/couchbase/dparval"/>
-  <project name="go-couchbase" remote="isha" revision="master"                       path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="go-couchbase" remote="isha" revision="master"                       path="godeps/src/github.com/couchbase/go-couchbase"/> 
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
@@ -54,7 +54,7 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
-  <project name="godbc" remote="isha" revision="master"                              path="godeps/src/github.com/couchbase/godbc"/>
+  <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="760057afb67ba9d8d7ad52f49a87f2bf9d31a945" path="godeps/src/github.com/blevesearch/bleve"/>
