@@ -5,7 +5,6 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="mikewied"  fetch="git://github.com/mikewied/"  />
 
   <default remote="couchbase" revision="master" />
 
@@ -104,6 +103,6 @@
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="mikewied"  groups="notdefault,packaging" />
+  <project name="voltron"    remote="couchbase"  revision="mikewtest" groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
