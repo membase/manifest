@@ -3,6 +3,7 @@
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
+  <remote name="hhs"   fetch="git://github.com/hsharsha/" />
   
   <default remote="couchbase" revision="master"/>
   
@@ -17,7 +18,7 @@
   <project name="couchbase-cli" revision="10fcf785826a067b32b1423be5bb298e9f88cdd4"/>
   <project name="couchbase-examples" revision="2e9cd32988929935c9b172fb713434c1f81243de"/>
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"/>
-  <project name="couchdb" revision="db3c39761f9328af9abf17ba983cafa9b3819b17"/>
+  <project name="couchdb" remote="hhs" revision="db3c39761f9328af9abf17ba983cafa9b3819b17"/>
   <project groups="notdefault,packaging" name="couchdbx-app" revision="c787173fcbc8a1cc8e6928173dcb7a9915fdbc65"/>
   <project name="couchstore" revision="7d6bc22a15b80f1da6dd169a3e538e985db1b91a"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
