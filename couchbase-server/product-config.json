@@ -44,11 +44,13 @@
         },
         "../sherlock.xml": {
             "release": "sherlock",
-            "release_name": "Sherlock Master",
+            "release_name": "Sherlock 4.1.2",
             "parent": "../branch-master.xml",
             "production": true,
             "do-build": false,
-            "start_build": 6000
+            "start_build": 6000,
+            "restricted": true,
+            "approval_ticket": "MB-19532"
         },
         "sherlock/4.1.1.xml": {
             "release": "sherlock",
