@@ -28,7 +28,7 @@
   <project name="couchstore"              path="couchstore"              revision="30f8f0872ef28f95765a7cad4b2e45e32b95dff8" />
   <project name="geocouch"                path="geocouch"                revision="000096996e57b2193ea8dde87e078e653a7d7b80" />
   <project name="healthchecker"           path="healthchecker"           revision="76a176fc42854d0c4b860b17f2293a7b7fe2a9aa" />
-  <project name="testrunner"              path="testrunner"              revision="8371aa1cc3a21650b3a9f81ba422ec9ac3151cfc" />
+  <project name="testrunner-archive"              path="testrunner"              revision="8371aa1cc3a21650b3a9f81ba422ec9ac3151cfc" />
   <project name="cbsasl"                  path="cbsasl"                  revision="578523010d4efaa9fed1a32880c67bfb03c20728" />
   <project name="otp"                     path="otp"                     revision="b6dc1a844eab061d0a7153d46e7e68296f15a504" remote="erlang"    />
   <project name="icu4c"                   path="icu4c"                   revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />

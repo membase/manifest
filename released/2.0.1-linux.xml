@@ -27,7 +27,7 @@
   <project name="couchdbx-app"            path="couchdbx-app"             revision="52d20848312254148c889de517b39199765d8e22" />
   <project name="couchstore"              path="couchstore"               revision="146c965a5aa5da21901209122bde60a8f3a52171" />
   <project name="geocouch"                path="geocouch"                 revision="5f5706d8a0db214aaa942ca496661938eaf2385e" />
-  <project name="testrunner"              path="testrunner"               revision="7ceeab90e3529cd544e2fde06f82cb224276fc42" />
+  <project name="testrunner-archive"              path="testrunner"               revision="7ceeab90e3529cd544e2fde06f82cb224276fc42" />
   <project name="otp"                     path="otp"                      revision="b6dc1a844eab061d0a7153d46e7e68296f15a504" remote="erlang"    />
   <project name="icu4c"                   path="icu4c"                    revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
   <project name="snappy"                  path="snappy"                   revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95" remote="couchbase" />

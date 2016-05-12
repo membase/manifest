@@ -20,7 +20,7 @@
   <project name="ns_server"               path="ns_server"               revision="430699b39fdce9d2bb85eeeb2e72010b1e2af1b7" />
   <project name="platform"                path="platform"                revision="4051222eada4c62fad7020633c2247fdcebaaaeb" />
   <project name="sigar"                   path="sigar"                   revision="ab89d5d144b061cb24d5075cf6c45d9800a930c9" />
-  <project name="testrunner"              path="testrunner"              revision="c1e7e01699ce5d178be7fddb0b909399e02a7126" />
+  <project name="testrunner-archive"              path="testrunner"              revision="c1e7e01699ce5d178be7fddb0b909399e02a7126" />
   <project name="tlm"                     path="tlm"                     revision="f053b3b8bd1fa575dd8c7c6f7d8a4c336493f292">
     <copyfile src='GNUmakefile'    dest='GNUmakefile'    />
     <copyfile src='Makefile'       dest='Makefile'       />

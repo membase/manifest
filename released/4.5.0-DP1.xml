@@ -76,7 +76,7 @@
   <project name="segment" path="godeps/src/github.com/blevesearch/segment" remote="blevesearch" revision="f64a3875a6185ea3928b8b76fbb0c370e6187dfd"/>
   <project groups="kv" name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c"/>
   <project groups="kv" name="subjson" revision="2c682b47200a846c0f0274c2b2d20f3da09e3905"/>
-  <project name="testrunner" revision="835a83f3d82533e7f850f9125ca3e7abb7b9ce8e"/>
+  <project name="testrunner-archive" path="testrunner" revision="835a83f3d82533e7f850f9125ca3e7abb7b9ce8e"/>
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15"/>
   <project groups="kv" name="tlm" revision="471e82f7eb2e06886a8eb0d0c96285015b7163fb">
     <copyfile dest="GNUmakefile" src="GNUmakefile"/>

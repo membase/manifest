@@ -33,7 +33,7 @@
   <project name="couchstore" path="couchstore" revision="a33bf253028bf5a9913dfde1cf2b773537a52005"/>
   <project name="geocouch" path="geocouch" revision="7782df1a53104e9c8bb9ef941a9b499bbc7cd61e"/>
   <project name="mccouch" path="mccouch" revision="88701cc326bc3dde4ed072bb8441be83adcfb2a5"/>
-  <project name="testrunner" path="testrunner" revision="78bf448671472e9835b2d15e7c352fe79f3051f3"/>
+  <project name="testrunner-archive" path="testrunner" revision="78bf448671472e9835b2d15e7c352fe79f3051f3"/>
   <project name="workload-generator" path="workload-generator" revision="3ce5e948120ccb1a5b9fafd150875e69a01dcefd"/>
   <project name="otp" path="otp" revision="b6dc1a844eab061d0a7153d46e7e68296f15a504"
            remote="erlang"/>

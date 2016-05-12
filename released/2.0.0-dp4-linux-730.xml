@@ -36,7 +36,7 @@
   <project name="sigar" path="sigar" revision="ba9f5a113a1449c1d9df7a25c9aec8b01e9ffc54"/>
   <project name="spidermonkey" path="spidermonkey" revision="a3c48c1736642ea41ee935391d57137d17d297ec"
            remote="couchbase"/>
-  <project name="testrunner" path="testrunner" revision="fbc48d23a3fa39a4f60a8d808c1af6c63927e8bb"/>
+  <project name="testrunner-archive" path="testrunner" revision="fbc48d23a3fa39a4f60a8d808c1af6c63927e8bb"/>
   <project name="tlm" path="tlm" revision="821376feb4f951a49fbca1be452f64bc9d4e1917">
     <copyfile src='Makefile.top' dest='Makefile'/>
   </project>

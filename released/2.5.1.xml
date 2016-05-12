@@ -29,7 +29,7 @@
   <project name="ns_server"               path="ns_server"               revision="d606cc53502e6442cfc14af2257ba9e792239c32" />
   <project name="portsigar"               path="portsigar"               revision="2204847c85a3ccaecb2bb300306baf64824b2597" />
   <project name="sigar"                   path="sigar"                   revision="a402af5b6a30ea8e5e7220818208e2601cb6caba" />
-  <project name="testrunner"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
+  <project name="testrunner-archive"              path="testrunner"              revision="67b9b374b552312b6addf3fd4a3c17891450eb7b" />
   <project name="otp"                     path="otp"                     revision="b6dc1a844eab061d0a7153d46e7e68296f15a504" remote="erlang"    />
   <project name="icu4c"                   path="icu4c"                   revision="26359393672c378f41f2103a8699c4357c894be7" remote="couchbase" />
   <project name="snappy"                  path="snappy"                  revision="5681dde156e9d07adbeeab79666c9a9d7a10ec95" remote="couchbase" />

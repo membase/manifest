@@ -16,7 +16,7 @@
 <project name="ns_server" path="ns_server" revision="3d08f0fefb2414c9f0add1ca48cfd160738e9c1f"/>
 <project name="platform" path="platform" revision="d3855e552a21be8bb5503103691aa65ec8fe53a0"/>
 <project name="sigar" path="sigar" revision="1f6eed3b0999fc826582087dfa12fbf40b7cce7e"/>
-<project name="testrunner" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
+<project name="testrunner-archive" path="testrunner" revision="20761a815238b404cae51a9337219bee673fda7c"/>
 <project name="tlm" path="tlm" revision="76239c231b6735a6380495faecefbd8f99096f3c">
 <copyfile dest="GNUmakefile" src="GNUmakefile"/>
 <copyfile dest="Makefile" src="Makefile"/>

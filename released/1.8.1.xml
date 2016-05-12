@@ -37,7 +37,7 @@
   <project name="vbucketmigrator" path="vbucketmigrator" revision="0fdc96cafc7227d52cbf4682ba7462923b773dae"/>
   <project name="workload-generator" path="workload-generator" revision="437522d2764eb60d92199d504e4a62c44b38fb6d"
            remote="couchbase"/>
-  <project name="testrunner" path="testrunner" revision="8ee41485e6f71b0fbf64832b57280d5ac4b7c120"
+  <project name="testrunner-archive" path="testrunner" revision="8ee41485e6f71b0fbf64832b57280d5ac4b7c120"
            remote="couchbase"/>
   <project name="gperftools" path="gperftools" revision="8f60ba949fb8576c530ef4be148bff97106ddc59"
            remote="couchbase"/>
