@@ -22,26 +22,6 @@
             "do-build": false,
             "start_build": 2300
         },
-        "watson/dp1.xml": {
-            "release": "watson",
-            "branch": "watson-dp1",
-            "release_name": "Watson DP1",
-            "parent" : "../watson.xml",
-            "production": true,
-            "do-build": false,
-            "start_build": 1300,
-            "restricted": false,
-            "approval_ticket": "CBD-1757"
-        },
-        "watson/beta.xml": {
-            "release": "watson",
-            "branch": "watson-beta",
-            "release_name": "Watson Beta",
-            "parent" : "../watson.xml",
-            "production": true,
-            "do_build": false,
-            "start_build": 2200
-        },
         "../sherlock.xml": {
             "release": "sherlock",
             "release_name": "Sherlock 4.1.2",
