@@ -20,7 +20,7 @@
   <project name="ep-engine" revision="watson" groups="kv"/>
   <project name="forestdb" revision="watson" groups="kv"/>
   <project name="geocouch" revision="watson"/>
-  <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="watson" groups="kv"/>
