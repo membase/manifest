@@ -16,11 +16,13 @@
         },
         "../watson.xml": {
             "release": "watson",
-            "release_name": "Watson Master",
+            "release_name": "Watson 4.5.0",
             "parent": "../branch-master.xml",
             "production": true,
             "do-build": false,
-            "start_build": 2300
+            "start_build": 2300,
+            "restricted": true,
+            "approval_ticket": "MB-19685"
         },
         "../sherlock.xml": {
             "release": "sherlock",
