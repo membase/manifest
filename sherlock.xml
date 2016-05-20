@@ -36,7 +36,7 @@
   <project name="gometa" revision="sherlock"                     path="goproj/src/github.com/couchbase/gometa"/>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth" revision="1323b92ac2619c29d50e588e59d7a6b4839da629" path="godeps/src/github.com/couchbase/cbauth"/>
+  <project name="cbauth" revision="sherlock"                     path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="gomemcached" revision="sherlock"                path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever" />
   <project name="dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae" path="godeps/src/github.com/couchbase/dparval"/>
