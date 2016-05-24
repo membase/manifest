@@ -19,7 +19,7 @@
   <project name="ns_server" revision="sherlock"/>
   <project name="platform" revision="sherlock"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c"/>
-  <project name="testrunner" revision="325345ea7245121c791eb0369fb79eafb09fa657"/>
+  <project name="testrunner" revision="b86d4a36037df8b2ea3cacb11248beda6751ceea"/>
   <project name="tlm" revision="sherlock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
