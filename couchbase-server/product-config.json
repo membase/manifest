@@ -1,53 +1,64 @@
 {
     "manifests": {
-        "../branch-master.xml": {
+        "branch-master.xml": {
             "release": "master",
             "release_name": "Branch Master",
             "production": true,
             "interval": 1440
         },
-        "spock.xml": {
+        "couchbase-server/spock.xml": {
             "release": "spock",
             "release_name": "Spock (mainline)",
-            "parent": "../branch-master.xml",
+            "parent": "branch-master.xml",
             "production": true,
             "start_build": 100,
             "interval": 240
         },
-        "../watson.xml": {
+        "watson.xml": {
             "release": "watson",
-            "release_name": "Watson 4.5.0",
-            "parent": "../branch-master.xml",
+            "release_name": "Watson 4.5.1",
+            "parent": "branch-master.xml",
             "production": true,
             "do-build": false,
-            "start_build": 2300,
+            "start_build": 2700,
+            "restricted": true,
+            "approval_ticket": "MB-19612"
+        },
+        "couchbase-server/watson/4.5.0.xml": {
+            "release": "watson",
+            "branch": "watson-4.5.0",
+            "release_name": "Watson 4.5.0",
+            "parent": "watson.xml",
+            "production": true,
+            "do-build": false,
+            "start_build": 2596,
             "restricted": true,
             "approval_ticket": "MB-19685"
         },
-        "../sherlock.xml": {
+        "sherlock.xml": {
             "release": "sherlock",
             "release_name": "Sherlock 4.1.2",
-            "parent": "../branch-master.xml",
+            "parent": "branch-master.xml",
             "production": true,
             "do-build": false,
             "start_build": 6000,
             "restricted": true,
             "approval_ticket": "MB-19532"
         },
-        "sherlock/4.1.1.xml": {
+        "couchbase-server/sherlock/4.1.1.xml": {
             "release": "sherlock",
             "branch": "sherlock-4.1.1",
             "release_name": "Sherlock 4.1.1",
-            "parent": "../sherlock.xml",
+            "parent": "sherlock.xml",
             "do-build": false,
             "start_build": 5900,
             "restricted": true,
             "approval_ticket": "MB-17211"
         },
-        "../rel-3.0.x.xml": {
+        "rel-3.0.x.xml": {
             "release": "3.x",
             "release_name": "3.1.6",
-            "parent": "../branch-master.xml",
+            "parent": "branch-master.xml",
             "do-build": false,
             "restricted": true,
             "approval_ticket": "MB-19323"
