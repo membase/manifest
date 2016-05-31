@@ -52,7 +52,7 @@
   <project name="gocb"           revision="2997f2a0fbb0403edcc9a5f735ebdb1f6a90d38b" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
-  <project name="moss"           revision="87f804cb43ee7e0625cd1886da0d1471ce4d1224" path="godeps/src/github.com/couchbase/moss"/>
+  <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
 
   <!-- Go support libraries - Bleve-supported -->
