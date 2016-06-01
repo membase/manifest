@@ -97,7 +97,7 @@
   <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="0c3bc3b83ac9fc93bbb1b78b4695df35c5d8f288" path="cbbuild"           groups="notdefault,build" remote="hkodungallur">
+  <project name="build" path="cbbuild"           groups="notdefault,build" remote="hkodungallur">
     <annotation name="VERSION" value="4.5.1"     keep="true"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
