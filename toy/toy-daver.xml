@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="daverigby" fetch="git://github.com/daverigby/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
@@ -23,7 +24,7 @@
   <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="cf50f11474d3cfb95c13d16cdca73928c9af6fae" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="4.5.0" groups="kv"/>
+  <project name="memcached" remote="daverigby" revision="is_bucket_dying_perf" groups="kv"/>
   <project name="moxi" revision="5ab60b49048b8f6d93386a30ff743a8e5daa7c7a" groups="kv"/>
   <project name="ns_server" revision="watson"/>
   <project name="platform" revision="ae2a7a24251ceb0b3204c6ca9ee0630a20640def" groups="kv"/>
