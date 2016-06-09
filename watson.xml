@@ -96,12 +96,12 @@
   <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="0c3bc3b83ac9fc93bbb1b78b4695df35c5d8f288" path="cbbuild"           groups="notdefault,build">
+  <project name="build" revision="3455af09052859d06e29f0bcf7c02f5b3fb94fe8" path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="4.5.1"     keep="true"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron" remote="couchbase-priv" revision="0293001c12b828f1ffe4dc52cd40899207501a4a" groups="notdefault,packaging" />
+  <project name="voltron" remote="couchbase-priv" revision="49bfe07692cd5904ea51ad08e3d39fd25f9b50d5" groups="notdefault,packaging" />
   <project name="couchdbx-app" revision="1e45140920f0ef7c763273970a05265810ef676a" groups="notdefault,packaging" />
 </manifest>
