@@ -40,7 +40,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" revision="929c6a78361c18c6bb3226530d0bbd4b83099205"         path="godeps/src/github.com/couchbase/cbauth"/>
-  <project name="gomemcached" revision="3ff4bc08dbca96c69b0a2053b5438317fc227e43"    path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="gomemcached" revision="watson"                                      path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"      path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"        path="godeps/src/github.com/couchbase/dparval"/>
   <project name="go-couchbase" revision="4ec84428e1c5fd2c104e6cf2ce6f2d20a90d7228"   path="godeps/src/github.com/couchbase/go-couchbase"/>
