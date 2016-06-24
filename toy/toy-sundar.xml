@@ -9,7 +9,7 @@
   
   <default remote="couchbase" revision="master"/>
   
-  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="a00bc2a085858579ed651403df1f09c5fb97661f" upstream="watson"/>
+  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="b4380fc0ed5df0bee55a84e875fb7ba1c7327e72" upstream="watson"/>
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4"/>
   <project name="blance" path="godeps/src/github.com/couchbase/blance" revision="8a44cfcdf8d1566e534f34b947c0c5e519233973"/>
   <project name="bleve" path="godeps/src/github.com/blevesearch/bleve" remote="blevesearch" revision="760057afb67ba9d8d7ad52f49a87f2bf9d31a945"/>
@@ -19,7 +19,7 @@
   <project name="buffer" path="godeps/src/github.com/tdewolff/buffer" remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e"/>
   <project groups="notdefault,build" name="build" path="cbbuild" revision="0c3bc3b83ac9fc93bbb1b78b4695df35c5d8f288">
     <annotation name="VERSION" value="4.5.0"/>
-    <annotation name="BLD_NUM" value="2594"/>
+    <annotation name="BLD_NUM" value="2601"/>
     <annotation name="RELEASE" value="@RELEASE@"/>
     <annotation name="EDITION" value="@EDITION@"/>
   </project>
@@ -32,12 +32,12 @@
   <project name="couchbase-cli" revision="259e0542b483ddcc958e7bc77a053a3eb27342ec"/>
   <project name="couchbase-examples" revision="04992de19d0f2b05110412fec1fe56e8dc5992b6"/>
   <project name="couchdb" revision="7ad0cfa695ecd59bda988e2e104911ef1367fd57" upstream="watson"/>
-  <project groups="notdefault,packaging" name="couchdbx-app" revision="1e45140920f0ef7c763273970a05265810ef676a"/>
+  <project groups="notdefault,packaging" name="couchdbx-app" revision="282a807b29cf50e4cba279a2b686a0f631f4ffa0"/>
   <project groups="kv" name="couchstore" revision="452a77c39798cb8574e091d72acffe4c9cadbb21" upstream="watson"/>
   <project name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2"/>
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
-  <project groups="kv" name="ep-engine" revision="7e6eb753a2c31993fe17fae337580aa165dc9867" upstream="4.5.0"/>
+  <project groups="kv" name="ep-engine" revision="9d77ae2a459303fa64e2e1cdf06ddf30e5af0ff3" upstream="4.5.0"/>
   <project groups="kv" name="forestdb" remote="hisundar" revision="mmaster" upstream="mmaster"/>
   <project name="geocouch" revision="74b4bab07713b233ca2780f9a9a3f7daa1a1dff4" upstream="watson"/>
   <project name="go-bindata-assetfs" path="godeps/src/github.com/elazarl/go-bindata-assetfs" remote="couchbasedeps" revision="57eb5e1fc594ad4b0b1dbea7b286d299e0cb43c2"/>
@@ -62,11 +62,11 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="fe4d155fe4be528b701158c1c0fc251120c275e3" upstream="watson"/>
   <project groups="kv" name="gtest" remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5"/>
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="ee88d1a73a4df916def30e9ab3dd2f3327c9a258" upstream="watson"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="a63be4f11ad77ec295cc76103129f4edd607c57d" upstream="watson"/>
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50"/>
-  <project groups="kv" name="memcached" revision="77c1b6d274de15fb1321c817e81e99bcb4fd84bc"/>
+  <project groups="kv" name="memcached" revision="3333fbc2a5f27cd03d95e68b19599c38f657b14b" upstream="4.5.0"/>
   <project name="minify" path="godeps/src/github.com/tdewolff/minify" remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb"/>
   <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="cf5245855c98d7f7c0403c4b73bfd7d8fe034631" upstream="watson"/>
   <project groups="kv" name="moxi" revision="5ab60b49048b8f6d93386a30ff743a8e5daa7c7a"/>
@@ -93,5 +93,5 @@
     <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
   </project>
   <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8"/>
-  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="6f92151cfe640d7adf84deaf6246183f7bf4c1fa"/>
+  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="7f0db68093fed4449575e88f7ca8cc5868cf2113"/>
 </manifest>
