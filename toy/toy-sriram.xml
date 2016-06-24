@@ -6,9 +6,10 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
+  <remote name="sriganes-kv" fetch="git://github.com/sriganes/ep-engine/" />
+  <remote name="sriganes-ns" fetch="git://github.com/sriganes/ns_server/" />
+
   <default remote="couchbase" revision="master" />
-  <default remote="sriganes-kv" fetch="git://github.com/sriganes/ep-engine/" />
-  <default remote="sriganes-ns" fetch="git://github.com/sriganes/ns_server/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
