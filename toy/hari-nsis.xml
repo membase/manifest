@@ -105,6 +105,6 @@
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" remote="hkodungallur"/>
+  <project name="voltron"  groups="notdefault,packaging" remote="hkodungallur"/>
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
