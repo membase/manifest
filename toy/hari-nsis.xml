@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="hkodungallur"   fetch="git://github.com/hkodungallur/" />
+  <remote name="hkodungallur-priv"   fetch="ssh://git@github.com/hkodungallur/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -105,6 +106,6 @@
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"  groups="notdefault,packaging" remote="hkodungallur"/>
+  <project name="voltron"  groups="notdefault,packaging" remote="hkodungallur-priv"/>
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
