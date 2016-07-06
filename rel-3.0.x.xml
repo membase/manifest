@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
@@ -48,5 +49,8 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
+
+  <!-- C/C++ support libraries -->
+  <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" />
 
 </manifest>
