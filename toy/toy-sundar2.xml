@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote fetch="git://github.com/hisundar/" name="hisundar"/>
+  <remote fetch="git://github.com/sriganes/" name="sriganes"/>
 
   <default remote="couchbase" revision="master" />
 
@@ -18,14 +19,14 @@
   <project name="couchbase-examples"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
-  <project name="ep-engine" groups="kv"/>
+  <project name="ep-engine" groups="kv" remote="sriganes" revision="fdbintg" upstream="fdbintg"/>
   <project name="forestdb" groups="kv" remote="hisundar" revision="dmaster" upstream="dmaster"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
-  <project name="ns_server"/>
+  <project name="ns_server" remote="sriganes" revision="fdbintg" upstream="fdbintg"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
