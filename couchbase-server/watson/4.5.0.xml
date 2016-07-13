@@ -92,5 +92,5 @@
     <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
   </project>
   <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8"/>
-  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="7f0db68093fed4449575e88f7ca8cc5868cf2113"/>
+  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="46aa2b70d42b2529d273ed46de9778d158383246" upstream="4.5.0"/>
 </manifest>
