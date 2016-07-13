@@ -24,7 +24,18 @@
             "restricted": true,
             "approval_ticket": "MB-19612"
         },
-        "sherlock.xml": {
+        "couchbase-server/watson/4.5.0.xml": {
+            "release": "watson",
+            "branch": "watson-4.5.0",
+            "release_name": "Watson 4.5.0-MP1",
+            "parent": "watson.xml",
+            "production": true,
+            "do-build": false,
+            "start_build": 2596,
+            "restricted": true,
+            "approval_ticket": "MB-20146"
+        },
+       "sherlock.xml": {
             "release": "sherlock",
             "release_name": "Sherlock 4.1.2",
             "parent": "branch-master.xml",
