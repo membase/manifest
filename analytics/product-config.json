@@ -1,0 +1,12 @@
+{
+    "manifests": {
+        "analytics/master.xml": {
+            "release_name": "Analytics Branch Master",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 100
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
+  <remote name="apache" fetch="git://github.com/apache" review="asterix-gerrit.ics.uci.edu"/>
+
+  <default remote="apache" revision="master"/>
+
+  <project name="incubator-asterixdb" path="asterixdb"/>
+  <project name="asterix-opt" remote="couchbaselabs-priv" path="asterixdb/asterixdb/asterix-opt"/>
+  <project name="build" remote="couchbase">
+    <annotation name="VERSION" value="0.8.9" keep="true"/>
+  </project>
+</manifest>
+
