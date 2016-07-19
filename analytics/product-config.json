@@ -5,7 +5,8 @@
             "production": true,
             "interval": 120,
             "restricted": false,
-            "start_build": 100
+            "start_build": 100,
+            "keep_git": true
         }
     }
 }
