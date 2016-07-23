@@ -48,12 +48,12 @@
         "couchbase-server/sherlock/4.1.1.xml": {
             "release": "sherlock",
             "branch": "sherlock-4.1.1",
-            "release_name": "Sherlock 4.1.1",
+            "release_name": "Sherlock 4.1.1-MP1",
             "parent": "sherlock.xml",
             "do-build": false,
             "start_build": 5900,
             "restricted": true,
-            "approval_ticket": "MB-17211"
+            "approval_ticket": "MB-20241"
         },
         "rel-3.0.x.xml": {
             "release": "3.x",
