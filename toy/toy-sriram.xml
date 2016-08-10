@@ -99,6 +99,7 @@
   <project name="mmap-go"        remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
 
   <!-- C/C++ support libraries -->
+  <project name="benchmark"      remote="couchbasedeps" revision="9341d705a14afed7c4e0f8a22b1e6e8a6259fcc4" groups="kv"/>
   <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
