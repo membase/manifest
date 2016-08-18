@@ -14,9 +14,9 @@
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
-  <project name="couchbase-examples"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
+  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="ep-engine" groups="kv"/>
   <project name="forestdb" groups="kv"/>
   <project name="geocouch"/>
