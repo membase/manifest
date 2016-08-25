@@ -7,7 +7,6 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"    review="review.couchbase.org" />
-  <remote fetch="git://github.com/sriganes/" name="sriganes"/>
 
   <default remote="couchbase" revision="master" />
 
@@ -28,7 +27,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server" remote="sriganes" revision="fdbintg" upstream="fdbintg"/>
+  <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
