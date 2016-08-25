@@ -7,6 +7,7 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"    review="review.couchbase.org" />
+  <remote fetch="git://github.com/sriganes/" name="sriganes"/>
 
   <default remote="couchbase" revision="master" />
 
