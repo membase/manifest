@@ -22,7 +22,7 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
