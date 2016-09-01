@@ -21,7 +21,7 @@
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="ep-engine" groups="kv" remote="hisundar" revision="fdbintg" upstream="fdbintg"/>
-  <project name="forestdb" groups="kv"/>
+  <project name="forestdb" groups="kv" remote="hisundar" revision="fdbintg" upstream="fdbintg"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
