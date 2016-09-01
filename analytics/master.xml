@@ -10,7 +10,7 @@
   <project name="asterix-opt" remote="couchbaselabs-priv" path="asterixdb/asterixdb/asterix-opt"/>
   <project name="java-dcp-client" remote="couchbaselabs-priv" path="java-dcp-client"/>
   <project name="build" remote="couchbase">
-    <annotation name="VERSION" value="0.8.9" keep="true"/>
+    <annotation name="VERSION" value="1.0.0" keep="true"/>
   </project>
 </manifest>
 
