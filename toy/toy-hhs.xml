@@ -6,6 +6,8 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="hhs"   fetch="git://github.com/hsharsha/" />
+  <remote name="abhi"  fetch="git://github.com/abhi-bit/" />
+  <remote name="jehiah" fetch="git://github.com/jehiah/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -13,6 +15,8 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" revision="watson" groups="notdefault,enterprise"/>
   <project name="cbft" revision="d0ee25227ba66dded8365c2c269e183ca2b1b105" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="e585d5f4745e1998a949f33629003026bcd0c171" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="eventing" remote="abhi" path="goproj/src/github.com/abhi-bit/eventing" />
+  <project name="go-strftime" remote="jehiah" path="goproj/src/github.com/jehiah/go-strftime" />
   <project name="cbq-gui" revision="1e19e5e34b64ca6b43a37de6166dac6e76803848" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli" revision="watson"/>
   <project name="couchbase-examples" revision="04992de19d0f2b05110412fec1fe56e8dc5992b6"/>
