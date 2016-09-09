@@ -4,10 +4,21 @@
   <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
   <remote name="apache" fetch="git://github.com/apache" review="asterix-gerrit.ics.uci.edu"/>
 
-  <default remote="apache" revision="master"/>
+  <default remote="couchbase" revision="master"/>
 
-  <project name="incubator-asterixdb" path="asterixdb"/>
-  <project name="asterix-opt" remote="couchbaselabs-priv" path="asterixdb/asterixdb/asterix-opt"/>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Main source: Supported by Couchbase Analytics team -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <!-- Apache AsterixDB -->
+  <project name="incubator-asterixdb" path="asterixdb" remote="apache"/>
+
+  <!-- Couchsterix Extensions -->
+  <project name="asterix-opt" path="asterixdb/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" remote="couchbase">
     <annotation name="VERSION" value="1.0.0" keep="true"/>
   </project>

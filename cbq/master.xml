@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- Couchbase CBQ command-line query tool -->
+  <project name="query" path="goproj/src/github.com/couchbase/query"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-supported Go dependencies (for CBQ)      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="godbc" path="godeps/src/github.com/couchbase/godbc"/>
+  <project name="gomemcached" path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="goutils" path="godeps/src/github.com/couchbase/goutils"/>
+  <project name="go-couchbase" path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="go_json" path="godeps/src/github.com/couchbase/go_json"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Third-party Go dependencies (for CBQ)              -->
+  <!-- Locked to SHA to protect from upstream changes     -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="crypto"         remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" path="godeps/src/golang.org/x/crypto"/>
+  <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
+  <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
+  <project name="liner"          remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" path="godeps/src/github.com/peterh/liner" />
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - CMake and build scripts, etc.      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="tlm" remote="couchbase">
+    <copyfile src="CMakeLists-cbq.txt" dest="CMakeLists.txt" />
+  </project>
+  <project name="build" remote="couchbase" path="cbbuild">
+    <!-- Version number same as Spock, for lack of anything better -->
+    <annotation name="VERSION" value="4.7.0" keep="true"/>
+  </project>
+</manifest>
+
