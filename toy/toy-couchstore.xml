@@ -20,7 +20,7 @@
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
-  <project name="ep-engine" groups="kv" remote="abhinavdangeti" revision="fdbintg2" upstream="fdbintg"/>
+  <project name="ep-engine" groups="kv" remote="abhinavdangeti" revision="fdbintg2" upstream="fdbintg2"/>
   <project name="forestdb"  groups="kv" remote="abhinavdangeti" revision="fdbintg" upstream="fdbintg"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
