@@ -6,7 +6,6 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="couchstore" revision="watson" groups="kv"/>
-  <project name="ep-engine" revision="watson" groups="kv"/>
   <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" revision="5ab60b49048b8f6d93386a30ff743a8e5daa7c7a" groups="kv"/>
   <project name="platform" revision="watson" groups="kv"/>
