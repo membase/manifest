@@ -40,7 +40,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" revision="4a6d537777f57b291a8126f94dfbe3201c1d4efc"         path="godeps/src/github.com/couchbase/cbauth"/>
-  <project name="gomemcached" revision="watson"                                      path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="gomemcached" revision="130359fd19d8f6a361c9af3f92eb2e9a7f8a3fd9"    path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"      path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"        path="godeps/src/github.com/couchbase/dparval"/>
   <project name="go-couchbase" revision="95a652521efae4d40a6982fb93baa6d5fbcfe837"   path="godeps/src/github.com/couchbase/go-couchbase"/>
@@ -53,7 +53,7 @@
   <project name="goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6"        path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss" revision="87f804cb43ee7e0625cd1886da0d1471ce4d1224"           path="godeps/src/github.com/couchbase/moss"/>
   <project name="godbc" revision="d12bb9cab0ed31638c25395caa89039281a61010"          path="godeps/src/github.com/couchbase/godbc"/>
-  <project name="go_json" revision="watson"                                          path="godeps/src/github.com/couchbase/go_json"/>
+  <project name="go_json" revision="a5dae90d4b8b20b1364e18831e1d80e79d06ec35"        path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="760057afb67ba9d8d7ad52f49a87f2bf9d31a945" path="godeps/src/github.com/blevesearch/bleve"/>
