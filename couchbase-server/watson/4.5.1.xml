@@ -15,12 +15,12 @@
   <project name="cbq-gui" revision="1e19e5e34b64ca6b43a37de6166dac6e76803848" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli" revision="c66e3ea88475b1482dd4a1efe82f06638c7b03ec"/>
   <project name="couchbase-examples" revision="04992de19d0f2b05110412fec1fe56e8dc5992b6"/>
-  <project name="couchdb" revision="watson"/>
+  <project name="couchdb" revision="7ad0cfa695ecd59bda988e2e104911ef1367fd57"/>
   <project name="couchstore" revision="bce1f234b312f24968643e55f821bd75327cfc60" groups="kv"/>
   <project name="ep-engine" revision="4.5.1" groups="kv"/>
-  <project name="forestdb" revision="watson" groups="kv"/>
-  <project name="geocouch" revision="watson"/>
-  <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="forestdb" revision="0d24efb9f5aed4c19ba5e66256e3b5b53190a874" groups="kv"/>
+  <project name="geocouch" revision="74b4bab07713b233ca2780f9a9a3f7daa1a1dff4"/>
+  <project name="goxdcr" revision="151d35a5b8d68ae17eaeea6a9e144445a6b6119b" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="cf50f11474d3cfb95c13d16cdca73928c9af6fae" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="54f0a5beeb7f44885a64b486979250d51af48ee8" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="3185fbb2a8a6ec126bf924eaf94e7d52e8a2da8e" groups="kv"/>
