@@ -16,23 +16,23 @@
   <project name="couchbase-cli" revision="c66e3ea88475b1482dd4a1efe82f06638c7b03ec"/>
   <project name="couchbase-examples" revision="04992de19d0f2b05110412fec1fe56e8dc5992b6"/>
   <project name="couchdb" revision="7ad0cfa695ecd59bda988e2e104911ef1367fd57"/>
-  <project name="couchstore" revision="bce1f234b312f24968643e55f821bd75327cfc60" groups="kv"/>
-  <project name="ep-engine" revision="4.5.1" groups="kv"/>
+  <project name="couchstore" revision="13d4a25101fceafadf578fa51cd4efa3b5016837" groups="kv"/>
+  <project name="ep-engine" revision="dba7ccecf032d82b7b47948d376c64a56593a1b5" groups="kv"/>
   <project name="forestdb" revision="0d24efb9f5aed4c19ba5e66256e3b5b53190a874" groups="kv"/>
   <project name="geocouch" revision="74b4bab07713b233ca2780f9a9a3f7daa1a1dff4"/>
   <project name="goxdcr" revision="151d35a5b8d68ae17eaeea6a9e144445a6b6119b" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="cf50f11474d3cfb95c13d16cdca73928c9af6fae" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="54f0a5beeb7f44885a64b486979250d51af48ee8" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="3185fbb2a8a6ec126bf924eaf94e7d52e8a2da8e" groups="kv"/>
-  <project name="moxi" revision="5ab60b49048b8f6d93386a30ff743a8e5daa7c7a" groups="kv"/>
+  <project name="memcached" revision="40949cc2e06c824f457581ed783f39c4d6fc7c8d" groups="kv"/>
+  <project name="moxi" revision="a1cb3a7a14ddcaf845415cd0caa638e3054b4993" groups="kv"/>
   <project name="ns_server" revision="ba2eceddb03ac3899e5acf576b14db7ff0ff02bb"/>
-  <project name="platform" revision="349e6e8a62bc383967a81fd8cf12e53b0d760d3e" groups="kv"/>
+  <project name="platform" revision="d74f19705b94417eeafa8ae2aaebc9a873cae654" groups="kv"/>
   <project name="query" revision="0bd6e94489a99b3f3fb251e1aeab698eee284c00" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="2a90a12514021a9c954c90a8ded7c6bfd4a521a2"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c" groups="kv"/>
   <project name="subjson" revision="65d3f053e2d968aea00b60234a42e1d1c5b9f6d2" groups="kv"/>
   <project name="testrunner" revision="d63ed33d4130ecac236711b4156d41328728e42e"/>
-  <project name="tlm" revision="f515995bab8229b88bcb15e05c71dd815029aa4c" groups="kv">
+  <project name="tlm" revision="09bfed7a0fbcd8dd729310e37ef64512dbe6a724" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
