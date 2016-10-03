@@ -15,7 +15,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" revision="watson" groups="notdefault,enterprise"/>
   <project name="cbft" revision="d0ee25227ba66dded8365c2c269e183ca2b1b105" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="e585d5f4745e1998a949f33629003026bcd0c171" path="goproj/src/github.com/couchbase/cbgt"/>
-  <project name="eventing" revision="couchbase" remote="abhi" path="goproj/src/github.com/abhi-bit/eventing" />
+  <project name="eventing" remote="abhi" path="goproj/src/github.com/abhi-bit/eventing" />
   <project name="go-strftime" remote="jehiah" path="goproj/src/github.com/jehiah/go-strftime" />
   <project name="cbq-gui" revision="1e19e5e34b64ca6b43a37de6166dac6e76803848" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli" revision="watson"/>
@@ -35,6 +35,7 @@
   <project name="query" revision="watson" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="2a90a12514021a9c954c90a8ded7c6bfd4a521a2"/>
   <project name="eventing-ui" remote="hhs"/>
+  <project name="phosphor" groups="kv"/>
   <project name="rapidjson" remote="hhs"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c" groups="kv"/>
   <project name="subjson" revision="65d3f053e2d968aea00b60234a42e1d1c5b9f6d2" groups="kv"/>
