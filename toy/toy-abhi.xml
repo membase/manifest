@@ -9,7 +9,7 @@
   <project name="couchbase-cli" path="couchbase-cli" revision="a791b7242b0c53f5f413feb8e34790a48a7144ce"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"/>
-  <project name="couchdb" remote="abhi"/>
+  <project name="couchdb" path="couchdb" remote="abhi" revision="3.x"/>
   <project name="couchdbx-app" path="couchdbx-app" revision="6cda98dd572cdefdc54bfba7ee831e3506268264"/>
   <project name="couchstore" path="couchstore" revision="e19a23db069b8e3ca63d6d71ed2ce62dc4d9af98"/>
   <project name="ep-engine" path="ep-engine" revision="6e10f8a2c0c45f256a81a658f05c212591706f38"/>
@@ -26,26 +26,5 @@
     <copyfile dest='Makefile' src='Makefile'/>
     <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
   </project>
-  <project name="gtest" path="gtest" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5"
-           remote="couchbasedeps"/>
-  <project name="erlang" path="otp" revision="76fa44a479fc132f9cf41a6f85abece137a06fac"
-           remote="couchbasedeps"/>
-  <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
-           remote="couchbase"/>
-  <project name="snappy" path="snappy" revision="009c4325f40e04700ca7956e866ad342f020e214"
-           remote="couchbase"/>
-  <project name="gperftools" path="gperftools" revision="846b775dfadb77901202ae7ddbac30ad1de7df01"
-           remote="couchbase"/>
-  <project name="pysqlite" path="pysqlite" revision="0ff6e32ea05037fddef1eb41a648f2a2141009ea"
-           remote="couchbase"/>
-  <project name="v8" path="v8" revision="05120013843918f7e3712159c03b509d3e328cf7"
-           remote="couchbase"/>
-  <project name="gyp" path="v8/build/gyp" revision="d80ea40593312213d863a12fe003266bae319610"
-           remote="couchbase"/>
-  <project name="icu46" path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289"
-           remote="couchbase"/>
-  <project name="python-snappy" path="python-snappy" revision="c97d633ef5364740c152fd184f61c2d9e1a93d01"
-           remote="couchbase"/>
-  <!--
-  <project name="voltron" path="voltron" revision="bc2479f7ce382044ecdb70754c82585c81e86afe" />
-  --></manifest>
+  <project name="gtest"          remote="couchbasedeps" revision="84819c7bb609ab0f8ecc464b0a80bf9d8e980cf5" />
+</manifest>
