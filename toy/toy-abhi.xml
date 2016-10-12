@@ -3,12 +3,13 @@
   <remote name="couchbase" fetch="git://github.com/couchbase/"/>
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
 
+  <remote name="abhi"  fetch="git://github.com/abhi-bit/" />
   <default remote="couchbase" revision="master"/>
 
   <project name="couchbase-cli" path="couchbase-cli" revision="a791b7242b0c53f5f413feb8e34790a48a7144ce"/>
   <project name="couchbase-examples" path="couchbase-examples" revision="5f87273ad59bd3c0473ba6bcedf863db57238313"/>
   <project name="couchbase-python-client" path="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"/>
-  <project name="couchdb" path="couchdb" revision="6fc4a721102965df9f4c54b7dfd82cd592aa93a4"/>
+  <project name="couchdb" path="couchdb" remote="abhi" revision="3.x"/>
   <project name="couchdbx-app" path="couchdbx-app" revision="6cda98dd572cdefdc54bfba7ee831e3506268264"/>
   <project name="couchstore" path="couchstore" revision="e19a23db069b8e3ca63d6d71ed2ce62dc4d9af98"/>
   <project name="ep-engine" path="ep-engine" revision="6e10f8a2c0c45f256a81a658f05c212591706f38"/>
