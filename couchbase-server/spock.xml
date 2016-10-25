@@ -24,6 +24,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
+  <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
