@@ -72,7 +72,7 @@
             "parent": "branch-master.xml",
             "do-build": false,
             "restricted": true,
-            "approval_ticket": "MB-19323"
+            "approval_ticket": "MB-20519"
         }
     }
 }
