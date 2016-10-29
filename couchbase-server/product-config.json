@@ -68,11 +68,11 @@
         },
         "rel-3.0.x.xml": {
             "release": "3.x",
-            "release_name": "3.1.6",
+            "release_name": "3.1.6-MP1",
             "parent": "branch-master.xml",
             "do-build": false,
             "restricted": true,
-            "approval_ticket": "MB-20519"
+            "approval_ticket": "MB-21509"
         }
     }
 }
