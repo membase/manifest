@@ -12,7 +12,7 @@
   <project name="couchbase-python-client" revision="d3e69f6c1eb9ec8fbc240b79bb228fe366e8295f"  />
 
   <!-- couchdb building 3.0.x maintenance releases on 3.x branch -->
-  <project name="couchdb"                 revision="3.x" />
+  <project name="couchdb"                 revision="6fc4a721102965df9f4c54b7dfd82cd592aa93a4" />
 
   <!-- couchdbx-app building 3.0.x maintenance releases on 3.0.x branch -->
   <project name="couchdbx-app"            revision="3.0.x" />
