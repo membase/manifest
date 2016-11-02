@@ -11,10 +11,10 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- Apache AsterixDB -->
-  <project name="incubator-asterixdb" path="asterixdb" remote="apache"/>
+  <project name="asterixdb" path="cbas" remote="apache"/>
 
   <!-- Couchsterix Extensions -->
-  <project name="asterix-opt" path="asterixdb/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>
+  <project name="asterix-opt" path="cbas/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
