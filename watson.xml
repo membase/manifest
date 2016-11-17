@@ -99,7 +99,7 @@
   <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="3455af09052859d06e29f0bcf7c02f5b3fb94fe8" path="cbbuild"           groups="notdefault,build">
+  <project name="build" revision="watson" path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="4.6.0"     keep="true"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
