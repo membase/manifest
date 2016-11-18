@@ -7,8 +7,8 @@
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase projects -->
-  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui">
-    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
+  <project name="query-ui" remote="couchbase" path="goproj/src/github.com/couchbase/query-ui">
+    <copyfile src="CMakeLists.standalone.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="query"   path="goproj/src/github.com/couchbase/query"/>
   <project name="tlm"     path="tlm"/>
