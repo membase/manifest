@@ -14,7 +14,7 @@
   <project name="cbgt" revision="10790963d9cbada17ebfff728ea9298c1c97b7c5" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" revision="1e19e5e34b64ca6b43a37de6166dac6e76803848" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli" revision="watson"/>
-  <project name="couchbase-examples" revision="e06375b622ad04ffc8d4939f75c5683519df6f03"/>
+  <project name="couchbase-examples" revision="39ee1c2451ac2f2e86a6ff308e21e1201c49cafe"/>
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
   <project name="ep-engine" revision="watson" groups="kv"/>
