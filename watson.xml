@@ -24,7 +24,7 @@
   <project name="gometa" revision="7da5634cce1de744293acf27bb2aecc13ee50cc5" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="watson" groups="kv"/>
-  <project name="moxi" revision="a1cb3a7a14ddcaf845415cd0caa638e3054b4993" groups="kv"/>
+  <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="watson"/>
   <project name="platform" revision="watson" groups="kv"/>
   <project name="query" revision="watson" path="goproj/src/github.com/couchbase/query"/>
