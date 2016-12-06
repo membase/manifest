@@ -21,7 +21,7 @@
             "production": true,
             "do-build": false,
             "start_build": 3200,
-            "restricted": false,
+            "restricted": true,
             "approval_ticket": "MB-20290"
         },
         "couchbase-server/watson/4.5.1.xml": {
