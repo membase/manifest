@@ -22,7 +22,7 @@
   <project name="geocouch" revision="watson"/>
   <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="7da5634cce1de744293acf27bb2aecc13ee50cc5" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing" revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="2a11f5139c2c59f5c130939721c9b22ce1dd43b8" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="watson"/>
