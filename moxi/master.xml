@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- Couchbase projects -->
+  <project name="moxi"/>
+
+  <!-- C/C++ support libraries -->
+  <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - CMake and build scripts, etc.      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="tlm" revision="watson">
+    <copyfile src="CMakeLists-moxi.txt" dest="CMakeLists.txt" />
+  </project>
+  <project name="platform" revision="watson"/>
+  <project name="build" remote="couchbase" revision="watson" path="cbbuild" groups="packaging">
+    <!-- Version number same as Watson, for now at least -->
+    <annotation name="VERSION" value="4.6.0" keep="true"/>
+  </project>
+  <project name="voltron" remote="couchbase-priv" revision="watson" groups="notdefault,packaging" />
+</manifest>
+
