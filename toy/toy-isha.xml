@@ -28,7 +28,7 @@
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
-  <project name="query" remote="isha" revision="master" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query" remote="isha" revision="master" path="goproj/src/github.com/couchbase/query"/>  
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
