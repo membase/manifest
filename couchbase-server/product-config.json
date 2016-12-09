@@ -12,7 +12,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 100,
-            "interval": 240
+            "interval": 60
         },
         "watson.xml": {
             "release": "watson",
