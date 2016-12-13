@@ -23,8 +23,8 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"   remote="t3rm1n4l" path="goproj/src/github.com/t3rm1n4l/nitro" revision="plasma" />
-  <project name="indexing" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing" revision="plasma" />
+  <project name="nitro"   remote="t3rm1n4l" path="goproj/src/github.com/t3rm1n4l/nitro" revision="a06aa00dc7e8e7796ff1ceda0ffc5d711a32465c" />
+  <project name="indexing" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing" revision="02725af70e3d29553fb15dfe2655276a8efe0cfa" />
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
