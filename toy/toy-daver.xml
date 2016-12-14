@@ -26,7 +26,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
   <!-- Tie memcached to specific SHA that ep-engine ephemeral changes work with -->
-  <project name="memcached" revision="71c2bc8" groups="kv"/>
+  <project name="memcached" revision="7c1ef08bb394a2f4e502e8e9b05764aacec2ab69" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
