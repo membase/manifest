@@ -19,17 +19,17 @@
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
-  <project name="ep-engine" groups="kv"/>
+  <project name="ep-engine" groups="kv" revision="e4c8bcbbf20b52b11e93665901597875e10b2070" upstream="watson" />
   <project name="forestdb"  groups="kv" revision="1d169510a5102e81547b1d3dc423eb37db908076" upstream="watson" />
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" groups="kv"/>
+  <project name="memcached" groups="kv" revision="45a464250e1358593fa9f11ec010ddd992f0a717" upstream="watson" />
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
-  <project name="platform" groups="kv"/>
+  <project name="platform" groups="kv" revision="a80097d53c779b548d8c78b0a1886b8d44591b23" upstream="watson" />
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
