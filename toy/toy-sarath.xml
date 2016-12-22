@@ -25,6 +25,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"   remote="t3rm1n4l" path="goproj/src/github.com/t3rm1n4l/nitro" revision="plasma" />
   <project name="indexing" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing" revision="plasma" />
+  <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase" path="godeps/src/github.com/andelf/go-curl"/>
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
