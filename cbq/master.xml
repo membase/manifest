@@ -35,7 +35,7 @@
   </project>
   <project name="build" remote="couchbase" path="cbbuild">
     <!-- Version number same as Spock, for lack of anything better -->
-    <annotation name="VERSION" value="4.7.0" keep="true"/>
+    <annotation name="VERSION" value="5.0.0" keep="true"/>
   </project>
 </manifest>
 
