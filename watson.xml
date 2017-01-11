@@ -106,5 +106,5 @@
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
   <project name="voltron" remote="couchbase-priv" revision="watson" groups="notdefault,packaging" />
-  <project name="couchdbx-app" revision="4c34181d8f6b14aa41b4b5d7dd04bee4e02e17eb" groups="notdefault,packaging" />
+  <project name="couchdbx-app" revision="be5f6ebaa12ac7c0b5382deb9b1b0efa7bf80497" groups="notdefault,packaging" />
 </manifest>
