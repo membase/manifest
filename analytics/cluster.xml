@@ -7,6 +7,7 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch"        fetch="git://github.com/blevesearch/" />
   <remote name="asterixdb"          fetch="git://github.com/apache"             review="asterix-gerrit.ics.uci.edu"/>
+  <remote name="sigmod"             fetch="git://github.com/sigmod" />
 
   <default remote="couchbase" revision="master" />
 
@@ -27,7 +28,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server"/>
+  <project name="ns_server" remote="sigmod"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
