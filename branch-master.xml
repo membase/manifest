@@ -18,7 +18,7 @@
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="ep-engine" groups="kv"/>
-  <project name="forestdb" groups="kv"/>
+  <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
