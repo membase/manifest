@@ -45,7 +45,7 @@
   <!-- Couchsterix Extensions -->
   <project name="asterix-opt" path="analytics/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>
   <!-- Analytics integration -->
-  <project name="cbas" path="cbas" remote="couchbaselabs"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
