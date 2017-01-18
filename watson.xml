@@ -31,7 +31,7 @@
   <project name="query-ui" revision="watson"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c" groups="kv"/>
   <project name="subjson" revision="65d3f053e2d968aea00b60234a42e1d1c5b9f6d2" groups="kv"/>
-  <project name="testrunner" revision="d63ed33d4130ecac236711b4156d41328728e42e"/>
+  <project name="testrunner" revision="watson"/>
   <project name="tlm" revision="watson" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
