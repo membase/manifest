@@ -6,8 +6,11 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="t3rm1n4l"      fetch="git://github.com/t3rm1n4l/" />
+  <remote name="spf13"         fetch="git://github.com/spf13/" />
 
   <default remote="couchbase" revision="master" />
+
+  <project name="cobra" remote="spf13"  path="goproj/src/github.com/spf13/cobra"/>
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
