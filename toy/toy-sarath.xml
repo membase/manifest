@@ -56,7 +56,7 @@
   <project name="gocb"           revision="server-4.6"                               path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
-  <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
+  <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss" revision="3658c2bcabf1045386cd37c0c4c285d9bbf0e8e0"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
