@@ -79,7 +79,7 @@
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9"/>
   <project groups="kv" name="platform" revision="a80097d53c779b548d8c78b0a1886b8d44591b23" upstream="watson"/>
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="2012f9b883199299df53dec638a2b91c21907a53" upstream="watson"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="4.6.0" upstream="watson"/>
   <project name="query-ui" revision="ff1f502b2f0c544ca68d2bda60d80fc3a01d573a" upstream="watson"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"/>
   <project name="segment" path="godeps/src/github.com/blevesearch/segment" remote="blevesearch" revision="db70c57796cc8c310613541dfade3dce627d09c7"/>
