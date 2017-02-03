@@ -13,7 +13,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
-  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise" revision="c6bd817c7a3d7019bc5818f6a5d6568dba3d309f" />
+  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
@@ -23,14 +23,13 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"   remote="t3rm1n4l" path="goproj/src/github.com/t3rm1n4l/nitro" revision="plasma" />
-  <project name="indexing" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing" revision="plasma" />
+  <project name="indexing" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing" revision="fastcount" />
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" revision="5be4823902e6336e7b7af272d58b19df9ecb6ca8"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
