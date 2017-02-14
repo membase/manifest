@@ -3,7 +3,7 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
   <remote name="apache" fetch="git://github.com/apache" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="amoudi" fetch="git://github.com/amoudi87"/>
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -19,7 +19,7 @@
 
   <!-- DCP Client -->
   <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
-  <project name="java-dcp-client" path="cbas/asterixdb/asterix-opt/java-dcp-client" remote="amoudi"/>
+  <project name="analytics-dcp-client" path="cbas/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->

@@ -50,6 +50,9 @@
   <project name="asterix-opt" path="analytics/asterixdb/asterix-opt" remote="couchbaselabs-priv">
     <copyfile src="CMakeLists.txt" dest="analytics/CMakeLists.txt"/>
   </project>
+  <!-- DCP Client -->
+  <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
+  <project name="analytics-dcp-client" path="analytics/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
   <!-- Analytics integration -->
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
 
