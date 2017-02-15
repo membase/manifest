@@ -25,7 +25,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" revision="plasma"/>
+  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
