@@ -23,14 +23,14 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"   remote="t3rm1n4l" path="goproj/src/github.com/t3rm1n4l/nitro" revision="ef5268669c736f499f417c93649ba0eb0e26d76e" />
-  <project name="indexing" remote="t3rm1n4l" path="goproj/src/github.com/couchbase/indexing" revision="plasma" />
+  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" remote="t3rm1n4l" revision="mm" />
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
+  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" remote="t3rm1n4l" revision="mm" />
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" revision="5be4823902e6336e7b7af272d58b19df9ecb6ca8"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
@@ -56,11 +56,12 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
+  <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="d40cfb0870e8304299fb4b247cf6d929c12032c3" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="501913b2eb959b709879634213a8726cdac3cce4" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="74982cb46454f14f9f2dc7b5ec63ad6c9b7a3286" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="03d7a61704a1d6fb6cf341f8517d85a91ec757d4" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
