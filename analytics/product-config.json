@@ -7,6 +7,16 @@
             "restricted": false,
             "start_build": 100,
             "keep_git": true
+        },
+        "analytics/cluster.xml": {
+            "release": "spock",
+            "release_name": "Couchbase Server Spock + Analytics",
+            "product": "server-analytics",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 100,
+            "keep_git": true
         }
     }
 }
