@@ -1,4 +1,3 @@
-<!-- This is spock manifest with indexing pointing to prathibha-cb indexing unstable branch -->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
@@ -7,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote fetch="git://github.com/prathibha-cb/" name="prathibha" />
+  <!-- This is spock manifest with indexing pointing to prathibha-cb indexing unstable branch -->
 
   <default remote="couchbase" revision="master" />
 
