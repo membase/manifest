@@ -26,6 +26,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
+  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
@@ -55,11 +56,12 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
+  <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="d40cfb0870e8304299fb4b247cf6d929c12032c3" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="a7ebb8480579777c6cd1c4750d2e6b5ff2b49bdd" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="74982cb46454f14f9f2dc7b5ec63ad6c9b7a3286" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="03d7a61704a1d6fb6cf341f8517d85a91ec757d4" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
