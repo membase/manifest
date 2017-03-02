@@ -37,7 +37,7 @@
   <project name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2"/>
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
-  <project groups="kv" name="ep-engine" revision="e4c8bcbbf20b52b11e93665901597875e10b2070" upstream="watson"/>
+  <project groups="kv" name="ep-engine" revision="4.6.0"/>
   <project groups="kv" name="forestdb" revision="1d169510a5102e81547b1d3dc423eb37db908076" upstream="watson"/>
   <project name="geocouch" revision="74b4bab07713b233ca2780f9a9a3f7daa1a1dff4" upstream="watson"/>
   <project name="go-bindata-assetfs" path="godeps/src/github.com/elazarl/go-bindata-assetfs" remote="couchbasedeps" revision="57eb5e1fc594ad4b0b1dbea7b286d299e0cb43c2"/>
