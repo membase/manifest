@@ -15,7 +15,7 @@
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
-  <project name="couchdb" remote="nimish" revision="spatial"/>
+  <project name="couchdb" revision="25a7c2e006"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="ep-engine" groups="kv"/>
