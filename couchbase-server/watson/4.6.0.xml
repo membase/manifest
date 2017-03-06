@@ -8,7 +8,7 @@
   
   <default remote="couchbase" revision="master"/>
   
-  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="4.6.0" upstream="watson"/>
+  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="6710f747eb095c648caf425ff80d0aaeb87c6f22" upstream="watson"/>
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4"/>
   <project name="blance" path="godeps/src/github.com/couchbase/blance" revision="5ce14d13954e04262b7eabfc6978776a4018402b"/>
   <project name="bleve" path="godeps/src/github.com/blevesearch/bleve" remote="blevesearch" revision="f531835d5c212ee5f95c49d2debc28e65e6d1693"/>
