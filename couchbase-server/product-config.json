@@ -16,7 +16,7 @@
         },
         "watson.xml": {
             "release": "watson",
-            "release_name": "Watson 4.6.1",
+            "release_name": "Watson 4.6.2",
             "parent": "branch-master.xml",
             "production": true,
             "do-build": false,
