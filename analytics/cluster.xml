@@ -6,7 +6,7 @@
   <remote name="couchbaselabs"      fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch"        fetch="git://github.com/blevesearch/" />
-  <remote name="asterixdb"          fetch="git://github.com/apache"             review="asterix-gerrit.ics.uci.edu"/>
+  <remote name="asterixdb"          fetch="git://git.apache.org"                review="asterix-gerrit.ics.uci.edu"/>
   <remote name="ceejatec"           fetch="git://github.com/ceejatec" />
   <remote name="betable"            fetch="git://github.com/betable" />
   <remote name="kardianos"          fetch="git://github.com/kardianos" />
