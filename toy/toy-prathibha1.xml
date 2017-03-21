@@ -26,7 +26,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" revision="unstable" remote="prathibha"/>
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
+  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" revision="unstable"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
