@@ -6,8 +6,8 @@
 <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
 <remote name="premkumr" fetch="git://github.com/premkumr"   review="review.couchbase.org" />
 <default remote="couchbase" revision="master"/>
-<project name="ep-engine" remote="premkumr" revision="threadlocal" groups="kv" upstream="master"/>
-<project name="memcached" remote="premkumr" revision="threadlocal" groups="kv" upstream="master"/>
+<project name="ep-engine" remote="premkumr" revision="arena" groups="kv" upstream="master"/>
+<project name="memcached" remote="premkumr" revision="arena" groups="kv" upstream="master"/>
 <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="084cc218bd3e6411cf82832a4b27a12ba546ad49" upstream="master"/>
 <project groups="kv" name="benchmark" remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42"/>
 <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4"/>
