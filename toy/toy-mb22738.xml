@@ -4,9 +4,9 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
-
+  
   <default remote="couchbase" revision="master" />
-
+  
   <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="6e502272d93656369afc2011bdebf25f541197e4" upstream="master" />
   <project groups="kv" name="benchmark" remote="couchbasedeps" revision="9341d705a14afed7c4e0f8a22b1e6e8a6259fcc4" />
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" />
@@ -20,7 +20,7 @@
     <annotation name="RELEASE" value="spock" />
     <annotation name="PRODUCT_BRANCH" value="master" />
     <annotation name="PRODUCT" value="couchbase-server" />
-    <annotation name="BLD_NUM" value="1961" />
+    <annotation name="BLD_NUM" value="1965" />
     <annotation name="VERSION" value="5.0.0" />
     <annotation name="BLD_NUM" value="@BLD_NUM@" />
     <annotation name="RELEASE" value="@RELEASE@" />
@@ -86,13 +86,13 @@
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" />
   <project name="net" path="godeps/src/golang.org/x/net" remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" />
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f" />
-  <project name="ns_server" revision="89450292931a3df76f4348452601e44bfd35fe0c" upstream="master" />
+  <project name="ns_server" revision="fcd9e5572dd3fb4d832f3bfcfe2d570a6c4451b8" upstream="master" />
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" />
   <project name="pflag" path="godeps/src/github.com/spf13/pflag" remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" />
   <project groups="kv" name="phosphor" revision="3f2040595592ac144ffea92addbc5d9bba52928a" upstream="master" />
   <project groups="kv" name="platform" revision="b87422c1f86069ffe6fd83573b5bea757f8d5ab9" upstream="master" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" />
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="b3108c4d43a22677248a895122d1f84c50b617b3" upstream="master" />
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="881922ca4a19d1aeb37544262b1aac5b883ac6c4" upstream="master" />
   <project name="query-ui" revision="314a0c3e9f8c577e9fdb4505fea468019d515d17" upstream="master" />
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" upstream="master" />
   <project name="roaring" path="godeps/src/github.com/RoaringBitmap/roaring" remote="couchbasedeps" revision="dd6b41e153cc91db0440d4155626f8e2c2f298a4" />
@@ -101,7 +101,7 @@
   <project name="strconv" path="godeps/src/github.com/tdewolff/strconv" remote="couchbasedeps" revision="9b189f5be77f33c46776f24dbddb2a7ab32af214" />
   <project groups="kv" name="subjson" revision="e7ba1a03a2e6d51fabfa8873af47880a16c7619c" upstream="master" />
   <project groups="solaris,notdefault" name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" />
-  <project name="testrunner" revision="0aa3d9a78133581d2c3b8ac0419d7bb91c9c25bb" upstream="master" />
+  <project name="testrunner" revision="8dde87986bf78e9d235e54658dcc8b5e54a063e5" upstream="master" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" />
   <project groups="kv" name="tlm" revision="107f83e7ec34dce423ea406293af962c4108c251" upstream="master">
     <copyfile dest="GNUmakefile" src="GNUmakefile" />
