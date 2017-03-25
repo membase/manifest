@@ -71,12 +71,13 @@
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
+  <project name="mossScope"                                                          path="godeps/src/github.com/couchbase/mossScope"/>
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="501913b2eb959b709879634213a8726cdac3cce4" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="4702785f1f83ffa4b362b16b722d144652605488" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="74982cb46454f14f9f2dc7b5ec63ad6c9b7a3286" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="03d7a61704a1d6fb6cf341f8517d85a91ec757d4" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
@@ -125,7 +126,7 @@
   <project name="osext" remote="kardianos" path="godeps/src/github.com/kardianos/osext"/>
 
   <!-- C/C++ support libraries -->
-  <project name="benchmark"      remote="couchbasedeps" revision="9341d705a14afed7c4e0f8a22b1e6e8a6259fcc4" groups="kv"/>
+  <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
   <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
