@@ -16,11 +16,11 @@
   <project name="blevex" path="godeps/src/github.com/blevesearch/blevex" remote="blevesearch" revision="74982cb46454f14f9f2dc7b5ec63ad6c9b7a3286" />
   <project name="bolt" path="godeps/src/github.com/boltdb/bolt" remote="couchbasedeps" revision="51f99c862475898df9773747d3accd05a7ca33c1" />
   <project name="buffer" path="godeps/src/github.com/tdewolff/buffer" remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e" />
-  <project groups="notdefault,build" name="build" path="cbbuild" revision="a1d7624a6932cdd1407a4df65720953b87a1ecf5" upstream="master">
+  <project groups="notdefault,build" name="build" path="cbbuild" revision="335eac7cc0d7dae3a7897d1fc4a8c820851d286e" upstream="master">
     <annotation name="RELEASE" value="spock" />
     <annotation name="PRODUCT_BRANCH" value="master" />
     <annotation name="PRODUCT" value="couchbase-server" />
-    <annotation name="BLD_NUM" value="1980" />
+    <annotation name="BLD_NUM" value="1979" />
     <annotation name="VERSION" value="5.0.0" />
     <annotation name="BLD_NUM" value="@BLD_NUM@" />
     <annotation name="RELEASE" value="@RELEASE@" />
