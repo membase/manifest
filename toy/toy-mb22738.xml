@@ -4,9 +4,9 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
-  
+
   <default remote="couchbase" revision="master" />
-  
+
   <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="6e502272d93656369afc2011bdebf25f541197e4" upstream="master" />
   <project groups="kv" name="benchmark" remote="couchbasedeps" revision="9341d705a14afed7c4e0f8a22b1e6e8a6259fcc4" />
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" />
@@ -16,11 +16,11 @@
   <project name="blevex" path="godeps/src/github.com/blevesearch/blevex" remote="blevesearch" revision="74982cb46454f14f9f2dc7b5ec63ad6c9b7a3286" />
   <project name="bolt" path="godeps/src/github.com/boltdb/bolt" remote="couchbasedeps" revision="51f99c862475898df9773747d3accd05a7ca33c1" />
   <project name="buffer" path="godeps/src/github.com/tdewolff/buffer" remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e" />
-  <project groups="notdefault,build" name="build" path="cbbuild" revision="835791466eb8021f52eac37bf583e87faca9a80a" upstream="master">
+  <project groups="notdefault,build" name="build" path="cbbuild" revision="a1d7624a6932cdd1407a4df65720953b87a1ecf5" upstream="master">
     <annotation name="RELEASE" value="spock" />
     <annotation name="PRODUCT_BRANCH" value="master" />
     <annotation name="PRODUCT" value="couchbase-server" />
-    <annotation name="BLD_NUM" value="1978" />
+    <annotation name="BLD_NUM" value="1980" />
     <annotation name="VERSION" value="5.0.0" />
     <annotation name="BLD_NUM" value="@BLD_NUM@" />
     <annotation name="RELEASE" value="@RELEASE@" />
@@ -71,7 +71,7 @@
   <project name="goskiplist" path="godeps/src/github.com/ryszard/goskiplist" remote="couchbasedeps" revision="2dfbae5fcf46374f166f8969cb07e167f1be6273" />
   <project name="gosnappy" path="godeps/src/github.com/syndtr/gosnappy" remote="couchbasedeps" revision="156a073208e131d7d2e212cb749feae7c339e846" />
   <project name="goutils" path="godeps/src/github.com/couchbase/goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6" upstream="master" />
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="cc76eb7cad341309c63c8146fabc81f6024b4455" upstream="master" />
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="b35d231ee1fd1ffe7455b537a78d2d01997e79ca" upstream="master" />
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="07cefbba716bde9805302e31e3ab9dcca34dafe9" upstream="master" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
