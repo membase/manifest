@@ -3,9 +3,17 @@
         "analytics/master.xml": {
             "release_name": "Analytics Branch Master",
             "production": true,
-            "interval": 120,
+            "interval": 60,
             "restricted": false,
-            "start_build": 100,
+            "start_build": 700,
+            "keep_git": true
+        },
+        "analytics/1.0.0/1.0.0-DP2.xml": {
+            "release_name": "Analytics 1.0.0-DP2",
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 685,
             "keep_git": true
         },
         "analytics/cluster.xml": {

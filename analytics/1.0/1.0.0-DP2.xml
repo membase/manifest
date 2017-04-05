@@ -1,0 +1,15 @@
+<manifest>
+  <remote fetch="git://git.apache.org" name="apache" review="asterix-gerrit.ics.uci.edu" />
+  <remote fetch="git://github.com/couchbase" name="couchbase" review="review.couchbase.org" />
+  <remote fetch="git://github.com/couchbaselabs" name="couchbaselabs" review="review.couchbase.org" />
+  <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs-priv" review="review.couchbase.org" />
+  
+  <default remote="couchbase" revision="master" />
+  
+  <project name="analytics-dcp-client" path="cbas/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs" revision="56d4172c74bc241e7e528bf5ffb4d9fd290b0a12" upstream="master" />
+  <project name="asterix-opt" path="cbas/asterixdb/asterix-opt" remote="couchbaselabs-priv" revision="e310de862127ed84501903622c1a3c6d09579d7d" upstream="master" />
+  <project name="asterixdb" path="cbas" remote="apache" revision="4c9260c485bc59abb04d3de1029569a72db5deb9" upstream="master" />
+  <project name="build" revision="db12bf41d271312734939ec86992b7ab7d3e0738" upstream="master">
+    <annotation name="VERSION" value="1.0.0" />
+  </project>
+</manifest>
