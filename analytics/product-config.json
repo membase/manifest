@@ -8,7 +8,7 @@
             "start_build": 700,
             "keep_git": true
         },
-        "analytics/1.0.0/1.0.0-DP2.xml": {
+        "analytics/1.0/1.0.0-DP2.xml": {
             "release_name": "Analytics 1.0.0-DP2",
             "production": true,
             "interval": 60,
