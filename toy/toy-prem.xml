@@ -9,8 +9,9 @@
   <default remote="couchbase" revision="master" />
 
   <remote name="premkumr" fetch="git://github.com/premkumr"   review="review.couchbase.org" />
-  <project name="ep-engine" remote="premkumr" revision="arena" groups="kv" upstream="master"/>
-  <project name="memcached" remote="premkumr" revision="arena" groups="kv" upstream="master"/>
+
+  <project name="ep-engine" remote="premkumr" revision="master" groups="kv" />
+  <project name="memcached" remote="premkumr" revision="master" groups="kv" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
