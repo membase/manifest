@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  <remote name="snej" fetch="git://github.com/snej/"/>
+  <remote name="rudi-cilibrasi" fetch="git://github.com/rudi-cilibrasi/"/>
+  <remote name="google" fetch="git://github.com/google/"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned primary repository                 -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-lite-ios" revision="feature/2.0"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned Couchbase Lite Core                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-lite-core"
+    revision="8ac33de52e3e55d1f6b72f90fd30aaedbe639225"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned utility libraries                  -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="MYUtilities" remote="snej"
+    revision="8155874b62cbebe43a88b84a52d3bbafad3bd46f"
+    path="couchbase-lite-ios/vendor/MYUtilities"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs"
+    revision="104edc0228ac66b9010bb9902ef97fc3f910cf41"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="fleece" remote="couchbaselabs"
+    revision="af0a2f1df44cfb7cf779390bbd93dcb97d42eb13"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="jsonsl" remote="snej"
+    revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
+  <project name="couchbase-lite-libcrypto" remote="couchbaselabs"
+    revision="94b6733f77d0675f9e2a3809ece4103650082ccc"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/openssl"/>
+  <project name="sqlite3-unicodesn" remote="snej"
+    revision="a348530f5621084f7dc562ff85a72d8c6fe135a4"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Third-party utility libraries                      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="zlibcomplete" remote="rudi-cilibrasi"
+    revision="0908e99ea699f1093657147c73ab3aae460cb91f"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
+  <project name="SQLiteCpp" remote="couchbasedeps"
+    revision="b0833d51aabd88f0f77763b6d9ec83610928b6d3"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
+  <project name="googletest" remote="google"
+    revision="ec44c6c1675c25b9827aacd08c02433cccde7780"
+    path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build">
+    <annotation name="VERSION" value="2.0.0" keep="true"/>
+  </project>
+</manifest>
