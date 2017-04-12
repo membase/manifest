@@ -74,7 +74,7 @@
   <project name="goutils" path="godeps/src/github.com/couchbase/goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6" upstream="master" />
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="23a4f3073974afafbf66d0d056d71267a1d31411" upstream="master" />
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70" />
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="a34954d15f0a6270a1f5d7a816249d2236abb08f" upstream="master" />
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="a34954d15f0a6270a1f5d7a816249d2236abb08f" upstream="unstable" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
@@ -87,7 +87,7 @@
   <project groups="kv" name="moxi" revision="183e4cece4314874df037ce97d56579bfe3dda3d" upstream="master" />
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" />
   <project name="net" path="godeps/src/golang.org/x/net" remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" />
-  <project name="nitro" path="goproj/src/github.com/couchbase/nitro" remote="t3rm1n4l" revision="lss_throttle" />
+  <project name="nitro" path="goproj/src/github.com/couchbase/nitro" remote="t3rm1n4l" revision="revert-key-comp" />
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f" />
   <project name="ns_server" revision="44c7732e652365f315c082dbdfc175f1f67187a8" upstream="master" />
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" />
