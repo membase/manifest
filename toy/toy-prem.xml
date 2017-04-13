@@ -8,9 +8,8 @@
 
   <default remote="couchbase" revision="master" />
   <remote name="premkumr" fetch="git://github.com/premkumr"   review="review.couchbase.org" />
-  <project name="ep-engine" remote="premkumr" revision="arena" groups="kv" />
-  <project name="memcached" remote="premkumr" revision="arena" groups="kv" />
-  
+  <project name="ep-engine" remote="premkumr" revision="threadlocal" groups="kv" />
+
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
@@ -27,7 +26,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-
+  <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
