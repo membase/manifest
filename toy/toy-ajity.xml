@@ -27,7 +27,7 @@
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="ns_server" remote="ajity" revision="plasma_support"/>
+  <project name="ns_server" remote="ajity" revision="plasma"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
