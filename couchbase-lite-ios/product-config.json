@@ -1,4 +1,5 @@
 {
+    "product": "couchbase-lite-ios",
     "manifests": {
         "couchbase-lite-ios/master.xml": {
             "release": "master",
@@ -8,7 +9,7 @@
             "restricted": false,
             "start_build": 100,
             "keep_git": true,
-            "modules_source": [ "couchbase-lite-ios" ]
+            "module_projects": [ "couchbase-lite-ios", "couchbase-lite-core" ]
         }
     }
 }
