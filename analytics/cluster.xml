@@ -7,7 +7,6 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch"        fetch="git://github.com/blevesearch/" />
   <remote name="asterixdb"          fetch="git://git.apache.org"                review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="ceejatec"           fetch="git://github.com/ceejatec" />
   <remote name="betable"            fetch="git://github.com/betable" />
   <remote name="kardianos"          fetch="git://github.com/kardianos" />
 
@@ -31,7 +30,7 @@
   <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="ns_server" remote="ceejatec"/>
+  <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
