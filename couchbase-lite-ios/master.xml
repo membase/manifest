@@ -6,6 +6,7 @@
   <remote name="snej" fetch="git://github.com/snej/"/>
   <remote name="rudi-cilibrasi" fetch="git://github.com/rudi-cilibrasi/"/>
   <remote name="google" fetch="git://github.com/google/"/>
+  <remote name="civetweb" fetch="git://github.com/civetweb/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -36,6 +37,7 @@
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="b0833d51aabd88f0f77763b6d9ec83610928b6d3" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
+  <project name="civetweb" remote="civetweb" revision="7947ec1f3d5b7a7ec83e28c23704dd1fbb64e4d4" path="vendor/couchbase-lite-core/vendor/civetweb"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
