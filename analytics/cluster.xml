@@ -7,7 +7,6 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch"        fetch="git://github.com/blevesearch/" />
   <remote name="apache"             fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="betable"            fetch="git://github.com/betable" />
   <remote name="kardianos"          fetch="git://github.com/kardianos" />
 
   <default remote="couchbase" revision="master" />
@@ -124,7 +123,6 @@
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
   <project name="cobra"          remote="couchbasedeps" revision="0f056af21f5f368e5b0646079d0094a2c64150f7" path="godeps/src/github.com/spf13/cobra"/>
   <project name="pflag"          remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" path="godeps/src/github.com/spf13/pflag"/>
-  <project name="bark"           remote="betable"       path="godeps/src/github.com/betable/bark"/>
   <project name="osext"          remote="kardianos"     path="godeps/src/github.com/kardianos/osext"/>
 
   <!-- C/C++ support libraries -->
