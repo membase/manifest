@@ -19,7 +19,7 @@
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- Change ep-engine to daverigby/MB-24055_ht_resize_interval branch -->
-  <project name="ep-engine" revision="MB-24055_ht_resize_interval" groups="kv"/>
+  <project name="ep-engine" remote="daverigby" revision="MB-24055_ht_resize_interval" groups="kv"/>
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
