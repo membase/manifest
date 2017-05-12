@@ -24,7 +24,7 @@
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="8155874b62cbebe43a88b84a52d3bbafad3bd46f" path="couchbase-lite-ios/vendor/MYUtilities"/>
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="f4066d9c11783c80b8c0a93f02c618c43f2e7eb8" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="52fed0276551750c3782b4c860134666f410a8bf" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
   <project name="fleece" remote="couchbaselabs" revision="4609840384f9bbb424adaac9e62751721ab7015d" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="couchbase-lite-libcrypto" remote="couchbaselabs" revision="94b6733f77d0675f9e2a3809ece4103650082ccc" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/openssl"/>
