@@ -7,12 +7,14 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"   review="review.couchbase.org" />
+  <remote name="gorilla" fetch="git://github.com/gorilla/"/>
+  <remote name="julienschmidt" fetch="git://github.com/julienschmidt/">
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
-  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbft" remote="abhinavdangeti" revision="router" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
@@ -77,7 +79,10 @@
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
   <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
-  <project name="mux"            remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" path="godeps/src/github.com/gorilla/mux" />
+
+  <project name="mux"            remote="gorilla"       revision="4c1c3952b7d9d0a061a3fa7b36fd373ba0398ebc" path="godeps/src/github.com/gorilla/mux" />
+  <project name="httprouter"     remote="julienschmidt" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" path="godeps/src/github.com/julienschmidt/httprouter" />
+
   <project name="context"        remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" path="godeps/src/github.com/gorilla/context" />
   <project name="liner"          remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" path="godeps/src/github.com/peterh/liner" />
   <project name="liner"          remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" path="godeps/src/github.com/sbinet/liner" />
