@@ -2,7 +2,6 @@
 <manifest>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"             fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="kardianos"          fetch="git://github.com/kardianos" />
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="tlm" revision="d05ed94a1ecfb77062d3cec1193b29bfb5b1f777" groups="kv">
@@ -22,8 +21,5 @@
   <project name="analytics-dcp-client" path="analytics/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
   <!-- Analytics integration -->
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
-
-  <!-- osext extension used by 'cbas' -->
-  <project name="osext"          remote="kardianos"     path="godeps/src/github.com/kardianos/osext"/>
 
 </manifest>
