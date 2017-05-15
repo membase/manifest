@@ -7,13 +7,17 @@ if [ -z "$1" ]; then
 fi
 
 (
+  echo "<!-- #####"
+  echo "     ##### GENERATED FILE, DO NOT MODIFY!"
+  echo "     #####"
+  echo "     ##### based on $1"
+  echo "     ##### -->"
   curl $1 | awk -v regex="RELEASE.*spock" -v count="3" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
       | awk -v regex="name=\"tlm\"" -v count="4" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
-      | grep -v 'name="ns_server"' | sed '$d'
+      | sed -e '/name="ns_server"/d' -e '/name="couchbase-cli"/d' -e '$d'
   echo
   echo '  <!-- Analytics Additions -->'
   cat cluster_part.xml | sed 1,2d
-  echo "<!-- based on $1 -->"
 
 ) | sed 's/[[:space:]]*$//' > cluster.xml
 

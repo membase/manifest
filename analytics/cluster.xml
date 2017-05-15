@@ -1,3 +1,8 @@
+<!-- #####
+     ##### GENERATED FILE, DO NOT MODIFY!
+     #####
+     ##### based on http://172.23.120.24/builds/latestbuilds/couchbase-server/spock/2604/couchbase-server-5.0.0-2604-manifest.xml
+     ##### -->
 <manifest>
   <remote fetch="git://github.com/blevesearch/" name="blevesearch" />
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
@@ -30,7 +35,6 @@
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="9df440603f505d471a0bb3fa245c3b3701e1a8ed" upstream="master" />
   <project name="cobra" path="godeps/src/github.com/spf13/cobra" remote="couchbasedeps" revision="0f056af21f5f368e5b0646079d0094a2c64150f7" />
   <project name="context" path="godeps/src/github.com/gorilla/context" remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" />
-  <project name="couchbase-cli" revision="e1e7e9e62828117b8b60444a72305ac5dfb447df" upstream="master" />
   <project name="couchdb" revision="3db6751514197f0dd23131e08eb6d1bb10a1b7e8" upstream="master" />
   <project groups="notdefault,packaging" name="couchdbx-app" revision="bc9e049ef435fa6520fd0c075c1f25a569106687" upstream="master" />
   <project groups="kv" name="couchstore" revision="59d9a4732c403e82f34e73531fdeeeff0ad71a34" upstream="master" />
@@ -111,6 +115,7 @@
   <remote name="asterixdb"             fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
+  <project name="couchbase-cli" revision="server-analytics"/>
   <project name="tlm" revision="f689a612f65fdcc8eca91b67d9093698a13cdad1" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
@@ -130,4 +135,3 @@
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
 
 </manifest>
-<!-- based on http://172.23.120.24/builds/latestbuilds/couchbase-server/spock/2604/couchbase-server-5.0.0-2604-manifest.xml -->

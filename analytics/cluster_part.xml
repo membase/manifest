@@ -4,7 +4,8 @@
   <remote name="asterixdb"             fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
-  <project name="tlm" revision="d05ed94a1ecfb77062d3cec1193b29bfb5b1f777" groups="kv">
+  <project name="couchbase-cli" revision="server-analytics"/>
+  <project name="tlm" revision="f689a612f65fdcc8eca91b67d9093698a13cdad1" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
