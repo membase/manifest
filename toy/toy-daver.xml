@@ -16,7 +16,7 @@
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchdb"/>
-  <project name="couchstore" groups="kv"/>
+  <project name="couchstore" groups="kv" remote="daverigby" revision="unified_kv_eng"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
