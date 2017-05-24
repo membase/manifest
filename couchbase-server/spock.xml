@@ -17,14 +17,12 @@
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
-  <project name="ep-engine" groups="kv"/>
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" groups="kv"/>
-  <project name="memcached" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
   <project name="ns_server"/>
