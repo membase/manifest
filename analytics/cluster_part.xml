@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="asterixdb"             fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
+  <remote name="asterixdb"          fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
+  <remote name="mblow"              fetch="https://github.com/mblow/"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
-  <project name="tlm" revision="f689a612f65fdcc8eca91b67d9093698a13cdad1" groups="kv">
+  <project name="tlm" remote="mblow" revision="server-analytics" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
