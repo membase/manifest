@@ -1,5 +1,4 @@
 <manifest>
-   <!-- Base build 1815 and indexing on 1885 -->
   <remote fetch="git://github.com/blevesearch/" name="blevesearch" />
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
@@ -73,7 +72,7 @@
   <project name="goutils" path="godeps/src/github.com/couchbase/goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6" upstream="master" />
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="4dc95c63d584909161cf23e67d9411e61b3f3375" upstream="master" />
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70" />
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="07cefbba716bde9805302e31e3ab9dcca34dafe9" upstream="master" />
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="401744a635b3b8ec5fc180fe2bff72d330d12302" upstream="master" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
