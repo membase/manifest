@@ -92,7 +92,7 @@
   <project groups="kv" name="moxi" revision="9add9f2e77a6dfecab1481d821a3c31c6ad14208" upstream="master" />
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="8a875a034c69b940914d83ea03d3f1299b4d094b" />
   <project name="net" path="godeps/src/golang.org/x/net" remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634" />
-  <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="5f60f05f69e64a07037a32629b1e9c1ff88580bc" upstream="master" />
+  <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="unstable"/>
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f" />
   <project name="ns_server" revision="50363a5a850d0e8b5abfb6c28fb035941109fa8b" upstream="master" />
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" />
