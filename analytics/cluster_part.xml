@@ -23,5 +23,5 @@
   <project name="analytics-dcp-client" path="analytics/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
   <!-- Analytics integration -->
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
-
+  <project name="cbas-ui"/>
 </manifest>
