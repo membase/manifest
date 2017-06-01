@@ -7,8 +7,6 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"   review="review.couchbase.org" />
-  <remote name="gorilla" fetch="git://github.com/gorilla/" />
-  <remote name="julienschmidt" fetch="git://github.com/julienschmidt/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -80,8 +78,8 @@
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
   <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
 
-  <project name="mux"            remote="gorilla"       revision="4c1c3952b7d9d0a061a3fa7b36fd373ba0398ebc" path="godeps/src/github.com/gorilla/mux"/>
-  <project name="httprouter"     remote="julienschmidt" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" path="godeps/src/github.com/julienschmidt/httprouter"/>
+  <project name="mux"            remote="couchbasedeps" revision="043ee6597c29786140136a5747b6a886364f5282" path="godeps/src/github.com/gorilla/mux"/>
+  <project name="httprouter"     remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" path="godeps/src/github.com/julienschmidt/httprouter"/>
 
   <project name="context"        remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" path="godeps/src/github.com/gorilla/context" />
   <project name="liner"          remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" path="godeps/src/github.com/peterh/liner" />
