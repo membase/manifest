@@ -9,7 +9,6 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -22,8 +21,8 @@
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="nitro"     revision="5f60f05f69e64a07037a32629b1e9c1ff88580bc" path="goproj/src/github.com/couchbase/nitro" />
+  <project name="indexing"  revision="0b32506baeba7635169ff2d69133af8f9e412bcb" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="1fff9b228caa71d2b162a519c3d2333e317e93b3"/>
