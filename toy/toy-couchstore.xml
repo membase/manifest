@@ -19,14 +19,13 @@
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
-  <project name="ep-engine" groups="kv"/>
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" groups="kv"/>
+  <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
@@ -67,7 +66,7 @@
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="5c9915c6f41b05317744a2ec0340a2f71973025a" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="3351c3b0467c10fb0968118fd5bad535c6e69fbc" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="090b7a1971e18e66d8e8775c90c9534aed566ffb" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
