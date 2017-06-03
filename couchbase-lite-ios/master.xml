@@ -18,14 +18,14 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="e90106d1f616e118caedd9eff6c0ec03d24964b3" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="af90a75ba9f3d393a361c9e53a7947d7124dbfde" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="8155874b62cbebe43a88b84a52d3bbafad3bd46f" path="couchbase-lite-ios/vendor/MYUtilities"/>
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="5e46861db0d0721bb4219fbfd6da154e97a421fd" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="7d1295f038c029ff31e2ee63a8675f5262669695" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="bb1fab349957c26e216ad0b429a0088d06561989" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="fleece" remote="couchbaselabs" revision="2613601040af6004253f39c878d3a1ddf36d281f" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="couchbase-lite-libcrypto" remote="couchbaselabs" revision="3d789c70484aece960b41564d66f4ba367ce9ef2" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/openssl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="a348530f5621084f7dc562ff85a72d8c6fe135a4" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
