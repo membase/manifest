@@ -114,6 +114,7 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"          fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
   <remote name="mblow"              fetch="https://github.com/mblow/"/>
+  <remote name="go-ini"             fetch="https://github.com/go-ini"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
@@ -135,4 +136,5 @@
   <!-- Analytics integration -->
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
   <project name="cbas-ui"/>
+  <project name="ini" path="godeps/src/github.com/ini" remote="go-ini"/>
 </manifest>
