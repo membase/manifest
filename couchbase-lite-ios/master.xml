@@ -18,13 +18,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="ef35ffd457443265e805d43aaec5209c8fee6ec0" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="bc7886f0b53f42e20271a1b32a1a8297542d9cc0" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="6773fc8dfa7215013bc90c173ae21a12ba703201" path="couchbase-lite-ios/vendor/MYUtilities"/>
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="3cb4c77cc7720501ddbfeba545b20e02f82c44f6" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="28132b1ea6c06adcc2a050fe5ecab84ad16de233" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
   <project name="fleece" remote="couchbaselabs" revision="9f990bb40bbb4b076d3cae5118a1a47cdbb5e649" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="couchbase-lite-libcrypto" remote="couchbaselabs" revision="3d789c70484aece960b41564d66f4ba367ce9ef2" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/openssl"/>
@@ -37,7 +37,7 @@
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="2a688a9aee64c4be463524de75da7750709e1478" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
-  <project name="civetweb" remote="couchbasedeps" revision="be1146e9c2d8498caa7859b92bde8b18d4f8ed0e" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
+  <project name="civetweb" remote="couchbasedeps" revision="451ef125fe8043090c4c2e5d89326c5484e6ca8b" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
   <project name="openssl" remote="openssl" revision="e216bf9d7ca761718f34e8b3094fcb32c7a143e4" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/openssl/vendor/openssl"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
