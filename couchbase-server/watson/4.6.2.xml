@@ -61,7 +61,7 @@
   <project name="goskiplist" path="godeps/src/github.com/ryszard/goskiplist" remote="couchbasedeps" revision="2dfbae5fcf46374f166f8969cb07e167f1be6273"/>
   <project name="gosnappy" path="godeps/src/github.com/syndtr/gosnappy" remote="couchbasedeps" revision="156a073208e131d7d2e212cb749feae7c339e846"/>
   <project name="goutils" path="godeps/src/github.com/couchbase/goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="1f76d22c3d59144317a40036d299e6c91659925d" upstream="watson"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="4.6.2" upstream="watson"/>
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="e565bca3d0b852216ba2e0584d370b29a173d20f" upstream="watson"/>
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
