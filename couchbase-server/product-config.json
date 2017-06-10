@@ -33,7 +33,7 @@
             "do-build": false,
             "start_build": 3910,
             "restricted": true,
-            "approval_ticket": "MB-22188"
+            "approval_ticket": "MB-24601"
         },
         "couchbase-server/watson/4.6.1.xml": {
             "release": "watson",
