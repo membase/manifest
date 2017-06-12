@@ -1,5 +1,5 @@
 <manifest>
-  <!-- 1883 manifest -->
+  <!-- 1884 manifest -->
   <remote fetch="git://github.com/blevesearch/" name="blevesearch" />
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
@@ -21,7 +21,7 @@
     <annotation name="RELEASE" value="spock" />
     <annotation name="PRODUCT_BRANCH" value="master" />
     <annotation name="PRODUCT" value="couchbase-server" />
-    <annotation name="BLD_NUM" value="1883" />
+    <annotation name="BLD_NUM" value="1884" />
     <annotation name="VERSION" value="5.0.0" />
     <annotation name="BLD_NUM" value="@BLD_NUM@" />
     <annotation name="RELEASE" value="@RELEASE@" />
@@ -73,11 +73,11 @@
   <project name="goutils" path="godeps/src/github.com/couchbase/goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6" upstream="master" />
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="4dc95c63d584909161cf23e67d9411e61b3f3375" upstream="master" />
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70" />
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="401744a635b3b8ec5fc180fe2bff72d330d12302" upstream="master" />
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="07cefbba716bde9805302e31e3ab9dcca34dafe9" upstream="master" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
-  <project groups="kv" name="memcached" revision="c8b654ed09d44a0bb42d82753408cd002101378a" upstream="master" />
+  <project groups="kv" name="memcached" revision="7e18989fee9ea3f5e734b408079447c1c1dca88a" upstream="master" />
   <project name="minify" path="godeps/src/github.com/tdewolff/minify" remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" />
   <project name="mmap-go" path="godeps/src/github.com/edsrzf/mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" />
   <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="18fbd0cde1306d39df9b8e92cd06ad0bae347adb" upstream="master" />
