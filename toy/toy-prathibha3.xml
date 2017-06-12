@@ -1,5 +1,5 @@
 <manifest>
-  <!-- 1884 manifest -->
+  <!-- 1885 manifest -->
   <remote fetch="git://github.com/blevesearch/" name="blevesearch" />
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
@@ -21,7 +21,7 @@
     <annotation name="RELEASE" value="spock" />
     <annotation name="PRODUCT_BRANCH" value="master" />
     <annotation name="PRODUCT" value="couchbase-server" />
-    <annotation name="BLD_NUM" value="1884" />
+    <annotation name="BLD_NUM" value="1885" />
     <annotation name="VERSION" value="5.0.0" />
     <annotation name="BLD_NUM" value="@BLD_NUM@" />
     <annotation name="RELEASE" value="@RELEASE@" />
@@ -44,7 +44,7 @@
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" />
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="10640a424d52b1158102ea7d933196d48a7810fe" upstream="master" />
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae" upstream="master" />
-  <project groups="kv" name="ep-engine" revision="53d7c3c0a551363e2d31a872007739fcbd85d780" upstream="master" />
+  <project groups="kv" name="ep-engine" revision="d3944239ea000ba891c602e356432104b7835220" upstream="master" />
   <project name="flatbuffers" path="godeps/src/github.com/google/flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" />
   <project groups="kv" name="forestdb" revision="1d169510a5102e81547b1d3dc423eb37db908076" upstream="spock" />
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9" upstream="master" />
@@ -77,7 +77,7 @@
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
-  <project groups="kv" name="memcached" revision="7e18989fee9ea3f5e734b408079447c1c1dca88a" upstream="master" />
+  <project groups="kv" name="memcached" revision="b51a952ab39c596e279fc30244d5e4864c7e6486" upstream="master" />
   <project name="minify" path="godeps/src/github.com/tdewolff/minify" remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" />
   <project name="mmap-go" path="godeps/src/github.com/edsrzf/mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" />
   <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="18fbd0cde1306d39df9b8e92cd06ad0bae347adb" upstream="master" />
@@ -90,9 +90,9 @@
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" />
   <project name="pflag" path="godeps/src/github.com/spf13/pflag" remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" />
   <project groups="kv" name="phosphor" revision="3f2040595592ac144ffea92addbc5d9bba52928a" upstream="master" />
-  <project groups="kv" name="platform" revision="e6d9b49688017869db59ffb7cd38e85a13334b38" upstream="master" />
+  <project groups="kv" name="platform" revision="1f2f60b6139089618543a49044b0d3c1744f5a2d" upstream="master" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" />
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="eb940cdee71262fedec206764a0d9d57aabe9c91" upstream="master" />
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="18da2e51d765bbb8a69affccf83f24782cdd984c" upstream="master" />
   <project name="query-ui" revision="aef414636afd0055b2bafc35ba58a639ac1b3bf1" upstream="master" />
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" upstream="master" />
   <project name="roaring" path="godeps/src/github.com/RoaringBitmap/roaring" remote="couchbasedeps" revision="dd6b41e153cc91db0440d4155626f8e2c2f298a4" />
