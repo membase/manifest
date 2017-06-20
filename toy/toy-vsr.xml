@@ -5,11 +5,12 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="sitaramv"   fetch="git://github.com/sitaramv/" />
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" revision="watson" groups="notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" revision="4.6.3" groups="notdefault,enterprise"/>
   <project name="cbft" revision="watson" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="10790963d9cbada17ebfff728ea9298c1c97b7c5" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" revision="1e19e5e34b64ca6b43a37de6166dac6e76803848" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -22,12 +23,12 @@
   <project name="geocouch" revision="watson"/>
   <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="7da5634cce1de744293acf27bb2aecc13ee50cc5" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing" revision="1811cdbff66216861320b7657590e961b10b2c0a" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="memcached" revision="watson" groups="kv"/>
-  <project name="moxi" groups="kv"/>
+  <project name="moxi" revision="f6b2f64bdb3b6092fb555c055602dbd592bf3deb" groups="kv"/>
   <project name="ns_server" revision="watson"/>
   <project name="platform" revision="watson" groups="kv"/>
-  <project name="query" revision="watson++" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query" remote="sitaramv" revision="watson" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="watson"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c" groups="kv"/>
   <project name="subjson" revision="65d3f053e2d968aea00b60234a42e1d1c5b9f6d2" groups="kv"/>
@@ -39,8 +40,8 @@
   </project>
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth" revision="4a6d537777f57b291a8126f94dfbe3201c1d4efc"         path="godeps/src/github.com/couchbase/cbauth"/>
-  <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
+  <project name="cbauth" revision="watson"         path="godeps/src/github.com/couchbase/cbauth"/>
+  <project name="cbflag" revision="f3be5fc0e1e851a0ea937f3086cebe67500b53ec"         path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="gomemcached" revision="watson"                                      path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"      path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"        path="godeps/src/github.com/couchbase/dparval"/>
@@ -49,7 +50,7 @@
   <project name="go-slab" revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f"        path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb" revision="0b501227de0e8c55d99ed14e900eea1a1dbaf899"     path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance" revision="5ce14d13954e04262b7eabfc6978776a4018402b"         path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb" revision="server-4.6"                                       path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocb" revision="66897bead1888d05577cb9dabe43217c3d205a5d"           path="godeps/src/github.com/couchbase/gocb"/>
   <project name="go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588"        path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils" revision="5823a0cbaaa9008406021dc5daf80125ea30bba6"        path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss" revision="c7cc82a67cf3fe50faf9a0697516b885e4fa34b9"           path="godeps/src/github.com/couchbase/moss"/>
@@ -100,7 +101,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" revision="watson" path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="4.6.1"     keep="true"/>
+    <annotation name="VERSION" value="4.6.2"     keep="true"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
