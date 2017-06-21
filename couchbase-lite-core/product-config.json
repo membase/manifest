@@ -1,0 +1,16 @@
+{
+    "product": "couchbase-lite-core",
+    "manifests": {
+        "couchbase-lite-core/master.xml": {
+            "release": "master",
+            "release_name": "Couchbase Lite Core - master",
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 100,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-core" ]
+        }
+    }
+}
+
