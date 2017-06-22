@@ -97,7 +97,7 @@
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9" />
   <project name="pflag" path="godeps/src/github.com/spf13/pflag" remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" />
   <project groups="kv" name="phosphor" revision="defa7886f6cddfb8158ce612cd0dd94dc3d65526" upstream="master" />
-  <project groups="kv" name="platform" revision="678b006eb33128ff8cca92adb173d7f9e5d8b3c7" upstream="master" />
+  <project groups="kv" name="platform" revision="636c898227bbb2de55e3dd048939c5c66f8d75ea" upstream="master" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" />
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="789532922dbc76b4e25257d6cb3c61ba90f4613c" upstream="master" />
   <project name="query-ui" revision="13c9921cf7474536fdf6bc06cea6fb129d295d6b" upstream="master" />
