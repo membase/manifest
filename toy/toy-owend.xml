@@ -24,7 +24,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="kv_engine" revision="callbackRefactor" groups="kv" remote="owend" />
+  <project name="kv_engine" revision="pendingBackfill" groups="kv" remote="owend" />
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
