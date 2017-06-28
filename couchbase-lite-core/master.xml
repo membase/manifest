@@ -7,6 +7,7 @@
   <remote name="rudi-cilibrasi" fetch="git://github.com/rudi-cilibrasi/"/>
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="openssl" fetch="git://github.com/openssl/"/>
+  <remote name="ceejatec" fetch="git://github.com/ceejatec/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -37,8 +38,9 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build">
+  <project name="build" path="cbbuild">
     <annotation name="VERSION" value="2.0.0" keep="true"/>
+    <copyfile src="scripts/jenkins/lite-core/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="tlm"/>
 </manifest>
