@@ -13,7 +13,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="901362e67dca7d5917cdfed768a1a85dfe0d74a8"/>
+  <project name="couchbase-lite-core"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
@@ -40,4 +40,5 @@
   <project name="build">
     <annotation name="VERSION" value="2.0.0" keep="true"/>
   </project>
+  <project name="tlm"/>
 </manifest>
