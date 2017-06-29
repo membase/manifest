@@ -79,7 +79,7 @@
   <project name="httprouter" path="godeps/src/github.com/julienschmidt/httprouter" remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="311808467ce63734365a2e61710df7c41416225d" upstream="master" />
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master" />
-  <project groups="kv" name="kv_engine" remote="olivermd" revision="a1ccf8e35eb19498f5b1204426e833eb3da59a04" upstream="RebalanceTheRemix" />
+  <project groups="kv" name="kv_engine" remote="olivermd" revision="46a9abceb360ea57220c04152ea5d22ed12bb8ef" upstream="RebalanceTheRemix" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
