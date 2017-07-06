@@ -118,4 +118,5 @@
   </project>
   <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" />
   <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="7175e1bd8311c8377d9546c6470bce709625d28a" upstream="master" />
+  <project name="go-sqlite3"     remote="olivermd"      revision="master" path="godeps/src/github.com/mattn/go-sqlite3"/>
 </manifest>
