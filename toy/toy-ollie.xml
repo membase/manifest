@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="git://github.com/blevesearch/" name="blevesearch" />
   <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
+  <remote fetch="ssh://review.couchbase.org:29418" name="gerrit" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
@@ -9,7 +10,7 @@
   
   <default remote="couchbase" revision="master" />
   
-  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="44de9253feb16118aa099f3a6cc1dd30f509a99d" upstream="master" />
+  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="gerrit" revision="refs/changes/17/80317/1" upstream="master" />
   <project groups="kv" name="benchmark" remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" />
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" />
   <project name="blance" path="godeps/src/github.com/couchbase/blance" revision="5cd1345cca3ed72f1e63d41d622fcda73e63fea8" upstream="master" />
