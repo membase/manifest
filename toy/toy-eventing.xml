@@ -25,7 +25,7 @@
   <project name="indexing"  revision="0b32506baeba7635169ff2d69133af8f9e412bcb" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server" revision="1fff9b228caa71d2b162a519c3d2333e317e93b3"/>
+  <project name="ns_server" revision="b1313df12e592c4b9f4ce9d28a3d50d3837357d9"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
@@ -39,6 +39,7 @@
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
     <copyfile src="dot-clang-format" dest=".clang-format" />
   </project>
+  <project name="v8inspector" remote="hhs" />
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
@@ -64,7 +65,7 @@
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="3351c3b0467c10fb0968118fd5bad535c6e69fbc" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="48ac9862db1c5149fc1837464b0e6ea752657d3a" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="090b7a1971e18e66d8e8775c90c9534aed566ffb" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
