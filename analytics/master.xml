@@ -20,8 +20,6 @@
   <!-- DCP Client -->
   <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
   <project name="analytics-dcp-client" path="cbas/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
-  <project name="couchbase-jvm-core" path="cbas/asterixdb/asterix-opt/couchbase-jvm-core" revision="14d06355fc84a343bbc5cdf47ffdc6fd20c0fcd3" />
-  <project name="couchbase-java-client" path="cbas/asterixdb/asterix-opt/couchbase-java-client" revision="aab50ea8f9674a4681443101d5da7f9b8c9c7770" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
