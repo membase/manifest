@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="abhi"   fetch="git://github.com/abhi-bit/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -14,7 +15,7 @@
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="couchbase-cli"/>
-  <project name="couchdb"/>
+  <project name="couchdb" remote="abhi"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
