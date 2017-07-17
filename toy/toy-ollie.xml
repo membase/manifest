@@ -6,7 +6,6 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="olivermd"      fetch="git://github.com/olivermd/" />
-  <remote fetch="git://github.com/olivermd/" name="olivermd" review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
