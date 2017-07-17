@@ -113,12 +113,11 @@
   <!-- Analytics Additions -->
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"          fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="mblow"              fetch="https://github.com/mblow/"/>
   <remote name="go-ini"             fetch="https://github.com/go-ini"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
-  <project name="tlm" remote="mblow" revision="f2b2a17" groups="kv">
+  <project name="tlm" revision="5ecfca4fc173e4843a9c5d2e5e0415c63a82c619" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
