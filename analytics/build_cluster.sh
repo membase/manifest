@@ -14,7 +14,7 @@ fi
   echo "     ##### -->"
   curl $1 | awk -v regex="RELEASE.*spock" -v count="3" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
       | awk -v regex="name=\"tlm\"" -v count="4" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
-      | sed -e '/name="ns_server"/d' -e '/name="couchbase-cli"/d' -e '$d'
+      | sed -e '/name="ns_server"/d' -e '/name="couchbase-cli"/d' -e '/name="query-ui"/d' -e '$d'
   echo
   echo '  <!-- Analytics Additions -->'
   cat cluster_part.xml | sed 1,2d

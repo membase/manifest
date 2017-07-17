@@ -11,6 +11,7 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
+  <project name="query-ui" revision="6cee73a7511cdb32e46e3b075c73f9e2c154886c" upstream="master"/>
 
   <!-- Apache AsterixDB -->
   <project name="asterixdb" path="analytics" remote="asterixdb"/>
