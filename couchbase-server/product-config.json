@@ -6,6 +6,14 @@
             "production": true,
             "interval": 1440
         },
+        "couchbase-server/vulcan.xml": {
+            "release": "vulcan",
+            "release_name": "Vulcan (mainline)",
+            "parent": "branch-master.xml",
+            "production": true,
+            "start_build": 1000,
+            "interval": 240
+        },
         "couchbase-server/spock.xml": {
             "release": "spock",
             "release_name": "Spock (mainline)",
