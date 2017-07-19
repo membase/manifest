@@ -4,7 +4,8 @@
             "release": "master",
             "release_name": "Branch Master",
             "production": true,
-            "interval": 1440
+            "interval": 1440,
+            "keep_git": true
         },
         "couchbase-server/vulcan.xml": {
             "release": "vulcan",
@@ -12,7 +13,8 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 1000,
-            "interval": 240
+            "interval": 240,
+            "keep_git": true
         },
         "couchbase-server/spock.xml": {
             "release": "spock",
@@ -20,7 +22,8 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 100,
-            "interval": 60
+            "interval": 60,
+            "keep_git": true
         },
         "watson.xml": {
             "release": "watson",
