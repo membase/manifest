@@ -1,6 +1,7 @@
 {
     "manifests": {
         "analytics/master.xml": {
+            "do-build": false,
             "release_name": "Analytics Branch Master",
             "production": true,
             "interval": 60,
@@ -9,6 +10,7 @@
             "keep_git": true
         },
         "analytics/1.0/1.0.0-DP2.xml": {
+            "do-build": false,
             "release_name": "Analytics 1.0.0-DP2",
             "branch": "1.0.0-DP2",
             "production": true,
