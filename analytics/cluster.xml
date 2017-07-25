@@ -107,7 +107,6 @@
   <project name="testrunner" revision="8b9992d6171d4d625ea156a94e506fb2c012edd8" upstream="master" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" />
   <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" />
-  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="682fbdcdd9c6c1cc71cd757d8f20a8733e1d2960" upstream="master" />
 
   <!-- Analytics Additions -->
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
@@ -121,6 +120,7 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
+  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="181d1c59ada9af1b886577a59e33db0f8541ef73" />
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
 
   <!-- Apache AsterixDB -->
