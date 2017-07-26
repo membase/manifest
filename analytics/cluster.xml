@@ -115,7 +115,7 @@
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
   <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="8de6605483dacc2ccc36c9dfdd43ae0fa03a796a" />
-  <project name="build" revision="3449b4f458087cbd422c7e92fda217e92f79ca20" path="cbbuild" groups="notdefault,build">
+  <project name="build" revision="43e8b41c774554efaf1421b92920e5d874b1e424" path="cbbuild" groups="notdefault,build">
       <annotation name="VERSION" value="5.0.0"     keep="true"/>
   </project>
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
