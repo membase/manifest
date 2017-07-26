@@ -21,12 +21,6 @@
   <project name="blevex" path="godeps/src/github.com/blevesearch/blevex" remote="blevesearch" revision="090b7a1971e18e66d8e8775c90c9534aed566ffb" />
   <project name="bolt" path="godeps/src/github.com/boltdb/bolt" remote="couchbasedeps" revision="51f99c862475898df9773747d3accd05a7ca33c1" />
   <project name="buffer" path="godeps/src/github.com/tdewolff/buffer" remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e" />
-  <project groups="notdefault,build" name="build" path="cbbuild" revision="aff8b4578691b88f282010a9020965f2f9798cb6" upstream="master">
-    <annotation name="VERSION" value="5.0.0" />
-    <annotation name="BLD_NUM" value="@BLD_NUM@" />
-    <annotation name="RELEASE" value="@RELEASE@" />
-    <annotation name="EDITION" value="@EDITION@" />
-  </project>
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="4f0ce347fbe95c435db15eae5ccf982ec8e1b93f" upstream="master" />
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" revision="f64db5ae4bb3b9f8e4fa0a0cc1cea40d2831cc68" upstream="master" />
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="32b9eb1758c11505ad09f94f1331725caccae1ee" upstream="master" />
@@ -120,7 +114,10 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
-  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="181d1c59ada9af1b886577a59e33db0f8541ef73" />
+  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="8de6605483dacc2ccc36c9dfdd43ae0fa03a796a" />
+  <project name="build" revision="3449b4f458087cbd422c7e92fda217e92f79ca20" path="cbbuild" groups="notdefault,build">
+      <annotation name="VERSION" value="5.0.0"     keep="true"/>
+  </project>
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
 
   <!-- Apache AsterixDB -->

@@ -11,7 +11,10 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
-  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="181d1c59ada9af1b886577a59e33db0f8541ef73" />
+  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="8de6605483dacc2ccc36c9dfdd43ae0fa03a796a" />
+  <project name="build" revision="2a166f148053fc92f2da1b60d5553be230a8c344" path="cbbuild" groups="notdefault,build">
+      <annotation name="VERSION" value="5.0.0"     keep="true"/>
+  </project>
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
 
   <!-- Apache AsterixDB -->
