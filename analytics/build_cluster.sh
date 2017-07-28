@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]; then
   echo Usage: $0 \<manifest url\>
-  echo e.g. $0 http://172.23.120.24/builds/latestbuilds/couchbase-server/spock/2604/couchbase-server-5.0.0-2604-manifest.xml
+  echo e.g. $0 http://172.23.120.24/builds/latestbuilds/couchbase-server/spock/3217/couchbase-server-5.0.0-3217-manifest.xml
   exit 1
 fi
 
