@@ -21,16 +21,17 @@
             "release_name": "Spock (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 4500,
+            "start_build": 4600,
             "interval": 240,
             "keep_git": true
         },
         "couchbase-server/spock/5.0.0.xml": {
+            "branch": "spock-5.0.0",
             "release": "spock",
             "release_name": "Spock 5.0.0",
             "parent": "couchbase-server/spock.xml",
             "production": true,
-            "start_build": 3395,
+            "start_build": 3405,
             "interval": 60,
             "keep_git": true
         },
