@@ -36,7 +36,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv" remote="gerrit" revision="refs/changes/89/81689/3">
+  <project name="tlm" groups="kv" remote="gerrit" revision="refs/changes/89/81689/4">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
