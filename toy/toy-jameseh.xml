@@ -6,7 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="jameseh96"   fetch="git://github.com/jameseh96/" />
-  <remote name="gerrit" fetch="ssh://review.couchbase.org:29418" />
+  <remote name="gerrit" fetch="ssh://review.couchbase.org:29418/" />
 
   <default remote="couchbase" revision="master" />
 
