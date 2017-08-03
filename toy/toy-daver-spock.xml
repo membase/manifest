@@ -4,6 +4,7 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
+  <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
 
   <default remote="couchbase" revision="master" />
 
@@ -37,7 +38,7 @@
   <project name="couchbase-cli" revision="f4ca03344d483c21277c7406473ed8ed0d6ef71b" upstream="master" />
   <project name="couchdb" revision="3cf258de6f4b75ba732fbb6f9df7c9d658f2a2f0" upstream="master" />
   <project groups="notdefault,packaging" name="couchdbx-app" revision="a4b3b3e67f1374cb1c4ae89a9ab0d155556d6d93" upstream="master" />
-  <project groups="kv" name="couchstore" revision="89922e7f22e1eb9833234279fceab261b2f26a6f" upstream="master" />
+  <project groups="kv" name="couchstore" remote="gerrit" revision="refs/changes/94/81694/7" upstream="master" />
   <project name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" />
   <project name="cuckoofilter" path="godeps/src/github.com/seiflotfy/cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" />
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" />
@@ -77,7 +78,7 @@
   <project name="httprouter" path="godeps/src/github.com/julienschmidt/httprouter" remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="7b08b5e78c0a8963157321ba0172f093a895f5b2" upstream="master" />
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master" />
-  <project groups="kv" name="kv_engine" revision="5c580fbbfbae49d2243b26bb48745148933e6f19" upstream="spock" />
+  <project groups="kv" name="kv_engine" remote="gerrit" revision="refs/changes/31/81831/1" upstream="spock" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
