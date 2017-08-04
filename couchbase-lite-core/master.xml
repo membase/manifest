@@ -23,6 +23,7 @@
   <project name="fleece" remote="couchbaselabs" revision="d5e784626cd39259621f3d6603bea872c6d0921d" path="couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="3618677cb797aefa774ca1d6a358e9b67dd37281" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+  <project name="wiki" remote="couchbase" revision="bbb2f82eac9e0e76bb1b9584a5b4aad14cf29abf" path="couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
