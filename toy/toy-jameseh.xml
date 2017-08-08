@@ -30,7 +30,7 @@
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
-  <project name="platform" groups="kv"/>
+  <project name="platform" groups="kv" remote="gerrit" revision="refs/changes/43/82043/1"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
