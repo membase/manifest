@@ -27,7 +27,7 @@
   <project name="moxi" groups="kv"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="ns_server"/>
+  <project name="ns_server" revision="spock"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
