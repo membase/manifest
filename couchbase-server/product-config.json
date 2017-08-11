@@ -23,7 +23,9 @@
             "production": true,
             "start_build": 4600,
             "interval": 240,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-25649"
         },
         "couchbase-server/spock/5.0.0.xml": {
             "branch": "spock-5.0.0",
@@ -33,7 +35,9 @@
             "production": true,
             "start_build": 3405,
             "interval": 60,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-25648"
         },
         "watson.xml": {
             "release": "watson",
