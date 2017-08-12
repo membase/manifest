@@ -21,7 +21,7 @@
   <project name="forestdb" revision="9c4bf80357cbfd76d97f5b7745535da692540f71" groups="kv"/>
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
   <project name="goxdcr"   revision="9def5ef4de812916db09da5cfa7bba5a5f2dc620"  path="goproj/src/github.com/couchbase/goxdcr" />
-  <project name="gometa"   revision="ca8042790dd04f2648b8bd301cd2b0bd70d0214d"  path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="gometa"   revision="73108a510f7e39cb7cc167b857a3a2453ea5343b"  path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="0a8481e5276ea1763d21504c269913c50f70a3c5"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" revision="d0461ffa7594d4f37de19be420f4dcf0779abfb8" groups="kv"/>
   <project name="moxi"      revision="cd8da46b9b953800d430c8b0aa4667790727ed6f" groups="kv"/>
