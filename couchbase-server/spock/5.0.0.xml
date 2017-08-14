@@ -22,11 +22,11 @@
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
   <project name="goxdcr"   revision="9def5ef4de812916db09da5cfa7bba5a5f2dc620"  path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="73108a510f7e39cb7cc167b857a3a2453ea5343b"  path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing" revision="0a8481e5276ea1763d21504c269913c50f70a3c5"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="5305bfdb97c2150751a67f0acc6425a33a3a4595"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" revision="d0461ffa7594d4f37de19be420f4dcf0779abfb8" groups="kv"/>
   <project name="moxi"      revision="cd8da46b9b953800d430c8b0aa4667790727ed6f" groups="kv"/>
   <project name="nitro"     revision="4f5714e663ad109e0ad1bdcbcf48d226179d62f5" path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="plasma"    revision="38924877e505657bb527f18a55e6ed4430f8f053" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="plasma"    revision="d6f3d3f6abc534bb3b1a766c071d0a926507c4d6" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="ns_server" revision="abd66ac821a3bd68a386bb371027a045145c3e68"/>
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform"  revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589" groups="kv"/>
