@@ -2,7 +2,6 @@
 <manifest>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"          fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="tomclegg"           fetch="git://github.com/tomclegg/"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
@@ -16,6 +15,7 @@
       <annotation name="VERSION" value="5.0.0"     keep="true"/>
   </project>
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
+  <project name="testrunner" upstream="master" />
 
   <!-- Apache AsterixDB -->
   <project name="asterixdb" path="analytics" remote="asterixdb"/>
@@ -29,5 +29,4 @@
   <!-- Analytics integration -->
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
   <project name="cbas-ui"/>
-  <project name="nbtee" path="godeps/src/github.com/tomclegg/nbtee" remote="tomclegg"/>
 </manifest>

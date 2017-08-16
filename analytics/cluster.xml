@@ -98,14 +98,12 @@
   <project name="strconv" path="godeps/src/github.com/tdewolff/strconv" remote="couchbasedeps" revision="9b189f5be77f33c46776f24dbddb2a7ab32af214" />
   <project groups="kv" name="subjson" revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f" upstream="master" />
   <project groups="solaris,notdefault" name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" />
-  <project name="testrunner" revision="8b9992d6171d4d625ea156a94e506fb2c012edd8" upstream="master" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" />
   <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" />
 
   <!-- Analytics Additions -->
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"          fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="tomclegg"           fetch="git://github.com/tomclegg/"/>
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
@@ -119,6 +117,7 @@
       <annotation name="VERSION" value="5.0.0"     keep="true"/>
   </project>
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
+  <project name="testrunner" upstream="master" />
 
   <!-- Apache AsterixDB -->
   <project name="asterixdb" path="analytics" remote="asterixdb"/>
@@ -132,5 +131,4 @@
   <!-- Analytics integration -->
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
   <project name="cbas-ui"/>
-  <project name="nbtee" path="godeps/src/github.com/tomclegg/nbtee" remote="tomclegg"/>
 </manifest>
