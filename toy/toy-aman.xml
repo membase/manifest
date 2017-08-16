@@ -17,7 +17,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli"/>
   <project name="couchdb"/>
-  <project name="couchstore" groups="kv" revision="aman"/>
+  <project name="couchstore" groups="kv" remote="aman"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
