@@ -9,7 +9,7 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" revision="ca4924f7d84250674a64c0072fb1e425d61cc3d9" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
+  <project name="backup" revision="7c2525bc57c9c2058d0fe50e7d00d58f59c3e239" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" revision="ab185c3e57c4423b5836713653f9fcccbb6609d3" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="eb79bf552d0992f5d790b25b6ebba9b633a259a2" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" revision="5aadb3da8133f0cb61fc8bcccc183e5e13496413" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -44,7 +44,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"         revision="ef55ede46a9f416e54608775c9a2dc23d7f29c5c" path="godeps/src/github.com/couchbase/cbauth"/>
-  <project name="cbflag"         revision="6682cf384310fbee4c0c402a739cf199c6967b42" path="godeps/src/github.com/couchbase/cbflag"/>
+  <project name="cbflag"         revision="7d607c07319b11f19400669bf8700843632d431b" path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="gomemcached"    revision="70b5cd4e71d0714b3aaf449c6d23bbe0dc094c37" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"      revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval"        revision="9def03782da875a2477c05bf64985db3f19f59ae" path="godeps/src/github.com/couchbase/dparval"/>
