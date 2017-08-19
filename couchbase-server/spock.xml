@@ -28,7 +28,7 @@
   <project name="nitro"     revision="spock" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="plasma"    revision="spock" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="ns_server" revision="spock"/>
-  <project name="phosphor" groups="kv"/>
+  <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="spock"/>
