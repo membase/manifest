@@ -107,13 +107,13 @@
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
-  <project name="tlm" revision="5ecfca4fc173e4843a9c5d2e5e0415c63a82c619" groups="kv">
+  <project name="tlm" revision="8bde24d9bc78d92477ae28cefda884b54418529f" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
   <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="46aa6131484f96e7572e71041aa4b96a4b384d66" />
-  <project name="build" revision="ce7c41fea8c233534f4a556bcf37110b35eea717" path="cbbuild" groups="notdefault,build">
+  <project name="build" revision="abb7a7dc95b5bf598cb2f05fdb43a174054cc167" path="cbbuild" groups="notdefault,build">
       <annotation name="VERSION" value="5.0.0"     keep="true"/>
   </project>
   <project name="query-ui" revision="5bfa359608b7c1413701bcad044a37c288478766" upstream="master"/>
