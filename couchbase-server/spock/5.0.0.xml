@@ -9,12 +9,12 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" revision="7c2525bc57c9c2058d0fe50e7d00d58f59c3e239" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
+  <project name="backup" revision="4697291cfde84641f641cece70f8d67300e8f392" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" revision="ab185c3e57c4423b5836713653f9fcccbb6609d3" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="eb79bf552d0992f5d790b25b6ebba9b633a259a2" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" revision="5aadb3da8133f0cb61fc8bcccc183e5e13496413" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" revision="dbef5f85dd9cb1f97d32879ae681090b2b4f7751" path="goproj/src/github.com/couchbase/cbsummary"/>
-  <project name="couchbase-cli" revision="80f1a10d72c73785e02bc8ef04999c1cb3c53817"/>
+  <project name="couchbase-cli" revision="199902d3d3b29ddb50b28ce2c8228f92a9f3a13b"/>
   <project name="couchdb" revision="3cf258de6f4b75ba732fbb6f9df7c9d658f2a2f0"/>
   <project name="couchstore" revision="5525660b7cdb982807501909bf5ceced72b26e35" groups="kv"/>
   <project name="docloader" revision="a3e08dbd13c353b4c360e502b65f1a1254b6f2a8" path="goproj/src/github.com/couchbase/docloader" />
