@@ -29,7 +29,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="ARMmbed" revision="9f77017a8daf3e1fb75f7904a2e6e8960410dca9" path="couchbase-lite-core/vendor/sqlcipher/vendor/mbedtls"/>
+  <project name="mbedtls" remote="ARMmbed" revision="f2a597fa3dd1c7b15e0fee62f6932b253295803d" path="couchbase-lite-core/vendor/sqlcipher/vendor/mbedtls"/>
   <project name="sqlcipher" remote="couchbasedeps" revision="4cbdafc900d44fd6bc94818231008d0dfd305d5a" path="couchbase-lite-core/vendor/sqlcipher/vendor/sqlcipher"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
