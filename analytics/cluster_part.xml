@@ -10,7 +10,7 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
-  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="46aa6131484f96e7572e71041aa4b96a4b384d66" />
+  <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="d4e59c92a0e324531eb30a7b431528057848bd6a" />
   <project name="build" revision="abb7a7dc95b5bf598cb2f05fdb43a174054cc167" path="cbbuild" groups="notdefault,build">
       <annotation name="VERSION" value="5.0.0"     keep="true"/>
   </project>
