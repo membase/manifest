@@ -23,7 +23,7 @@
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     revision="5f60f05f69e64a07037a32629b1e9c1ff88580bc" path="goproj/src/github.com/couchbase/nitro" />
-  <project name="indexing"  revision="0b32506baeba7635169ff2d69133af8f9e412bcb" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  revision="d8c7374cc1f9b173dab65cf0bbbe50cc9a677705" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="b1313df12e592c4b9f4ce9d28a3d50d3837357d9"/>
