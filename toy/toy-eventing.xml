@@ -6,7 +6,6 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org" />
   <remote name="blevesearch" fetch="git://github.com/blevesearch/" />
   <remote name="abhi" fetch="git://github.com/abhi-bit/" />
-  <remote name="hhs" fetch="git://github.com/hsharsha/" />
   <default remote="couchbase" revision="master" />
   <!-- Core Couchbase Server projects -->
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft" />
@@ -40,7 +39,6 @@
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
     <copyfile src="dot-clang-format" dest=".clang-format" />
   </project>
-  <project name="v8inspector" remote="hhs" />
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" />
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" />
