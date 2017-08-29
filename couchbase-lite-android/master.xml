@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  <remote name="snej" fetch="git://github.com/snej/"/>
+  <remote name="rudi-cilibrasi" fetch="git://github.com/rudi-cilibrasi/"/>
+  <remote name="google" fetch="git://github.com/google/"/>
+  <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned primary repository                 -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-lite-android" revision="feature/2.0"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned Couchbase Lite Core                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-lite-core" revision="58a65c23939943699e91d72394fbe38f3182a635" path="couchbase-lite-android/libs/couchbase-lite-core"/>
+  <project name="couchbase-lite-core.wiki" revision="82071aba28241ad895eed3e67a0b8b52daa9da8e" path="couchbase-lite-android/libs/couchbase-lite-core/wiki"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned utility libraries                  -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="7a11b733643b271c24868e10f911e9c90ce68d0e" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="fleece" remote="couchbaselabs" revision="cf4bc78c0b069ab2ccaaf1964faebbcdc3931514" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
+  <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
+  <project name="sqlite3-unicodesn" remote="snej" revision="3618677cb797aefa774ca1d6a358e9b67dd37281" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="978d58c82238ef0c3bc93440eb122bb529a16e88" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlcipher"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Third-party utility libraries                      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="mbedtls" remote="ARMmbed" revision="f2a597fa3dd1c7b15e0fee62f6932b253295803d" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlcipher/vendor/mbedtls"/>
+  <project name="sqlcipher" remote="couchbasedeps" revision="4cbdafc900d44fd6bc94818231008d0dfd305d5a" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlcipher/vendor/sqlcipher"/>
+  <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
+  <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
+  <project name="SQLiteCpp" remote="couchbasedeps" revision="2a688a9aee64c4be463524de75da7750709e1478" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/SQLiteCpp"/>
+  <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
+  <project name="civetweb" remote="couchbasedeps" revision="451ef125fe8043090c4c2e5d89326c5484e6ca8b" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/civetweb"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" path="cbbuild">
+    <annotation name="VERSION" value="2.0.0" keep="true"/>
+  </project>
+</manifest>
