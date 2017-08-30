@@ -4,6 +4,7 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <default remote="couchbase" revision="master" />
@@ -25,8 +26,8 @@
   <project name="eventing-indexing"  revision="eventing" path="goproj/src/github.com/couchbase/indexing" remote="couchbaselabs"/>
   <project name="kv_engine" revision="spock" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="eventing-nitro"  revision="eventing" path="goproj/src/github.com/couchbase/nitro" remote="couchbaselabs"/>
-  <project name="plasma"    revision="spock" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="nitro"  revision="spock" path="goproj/src/github.com/couchbase/nitro" />
+  <project name="eventing-plasma" revision="eventing" path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" groups="notdefault,enterprise"/>
   <project name="eventing" path="goproj/src/github.com/couchbase/eventing" />
   <project name="eventing-ns_server" revision="eventing" path="ns_server" remote="couchbaselabs" />
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
