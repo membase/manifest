@@ -92,7 +92,6 @@
   <project groups="notdefault,enterprise" name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="d6f3d3f6abc534bb3b1a766c071d0a926507c4d6" />
   <project groups="kv" name="platform" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" />
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="3165f6a16af731c21d054800e13e3d87c1642f4e" />
   <project name="query-ui" revision="cb0b9e65ab430d8aaa657743805316fa5e5d5f31" />
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" />
   <project name="roaring" path="godeps/src/github.com/RoaringBitmap/roaring" remote="couchbasedeps" revision="dd6b41e153cc91db0440d4155626f8e2c2f298a4" />
@@ -116,6 +115,7 @@
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
   </project>
   <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="d4e59c92a0e324531eb30a7b431528057848bd6a" />
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="8c86b33a370328e7b8cdc42d6e288e49bdd38381" />
   <project groups="notdefault,build" name="build" path="cbbuild" revision="26e475522800c534972746502b03b30eb2c5b2ee" upstream="spock">
       <annotation name="VERSION" value="5.0.0"     keep="true"/>
   </project>
