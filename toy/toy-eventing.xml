@@ -30,6 +30,7 @@
   <project name="eventing-plasma" revision="eventing" path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" groups="notdefault,enterprise"/>
   <project name="eventing" path="goproj/src/github.com/couchbase/eventing" />
   <project name="eventing-ns_server" revision="eventing" path="ns_server" remote="couchbaselabs" />
+  <project name="eventing-fakedeps" path="fakedeps" remote="couchbaselabs" />
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
   <project name="query"    revision="spock"  path="goproj/src/github.com/couchbase/query"/>
