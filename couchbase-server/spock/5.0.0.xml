@@ -20,7 +20,7 @@
   <project name="docloader" revision="a3e08dbd13c353b4c360e502b65f1a1254b6f2a8" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="9c4bf80357cbfd76d97f5b7745535da692540f71" groups="kv"/>
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
-  <project name="goxdcr"   revision="bc271688dddef482ef71c81a3bf708ce4e836768"  path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr"   revision="6d935762d1c2791b8231b72a8b80aba63fcb69e6"  path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="73108a510f7e39cb7cc167b857a3a2453ea5343b"  path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="aeab3534bb77800c8a15105610e3f8c1627b9542"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" revision="a39fcef2b0e89c8776fbc140a0d04f82660e9dfc" groups="kv"/>
