@@ -23,7 +23,7 @@
   <project name="geocouch"/>
   <project name="goxdcr"    revision="spock" path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    revision="spock" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="eventing-indexing"  revision="eventing" path="goproj/src/github.com/couchbase/indexing" remote="couchbaselabs"/>
+  <project name="indexing"  revision="spock" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" revision="spock" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="nitro"  revision="spock" path="goproj/src/github.com/couchbase/nitro" />
