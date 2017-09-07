@@ -10,29 +10,29 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" revision="spock" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
-  <project name="cbft" revision="spock" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbgt" revision="spock" path="goproj/src/github.com/couchbase/cbgt"/>
-  <project name="cbq-gui" revision="spock" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
+  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli"/>
   <project name="couchdb"/>
-  <project name="couchstore" revision="5525660b7cdb982807501909bf5ceced72b26e35" groups="kv"/>
+  <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
-  <project name="goxdcr"    revision="spock" path="goproj/src/github.com/couchbase/goxdcr"/>
-  <project name="gometa"    revision="spock" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing"  revision="spock" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="kv_engine" revision="spock" groups="kv"/>
+  <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
+  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="nitro"     revision="spock" path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="plasma"    revision="spock" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="ns_server" revision="spock"/>
+  <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
-  <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
-  <project name="query"   remote="miaobingjie" revision="exprslice" path="goproj/src/github.com/couchbase/query"/>
-  <project name="query-ui" revision="spock"/>
+  <project name="platform" groups="kv"/>
+  <project name="query" remote="miaobingjie" revision="bugfix" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
@@ -53,16 +53,16 @@
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
-  <project name="blance"         revision="spock"                                    path="godeps/src/github.com/couchbase/blance"/>
+  <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="bf740f17ea6cd6a1bbd5ca3583266c8f74692524" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="gocbcore"       revision="d62b571e038cb85120c54df16ef1560f3d316923" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
-  <project name="moss"           revision="spock"                                    path="godeps/src/github.com/couchbase/moss"/>
-  <project name="mossScope"      revision="spock"                                    path="godeps/src/github.com/couchbase/mossScope"/>
-  <project name="ghistogram"     revision="spock"                                    path="godeps/src/github.com/couchbase/ghistogram"/>
+  <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
+  <project name="mossScope"                                                          path="godeps/src/github.com/couchbase/mossScope"/>
+  <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
@@ -113,6 +113,7 @@
   <project name="cobra"          remote="couchbasedeps" revision="0f056af21f5f368e5b0646079d0094a2c64150f7" path="godeps/src/github.com/spf13/cobra"/>
   <project name="pflag"          remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" path="godeps/src/github.com/spf13/pflag"/>
   <project name="httprouter"     remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" path="godeps/src/github.com/julienschmidt/httprouter"/>
+  <project name="go-sqlite3"     remote="couchbasedeps" revision="47fc4e5e9153645da45af6a86a5bce95e63a0f9e" path="godeps/src/github.com/mattn/go-sqlite3"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
@@ -120,11 +121,11 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="5.0.1"     keep="true"/>
+    <annotation name="VERSION" value="5.1.0"     keep="true"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
     <annotation name="EDITION" value="@EDITION@" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv" groups="notdefault,packaging" />
+  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
