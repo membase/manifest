@@ -18,17 +18,17 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="8f53d74634ae2156b4d4a44716e7f3b1a60f30b3" path="couchbase-lite-android/libs/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="7bf60f555b4a760d11dc9536b36bc0525d7dc745" path="couchbase-lite-android/libs/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="82071aba28241ad895eed3e67a0b8b52daa9da8e" path="couchbase-lite-android/libs/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="432ee3efa0badef7ff0517d55fa71375c8de2e04" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="bc68468a874dda2a726d2a7be9115b40aa398a48" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="00957b148966ddd809fc4c9d12a03e5683d14cbd" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="3618677cb797aefa774ca1d6a358e9b67dd37281" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
-  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="978d58c82238ef0c3bc93440eb122bb529a16e88" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlcipher"/>
+  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="71a87bce02cb5d86c1e639a209822c195a42ee64" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlcipher"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
