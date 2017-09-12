@@ -16,8 +16,8 @@
   <project name="cbq-gui" revision="spock" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli"/>
-  <project name="eventing-couchdb" revision="eventing" path="couchdb" remote="couchbaselabs" />
-  <project name="eventing-couchstore" revision="eventing" path="couchstore" remote="couchbaselabs" groups="kv"/>
+  <project name="couchdb" />
+  <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch"/>
@@ -30,7 +30,6 @@
   <project name="eventing-plasma" revision="eventing" path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" groups="notdefault,enterprise"/>
   <project name="eventing" path="goproj/src/github.com/couchbase/eventing" />
   <project name="eventing-ns_server" revision="eventing" path="ns_server" remote="couchbaselabs" />
-  <project name="eventing-fakedeps" path="fakedeps" remote="couchbaselabs" />
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
   <project name="query"    revision="spock"  path="goproj/src/github.com/couchbase/query"/>
