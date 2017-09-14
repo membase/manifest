@@ -30,7 +30,7 @@
   <project name="ns_server" revision="a8a655b1d85af485e0412c2fc39ea48c0262e760"/>
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform"  revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589" groups="kv"/>
-  <project name="query"     revision="3165f6a16af731c21d054800e13e3d87c1642f4e" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     revision="5769006505c4c4aeb7c7b2e5cbbba5190cffea44" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"  revision="cb0b9e65ab430d8aaa657743805316fa5e5d5f31"/>
   <project name="sigar"     revision="79ee06355851960858ed76f5633b661a9eff80f9" groups="kv"/>
   <project name="subjson"   revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f" groups="kv"/>
