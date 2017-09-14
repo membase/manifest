@@ -22,7 +22,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 4600,
-            "interval": 240,
+            "interval": 60,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-25649"
