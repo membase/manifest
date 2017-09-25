@@ -8,7 +8,7 @@
   <remote name="rebalance_cbgt"     fetch="git://github.com/sreekanth-cb/" />
   <remote name="rebalance_cbft"     fetch="git://github.com/sreekanth-cb/" />
   <remote name="rebalance_go-couchbase"     fetch="git://github.com/sreekanth-cb/" />
-  <!--remote name="rebalance_directio" fetch="git://github.com/ncw/" /-->
+  <remote name="rebalance_directio" fetch="git://github.com/ncw/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -72,7 +72,7 @@
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
-  <!--project name="directio"            remote="rebalance_directio" revision="17018d97cb6f2cd62f84c69903d327e596b7a93e" path="godeps/src/github.com/ncw/directio"/-->
+  <project name="directio"            remote="rebalance_directio" revision="17018d97cb6f2cd62f84c69903d327e596b7a93e" path="godeps/src/github.com/ncw/directio"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="48ac9862db1c5149fc1837464b0e6ea752657d3a" path="godeps/src/github.com/blevesearch/bleve"/>
