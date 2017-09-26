@@ -18,7 +18,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="2641244bb5b0c9cebeae4ca4515b9644d4e9466e" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="12bec1ff30a72dc73bbd3d6524cf6f961f2fbf13" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="82071aba28241ad895eed3e67a0b8b52daa9da8e" path="couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -40,7 +40,7 @@
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="0a7be5d4b78ff2c96da4e0a173b87bf6a528ff41" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
-  <project name="civetweb" remote="couchbasedeps" revision="451ef125fe8043090c4c2e5d89326c5484e6ca8b" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
+  <project name="civetweb" remote="couchbasedeps" revision="4c5e6815e527522a154a7a4ccf97d849657ffc68" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
