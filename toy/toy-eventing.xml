@@ -37,7 +37,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="eventing-tlm" groups="kv" revision="eventing" path="tlm" remote="couchbaselabs">
+  <project name="tlm" groups="kv"  path="tlm">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
