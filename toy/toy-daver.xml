@@ -4,6 +4,7 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
+  <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
 
   <default remote="couchbase" revision="master" />
 
@@ -78,7 +79,7 @@
   <project name="httprouter" path="godeps/src/github.com/julienschmidt/httprouter" remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" />
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="803930127167969b66b50d30abb0f21b679e1641" />
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" />
-  <project groups="kv" name="kv_engine" revision="7573f0b0a2f4fd44975ff9d16ea3ee85349e3eea" upstream="5.0.0" />
+  <project groups="kv" name="kv_engine" revision="refs/changes/78/83778/1" remote="gerrit" upstream="5.0.0" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060" />
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50" />
