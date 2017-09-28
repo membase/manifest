@@ -4,7 +4,6 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <default remote="couchbase" revision="master" />
@@ -25,11 +24,11 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" groups="notdefault,enterprise"/>
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  revision="toy" path="goproj/src/github.com/couchbase/eventing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="eventing-ns_server" revision="eventing" path="ns_server" remote="couchbaselabs" />
+  <project name="eventing-ns_server" path="ns_server" revision="eventing" remote="couchbaselabs" />
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
@@ -37,7 +36,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv" path="tlm">
+  <project name="tlm" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
@@ -68,7 +67,7 @@
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="48ac9862db1c5149fc1837464b0e6ea752657d3a" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="6eea5b78da004393b1d06b8c88d1bed9ca0a94b2" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="090b7a1971e18e66d8e8775c90c9534aed566ffb" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
