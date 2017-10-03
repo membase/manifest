@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="abhi"   fetch="git://github.com/abhi-bit/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -28,7 +29,7 @@
   <project name="moxi" groups="kv"/>
   <project name="nitro"  revision="spock" path="goproj/src/github.com/couchbase/nitro" />
   <project name="eventing-plasma" revision="eventing" path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" groups="notdefault,enterprise"/>
-  <project name="eventing" revision="unstable" path="goproj/src/github.com/abhi-bit/eventing" />
+  <project name="eventing" revision="unstable" path="goproj/src/github.com/couchbase/eventing" remote="abhi" />
   <project name="eventing-ns_server" revision="eventing" path="ns_server" remote="couchbaselabs" />
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
