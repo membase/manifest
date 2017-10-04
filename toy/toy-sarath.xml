@@ -27,7 +27,7 @@
   <project name="kv_engine" revision="spock" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="nitro"     revision="spock" path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" remote="t3rm1n4l" revision="directio" />
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" groups="notdefault,enterprise" remote="t3rm1n4l" revision="directio" />
   <project name="ns_server" revision="spock"/>
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
