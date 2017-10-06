@@ -24,7 +24,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="MYUtilities" remote="snej" revision="d011df6ab1c87217d317ce1843b4111b4aa43065" path="couchbase-lite-ios/vendor/MYUtilities"/>
+  <project name="MYUtilities" remote="snej" revision="acefb41ffe29093cead9ad55394434ee2e0016ff" path="couchbase-lite-ios/vendor/MYUtilities"/>
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="7c2569c6222064ae5faaf0753fc55171a3de6264" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
   <project name="fleece" remote="couchbaselabs" revision="dedda9095676c05424ea2e8b41caaf28d613728c" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
