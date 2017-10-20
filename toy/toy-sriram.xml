@@ -27,7 +27,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing"/>
-  <project name="kv_engine" groups="kv" remote="sriganes" revision="enable_dcp_compress" upstream="enable_dcp_compress"/>
+  <project name="kv_engine" groups="kv" remote="sriganes" revision="decompress_dcp_consumer" upstream="decompress_dcp_consumer"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
