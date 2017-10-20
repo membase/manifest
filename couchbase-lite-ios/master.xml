@@ -18,7 +18,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="bf4fa5035008852517a2a5397302fcb592639c7e" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="beaed783b6b6e7b7077807fcb09a37ceffcd4a2f" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="82071aba28241ad895eed3e67a0b8b52daa9da8e" path="couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -26,7 +26,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="acefb41ffe29093cead9ad55394434ee2e0016ff" path="couchbase-lite-ios/vendor/MYUtilities"/>
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="7c2569c6222064ae5faaf0753fc55171a3de6264" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="6019c2e658056e1ef802f87617d3dcc04a8be1f0" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="43c8cc67136ebc5f5e77fa0c49316c1aa6f61e98" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="3618677cb797aefa774ca1d6a358e9b67dd37281" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="a02343c0dfd841cde35b361eeeb9c89d32822f6a" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlcipher"/>
