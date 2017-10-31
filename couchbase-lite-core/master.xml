@@ -24,7 +24,7 @@
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="3618677cb797aefa774ca1d6a358e9b67dd37281" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-core.wiki" revision="82071aba28241ad895eed3e67a0b8b52daa9da8e" path="couchbase-lite-core/wiki"/>
-  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="a02343c0dfd841cde35b361eeeb9c89d32822f6a" path="couchbase-lite-core/vendor/sqlcipher"/>
+  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="9fdac6ed1acf77e8aedbf4bbd40c7c0e09865e56" path="couchbase-lite-core/vendor/sqlcipher"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
