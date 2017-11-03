@@ -12,7 +12,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- Apache AsterixDB -->
-  <project name="asterixdb" path="cbas" remote="apache"/>
+  <project name="asterixdb" path="cbas" remote="apache" revision="release-0.9.3-pre-rc"/>
 
   <!-- Couchsterix Extensions -->
   <project name="asterix-opt" path="cbas/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>

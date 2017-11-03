@@ -122,7 +122,7 @@
   <project name="testrunner" upstream="master" />
 
   <!-- Apache AsterixDB -->
-  <project name="asterixdb" path="analytics" remote="asterixdb"/>
+  <project name="asterixdb" path="analytics" remote="asterixdb" revision="release-0.9.3-pre-rc"/>
   <!-- Couchsterix Extensions -->
   <project name="asterix-opt" path="analytics/asterixdb/asterix-opt" remote="couchbaselabs-priv">
     <copyfile src="CMakeLists.txt" dest="analytics/CMakeLists.txt"/>
