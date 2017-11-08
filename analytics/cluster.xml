@@ -124,7 +124,7 @@
   <!-- Apache AsterixDB -->
   <project name="asterixdb" path="analytics" remote="asterixdb" revision="release-0.9.3-pre-rc"/>
   <!-- Couchsterix Extensions -->
-  <project name="asterix-opt" path="analytics/asterixdb/asterix-opt" remote="couchbaselabs-priv">
+  <project name="asterix-opt" path="analytics/asterixdb/asterix-opt" remote="couchbaselabs-priv" revision="1.0.0-DP4">
     <copyfile src="CMakeLists.txt" dest="analytics/CMakeLists.txt"/>
   </project>
   <!-- DCP Client -->

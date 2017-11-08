@@ -15,7 +15,7 @@
   <project name="asterixdb" path="cbas" remote="apache" revision="release-0.9.3-pre-rc"/>
 
   <!-- Couchsterix Extensions -->
-  <project name="asterix-opt" path="cbas/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>
+  <project name="asterix-opt" path="cbas/asterixdb/asterix-opt" remote="couchbaselabs-priv" revision="1.0.0-DP4"/>
 
   <!-- DCP Client -->
   <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
