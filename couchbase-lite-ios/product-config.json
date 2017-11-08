@@ -2,15 +2,14 @@
     "product": "couchbase-lite-ios",
     "manifests": {
         "couchbase-lite-ios/master.xml": {
-            "release": "master",
+            "release": "2.0.0",
             "release_name": "Couchbase Lite iOS - master",
             "production": true,
             "interval": 60,
             "restricted": false,
-            "start_build": 100,
+            "start_build": 463,
             "keep_git": true,
             "module_projects": [ "couchbase-lite-ios" ]
         }
     }
 }
-
