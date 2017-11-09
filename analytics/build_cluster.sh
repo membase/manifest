@@ -1,7 +1,8 @@
 #!/bin/bash
 
-if [ -z "$1" ]; then
-  echo Usage: $0 \<manifest url\>
+if [ -z "$2" ]; then
+  echo
+  echo Usage: $0 \<manifest url\> \<branch\>
   echo e.g. $0 http://172.23.120.24/builds/latestbuilds/couchbase-server/spock/3519/couchbase-server-5.0.0-3519-manifest.xml
   exit 1
 fi
@@ -19,8 +20,8 @@ fi
             -e '/name="testrunner"/d' -e '/"@.*@"/d' -e '$d'
   echo
   echo '  <!-- Analytics Additions -->'
-  cat cluster_part.xml | sed 1,2d
+  cat cluster_part_$2.xml | sed 1,2d
 
-) | sed 's/[[:space:]]*$//' > cluster.xml
+) | sed 's/[[:space:]]*$//' > cluster_$2.xml
 
-git diff cluster.xml
+git diff cluster_$2.xml
