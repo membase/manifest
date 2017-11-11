@@ -18,18 +18,18 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="6ba15b1032984455d842c1faa8736a42b90d452f" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="06cc5aab6c43e1f11c4ef7ae7f15b05651d504ff" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="82071aba28241ad895eed3e67a0b8b52daa9da8e" path="couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="acefb41ffe29093cead9ad55394434ee2e0016ff" path="couchbase-lite-ios/vendor/MYUtilities"/>
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="8a6360e22a58bceb468d26678ed7593370fc31a9" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="4889154b3bbd17b1be66a5fb0cace6dc3f52389c" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="e89d3b8e4539f92254965dbe0aeadd2b65a90c35" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="fleece" remote="couchbaselabs" revision="1f3fcc7e722916ceb40040141c9ab912ebf3695e" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
-  <project name="sqlite3-unicodesn" remote="snej" revision="3618677cb797aefa774ca1d6a358e9b67dd37281" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
-  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="9fdac6ed1acf77e8aedbf4bbd40c7c0e09865e56" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlcipher"/>
+  <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="0e91b4f39f8ae99b42b45a4b0cd15a8321f76903" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlcipher"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
@@ -40,7 +40,7 @@
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="0a7be5d4b78ff2c96da4e0a173b87bf6a528ff41" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
-  <project name="civetweb" remote="couchbasedeps" revision="4c5e6815e527522a154a7a4ccf97d849657ffc68" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
+  <project name="civetweb" remote="couchbasedeps" revision="587ab786822dc41ada51a19416abcda5b9a9dba1" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
