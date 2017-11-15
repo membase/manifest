@@ -62,7 +62,7 @@
   <project name="moss"           revision="spock"                                    path="godeps/src/github.com/couchbase/moss"/>
   <project name="mossScope"      revision="spock"                                    path="godeps/src/github.com/couchbase/mossScope"/>
   <project name="ghistogram"     revision="spock"                                    path="godeps/src/github.com/couchbase/ghistogram"/>
-  <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
+  <project name="godbc"          revision="6f14d6b74b5c6761678e7c7b3929f7e763b7fbf8" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"        revision="35445a51ec375da433acb511df2034ede5a101d8" path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
