@@ -20,7 +20,7 @@
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="e89d3b8e4539f92254965dbe0aeadd2b65a90c35" path="couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="1f3fcc7e722916ceb40040141c9ab912ebf3695e" path="couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="6ddde701d7e19fcc854989110ec8e660e1f02c49" path="couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-core.wiki" revision="437b678081a4565c969e31c39854175e41649a28" path="couchbase-lite-core/wiki"/>
