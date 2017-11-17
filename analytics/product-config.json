@@ -19,15 +19,26 @@
             "start_build": 710,
             "keep_git": true
         },
-        "analytics/cluster.xml": {
+        "analytics/1.0/1.0.0-DP4.xml": {
             "do-build": false,
+            "release": "spock",
+            "release_name": "Couchbase Server Spock + Analytics 1.0.0-DP4",
+            "product": "server-analytics",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 838,
+            "keep_git": true
+        },
+        "analytics/cluster_master.xml": {
+            "do-build": true,
             "release": "spock",
             "release_name": "Couchbase Server Spock + Analytics",
             "product": "server-analytics",
             "production": true,
             "interval": 240,
             "restricted": false,
-            "start_build": 100,
+            "start_build": 900,
             "keep_git": true
         }
     }
