@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="hisundar" fetch="git://github.com/hisundar/"   review="review.couchbase.org" />
+  <remote name="hisundar-priv" fetch="ssh://git@github.com/hisundar/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
 
@@ -25,7 +26,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="hisundar" revision="plasma" groups="notdefault,enterprise"/>
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="hisundar-priv" revision="plasma" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing"/>
   <project name="kv_engine" remote="hisundar" revision="plasma" groups="kv"/>
   <project name="moxi" groups="kv"/>
