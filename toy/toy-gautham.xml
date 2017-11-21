@@ -26,7 +26,7 @@
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing" revision="unstable"  path="goproj/src/github.com/couchbase/eventing" remote="gautham"/>
+	<project name="eventing" revision="unstable"  path="goproj/src/github.com/couchbase/eventing" remote="gautham"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
@@ -42,6 +42,7 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
     <copyfile src="dot-clang-format" dest=".clang-format" />
+    <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
 
   <!-- Go support libraries - Couchbase-supported -->
@@ -119,6 +120,7 @@
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
   <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
+  <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.25.0" path="third_party/gsl-lite" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
