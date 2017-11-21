@@ -13,10 +13,9 @@ fi
   echo "     #####"
   echo "     ##### based on $1"
   echo "     ##### -->"
-  curl $1 | awk -v regex="RELEASE.*spock" -v count="3" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
+  curl $1 | awk -v regex="RELEASE.*(spock|vulcan)" -v count="3" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
       | awk -v regex="name=\"tlm\"" -v count="5" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
-      | awk -v regex="name=\"build\"" -v count="5" '$0 ~ regex { skip=count; next } --skip >= 0 { next } 1' \
-      | sed -e '/name="voltron"/d' -e '/name="ns_server"/d' -e '/name="couchbase-cli"/d' -e '/name="query"/d' \
+      | sed -e '/name="ns_server"/d' -e '/name="couchbase-cli"/d' \
             -e '/name="testrunner"/d' -e '/"@.*@"/d' -e '$d'
   echo
   echo '  <!-- Analytics Additions -->'

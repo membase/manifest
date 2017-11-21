@@ -9,12 +9,15 @@
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+    <copyfile dest=".clang-format" src="dot-clang-format" />
   </project>
+  <!--
   <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="d4e59c92a0e324531eb30a7b431528057848bd6a" />
   <project groups="notdefault,build" name="build" revision="1e32990533c690c0f7f5aab2c8866bd31b7df18c" path="cbbuild">
     <annotation name="VERSION" value="5.0.0" keep="true"/>
   </project>
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="8c86b33a370328e7b8cdc42d6e288e49bdd38381" />
+  -->
   <project name="testrunner" upstream="master" />
 
   <!-- Apache AsterixDB -->
