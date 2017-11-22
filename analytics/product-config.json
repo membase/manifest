@@ -32,13 +32,13 @@
         },
         "analytics/cluster_master.xml": {
             "do-build": true,
-            "release": "spock",
-            "release_name": "Couchbase Server Spock + Analytics",
+            "release": "vulcan",
+            "release_name": "Couchbase Server Vulcan + Analytics",
             "product": "server-analytics",
             "production": true,
             "interval": 240,
             "restricted": false,
-            "start_build": 900,
+            "start_build": 909,
             "keep_git": true
         }
     }
