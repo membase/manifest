@@ -109,6 +109,13 @@
   <project groups="kv" name="subjson" revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f" upstream="master" />
   <project groups="solaris,notdefault" name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15" />
+  <project groups="kv" name="tlm" revision="813ea9eb40d3248b3c4fa94eef3f1b5cd8a3834e" upstream="master">
+    <copyfile dest="GNUmakefile" src="GNUmakefile" />
+    <copyfile dest="Makefile" src="Makefile" />
+    <copyfile dest="CMakeLists.txt" src="CMakeLists.txt" />
+    <copyfile dest=".clang-format" src="dot-clang-format" />
+    <copyfile dest="third_party/CMakeLists.txt" src="third-party-CMakeLists.txt" />
+  </project>
   <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" />
   <project groups="notdefault,packaging" name="voltron" remote="couchbase-priv" revision="5e87bdde753e7709a3afe6c9c4ec631095a8c608" upstream="master" />
 
@@ -118,13 +125,6 @@
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
-  <project name="tlm" revision="analytics-dp" groups="kv">
-    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
-    <copyfile src="Makefile"       dest="Makefile"       />
-    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
-    <copyfile dest=".clang-format" src="dot-clang-format" />
-    <copyfile dest="third_party/CMakeLists.txt" src="third-party-CMakeLists.txt"/>
-  </project>
   <project name="testrunner" upstream="master" />
 
   <!-- Apache AsterixDB -->

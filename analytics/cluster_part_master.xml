@@ -5,13 +5,6 @@
 
   <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
   <project name="couchbase-cli" revision="server-analytics"/>
-  <project name="tlm" revision="analytics-dp" groups="kv">
-    <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
-    <copyfile src="Makefile"       dest="Makefile"       />
-    <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
-    <copyfile dest=".clang-format" src="dot-clang-format" />
-    <copyfile dest="third_party/CMakeLists.txt" src="third-party-CMakeLists.txt"/>
-  </project>
   <project name="testrunner" upstream="master" />
 
   <!-- Apache AsterixDB -->
