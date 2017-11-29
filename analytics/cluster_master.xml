@@ -127,16 +127,11 @@
   <project name="couchbase-cli" revision="server-analytics"/>
   <project name="testrunner" upstream="master" />
 
-  <!-- Apache AsterixDB -->
-  <project name="asterixdb" path="analytics" remote="asterixdb"/>
-  <!-- Couchsterix Extensions -->
-  <project name="asterix-opt" path="analytics/asterixdb/asterix-opt" remote="couchbaselabs-priv">
-    <copyfile src="CMakeLists.txt" dest="analytics/CMakeLists.txt"/>
-  </project>
-  <!-- DCP Client -->
-  <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
-  <project name="analytics-dcp-client" path="analytics/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
-  <!-- Analytics integration -->
+  <!-- Analytics additions -->
+  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv"/>
+  <project name="asterixdb" path="analytics/asterixdb" remote="asterixdb"/>
+  <!-- DCP Client fork (see https://issues.couchbase.com/browse/MB-22729) -->
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs"/>
   <project name="cbas-ui"/>
 </manifest>

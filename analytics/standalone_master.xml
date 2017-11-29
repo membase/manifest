@@ -12,14 +12,14 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- Apache AsterixDB -->
-  <project name="asterixdb" path="cbas" remote="apache"/>
+  <project name="asterixdb" path="cbas/asterixdb" remote="apache"/>
 
   <!-- Couchsterix Extensions -->
-  <project name="asterix-opt" path="cbas/asterixdb/asterix-opt" remote="couchbaselabs-priv"/>
+  <project name="asterix-opt" path="cbas" remote="couchbaselabs-priv"/>
 
   <!-- DCP Client -->
   <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
-  <project name="analytics-dcp-client" path="cbas/asterixdb/asterix-opt/java-dcp-client" remote="couchbaselabs"/>
+  <project name="analytics-dcp-client" path="cbas/java-dcp-client" remote="couchbaselabs"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
