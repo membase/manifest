@@ -26,7 +26,7 @@
   <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" revision="f6b2f64bdb3b6092fb555c055602dbd592bf3deb" groups="kv"/>
   <project name="ns_server" revision="watson"/>
-  <project name="platform" revision="watson" groups="kv"/>
+  <project name="platform" revision="a80097d53c779b548d8c78b0a1886b8d44591b23" groups="kv"/>
   <project name="query" revision="watson" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="watson"/>
   <project name="sigar" revision="83bd88595f558987731a1baa3330f641bc36554c" groups="kv"/>
