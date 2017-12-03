@@ -82,7 +82,7 @@
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="c14cd30339d78d5fcc3f360d29b3e9e81f2cf8fa" upstream="master"/>
   <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994"/>
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master"/>
-  <project groups="kv" name="kv_engine" remote="hisundar" revision="d9242a114ce5dd4d6b72677e898a4f68cfbcc9c9" upstream="plasma"/>
+  <project groups="kv" name="kv_engine" remote="hisundar" revision="plasma" upstream="plasma"/>
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="ad1edfd30321d8f006ccf05f1e0524adeb943060"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50"/>
@@ -96,11 +96,11 @@
   <project name="net" path="godeps/src/golang.org/x/net" remote="couchbasedeps" revision="8968c61983e8f51a91b8c0ef25bf739278c89634"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="4f5714e663ad109e0ad1bdcbcf48d226179d62f5" upstream="master"/>
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f"/>
-  <project name="ns_server" remote="hisundar" revision="b88e9ae797cc34941bf6832e0cb06a64fd53f8b0" upstream="plasma"/>
+  <project name="ns_server" remote="hisundar" revision="plasma" upstream="plasma"/>
   <project name="parse" path="godeps/src/github.com/tdewolff/parse" remote="couchbasedeps" revision="0334a869253aca4b3a10c56c3f3139b394aec3a9"/>
   <project name="pflag" path="godeps/src/github.com/spf13/pflag" remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313"/>
   <project groups="kv" name="phosphor" revision="af16481d2b9ece1a82fdb1fc8ea8033373818fa3" upstream="master"/>
-  <project groups="notdefault,enterprise" name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" revision="49a978c296dcade434841650bd43fdbf6e40bdbc" upstream="kvexp"/>
+  <project groups="notdefault,enterprise" name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" revision="kvexp" upstream="kvexp"/>
   <project groups="kv" name="platform" revision="bc2a5c960e4430b00d57e733b8a174e3d7780816" upstream="master"/>
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="8bc54ffdb8d1be0d1348f59344c068d4184b0c33" upstream="master"/>
@@ -114,7 +114,7 @@
   <project groups="solaris,notdefault" name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="9d4e42a20653790449273b3c85e67d6d8bae6e2e"/>
   <project name="testrunner" revision="4f234a4d53b95827646e932b286c35e1c085237a" upstream="master"/>
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="601048ad6acbab6cedd582db09b8c4839ff25b15"/>
-  <project groups="kv" name="tlm" remote="hisundar" revision="fa8f57c58a04734e1e235e3012e828eaa6aeb11c" upstream="plasma">
+  <project groups="kv" name="tlm" remote="hisundar" revision="plasma" upstream="plasma">
     <copyfile dest="GNUmakefile" src="GNUmakefile"/>
     <copyfile dest="Makefile" src="Makefile"/>
     <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
