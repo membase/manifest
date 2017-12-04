@@ -5,6 +5,8 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="asterixdb"     fetch="https://git-wip-us.apache.org/repos/asf/" review="asterix-gerrit.ics.uci.edu"/>
 
   <default remote="couchbase" revision="master" />
 
@@ -43,6 +45,12 @@
     <copyfile src="dot-clang-format" dest=".clang-format" />
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
+  <!-- Analytics additions -->
+  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" remote="asterixdb" groups="analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="analytics"/>
+  <project name="cbas-ui" groups="analytics"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
