@@ -134,7 +134,7 @@
   <project name="spdlog"         remote="couchbasedeps" revision="refs/tags/v0.14.0" path="third_party/spdlog"   groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
+  <project name="build"      path="cbbuild"             revision="06e9001eb0942ca21b932d91022d0f998d1ad970" groups="notdefault,build">
     <annotation name="VERSION" value="5.1.0"     keep="true"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
     <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
