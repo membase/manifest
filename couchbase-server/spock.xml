@@ -119,10 +119,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" revision="spock" path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="5.0.1"     keep="true"/>
-    <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
-    <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
-    <annotation name="EDITION" value="@EDITION@" keep="true"/>
+    <annotation name="VERSION" value="5.0.2"     keep="true"/>
   </project>
   <project name="voltron" remote="couchbase-priv" revision="spock" groups="notdefault,packaging" />
   <project name="couchdbx-app" revision="a4b3b3e67f1374cb1c4ae89a9ab0d155556d6d93" groups="notdefault,packaging" />

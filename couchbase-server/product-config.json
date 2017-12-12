@@ -13,7 +13,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 1000,
-            "interval": 240,
+            "interval": 120,
             "keep_git": true
         },
         "couchbase-server/spock.xml": {
@@ -21,7 +21,7 @@
             "release_name": "Spock (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 4600,
+            "start_build": 5500,
             "interval": 60,
             "keep_git": true,
             "restricted": true,
@@ -34,10 +34,22 @@
             "parent": "couchbase-server/spock.xml",
             "production": true,
             "start_build": 3405,
-            "interval": 60,
+            "interval": 480,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-25648"
+        },
+        "couchbase-server/spock/5.0.1.xml": {
+            "branch": "spock-5.0.1",
+            "release": "spock",
+            "release_name": "Spock 5.0.1",
+            "parent": "couchbase-server/spock.xml",
+            "production": true,
+            "start_build": 5000,
+            "interval": 60,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-27185"
         },
         "watson.xml": {
             "release": "watson",
