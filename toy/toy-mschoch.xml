@@ -8,6 +8,13 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"     fetch="https://github.com/apache/" review="asterix-gerrit.ics.uci.edu"/>
 
+  <!-- additional remotes for scorch -->
+  <remote name="Smerity"   fetch="git://github.com/Smerity/" />
+  <remote name="RoaringBitmap"   fetch="git://github.com/RoaringBitmap/" />
+  <remote name="glycerine"   fetch="git://github.com/glycerine/" />
+  <remote name="tinylib"   fetch="git://github.com/tinylib/" />
+  <remote name="philhofer"   fetch="git://github.com/philhofer/" />
+
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
@@ -76,11 +83,19 @@
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="6eea5b78da004393b1d06b8c88d1bed9ca0a94b2" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="scorch" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="090b7a1971e18e66d8e8775c90c9534aed566ffb" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
+
+  <!-- additional projects for scorch -->
+  <project name="govarint"         remote="Smerity"       path ="godeps/src/github.com/Smerity/govarint" />
+  <project name="vellum"           remote="couchbaselabs" path ="godeps/src/github.com/couchbaselabs/vellum" />
+  <project name="roaring"          remote="RoaringBitmap" path="godeps/src/github.com/RoaringBitmap/roaring"/>
+  <project name="go-unsnap-stream" remote="glycerine"     path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
+  <project name="msgp"             remote="tinylib"       path="godeps/src/github.com/tinylib/msgp"/>
+  <project name="fwd"             remote="philhofer"       path="godeps/src/github.com/philhofer/fwd"/>
 
   <!-- Go support libraries - third-party -->
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
@@ -115,7 +130,6 @@
   <project name="mmap-go"        remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter"   remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash"     remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
-  <project name="roaring"        remote="couchbasedeps" revision="dd6b41e153cc91db0440d4155626f8e2c2f298a4" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="mousetrap"      remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase"                       path="godeps/src/github.com/andelf/go-curl"/>
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
