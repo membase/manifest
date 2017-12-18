@@ -94,7 +94,6 @@
   <!-- additional projects for scorch -->
   <project name="govarint"         remote="Smerity"       path ="godeps/src/github.com/Smerity/govarint" />
   <project name="vellum"           remote="couchbaselabs" path ="godeps/src/github.com/couchbaselabs/vellum" />
-  <project name="roaring"          remote="RoaringBitmap" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="go-unsnap-stream" remote="glycerine"     path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
   <project name="msgp"             remote="tinylib"       path="godeps/src/github.com/tinylib/msgp"/>
   <project name="fwd"             remote="philhofer"       path="godeps/src/github.com/philhofer/fwd"/>
