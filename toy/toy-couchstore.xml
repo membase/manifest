@@ -94,6 +94,7 @@
   <!-- additional projects for scorch -->
   <project name="govarint"         remote="Smerity"       path ="godeps/src/github.com/Smerity/govarint" />
   <project name="vellum"           remote="couchbaselabs" path ="godeps/src/github.com/couchbaselabs/vellum" />
+  <project name="roaring"          remote="RoaringBitmap" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="go-unsnap-stream" remote="glycerine"     path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
   <project name="msgp"             remote="tinylib"       path="godeps/src/github.com/tinylib/msgp"/>
   <project name="fwd"             remote="philhofer"       path="godeps/src/github.com/philhofer/fwd"/>
@@ -131,7 +132,6 @@
   <project name="mmap-go"        remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter"   remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash"     remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
-  <project name="roaring"        remote="couchbasedeps" revision="dd6b41e153cc91db0440d4155626f8e2c2f298a4" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="mousetrap"      remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase"                       path="godeps/src/github.com/andelf/go-curl"/>
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
