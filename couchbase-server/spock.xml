@@ -58,7 +58,7 @@
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
-  <project name="goutils"                                                            path="godeps/src/github.com/couchbase/goutils"/>
+  <project name="goutils"        revision="7a02f3df0ea980574216f469c192985a2083b957" path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"           revision="spock"                                    path="godeps/src/github.com/couchbase/moss"/>
   <project name="mossScope"      revision="spock"                                    path="godeps/src/github.com/couchbase/mossScope"/>
   <project name="ghistogram"     revision="spock"                                    path="godeps/src/github.com/couchbase/ghistogram"/>
