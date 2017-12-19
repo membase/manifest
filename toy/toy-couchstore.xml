@@ -6,16 +6,8 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="asterixdb"     fetch="https://github.com/apache/" review="asterix-gerrit.ics.uci.edu"/>
 
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"   review="review.couchbase.org" />
-
-  <!-- additional remotes for scorch -->
-  <remote name="Smerity"   fetch="git://github.com/Smerity/" />
-  <remote name="RoaringBitmap"   fetch="git://github.com/RoaringBitmap/" />
-  <remote name="glycerine"   fetch="git://github.com/glycerine/" />
-  <remote name="tinylib"   fetch="git://github.com/tinylib/" />
-  <remote name="philhofer"   fetch="git://github.com/philhofer/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -56,7 +48,7 @@
   </project>
   <!-- Analytics additions -->
   <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" remote="asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
@@ -91,14 +83,6 @@
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
 
-  <!-- additional projects for scorch -->
-  <project name="govarint"         remote="Smerity"       path ="godeps/src/github.com/Smerity/govarint" />
-  <project name="vellum"           remote="couchbaselabs" path ="godeps/src/github.com/couchbaselabs/vellum" />
-  <project name="roaring"          remote="RoaringBitmap" path="godeps/src/github.com/RoaringBitmap/roaring"/>
-  <project name="go-unsnap-stream" remote="glycerine"     path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
-  <project name="msgp"             remote="tinylib"       path="godeps/src/github.com/tinylib/msgp"/>
-  <project name="fwd"             remote="philhofer"       path="godeps/src/github.com/philhofer/fwd"/>
-
   <!-- Go support libraries - third-party -->
   <project name="protobuf"       remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" path="godeps/src/github.com/golang/protobuf"/>
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
@@ -132,6 +116,7 @@
   <project name="mmap-go"        remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter"   remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash"     remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
+  <project name="roaring"        remote="couchbasedeps" revision="01d244c43a7e8d1191a4f369f5908ea9eb9bc9ac" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="mousetrap"      remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase"                       path="godeps/src/github.com/andelf/go-curl"/>
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
@@ -140,6 +125,12 @@
   <project name="httprouter"     remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" path="godeps/src/github.com/julienschmidt/httprouter"/>
   <project name="go-sqlite3"     remote="couchbasedeps" revision="47fc4e5e9153645da45af6a86a5bce95e63a0f9e" path="godeps/src/github.com/mattn/go-sqlite3"/>
   <project name="json-iterator-go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" path="godeps/src/github.com/json-iterator/go"/>
+  <!-- additional projects for scorch -->
+  <project name="govarint"        remote="couchbasedeps" path ="godeps/src/github.com/Smerity/govarint" />
+  <project name="vellum"          remote="couchbasedeps" path ="godeps/src/github.com/couchbaselabs/vellum" />
+  <project name="go-unsnap-stream" remote="couchbasedeps" path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
+  <project name="msgp"            remote="couchbasedeps" path="godeps/src/github.com/tinylib/msgp"/>
+  <project name="fwd"             remote="couchbasedeps" path="godeps/src/github.com/philhofer/fwd"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
@@ -149,10 +140,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="0.0.0"     keep="true"/>
-    <annotation name="BLD_NUM" value="@BLD_NUM@" keep="true"/>
-    <annotation name="RELEASE" value="@RELEASE@" keep="true"/>
-    <annotation name="EDITION" value="@EDITION@" keep="true"/>
+    <annotation name="VERSION" value="5.5.0"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
