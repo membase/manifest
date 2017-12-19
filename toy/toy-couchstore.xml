@@ -75,6 +75,7 @@
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
+  <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum" />
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="scorch" path="godeps/src/github.com/blevesearch/bleve"/>
@@ -127,7 +128,6 @@
   <project name="json-iterator-go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" path="godeps/src/github.com/json-iterator/go"/>
   <!-- additional projects for scorch -->
   <project name="govarint"        remote="couchbasedeps" path ="godeps/src/github.com/Smerity/govarint" />
-  <project name="vellum"          remote="couchbasedeps" path ="godeps/src/github.com/couchbaselabs/vellum" />
   <project name="go-unsnap-stream" remote="couchbasedeps" path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
   <project name="msgp"            remote="couchbasedeps" path="godeps/src/github.com/tinylib/msgp"/>
   <project name="fwd"             remote="couchbasedeps" path="godeps/src/github.com/philhofer/fwd"/>
