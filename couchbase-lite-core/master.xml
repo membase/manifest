@@ -19,11 +19,11 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="bf4092524df154cf1fa7efba32bc976d13333145" path="couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="a6fb61f3b63d2c5596478e763d41bed2c5d434b0" path="couchbase-lite-core/vendor/fleece"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="cdec23c35403ad90d7e5bf84f30936b8c834d903" path="couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="fleece" remote="couchbaselabs" revision="6aad5329231171025546ab0da4480dea4a381e39" path="couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
-  <project name="couchbase-lite-core.wiki" revision="513824e52867aba6af1b23f0f7a3e989427b43f3" path="couchbase-lite-core/wiki"/>
+  <project name="couchbase-lite-core.wiki" revision="c543c6b2e91e641460b5224a06c66d02ef09748a" path="couchbase-lite-core/wiki"/>
   <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="1d961d07ab63b86d4cc68b35c678182ac3c7bb21" path="couchbase-lite-core/vendor/sqlcipher"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
