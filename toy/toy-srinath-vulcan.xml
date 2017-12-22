@@ -7,6 +7,7 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <remote name="srinath" fetch="git://github.com/sduvuru/"   review="review.couchbase.org" />
+  <remote name="ceejatec" fetch="git://github.com/ceejatec/"   review="review.couchbase.org" />
   
   <default remote="couchbase" revision="master" />
 
@@ -38,7 +39,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" remote="srinath" revision="srinath_jemalloc_upgrade" groups="kv">
+  <project name="tlm" remote="ceejatec" revision="spock" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
