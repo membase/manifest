@@ -2,12 +2,11 @@
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="asterixdb"     fetch="https://github.com/apache/" review="asterix-gerrit.ics.uci.edu"/>
-  <remote name="hisundar" fetch="git://github.com/hisundar/"   review="review.couchbase.org" />
   <remote name="hisundar-priv" fetch="ssh://git@github.com/hisundar/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
@@ -28,9 +27,9 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbaselabs-priv" revision="kvexp" groups="notdefault,enterprise"/>
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="hisundar-priv" revision="unstable" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing"/>
-  <project name="kv_engine" groups="kv" remote="hisundar" revision="plasma"/>
+  <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
@@ -40,7 +39,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv" remote="hisundar" revision="plasma">
+  <project name="tlm" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
