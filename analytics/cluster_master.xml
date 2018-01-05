@@ -15,7 +15,7 @@
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
-  <!--project name="couchbase-cli"/-->
+  <project name="couchbase-cli"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
@@ -29,7 +29,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <!--project name="ns_server"/-->
+  <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
@@ -50,8 +50,6 @@
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
-  <project name="analytics_ns_server" remote="couchbaselabs" path="ns_server"/>
-  <project name="couchbase-cli" revision="server-analytics"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
