@@ -130,7 +130,7 @@
   <project name="govarint"        remote="couchbasedeps" revision="7265e41f48f15fd61751e16da866af3c704bb3ab" path ="godeps/src/github.com/Smerity/govarint" />
   <project name="go-unsnap-stream" remote="couchbasedeps" revision="62a9a9eb44fd8932157b1a8ace2149eff5971af6" path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
   <project name="msgp"            remote="couchbasedeps" revision="5bb5e1aed7ba5bcc93307153b020e7ffe79b0509" path="godeps/src/github.com/tinylib/msgp"/>
-  <project name="fwd"             remote="couchbasedeps" revision="5bb5e1aed7ba5bcc93307153b020e7ffe79b0509" path="godeps/src/github.com/philhofer/fwd"/>
+  <project name="fwd"             remote="couchbasedeps" revision="bb6d471dc95d4fe11e432687f8b70ff496cf3136" path="godeps/src/github.com/philhofer/fwd"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
