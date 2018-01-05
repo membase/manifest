@@ -1,5 +1,3 @@
-<!-- owner: Abhinav Dangeti -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
@@ -9,6 +7,7 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
+  <!-- owner: Abhinav Dangeti -->
   <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master" />
