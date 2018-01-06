@@ -31,7 +31,7 @@
             "keep_git": true
         },
         "analytics/cluster_master.xml": {
-            "do-build": true,
+            "do-build": false,
             "release": "vulcan",
             "release_name": "Couchbase Server Vulcan + Analytics",
             "product": "server-analytics",
