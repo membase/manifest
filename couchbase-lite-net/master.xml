@@ -3,6 +3,7 @@
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  <remote name="arangodb" fetch="git://github.com/arangodb/"/>
   <remote name="snej" fetch="git://github.com/snej/"/>
   <remote name="rudi-cilibrasi" fetch="git://github.com/rudi-cilibrasi/"/>
   <remote name="google" fetch="git://github.com/google/"/>
@@ -34,6 +35,7 @@
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="mbedtls" remote="ARMmbed" revision="f2a597fa3dd1c7b15e0fee62f6932b253295803d" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlcipher/vendor/mbedtls"/>
+  <project name="linenoise-ng" remote="arangodb" revision="4754bee2d8eb3c4511e6ac87cac62255b2011e2f" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/linenoise-ng"/>
   <project name="sqlcipher" remote="couchbasedeps" revision="4cbdafc900d44fd6bc94818231008d0dfd305d5a" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlcipher/vendor/sqlcipher"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
