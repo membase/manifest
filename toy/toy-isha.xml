@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="ikandaswamy"   fetch="git://github.com/ikandaswamy/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -22,7 +23,7 @@
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
   <project name="goxdcr"   revision="6d935762d1c2791b8231b72a8b80aba63fcb69e6"  path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"   revision="73108a510f7e39cb7cc167b857a3a2453ea5343b"  path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="indexing" revision="803930127167969b66b50d30abb0f21b679e1641"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="spock"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="kv_engine" revision="5.0.1" groups="kv"/>
   <project name="moxi"      revision="cd8da46b9b953800d430c8b0aa4667790727ed6f" groups="kv"/>
   <project name="nitro"     revision="4f5714e663ad109e0ad1bdcbcf48d226179d62f5" path="goproj/src/github.com/couchbase/nitro"/>
@@ -30,7 +31,7 @@
   <project name="ns_server" revision="5.0.1"/>
   <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform"  revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589" groups="kv"/>
-  <project name="query"     revision="5769006505c4c4aeb7c7b2e5cbbba5190cffea44" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"  revision="spock" remote="ikandaswamy" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"  revision="cb0b9e65ab430d8aaa657743805316fa5e5d5f31"/>
   <project name="sigar"     revision="79ee06355851960858ed76f5633b661a9eff80f9" groups="kv"/>
   <project name="subjson"   revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f" groups="kv"/>
