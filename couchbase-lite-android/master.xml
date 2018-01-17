@@ -19,13 +19,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="22fb07620b254132618b239a9ef333abc43f1cc7" path="couchbase-lite-android/libs/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="0018ddc3cb802d699abfb4827ba2dd80080a0477" path="couchbase-lite-android/libs/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="17c1a008398ea84a28a6e4a8880b05df442d0556" path="couchbase-lite-android/libs/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="b8a6407cbfe7ffdc13afc81b1293c65c4d26a94d" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="9920282c5e34b020b6147e9c2ed855ddbacccd90" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp"/>
   <project name="fleece" remote="couchbaselabs" revision="693fa709fb18f60caebf6d910515ef387f63b431" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
