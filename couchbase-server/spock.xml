@@ -13,7 +13,7 @@
   <project name="cbft" revision="cb43f8c4bb7a9d22ad511b15005f3fd3f88d7776" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="5a22d712cb4013807869367c950970706ed7d76f" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" revision="spock" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
-  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
+  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="82da4bce50b547d0744d83f3c6b561e967a0482c"/>
   <project name="couchbase-cli" revision="spock"/>
   <project name="couchdb"    revision="spock"/>
   <project name="couchstore" revision="spock" groups="kv"/>
