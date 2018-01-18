@@ -23,7 +23,7 @@
   <project name="goxdcr" revision="3411f528c77db3fd502a6bce1d0b7e5e1345e07a" path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa" revision="7b9e3f5654a48fe10752bccbd09ceeeeadc78e31" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="ec86de3dfdbf6e88c301e34537163d96fe872c9d" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="8bd505ebc014285b36ef4e27648ad36d1cdeaff8" groups="kv"/>
+  <project name="memcached" revision="watson" groups="kv"/>
   <project name="moxi" revision="f6b2f64bdb3b6092fb555c055602dbd592bf3deb" groups="kv"/>
   <project name="ns_server" revision="741587598fbd3d295698bdfa66941bb3c1257a44"/>
   <project name="platform" revision="a80097d53c779b548d8c78b0a1886b8d44591b23" groups="kv"/>
