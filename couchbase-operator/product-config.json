@@ -1,0 +1,15 @@
+{
+    "product": "couchbase-operator",
+    "manifests": {
+        "couchbase-operator/master.xml": {
+            "release": "1.0.0",
+            "release_name": "Couchbase Operator - master",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 100,
+            "keep_git": true
+        }
+    }
+}
+

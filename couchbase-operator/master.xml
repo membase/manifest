@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+
+  <default remote="couchbase-priv" revision="master"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned primary repository                 -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-operator" path="goproj/src/github.com/couchbase/couchbase-operator"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Kubernetes code                                    -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="code-generator" remote="couchbasedeps" path="goproj/src/k8s.io/code-generator" revision="306be794f1b124a9c939ab168e9ea3944387e66b"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" path="cbbuild">
+    <annotation name="VERSION" value="0.7.0" keep="true"/>
+  </project>
+</manifest>
