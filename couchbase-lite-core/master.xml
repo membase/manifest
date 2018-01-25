@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@ssh.github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
   <remote name="arangodb" fetch="git://github.com/arangodb/"/>
@@ -16,7 +17,7 @@
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core" revision="master"/>
-  <project name="couchbase-lite-core-EE" revision="master" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="master" groups="notdefault,enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
