@@ -18,7 +18,7 @@
   <project name="couchdb" revision="cc76818998101da8612b869beda62fd67a8cb8db"/>
   <project name="couchstore" revision="9cf71ba60cf95f8b835b1040c68c85a4ddc653ee" groups="kv"/>
   <project name="ep-engine" revision="e6286bdc22341d376fa3a896f1a46d3dec8617e4" groups="kv"/>
-  <project name="forestdb" revision="c83f6123ae8c6d2747022acf1fd485a7c0a6a501" groups="kv"/>
+  <project name="forestdb" revision="watson" groups="kv"/>
   <project name="geocouch" revision="74b4bab07713b233ca2780f9a9a3f7daa1a1dff4"/>
   <project name="goxdcr" revision="3411f528c77db3fd502a6bce1d0b7e5e1345e07a" path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa" revision="7b9e3f5654a48fe10752bccbd09ceeeeadc78e31" path="goproj/src/github.com/couchbase/gometa"/>

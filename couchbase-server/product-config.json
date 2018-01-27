@@ -64,13 +64,13 @@
         "couchbase-server/watson/4.6.4.xml": {
             "release": "watson",
             "branch": "watson-4.6.4",
-            "release_name": "Watson 4.6.4-MP1",
+            "release_name": "Watson 4.6.4-MP2",
             "parent": "watson.xml",
             "production": true,
             "do-build": false,
             "start_build": 4581,
             "restricted": true,
-            "approval_ticket": "MB-27633"
+            "approval_ticket": "MB-27764"
         },
         "couchbase-server/watson/4.6.3.xml": {
             "release": "watson",
