@@ -87,7 +87,7 @@
   <project groups="kv" name="gsl-lite" path="third_party/gsl-lite" remote="couchbasedeps" revision="57542c7e7ced375346e9ac55dad85b942cfad556" upstream="refs/tags/v0.25.0" />
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70" />
   <project name="httprouter" path="godeps/src/github.com/julienschmidt/httprouter" remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" />
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="a2b952690c4dec683c060cc7cf46f64b62a6a03b" upstream="unstable" remote="prathibha"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="c56281fef0580fd51e6f1597731dc6a4236b4d8c" upstream="unstable" remote="prathibha"/>
   <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" />
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master" />
   <project groups="kv" name="kv_engine" revision="63c0d7f02d1f94ad39160e38bd7f55ff6b7196e7" upstream="master" />
