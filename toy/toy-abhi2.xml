@@ -27,7 +27,7 @@
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing"  revision="unstable" remote="abhi" path="goproj/src/github.com/couchbase/eventing"/>
+  <project name="eventing"  revision="0d17b20033e2fc5a87209b34f78a13b8254e7d86" remote="abhi" path="goproj/src/github.com/couchbase/eventing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
