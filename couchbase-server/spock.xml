@@ -19,7 +19,7 @@
   <project name="couchstore" revision="spock" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
-  <project name="geocouch"/>
+  <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
   <project name="goxdcr"    revision="spock" path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    revision="spock" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  revision="spock" path="goproj/src/github.com/couchbase/indexing"/>
