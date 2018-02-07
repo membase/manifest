@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-operator" path="goproj/src/github.com/couchbase/couchbase-operator"/>
+  <project name="couchbase-operator" revision="beta2" path="goproj/src/github.com/couchbase/couchbase-operator"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Kubernetes code                                    -->
@@ -19,6 +19,6 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="8ba9841f5fd3b60f22203be47bc6e81f7b9b6b2e">
-    <annotation name="VERSION" value="1.0.0" keep="true"/>
+    <annotation name="VERSION" value="0.8.0" keep="true"/>
   </project>
 </manifest>
