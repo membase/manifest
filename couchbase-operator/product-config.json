@@ -11,7 +11,7 @@
             "keep_git": true
         },
         "couchbase-operator/beta2.xml": {
-            "release": "1.0.0",
+            "release": "0.8.0",
             "release_name": "Couchbase Operator 0.8.0 - beta2",
             "production": true,
             "interval": 120,
