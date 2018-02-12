@@ -17,7 +17,7 @@
   <project name="couchbase-cli" revision="spock"/>
   <project name="couchdb"    revision="spock"/>
   <project name="couchstore" revision="spock" groups="kv"/>
-  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
+  <project name="docloader" revision="4265bee8cb592765b3c0b1b208726294c9eda59a" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="spock" groups="kv"/>
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
   <project name="goxdcr"    revision="spock" path="goproj/src/github.com/couchbase/goxdcr"/>
