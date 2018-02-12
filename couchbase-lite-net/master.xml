@@ -29,12 +29,11 @@
   <project name="fleece" remote="couchbaselabs" revision="693fa709fb18f60caebf6d910515ef387f63b431" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
-  <project name="couchbase-lite-libsqlcipher" remote="couchbaselabs" revision="1d961d07ab63b86d4cc68b35c678182ac3c7bb21" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlcipher"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="ARMmbed" revision="f2a597fa3dd1c7b15e0fee62f6932b253295803d" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlcipher/vendor/mbedtls"/>
+  <project name="mbedtls" remote="ARMmbed" revision="f2a597fa3dd1c7b15e0fee62f6932b253295803d" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/mbedtls"/>
   <project name="linenoise-ng" remote="arangodb" revision="4754bee2d8eb3c4511e6ac87cac62255b2011e2f" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/linenoise-ng"/>
   <project name="sqlcipher" remote="couchbasedeps" revision="4cbdafc900d44fd6bc94818231008d0dfd305d5a" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlcipher/vendor/sqlcipher"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
