@@ -30,7 +30,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing"/>
   <project name="kv_engine" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server" remote="anuthan"/>
+  <project name="ns_server" remote="anuthan" revision="upgrade_rm"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
