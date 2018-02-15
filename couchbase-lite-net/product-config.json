@@ -9,7 +9,7 @@
             "restricted": false,
             "start_build": 386,
             "keep_git": true,
-            "module_projects": [ "couchbase-lite-net" ]
+            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         }
     }
 }
