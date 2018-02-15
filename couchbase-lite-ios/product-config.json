@@ -9,7 +9,7 @@
             "restricted": false,
             "start_build": 463,
             "keep_git": true,
-            "module_projects": [ "couchbase-lite-ios" ]
+            "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         }
     }
 }
