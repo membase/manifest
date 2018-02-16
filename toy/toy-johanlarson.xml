@@ -6,7 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
-<remote name="j-larson"   fetch="git://github.com/j-larson/" />
+  <remote name="j-larson" fetch="git://github.com/j-larson" />
 
   <default remote="couchbase" revision="master" />
 
@@ -28,9 +28,9 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing"/>
-  <project name="kv_engine" groups="kv"/>
+  <project name="kv_engine" remote="j-larson" groups="kv"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server"/>
+  <project name="ns_server" remote="j-larson" />
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="query"     remote="j-larson" path="goproj/src/github.com/couchbase/query"/>
@@ -77,8 +77,8 @@
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="ff210fbc6d348ad67aa5754eaea11a463fcddafd" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="blevex"           remote="blevesearch" revision="dfb1a3c92252ad0b5f36b78a0e750ec25d1b67c4" path="godeps/src/github.com/blevesearch/blevex"/>
+  <project name="bleve"            remote="blevesearch" revision="030469a35110568f7632632c83e281b5b30fbe92" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="blevex"           remote="blevesearch" revision="016ee54839d3bf3b8ad7c624006cd275aa13234d" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
@@ -135,8 +135,7 @@
   <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
   <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
   <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.25.0" path="third_party/gsl-lite" groups="kv"/>
-  <project name="spdlog"         remote="couchbasedeps" revision="refs/tags/v0.16.3" path="third_party/spdlog"   groups="kv"/>
-
+  <project name="spdlog"         remote="couchbasedeps" revision="refs/tags/v0.14.0" path="third_party/spdlog"   groups="kv"/>
   <project name="HdrHistogram_c" remote="couchbasedeps" revision="refs/tags/0.9.7" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
